@@ -201,6 +201,60 @@ function animationMain() {
   }; 
 
 
+  // Cursor hover
+
+  const cursor = document.querySelector(".cursor");
+const cursorMedias = document.querySelectorAll(".hero-link-media");
+const navLinks = document.querySelectorAll(".hero-link");
+
+gsap.set(cursor, {
+  xPercent: -50,
+  yPercent: -50,
+  scale: 0
+});
+
+const setCursorX = gsap.quickSetter(cursor, "x", "px", {
+  duration: 0.6,
+  ease: "expo"
+});
+
+const setCursorY = gsap.quickSetter(cursor, "y", "px", {
+  duration: 0.6,
+  ease: "expo"
+});
+
+window.addEventListener("mousemove", (e) => {
+  setCursorX(e.pageX);
+  setCursorY(e.pageY);
+});
+
+const tl = gsap.timeline({
+  paused: true
+});
+
+tl.to(cursor, {
+  scale: 1,
+  opacity: 1,
+  duration: 0.5,
+  ease: "expo.inOut"
+});
+
+navLinks.forEach((navLink, i) => {
+  navLink.addEventListener("mouseover", () => {
+    cursorMedias[i].classList.add("active");
+    tl.play();
+  });
+});
+
+navLinks.forEach((navLink, i) => {
+  navLink.addEventListener("mouseout", () => {
+    tl.reverse();
+    cursorMedias[i].classList.remove("active");
+  });
+});
+
+
+
      // Scroll progress
      if (window.matchMedia("(min-width: 767px)").matches) {
       gsap.to(".scrollprogress", {

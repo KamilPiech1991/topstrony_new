@@ -1,0 +1,70 @@
+<style>
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25rem;
+  height: 25rem;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.hero-link {
+  position: relative;
+  margin-right: .1em;
+  color: transparent;
+  -webkit-text-stroke: 1px #111;
+  transition: .3s ease-in-out;
+  z-index: 9;
+}
+
+.hero-link:hover {
+  color: var(--color-light-1);
+  -webkit-text-stroke: 1px #fff;
+  mix-blend-mode: exclusion;
+}
+
+.hero-link-media {
+  position: absolute;
+  top: 0;
+  left: 0;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hero-link-media.active {
+  opacity: 1;
+}
+
+</style>
+
+
+<section class="hero pt-xxlarge pb-xlarge">
+    <div class="container">
+      <div class="cursor">
+
+        <video src="/assets/img/video/apps.mp4" class="hero-link-media" preload="auto" autoplay muted loop ></video>
+        <video src="/assets/img/video/branding.mp4" class="hero-link-media" preload="auto" autoplay muted loop ></video>
+        <video src="/assets/img/video/websites.mp4" class="hero-link-media" preload="auto" autoplay muted loop ></video>
+
+      </div>
+      
+      <div class="pt-large pb-large">
+        <p class="mb-2 large">
+          Zobacz w czym możemy pomóc
+        </p>
+        <div class="hero-links-hover">
+          <a href="#" class="xxl hero-link">Strony www</a>
+          <a href="#" class="xxl hero-link">Ecommerce</a>
+          <a href="#" class="xxl hero-link">Marketing</a>
+        </div>
+      </div>
+
+    </div>
+</section>
