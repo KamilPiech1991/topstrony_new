@@ -11,7 +11,7 @@
 
 - GSAP
 - Swup
-- Locomotive scroll
+- Lenis
 
 ### Features
 
@@ -26,7 +26,7 @@
 
 ### Description
 
-Eleventy.js starter site. Optimized for Page Speed Insights.
+Top Strony site. Optimized for Page Speed Insights.
 
 ### Required
 
