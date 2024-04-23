@@ -1,0 +1,112 @@
+{% include "partials/header.njk" %}
+
+<section class="pb-small" data-scroll-section>
+
+
+        <div class="hero-post">
+
+            <div class="hero-post-image-wrap aspect_16-9 fade-in">
+                {% blogImage "src/" + thumbnail, title, "hero-post-image img-fluid" %}
+            </div>
+            <div class="container">
+                 <div class="p-relative offset-md-3 col-md-6">
+                 <div class="single-post-title-wrap pt-xlarge pb-medium">
+                    <div class="breadcrumbs small mt-3 fade-in">
+                        <a href="/" title="Strona główna">
+                            Główna
+                        </a>
+                        <span>
+                            |
+                        </span>
+                        <a href="/blog" title="Blog">
+                            Blog
+                        </a>
+                        <span>
+                            |
+                        </span>
+                        <span>
+                            {{ title }}
+                        </span>
+                    </div>
+                    <h1 class="single-post-title split-lines my-3">
+                        {{ title }}
+                    </h1>
+                    <div class="breadcrumbs small fade-in">
+                        <span>
+                            Kategoria:
+                        </span>
+                        <span>
+                             {{ tags }}
+                        </span>
+                        <span>
+                              |
+                        </span>
+                        <span> 
+                            Opublikowano: 
+                        </span>
+                        <span>
+                             {{ date | dateDisplay }}
+                        </span>
+                    </div>
+                </div>
+                 </div>
+            </div>
+        </div>
+
+    <div class="pt-medium">
+    <div class="container">
+        <div class="content row fade-in" id="pinShare">
+            <div class="offset-md-2 offset-xl-3 col-md-8 col-xl-6">
+                {{ content | safe}}
+            </div>
+        </div>
+
+        <div class="pt-small pt-md-medium fade-in">
+            <div class="line-x lx-op"></div>
+        </div>
+
+        <div class="row g-0">
+            <div class="col-md-12">
+                <div class="post-navigation pt-xsmall">
+                    {%- if collections.blog %}
+                    {%- set nextPost = collections.blog | getNextCollectionItem(page) %}
+                    {%- set previousPost = collections.blog | getPreviousCollectionItem(page) %}
+                    {%- if nextPost or previousPost %}
+                    <ul class="d-flex flex-wrap fade-in">
+                        {%- if previousPost %}
+                        <li class="col-md-6 prev d-none d-md-block">
+                            <p class="mb-4">
+                                <small class="color-accent-2 bold">
+                                    Poprzedni:
+                                </small>
+                            </p>
+                            <a href="{{ previousPost.url | url }}" title="{{ previousPost.data.client }}"
+                                class="h3">{{ previousPost.data.title }}
+                            </a>
+                        </li>
+                        {% endif %}
+                        {%- if nextPost %}
+                        <li class="col-md-6 next">
+                            <p class="mb-4">
+                                <small class="color-accent-2 bold">
+                                    Kolejny:
+                                </small>
+                            </p>
+                            <a href="{{ nextPost.url | url }}" title="{{ nextPost.data.client }}"
+                                class="h3">{{ nextPost.data.title }}
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                    {%- endif %}
+                    {%- endif %}
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+</section>
+
+{% include "partials/footer.njk" %}

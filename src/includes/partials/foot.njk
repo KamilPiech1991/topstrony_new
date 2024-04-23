@@ -1,0 +1,70 @@
+</div>
+</div>
+<script src="/assets/js/libs/split-text.js"></script>
+<script src="/assets/js/libs/swiper.js"></script>
+<script src="/assets/js/libs/swup.js"></script>
+<script src="/assets/js/libs/swup-progress.js"></script>
+<script src="/assets/js/libs/swup-body.js"></script>
+<script src="/assets/js/libs/gsap.js"></script>
+<script src="/assets/js/libs/scroll-trigger.js"></script>
+<script src="/assets/js/libs/gsap-flip.js"></script>
+<script src="/assets/js/libs/lenis.js"></script> 
+<script src="/assets/js/animations.js"></script>
+<script src="/assets/js/script.js"></script>
+<script>
+  window.addEventListener('load', function() {
+  appMain(); animationMain()
+  });
+  const swup = new Swup({
+    animateHistoryBrowsing: true, 
+    plugins: [
+      new SwupProgressPlugin(),
+      new SwupBodyClassPlugin()
+    ]
+  });
+  swup.hooks.on('page:view', () => {
+       appMain(); animationMain()
+  }, { before: true });
+</script> 
+<script src="/assets/js/cookieconsent.js" defer></script>
+<script src="/assets/js/cookieconsent-init.js" defer></script>
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Top Strony",
+    "image": "https://topstrony.pl/assets/img/website.png",
+    "@id": "",
+    "url": "https://topstrony.pl/",
+    "telephone": "501 784 882",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Strusia 3C/lok 31",
+      "addressLocality": "Piaseczno",
+      "postalCode": "05-500",
+      "addressCountry": "PL"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 52.0775981,
+      "longitude": 21.0129119
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "sameAs": "https://www.facebook.com/topstronypl/"
+  }
+</script>
+</body>
+</html>
