@@ -4,11 +4,8 @@ title: Producent nanokoloidów
 description: Strona i sklep interentowy dla producenta nanokoloidów. Systemem zarządzania treścią Wordpress, sklep oparty na Woocommerce, integracja z Baselinker.
 date: 2021-09-21
 author: Przemek
-thumbnail: /content/realizacje/img/egp-thumb-big.jpg
-imageMain: /content/realizacje/img/egp-thumb-big.jpg
-imageMobile: /content/realizacje/img/egp-mobile.jpg
-imageGridOne: /content/realizacje/img/egp-1.jpg
-imageGridTwo: /content/realizacje/img/egp-2.jpg
+thumbnail: /content/realizacje/img/mockup-5.jpg
+imageMain: /content/realizacje/img/mockup-5.jpg
 category: 
   - Sklep internetowy
 link: https://egp-system.com/

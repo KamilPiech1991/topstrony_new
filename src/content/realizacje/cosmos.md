@@ -8,8 +8,8 @@ date: 2023-06-12T06:55:17.673Z
 category:
   - Strona internetowa
 link: https://agencjacosmos.pl/
-thumbnail: /content/realizacje/img/cosmos-thumb-big.jpg
-imageMain: /content/realizacje/img/cosmos-thumb-big.jpg
+thumbnail: /content/realizacje/img/mockup-4.jpg
+imageMain: /content/realizacje/img/mockup-4.jpg
 order: 4
 ---
 
