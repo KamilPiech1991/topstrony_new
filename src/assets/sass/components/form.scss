@@ -148,6 +148,45 @@
         color: #fff
       }
     
+      .checkbox-card {
+        border-radius: 8px;
+      }
+
+  .checkbox-card label {
+    position: relative;
+    padding: 3em 2em;
+    text-align: center;
+  }
+
+  .checkbox-card input[type=checkbox]+label:before {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    border: 0.1em solid var(--color-border);
+  }
+
+  .checkbox-card input[type=checkbox]:checked+label:before {
+    background-color:var(--color-accent-1);
+    border-color:var(--color-accent-1);
+    color: #fff
+  }
+
+  .checkbox-card label svg {
+    margin-bottom: 1em;
+  }
+
+  .checkbox-card input[type=checkbox] label svg path {
+    transition: .3s ease-in-out;
+  }
+
+  .checkbox-card input[type=checkbox]:checked+label svg path {
+    fill: var(--color-accent-1);
+  }
+
+  .checkbox-card label span {
+    display: block;
+    user-select: none;
+  }
 
   :root {
     --errorColor: red;
@@ -188,10 +227,10 @@ form .page .invalid-input {
     user-select: none;
 }
 .progress-bar .step {
-    width: 100%;
     position: relative;
 }
 .progress-bar .step .bullet {
+    margin-right: .4em;
     height: 30px;
     width: 30px;
     border: 1px solid var(--color-border);
@@ -212,25 +251,6 @@ form .page .invalid-input {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-}
-.progress-bar .step .bullet:before,
-.progress-bar .step .bullet:after {
-    position: absolute;
-    content: "";
-    bottom: 15px;
-    left: 80%;
-    height: 1px;
-    width: 3em;
-    background: var(--color-border);
-    transform: translateX(50%);
-}
-.progress-bar .step .bullet:after {
-    width: 0;
-}
-.progress-bar .step .bullet.active:after {
-    background: var(--color-accent-1);
-    width: 3em;
-    transition: 0.3s ease-in-out;
 }
 
 .progress-bar .step:last-child .bullet:before,
