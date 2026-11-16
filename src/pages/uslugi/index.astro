@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import home from '../../data/pages/home.json';
+import { crumbs, SITE } from '../../data/site';
+
+const files = import.meta.glob('../../data/pages/srv-*.json', { eager: true }) as Record<string, { default: any }>;
+const order = ['strony-internetowe', 'sklepy-internetowe', 'pozycjonowanie-seo', 'kampanie-google-meta-ads', 'social-media', 'branding'];
+const list = Object.values(files).map((m) => m.default)
+  .sort((a, b) => order.indexOf(a.svc.slug) - order.indexOf(b.svc.slug))
+  .map((d) => ({ t: d.svc.title, d: d.svc.lead, href: '/uslugi/' + d.svc.slug + '/', bg: d.svc.bg, icon: d.svc.icon }));
+const v = {
+  ...home,
+  navRest: home.navRest,
+  megaBtnCls: 'is-cur',
+};
+const ld = [
+  crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/']]),
+  { '@context': 'https://schema.org', '@type': 'ItemList', name: 'Usługi top.strony',
+    itemListElement: list.map((s, i) => ({ '@type': 'ListItem', position: i + 1, name: s.t, url: SITE + s.href })) },
+];
+---
+<Base v={v} page="uslugi" path="/uslugi/" jsonLd={ld}
+  title="Usługi: strony, sklepy, SEO, Google i Meta Ads, social media, branding | top.strony"
+  description="Sześć usług w jednym zespole: strony internetowe, sklepy e-commerce, pozycjonowanie SEO, AEO i GEO, kampanie Google i Meta Ads, social media oraz branding.">
+  <main id="main">
+    <section class="sec deco-rings" aria-labelledby="us-h1" style="padding-top: 180px">
+      <div class="wrap">
+        <nav class="sv-crumbs h-in" aria-label="Okruszki"><ol><li><a href="/">Strona główna</a></li><li aria-current="page">Usługi</li></ol></nav>
+        <p class="eyebrow h-in">Usługi top.strony</p>
+        <h1 id="us-h1" class="h h2 h-in">Sześć usług, jeden zespół i jeden opiekun</h1>
+        <p class="lead h-in">Strona, sklep, widoczność w Google i w odpowiedziach AI, kampanie, social media i branding. Zaczynasz od jednej usługi, a resztę dokładasz wtedy, kiedy ma to sens dla wyniku.</p>
+        <div class="sv-rel" style="margin-top: 64px">
+          {list.map((rl) => (
+            <a href={rl.href} class="sv-rl rv">
+              <span class="sv-rl-ic" style={rl.bg}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={rl.icon}></path></svg></span>
+              <h2 class="h">{rl.t}</h2>
+              <p>{rl.d}</p>
+              <span class="sv-rl-go" aria-hidden="true">→</span>
+            </a>
+          ))}
+        </div>
+        <div class="hero-ctas" style="margin-top: 56px">
+          <a data-magnetic href="/kontakt/" class="btn btn-g">Bezpłatna wycena w 24 h</a>
+          <a data-magnetic href="tel:+48501784882" class="btn btn-o">Zadzwoń: 501 784 882</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>
+
+<style>
+  .sv-rl h2 { font-size: 19px; margin: 18px 0 8px; color: var(--ink); }
+</style>

@@ -1,0 +1,275 @@
+---
+// Generated from the top.strony design (tools/dc2astro.py). 
+const { v } = Astro.props;
+---
+<main id="main">
+  
+  <!-- ============ USŁUGA: HERO (typograficzne) ============ -->
+  <section class="sv-hero2" aria-labelledby="sv-h1">
+    <span class="sv-dot d1" aria-hidden="true"></span><span class="sv-dot d2" aria-hidden="true"></span><span class="sv-dot d3" aria-hidden="true"></span><span class="sv-dot d4" aria-hidden="true"></span><span class="sv-dot d5" aria-hidden="true"></span><span class="sv-dot d6" aria-hidden="true"></span>
+    <span class="sv-orb o1" aria-hidden="true"></span><span class="sv-orb o2" aria-hidden="true"></span><span class="sv-orb o3" aria-hidden="true"></span>
+    <div class="wrap">
+      <nav class="sv-crumbs h-in" aria-label="Okruszki">
+        <ol>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/#uslugi">Usługi</a></li>
+          <li aria-current="page">{v.svcCrumb}</li>
+        </ol>
+      </nav>
+      <h1 id="sv-h1" class="sv-disp">
+        <span class="sv-l l1"><span class="sv-lt">{v.svc?.disp1}</span><i class="sv-ic c1" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d={v.svc?.ic1}></path></svg></i></span>
+        <span class="sv-l l2"><i class="sv-ic c2" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d={v.svc?.ic2}></path></svg></i><span class="sv-lt">{v.svc?.disp2}</span></span>
+        <span class="sv-l l3"><span class="sv-lt">{v.svc?.disp3}</span><i class="sv-ic c3" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d={v.svc?.ic3}></path></svg></i></span>
+      </h1>
+      <div class="sv-hero2-foot">
+        <div class="sv-hero2-tx">
+          <p class="sv-kicker">{v.svc?.short} · top.strony</p>
+          <p class="sv-hero2-lead">{v.svc?.lead}</p>
+        </div>
+        <div class="sv-hero2-cta">
+          <a data-magnetic href="/kontakt/" class="btn sv-btn-dark">Bezpłatna wycena w 24 h <span aria-hidden="true">→</span></a>
+          <a href="tel:+48501784882" class="sv-hero2-tel">albo zadzwoń: 501 784 882</a>
+        </div>
+      </div>
+      <nav class="sv-toc" aria-label="Na tej stronie">
+        <span>Na tej stronie:</span>
+        <a href="#sv-co">Czym jest</a><a href="#sv-zakres">Zakres</a><a href="#sv-proces">Proces</a><a href="#sv-warianty">Warianty</a><a href="#sv-porownanie">Porównanie</a><a href="#sv-faq">FAQ</a>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->
+  <section id="sv-co" class="sec alt deco-bars deco-l" aria-labelledby="sv-def-h">
+    <div class="wrap sv-def">
+      <div class="rv">
+        <p class="eyebrow scr">O usłudze</p>
+        <h2 id="sv-def-h" class="h h2 split">{v.svc?.defT}</h2>
+        {(v.svcDef ?? []).map((p) => (<Fragment><p class="lead">{p?.t}</p></Fragment>))}
+      </div>
+      <div class="card sv-for rv d2">
+        <h3 class="h sv-h3">{v.svc?.forT}</h3>
+        <ul>
+          {(v.svcFor ?? []).map((w) => (<Fragment>
+            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>{w?.t}</li>
+          </Fragment>))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ============ USŁUGA: ZAKRES ============ -->
+  <section id="sv-zakres" class="sec deco-rings" aria-labelledby="sv-scope-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Zakres usługi</p>
+      <h2 id="sv-scope-h" class="h h2 split"><span class="wm"><span class="wi">Co</span></span> <span class="wm"><span class="wi">dokładnie</span></span> <span class="wm"><span class="wi">dostajesz</span></span></h2>
+      <div class="sv-scope">
+        {(v.svcScope ?? []).map((s) => (<Fragment>
+          <article class="sv-sc rv" style={s?.dl}>
+            <span class="sv-sc-ic" style={v.svc?.bg}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={s?.icon}></path></svg></span>
+            <h3 class="h">{s?.t}</h3>
+            <p>{s?.d}</p>
+          </article>
+        </Fragment>))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ USŁUGA: ZDJĘCIE 1 (tylko strony) ============ -->
+  {v.svc?.people && (<Fragment>
+  <section class="sec sv-shots-sec" aria-label="Prezentacja projektu klientom">
+    <div class="wrap">
+      <figure class="sv-shot sv-shot-w sv-shot-full rv"><img decoding="async" src={v.svc?.shot1} alt={v.svc?.shotTx?.alt1} loading="lazy" width="1536" height="1024"></figure>
+    </div>
+  </section>
+  </Fragment>)}
+
+  <!-- ============ USŁUGA: PROCES ============ -->
+  <section id="sv-proces" class="sec alt deco-wave" aria-labelledby="sv-proc-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Jak pracujemy</p>
+      <h2 id="sv-proc-h" class="h h2 split"><span class="wm"><span class="wi">Proces</span></span> <span class="wm"><span class="wi">krok</span></span> <span class="wm"><span class="wi">po</span></span> <span class="wm"><span class="wi">kroku</span></span></h2>
+      <ol class="sv-steps">
+        {(v.svcSteps ?? []).map((st) => (<Fragment>
+          <li class="rv"><span class="sv-st-n">{st?.n}</span><span class="sv-st-w">{st?.when}</span><h3 class="h">{st?.t}</h3><p>{st?.d}</p></li>
+        </Fragment>))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ USŁUGA: KTO ROBI TWOJĄ STRONĘ (tylko strony) ============ -->
+  {v.svc?.whoOn && (<Fragment>
+  <section class="sv-who" aria-labelledby="sv-who-h">
+    <div class="wrap sv-who-grid">
+      <div class="sv-who-art rv" aria-hidden="true">
+        <svg class="sv-who-t" viewBox="0 0 520 640"><text x="20" y="600" font-family="Poppins, Inter, sans-serif" font-weight="800" font-size="760" letter-spacing="-30" fill="#F4F7F2">t</text></svg>
+        <svg class="sv-who-arr" viewBox="0 0 100 100" fill="none" stroke="#60AD26" stroke-width="13" stroke-linecap="square"><path d="M22 14H86V78"></path><path d="M6 40H60V94"></path></svg>
+        <img decoding="async" class="sv-who-img" src="/img/kamil-piech-k1cut.webp" alt="" width="760" height="965" loading="lazy">
+        <p class="sv-who-cap"><b>Kamil Piech</b><span>Web Developer · założyciel top.strony</span></p>
+      </div>
+      <div class="sv-who-tx">
+        <p class="eyebrow scr">Kto robi Twoją stronę</p>
+        <h2 id="sv-who-h" class="h h2 split"><span class="wm"><span class="wi">Rozmawiasz</span></span> <span class="wm"><span class="wi">z</span></span> <span class="wm"><span class="wi">osobą,</span></span> <span class="wm"><span class="wi">która</span></span> <span class="wm"><span class="wi">projektuje</span></span> <span class="wm"><span class="wi">i</span></span> <span class="wm"><span class="wi">koduje</span></span></h2>
+        <p class="lead">Nie przekazujemy projektu między działami. Od pierwszej rozmowy, przez makietę i kod, po start strony masz jednego opiekuna. Dzięki temu zmiany są szybkie, a nic nie ginie po drodze.</p>
+        <dl class="sv-who-stats">
+          <div><dt>8 lat</dt><dd>w IT i marketingu</dd></div>
+          <div><dt>35</dt><dd>projektów stron i sklepów</dd></div>
+          <div><dt>5,0 ★</dt><dd>z 20 opinii w Google</dd></div>
+        </dl>
+        <a data-magnetic href="/kontakt/" class="btn btn-g">Umów bezpłatną konsultację</a>
+      </div>
+    </div>
+  </section>
+  </Fragment>)}
+
+  <!-- ============ USŁUGA: WARIANTY ============ -->
+  <section id="sv-warianty" class="sec deco-bars" aria-labelledby="sv-var-h">
+    <div class="wrap">
+      <div class="sv-head2">
+        <div>
+          <p class="eyebrow scr">Warianty współpracy</p>
+          <h2 id="sv-var-h" class="h h2 split"><span class="wm"><span class="wi">Wybierz</span></span> <span class="wm"><span class="wi">zakres,</span></span> <span class="wm"><span class="wi">który</span></span> <span class="wm"><span class="wi">pasuje</span></span> <span class="wm"><span class="wi">do</span></span> <span class="wm"><span class="wi">firmy</span></span></h2>
+        </div>
+        <p class="sv-note">Cenę podajemy po krótkiej rozmowie, bo zależy od zakresu. Wycenę z terminem dostajesz w 24 godziny.</p>
+      </div>
+      <div class="sv-vars">
+        {(v.svcVariants ?? []).map((v) => (<Fragment>
+          <article class={`sv-var rv ${v?.cls ?? ''}`}>
+            {v?.badge && (<Fragment><span class="sv-var-badge">Najczęściej wybierany</span></Fragment>)}
+            <span class="sv-var-n">{v?.n}</span>
+            <h3 class="h">{v?.name}</h3>
+            <p>{v?.d}</p>
+            <ul>
+              {(v?.items ?? []).map((it) => (<Fragment><li>{it}</li></Fragment>))}
+            </ul>
+            <div class="sv-var-foot"><span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>{v?.time}</span><a href="/kontakt/" class="sv-var-btn">Zapytaj o wycenę →</a></div>
+          </article>
+        </Fragment>))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ USŁUGA: ZDJĘCIE 2 + TEKST (tylko strony) ============ -->
+  {v.svc?.people && (<Fragment>
+  <section class="sec sv-shots-sec" aria-labelledby="sv-shot2-h">
+    <div class="wrap sv-shot-split">
+      <figure class="sv-shot sv-shot-n rv"><img decoding="async" src={v.svc?.shot2} alt={v.svc?.shotTx?.alt2} loading="lazy" width="1024" height="1365"></figure>
+      <div class="rv d2">
+        <p class="eyebrow scr">{v.svc?.shotTx?.eyebrow}</p>
+        <h2 id="sv-shot2-h" class="h h2 split">{v.svc?.shotTx?.h}</h2>
+        <p class="lead">{v.svc?.shotTx?.lead}</p>
+        <a href="/kontakt/" class="tlink" style="display: inline-block; margin-top: 18px">{v.svc?.shotTx?.cta}</a>
+      </div>
+    </div>
+  </section>
+  </Fragment>)}
+
+  <!-- ============ USŁUGA: PORÓWNANIE ============ -->
+  <section id="sv-porownanie" class="sec alt deco-rings deco-l" aria-labelledby="sv-cmp-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Porównanie</p>
+      <h2 id="sv-cmp-h" class="h h2 split">{v.svc?.cmpT}</h2>
+      <div class="sv-cmp-wrap rv">
+        <table class="sv-cmp">
+          <thead><tr>{(v.svcCmpCols ?? []).map((c) => (<Fragment><th scope="col" class={c?.cls}>{c?.t}</th></Fragment>))}</tr></thead>
+          <tbody>
+            {(v.svcCmpRows ?? []).map((row) => (<Fragment>
+              <tr><th scope="row">{row?.th}</th>{(row?.cells ?? []).map((cl) => (<Fragment><td class={cl?.cls}>{cl?.t}</td></Fragment>))}</tr>
+            </Fragment>))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ USŁUGA: CASE ============ -->
+  <section class="sec deco-wave deco-r" aria-labelledby="sv-case-h">
+    <div class="wrap">
+      <a href={v.svcCase?.href} class="sv-case rv" data-cursor="Zobacz">
+        <div class="sv-case-img"><img decoding="async" src={v.svcCase?.img} alt={v.svcCase?.alt} loading="lazy"></div>
+        <div class="sv-case-tx">
+          <p class="eyebrow">Case study</p>
+          <h2 id="sv-case-h" class="h sv-case-t">{v.svcCase?.name}</h2>
+          <p class="lead">{v.svcCase?.lead}</p>
+          <div class="sv-tags">{(v.svcCase?.tags ?? []).map((tg) => (<Fragment><span>{tg}</span></Fragment>))}</div>
+          <span class="tlink" style="margin-top: 24px; display: inline-block">Zobacz case study →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ USŁUGA: ZAUFALI NAM (tylko strony) ============ -->
+  {v.svc?.whoOn && (<Fragment>
+  <section class="sec sv-trust" aria-labelledby="sv-trust-h">
+    <div class="wrap">
+      <h2 id="sv-trust-h" class="h sv-trust-h rv">Zaufali nam</h2>
+      <div class="sv-logos" role="list">
+        {(v.clients ?? []).map((c) => (<Fragment>
+          <div class="sv-logo rv" role="listitem" style={c?.dl} title={c?.name}>
+            <span class="clogo" role="img" aria-label={`Logo ${c?.name ?? ''}`} style={c?.mask}></span>
+          </div>
+        </Fragment>))}
+      </div>
+    </div>
+  </section>
+  </Fragment>)}
+
+  <!-- ============ USŁUGA: FAQ ============ -->
+  <section id="sv-faq" class="sec alt deco-bars deco-l" aria-labelledby="sv-faq-h">
+    <div class="wrap faq">
+      <div class="faq-aside rv">
+        <p class="eyebrow scr">FAQ</p>
+        <h2 id="sv-faq-h" class="h h2 split"><span class="wm"><span class="wi">Najczęstsze</span></span> <span class="wm"><span class="wi">pytania</span></span></h2>
+        <p class="lead">Krótkie odpowiedzi na pytania, które słyszymy przed rozpoczęciem współpracy.</p>
+        <div class="card faq-help">
+          <img decoding="async" src="/img/kamil-piech-face2.webp" alt="Kamil Piech" width="72" height="72" loading="lazy">
+          <div><b class="ink" style="display: block">Nie ma Twojego pytania?</b><a href="tel:+48501784882" class="tlink">Zadzwoń: 501 784 882</a></div>
+        </div>
+      </div>
+      <div class="sv-faq rv d1">
+        {(v.svcFaqs ?? []).map((fq) => (<Fragment>
+          {fq?.open && (<Fragment><details class="sv-fq" open><summary><h3 class="h">{fq?.q}</h3><span class="sv-fq-i" aria-hidden="true"></span></summary><p>{fq?.a}</p></details></Fragment>)}
+          {fq?.closed && (<Fragment><details class="sv-fq"><summary><h3 class="h">{fq?.q}</h3><span class="sv-fq-i" aria-hidden="true"></span></summary><p>{fq?.a}</p></details></Fragment>)}
+        </Fragment>))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ USŁUGA: POWIĄZANE + OBSZAR ============ -->
+  <section class="sec deco-rings" aria-labelledby="sv-rel-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Najlepiej działa w duecie</p>
+      <h2 id="sv-rel-h" class="h h2 split"><span class="wm"><span class="wi">Powiązane</span></span> <span class="wm"><span class="wi">usługi</span></span></h2>
+      <div class="sv-rel">
+        {(v.svcRelated ?? []).map((rl) => (<Fragment>
+          <a href={rl?.href} class="sv-rl rv">
+            <span class="sv-rl-ic" style={rl?.bg}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={rl?.icon}></path></svg></span>
+            <h3 class="h">{rl?.t}</h3>
+            <p>{rl?.d}</p>
+            <span class="sv-rl-go" aria-hidden="true">→</span>
+          </a>
+        </Fragment>))}
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ USŁUGA: CTA ============ -->
+  <section class="cta-sec" aria-labelledby="sv-cta">
+    <div class="wrap">
+      <div class="cta cta-keep rv">
+        <div class="cta-txt">
+          <span class="cta-k">Bezpłatna wycena</span>
+          <h2 id="sv-cta" class="cta-h">Porozmawiajmy o Twoim projekcie</h2>
+          <p class="cta-p">W 20 minut ustalimy zakres, termin i to, co da najszybszy efekt. Wycenę dostaniesz w 24 godziny, bez zobowiązań.</p>
+          <div class="cta-row">
+            <a data-magnetic href="/kontakt/" class="btn btn-w">Poproś o wycenę</a>
+            <a href="tel:+48501784882" class="cta-tel">albo zadzwoń: 501 784 882 →</a>
+          </div>
+        </div>
+        <div class="cta-img"><img decoding="async" src="/img/kamil-piech-k3cut.webp" alt="Kamil Piech, założyciel top.strony" width="738" height="1000" loading="lazy"><div class="cta-badge" aria-hidden="true"><i></i><span><b>Odpowiadam w 24 h</b>pon.–pt. 9:00–20:00</span></div></div>
+      </div>
+    </div>
+  </section>
+  </main>

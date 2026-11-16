@@ -1,0 +1,1094 @@
+{
+ "theme": "dark",
+ "isLight": "false",
+ "themeLabel": "Włącz tryb jasny",
+ "svc": {
+  "img": "/img/usluga-s0.webp",
+  "shot1": "/img/usluga-p0.webp",
+  "shot2": "/img/usluga-p1.webp",
+  "file": "/uslugi/strony-internetowe/",
+  "slug": "strony-internetowe",
+  "short": "Strony internetowe",
+  "h1": "Tworzenie stron internetowych dla firm",
+  "metaTitle": "Tworzenie stron internetowych dla firm | top.strony",
+  "metaDesc": "Szybkie strony firmowe w Astro i WordPressie, gotowe pod Google i AI. Projekt od zera, SEO od startu, opieka po publikacji. Bezpłatna wycena w 24 h.",
+  "lead": "Projektujemy i kodujemy strony firmowe, które wyglądają dobrze, ale przede wszystkim ładują się w ułamku sekundy, są gotowe pod Google i prowadzą klienta do telefonu.",
+  "answer": "Tworzenie strony internetowej w top.strony to projekt od zera: analiza konkurencji, makieta UX, projekt graficzny w Figmie, kodowanie w Astro lub WordPressie oraz SEO on-page od pierwszego dnia. Wizytówka powstaje w 2–3 tygodnie, rozbudowany serwis w 4–6 tygodni. Wycenę dostajesz w 24 godziny.",
+  "facts": [
+   [
+    "2–6 tyg.",
+    "czas realizacji"
+   ],
+   [
+    "Astro · WP",
+    "technologie"
+   ],
+   [
+    "24 h",
+    "bezpłatna wycena"
+   ]
+  ],
+  "defT": "Ładny samochód z silnikiem gruchota",
+  "def": [
+   "Można kupić nowocześnie wyglądający samochód, który ma w środku silnik gruchota. Ze stronami internetowymi jest często podobnie: ładna grafika, a pod spodem wolny, ciężki kod, który nie pozycjonuje się w Google i sprawia problemy techniczne.",
+   "My stawiamy na silnik. Strony budujemy w czystym, lekkim kodzie, od początku zgodnie ze standardami Google. Dzięki temu osiągają wysokie wyniki w PageSpeed, szybciej wchodzą do wyników wyszukiwania i są gotowe na cytowanie przez ChatGPT, Gemini i AI Overviews."
+  ],
+  "forT": "Dla kogo robimy strony?",
+  "for": [
+   "Firmy usługowe, które chcą więcej telefonów z Google",
+   "Gabinety, kancelarie, warsztaty, salony i restauracje",
+   "Firmy produkcyjne i B2B, które potrzebują rzetelnej wizytówki oferty",
+   "Osoby prywatne i marki osobiste, blogi firmowe",
+   "Firmy z przestarzałą stroną, która nie działa na telefonach"
+  ],
+  "scope": [
+   [
+    "Indywidualny projekt",
+    "Makieta UX i projekt graficzny w Figmie w kolorach Twojej marki, na komputer i telefon.",
+    "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18"
+   ],
+   [
+    "Szybki, czysty kod",
+    "Astro albo lekki WordPress bez ciężkich builderów. Wynik PageSpeed sprawdzamy przed oddaniem strony.",
+    "M8 6l-6 6 6 6M16 6l6 6-6 6"
+   ],
+   [
+    "SEO od pierwszego dnia",
+    "Struktura nagłówków, meta tagi, dane strukturalne Schema.org, mapa witryny i llms.txt.",
+    "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5"
+   ],
+   [
+    "Responsywność (RWD)",
+    "Strona sama dopasowuje się do komputerów, tabletów i smartfonów. Jedna wersja, czytelna wszędzie.",
+    "M7 2h10v20H7zM11 18h2"
+   ],
+   [
+    "Pomiar zapytań",
+    "Google Analytics 4 i Tag Manager: liczymy kliknięcia w telefon, formularze i maile.",
+    "M3 3v18h18M7 14l4-4 3 3 6-6"
+   ],
+   [
+    "RODO i bezpieczeństwo",
+    "Certyfikat SSL, polityka prywatności, zgody na cookies i kopie zapasowe.",
+    "M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"
+   ],
+   [
+    "Treści i zdjęcia",
+    "Pomagamy napisać teksty pod SEO i dobrać zdjęcia, żeby oferta była jasna w kilka sekund.",
+    "M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"
+   ],
+   [
+    "Opieka po starcie",
+    "Aktualizacje, kopie zapasowe, drobne zmiany i pomoc, gdy coś przestanie działać.",
+    "M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3"
+   ]
+  ],
+  "variants": [
+   [
+    "Wizytówka",
+    "Do 5 sekcji, jedna strona z ofertą, opiniami i kontaktem.",
+    [
+     "Astro",
+     "SEO on-page",
+     "GA4 i formularz"
+    ],
+    "2–3 tygodnie"
+   ],
+   [
+    "Serwis firmowy",
+    "Oferta na podstronach, blog, podstrony lokalne pod miasta.",
+    [
+     "Astro lub WordPress",
+     "Blog i edycja treści",
+     "Podstrony usług i miast"
+    ],
+    "4–6 tygodni"
+   ],
+   [
+    "Redesign",
+    "Nowa strona w miejsce starej, bez utraty pozycji w Google.",
+    [
+     "Audyt starej strony",
+     "Mapa przekierowań 301",
+     "Migracja treści"
+    ],
+    "3–6 tygodni"
+   ]
+  ],
+  "cmpT": "Astro, WordPress czy kreator stron?",
+  "cmpCols": [
+   "",
+   "Astro",
+   "WordPress (czysty motyw)",
+   "Kreator / builder"
+  ],
+  "cmp": [
+   [
+    "Szybkość ładowania",
+    "najwyższa",
+    "wysoka",
+    "niska"
+   ],
+   [
+    "Bezpieczeństwo",
+    "brak wtyczek do atakowania",
+    "wymaga aktualizacji",
+    "zależne od dostawcy"
+   ],
+   [
+    "Samodzielna edycja treści",
+    "przez prosty CMS",
+    "tak, wygodny panel",
+    "tak"
+   ],
+   [
+    "Potencjał SEO",
+    "najwyższy",
+    "wysoki",
+    "ograniczony"
+   ],
+   [
+    "Dla kogo",
+    "firmy, które chcą maksimum szybkości",
+    "firmy z blogiem i częstymi zmianami",
+    "proste wizytówki na start"
+   ]
+  ],
+  "faqs": [
+   [
+    "Ile trwa zrobienie strony internetowej?",
+    "Wizytówka powstaje w 2–3 tygodnie, serwis firmowy z blogiem i podstronami w 4–6 tygodni. Czas zależy głównie od tego, jak szybko dostaniemy treści i akceptacje."
+   ],
+   [
+    "Ile kosztuje strona internetowa dla firmy?",
+    "Cena zależy od liczby podstron, technologii i tego, czy piszemy treści. Po krótkiej rozmowie przygotowujemy wycenę w 24 godziny, z zakresem i terminem na piśmie."
+   ],
+   [
+    "WordPress czy strona pisana kodem?",
+    "Strona w Astro jest szybsza i bezpieczniejsza, a WordPress na czystym motywie daje wygodny panel do częstej edycji. Polecamy technologię po rozmowie o tym, jak często zmieniasz treści."
+   ],
+   [
+    "Czy będę mógł sam edytować treści?",
+    "Tak. W obu technologiach dostajesz panel do zmiany tekstów i zdjęć oraz krótkie szkolenie."
+   ],
+   [
+    "Czy strona będzie widoczna w Google?",
+    "Każdą stronę oddajemy z SEO on-page: nagłówkami, meta tagami, danymi strukturalnymi i mapą witryny. Wyższe pozycje na konkurencyjne frazy wymagają potem pozycjonowania."
+   ],
+   [
+    "Czy domena i strona należą do mnie?",
+    "Tak. Domena, hosting, pliki strony i konta analityczne są Twoje. Przekazujemy wszystkie dostępy."
+   ],
+   [
+    "Czy pracujecie z firmami z całej Polski?",
+    "Tak. Projekt, akceptacje i szkolenie prowadzimy zdalnie, więc lokalizacja firmy nie ma znaczenia."
+   ]
+  ],
+  "case": "marmostyl",
+  "related": [
+   "seo",
+   "ads",
+   "branding"
+  ],
+  "shotTx": {
+   "alt1": "Kamil Piech pokazuje klientom projekt strony internetowej na monitorze",
+   "alt2": "Omawianie makiety strony internetowej z klientką przy biurku",
+   "eyebrow": "Makieta przed grafiką",
+   "h": "Zaczynamy od kartki, a nie od szablonu",
+   "lead": "Zanim powstanie pierwszy kolor, razem układamy treść i ścieżkę klienta: co ma zobaczyć najpierw, co go przekona i gdzie kliknie, żeby zadzwonić. Dopiero na tej podstawie projektujemy grafikę.",
+   "cta": "Umów rozmowę o projekcie →"
+  },
+  "disp1": "Strony www,",
+  "disp2": "które przynoszą",
+  "disp3": "klientów",
+  "ic1": "M3 5h18v12H3zM8 21h8M12 17v4",
+  "ic2": "M8 6l-6 6 6 6M16 6l6 6-6 6",
+  "ic3": "M22 2L11 13M22 2l-7 20-4-9-9-4z",
+  "bg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+  "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+  "title": "Strony internetowe",
+  "updated": "listopad 2026",
+  "hasImg": true,
+  "visCls": "has-img",
+  "people": true,
+  "whoOn": true
+ },
+ "svcDef": [
+  {
+   "t": "Można kupić nowocześnie wyglądający samochód, który ma w środku silnik gruchota. Ze stronami internetowymi jest często podobnie: ładna grafika, a pod spodem wolny, ciężki kod, który nie pozycjonuje się w Google i sprawia problemy techniczne.",
+   "i": "0"
+  },
+  {
+   "t": "My stawiamy na silnik. Strony budujemy w czystym, lekkim kodzie, od początku zgodnie ze standardami Google. Dzięki temu osiągają wysokie wyniki w PageSpeed, szybciej wchodzą do wyników wyszukiwania i są gotowe na cytowanie przez ChatGPT, Gemini i AI Overviews.",
+   "i": "1"
+  }
+ ],
+ "svcFor": [
+  {
+   "t": "Firmy usługowe, które chcą więcej telefonów z Google",
+   "i": "0"
+  },
+  {
+   "t": "Gabinety, kancelarie, warsztaty, salony i restauracje",
+   "i": "1"
+  },
+  {
+   "t": "Firmy produkcyjne i B2B, które potrzebują rzetelnej wizytówki oferty",
+   "i": "2"
+  },
+  {
+   "t": "Osoby prywatne i marki osobiste, blogi firmowe",
+   "i": "3"
+  },
+  {
+   "t": "Firmy z przestarzałą stroną, która nie działa na telefonach",
+   "i": "4"
+  }
+ ],
+ "svcScope": [
+  {
+   "t": "Indywidualny projekt",
+   "d": "Makieta UX i projekt graficzny w Figmie w kolorach Twojej marki, na komputer i telefon.",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "dl": "transition-delay: 0.00s",
+   "i": "0"
+  },
+  {
+   "t": "Szybki, czysty kod",
+   "d": "Astro albo lekki WordPress bez ciężkich builderów. Wynik PageSpeed sprawdzamy przed oddaniem strony.",
+   "icon": "M8 6l-6 6 6 6M16 6l6 6-6 6",
+   "dl": "transition-delay: 0.06s",
+   "i": "1"
+  },
+  {
+   "t": "SEO od pierwszego dnia",
+   "d": "Struktura nagłówków, meta tagi, dane strukturalne Schema.org, mapa witryny i llms.txt.",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "dl": "transition-delay: 0.12s",
+   "i": "2"
+  },
+  {
+   "t": "Responsywność (RWD)",
+   "d": "Strona sama dopasowuje się do komputerów, tabletów i smartfonów. Jedna wersja, czytelna wszędzie.",
+   "icon": "M7 2h10v20H7zM11 18h2",
+   "dl": "transition-delay: 0.18s",
+   "i": "3"
+  },
+  {
+   "t": "Pomiar zapytań",
+   "d": "Google Analytics 4 i Tag Manager: liczymy kliknięcia w telefon, formularze i maile.",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "dl": "transition-delay: 0.00s",
+   "i": "4"
+  },
+  {
+   "t": "RODO i bezpieczeństwo",
+   "d": "Certyfikat SSL, polityka prywatności, zgody na cookies i kopie zapasowe.",
+   "icon": "M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z",
+   "dl": "transition-delay: 0.06s",
+   "i": "5"
+  },
+  {
+   "t": "Treści i zdjęcia",
+   "d": "Pomagamy napisać teksty pod SEO i dobrać zdjęcia, żeby oferta była jasna w kilka sekund.",
+   "icon": "M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z",
+   "dl": "transition-delay: 0.12s",
+   "i": "6"
+  },
+  {
+   "t": "Opieka po starcie",
+   "d": "Aktualizacje, kopie zapasowe, drobne zmiany i pomoc, gdy coś przestanie działać.",
+   "icon": "M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3",
+   "dl": "transition-delay: 0.18s",
+   "i": "7"
+  }
+ ],
+ "svcVariants": [
+  {
+   "name": "Wizytówka",
+   "d": "Do 5 sekcji, jedna strona z ofertą, opiniami i kontaktem.",
+   "items": [
+    "Astro",
+    "SEO on-page",
+    "GA4 i formularz"
+   ],
+   "time": "2–3 tygodnie",
+   "cls": "",
+   "badge": false,
+   "n": "01",
+   "i": "0"
+  },
+  {
+   "name": "Serwis firmowy",
+   "d": "Oferta na podstronach, blog, podstrony lokalne pod miasta.",
+   "items": [
+    "Astro lub WordPress",
+    "Blog i edycja treści",
+    "Podstrony usług i miast"
+   ],
+   "time": "4–6 tygodni",
+   "cls": "is-pop",
+   "badge": true,
+   "n": "02",
+   "i": "1"
+  },
+  {
+   "name": "Redesign",
+   "d": "Nowa strona w miejsce starej, bez utraty pozycji w Google.",
+   "items": [
+    "Audyt starej strony",
+    "Mapa przekierowań 301",
+    "Migracja treści"
+   ],
+   "time": "3–6 tygodni",
+   "cls": "",
+   "badge": false,
+   "n": "03",
+   "i": "2"
+  }
+ ],
+ "svcCmpCols": [
+  {
+   "t": "",
+   "cls": "",
+   "i": "0"
+  },
+  {
+   "t": "Astro",
+   "cls": "",
+   "i": "1"
+  },
+  {
+   "t": "WordPress (czysty motyw)",
+   "cls": "",
+   "i": "2"
+  },
+  {
+   "t": "Kreator / builder",
+   "cls": "is-us",
+   "i": "3"
+  }
+ ],
+ "svcCmpRows": [
+  {
+   "th": "Szybkość ładowania",
+   "cells": [
+    {
+     "t": "najwyższa",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "wysoka",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "niska",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "th": "Bezpieczeństwo",
+   "cells": [
+    {
+     "t": "brak wtyczek do atakowania",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "wymaga aktualizacji",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "zależne od dostawcy",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "th": "Samodzielna edycja treści",
+   "cells": [
+    {
+     "t": "przez prosty CMS",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "tak, wygodny panel",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "tak",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "2"
+  },
+  {
+   "th": "Potencjał SEO",
+   "cells": [
+    {
+     "t": "najwyższy",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "wysoki",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "ograniczony",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "3"
+  },
+  {
+   "th": "Dla kogo",
+   "cells": [
+    {
+     "t": "firmy, które chcą maksimum szybkości",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "firmy z blogiem i częstymi zmianami",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "proste wizytówki na start",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "4"
+  }
+ ],
+ "svcFaqs": [
+  {
+   "q": "Ile trwa zrobienie strony internetowej?",
+   "a": "Wizytówka powstaje w 2–3 tygodnie, serwis firmowy z blogiem i podstronami w 4–6 tygodni. Czas zależy głównie od tego, jak szybko dostaniemy treści i akceptacje.",
+   "open": true,
+   "closed": false,
+   "i": "0"
+  },
+  {
+   "q": "Ile kosztuje strona internetowa dla firmy?",
+   "a": "Cena zależy od liczby podstron, technologii i tego, czy piszemy treści. Po krótkiej rozmowie przygotowujemy wycenę w 24 godziny, z zakresem i terminem na piśmie.",
+   "open": false,
+   "closed": true,
+   "i": "1"
+  },
+  {
+   "q": "WordPress czy strona pisana kodem?",
+   "a": "Strona w Astro jest szybsza i bezpieczniejsza, a WordPress na czystym motywie daje wygodny panel do częstej edycji. Polecamy technologię po rozmowie o tym, jak często zmieniasz treści.",
+   "open": false,
+   "closed": true,
+   "i": "2"
+  },
+  {
+   "q": "Czy będę mógł sam edytować treści?",
+   "a": "Tak. W obu technologiach dostajesz panel do zmiany tekstów i zdjęć oraz krótkie szkolenie.",
+   "open": false,
+   "closed": true,
+   "i": "3"
+  },
+  {
+   "q": "Czy strona będzie widoczna w Google?",
+   "a": "Każdą stronę oddajemy z SEO on-page: nagłówkami, meta tagami, danymi strukturalnymi i mapą witryny. Wyższe pozycje na konkurencyjne frazy wymagają potem pozycjonowania.",
+   "open": false,
+   "closed": true,
+   "i": "4"
+  },
+  {
+   "q": "Czy domena i strona należą do mnie?",
+   "a": "Tak. Domena, hosting, pliki strony i konta analityczne są Twoje. Przekazujemy wszystkie dostępy.",
+   "open": false,
+   "closed": true,
+   "i": "5"
+  },
+  {
+   "q": "Czy pracujecie z firmami z całej Polski?",
+   "a": "Tak. Projekt, akceptacje i szkolenie prowadzimy zdalnie, więc lokalizacja firmy nie ma znaczenia.",
+   "open": false,
+   "closed": true,
+   "i": "6"
+  }
+ ],
+ "svcSteps": [
+  {
+   "when": "Dzień 1–3",
+   "t": "Konsultacja i wycena",
+   "d": "Poznajemy firmę, klientów i cel strony. Wycenę z zakresem i terminem dostajesz w 24 h.",
+   "n": "01",
+   "i": "0"
+  },
+  {
+   "when": "Tydzień 1",
+   "t": "Analiza i makieta UX",
+   "d": "Sprawdzamy konkurencję i frazy, układamy ścieżkę do kontaktu. Akceptujesz makietę.",
+   "n": "02",
+   "i": "1"
+  },
+  {
+   "when": "Tydzień 2–3",
+   "t": "Projekt graficzny",
+   "d": "Projekt w Figmie na komputer i telefon, dwie rundy poprawek w cenie.",
+   "n": "03",
+   "i": "2"
+  },
+  {
+   "when": "Tydzień 3–5",
+   "t": "Kodowanie i SEO",
+   "d": "Astro lub WordPress, treści, Schema.org, llms.txt, GA4 i Tag Manager.",
+   "n": "04",
+   "i": "3"
+  },
+  {
+   "when": "Tydzień 5–6",
+   "t": "Testy i publikacja",
+   "d": "Testy na telefonach, Core Web Vitals, formularze. Start i szkolenie z panelu.",
+   "n": "05",
+   "i": "4"
+  }
+ ],
+ "svcCase": {
+  "name": "Marmostyl",
+  "img": "/img/realizacja-marmostyl.webp",
+  "lead": "Pracownia kamienia naturalnego: strona z galerią realizacji i SEO lokalne.",
+  "tags": [
+   "Strona firmowa",
+   "SEO"
+  ],
+  "href": "/#realizacje",
+  "alt": "Realizacja: Marmostyl"
+ },
+ "svcRelated": [
+  {
+   "t": "Pozycjonowanie SEO, AEO i GEO",
+   "d": "Pomagamy firmom pojawiać się tam, gdzie klienci szukają: w wynikach Google, w Mapach i w odpowiedziach ChatGPT, Gemini oraz AI Overviews.",
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "bg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "i": "0"
+  },
+  {
+   "t": "Kampanie Google Ads i Meta Ads",
+   "d": "Prowadzimy kampanie, które mają przynosić telefony i zamówienia, a nie same kliknięcia. Każde zapytanie mierzymy w GA4, więc wiesz, ile kosztuje Cię klient.",
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "bg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "i": "1"
+  },
+  {
+   "t": "Branding i identyfikacja wizualna",
+   "d": "Projektujemy markę, którą klienci rozpoznają: logo, kolory, typografię i zasady, dzięki którym strona, social media i druk wyglądają jak jedna firma.",
+   "href": "/uslugi/branding/",
+   "bg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "i": "2"
+  }
+ ],
+ "svcCrumb": "Strony internetowe",
+ "navRest": [
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  }
+ ],
+ "megaItems": [
+  {
+   "i": "0",
+   "n": "01",
+   "title": "Strony internetowe",
+   "name": "Strony internetowe",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "tag": "Szybkie strony w Astro i WordPressie",
+   "lead": "Strony firmowe i landing page projektowane od zera, które ładują się w ułamku sekundy i prowadzą do telefonu.",
+   "m1": "2–6 tygodni",
+   "m2": "Astro · WordPress",
+   "subs": [
+    "Strony firmowe",
+    "Landing page",
+    "Strony w Astro",
+    "WordPress",
+    "Redesign",
+    "Opieka techniczna"
+   ],
+   "href": "/uslugi/strony-internetowe/",
+   "cls": "is-on",
+   "hid": "false",
+   "tab": "0",
+   "ibg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "pbg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "dl": "--d: 0.040s"
+  },
+  {
+   "i": "1",
+   "n": "02",
+   "title": "Sklepy e-commerce",
+   "name": "Sklepy e-commerce",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
+   "tag": "WooCommerce i Shopify, które sprzedają",
+   "lead": "Sklepy z płatnościami, kurierami i kartami produktów gotowymi pod Google i Merchant Center.",
+   "m1": "3–6 tygodni",
+   "m2": "WooCommerce · Shopify",
+   "subs": [
+    "WooCommerce",
+    "Shopify",
+    "Płatności online",
+    "Integracje kurierów",
+    "Merchant Center",
+    "Migracja sklepu"
+   ],
+   "href": "/uslugi/sklepy-internetowe/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "pbg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "dl": "--d: 0.075s"
+  },
+  {
+   "i": "2",
+   "n": "03",
+   "title": "Pozycjonowanie SEO, AEO i GEO",
+   "name": "SEO, AEO i GEO",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "tag": "Google, Mapy i odpowiedzi AI",
+   "lead": "Audyt, treści, wizytówka Google i optymalizacja pod ChatGPT, Gemini i AI Overviews.",
+   "m1": "Raport co miesiąc",
+   "m2": "Google · Mapy · AI",
+   "subs": [
+    "Audyt SEO",
+    "SEO lokalne",
+    "Wizytówka Google",
+    "Treści i blog",
+    "AEO / GEO",
+    "Link building"
+   ],
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "pbg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "dl": "--d: 0.110s"
+  },
+  {
+   "i": "3",
+   "n": "04",
+   "title": "Kampanie Google Ads i Meta Ads",
+   "name": "Google i Meta Ads",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "tag": "Kampanie mierzone w GA4",
+   "lead": "Search, Performance Max, YouTube i kampanie na Facebooku oraz Instagramie z pomiarem każdego leada.",
+   "m1": "Pomiar w GA4",
+   "m2": "Google · Meta",
+   "subs": [
+    "Google Ads",
+    "Performance Max",
+    "Meta Ads",
+    "Lead Ads",
+    "Remarketing",
+    "Pomiar GA4"
+   ],
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "pbg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "dl": "--d: 0.145s"
+  },
+  {
+   "i": "4",
+   "n": "05",
+   "title": "Obsługa social media",
+   "name": "Social media",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+   "tag": "Profile, rolki i karuzele",
+   "lead": "Strategia, kalendarz treści, grafiki i rolki wideo na Facebooku, Instagramie i TikToku.",
+   "m1": "Raport co miesiąc",
+   "m2": "FB · IG · TikTok",
+   "subs": [
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Rolki wideo",
+    "Karuzele i grafiki",
+    "Kalendarz treści"
+   ],
+   "href": "/uslugi/social-media/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "pbg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "dl": "--d: 0.180s"
+  },
+  {
+   "i": "5",
+   "n": "06",
+   "title": "Branding i identyfikacja wizualna",
+   "name": "Branding",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "tag": "Logo, kolory i księga znaku",
+   "lead": "Identyfikacja, która buduje rozpoznawalność: logo, typografia, druk i szablony do social mediów.",
+   "m1": "Księga znaku",
+   "m2": "Druk · social",
+   "subs": [
+    "Logo",
+    "Księga znaku",
+    "Kolorystyka",
+    "Wizytówki i druk",
+    "Szablony social",
+    "Rebranding"
+   ],
+   "href": "/uslugi/branding/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "pbg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "dl": "--d: 0.215s"
+  }
+ ],
+ "megaCls": "",
+ "megaBtnCls": "is-cur",
+ "megaExp": "false",
+ "megaHidden": "true",
+ "megaVars": "--mi: 0",
+ "menuOpen": false,
+ "menuExp": "false",
+ "statusCls": "off",
+ "statusLabel": "Teraz offline",
+ "statusNote": "oddzwonimy po 9:00",
+ "fabOpen": false,
+ "fabClosed": true,
+ "navLinks": [
+  {
+   "t": "Usługi",
+   "href": "/uslugi/",
+   "k": "uslugi",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "5"
+  }
+ ],
+ "socials": [
+  {
+   "t": "top.strony na Facebooku",
+   "href": "https://www.facebook.com/topstronypl/",
+   "d": "M9.1 23.7v-8H6.6V12h2.5v-1.6c0-4.1 1.9-6 5.9-6l1.6.1v3.3h-1.3c-1.6 0-2.2.6-2.2 2.1V12h3.5l-.6 3.7h-2.9V24C18.8 23.3 23 18.1 23 12A11 11 0 1 0 9.1 23.7z",
+   "i": "0"
+  },
+  {
+   "t": "top.strony na Instagramie",
+   "href": "https://www.instagram.com/topstrony/",
+   "d": "M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z",
+   "i": "1"
+  },
+  {
+   "t": "top.strony na LinkedIn",
+   "href": "https://www.linkedin.com/in/top-strony-a72347205/",
+   "d": "M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z",
+   "i": "2"
+  }
+ ],
+ "clients": [
+  {
+   "name": "Pure Rehab",
+   "ind": "fizjoterapia",
+   "dl": "transition-delay: 0.00s",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 169px; height: 56px",
+   "i": "0"
+  },
+  {
+   "name": "Eurodomy",
+   "ind": "budowa domów",
+   "dl": "transition-delay: 0.04s",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 150px; height: 56px",
+   "i": "1"
+  },
+  {
+   "name": "Sahra",
+   "ind": "sklep z dywanami",
+   "dl": "transition-delay: 0.08s",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 206px; height: 56px",
+   "i": "2"
+  },
+  {
+   "name": "Marmostyl",
+   "ind": "kamieniarstwo",
+   "dl": "transition-delay: 0.12s",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 148px; height: 56px",
+   "i": "3"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "ind": "oświetlenie sceniczne",
+   "dl": "transition-delay: 0.16s",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 195px; height: 44px",
+   "i": "4"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "ind": "ekspresy do kawy",
+   "dl": "transition-delay: 0.20s",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 281px; height: 34px",
+   "i": "5"
+  },
+  {
+   "name": "SMKA",
+   "ind": "producent preparatów",
+   "dl": "transition-delay: 0.24s",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 212px; height: 56px",
+   "i": "6"
+  },
+  {
+   "name": "Region Zdrowia",
+   "ind": "portal prozdrowotny",
+   "dl": "transition-delay: 0.28s",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 213px; height: 34px",
+   "i": "7"
+  },
+  {
+   "name": "Ventoni",
+   "ind": "biuro rachunkowe",
+   "dl": "transition-delay: 0.32s",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 194px; height: 56px",
+   "i": "8"
+  },
+  {
+   "name": "E-Tabak",
+   "ind": "sieć sklepów",
+   "dl": "transition-delay: 0.36s",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 115px; height: 80px",
+   "i": "9"
+  },
+  {
+   "name": "CloudInsight",
+   "ind": "doradztwo IT",
+   "dl": "transition-delay: 0.40s",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 268px; height: 34px",
+   "i": "10"
+  },
+  {
+   "name": "Fastpol",
+   "ind": "czyszczenie wentylacji",
+   "dl": "transition-delay: 0.44s",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 246px; height: 44px",
+   "i": "11"
+  },
+  {
+   "name": "TSE Remonty",
+   "ind": "remonty",
+   "dl": "transition-delay: 0.48s",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 177px; height: 44px",
+   "i": "12"
+  },
+  {
+   "name": "K|R Projekt",
+   "ind": "projekty wnętrz",
+   "dl": "transition-delay: 0.52s",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 78px; height: 80px",
+   "i": "13"
+  },
+  {
+   "name": "Oligradskyi",
+   "ind": "balustrady stalowe",
+   "dl": "transition-delay: 0.56s",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 116px; height: 80px",
+   "i": "14"
+  }
+ ],
+ "footCols": [
+  {
+   "t": "Usługi",
+   "links": [
+    {
+     "t": "Strony internetowe",
+     "href": "/uslugi/strony-internetowe/",
+     "i": "0"
+    },
+    {
+     "t": "Sklepy e-commerce",
+     "href": "/uslugi/sklepy-internetowe/",
+     "i": "1"
+    },
+    {
+     "t": "SEO · AEO · GEO",
+     "href": "/uslugi/pozycjonowanie-seo/",
+     "i": "2"
+    },
+    {
+     "t": "Google i Meta Ads",
+     "href": "/uslugi/kampanie-google-meta-ads/",
+     "i": "3"
+    },
+    {
+     "t": "Social media",
+     "href": "/uslugi/social-media/",
+     "i": "4"
+    },
+    {
+     "t": "Branding",
+     "href": "/uslugi/branding/",
+     "i": "5"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "t": "Firma",
+   "links": [
+    {
+     "t": "Case studies",
+     "href": "/#realizacje",
+     "i": "0"
+    },
+    {
+     "t": "O nas",
+     "href": "/o-nas/",
+     "i": "1"
+    },
+    {
+     "t": "Realizacje",
+     "href": "/realizacje/",
+     "i": "2"
+    },
+    {
+     "t": "Opinie",
+     "href": "/#opinie",
+     "i": "3"
+    },
+    {
+     "t": "Blog",
+     "href": "/#blog",
+     "i": "4"
+    },
+    {
+     "t": "Kontakt",
+     "href": "/kontakt/",
+     "i": "5"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "t": "Kontakt",
+   "links": [
+    {
+     "t": "+48 501 784 882",
+     "href": "tel:+48501784882",
+     "i": "0"
+    },
+    {
+     "t": "biuro@topstrony.pl",
+     "href": "mailto:biuro@topstrony.pl",
+     "i": "1"
+    },
+    {
+     "t": "ul. Strusia, Piaseczno",
+     "href": "/kontakt/",
+     "i": "2"
+    },
+    {
+     "t": "pon.–pt. 9:00–20:00",
+     "href": "/kontakt/",
+     "i": "3"
+    }
+   ],
+   "i": "2"
+  }
+ ]
+}

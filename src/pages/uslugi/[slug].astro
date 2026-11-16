@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import ServiceMain from '../../components/gen/ServiceMain.astro';
+import { crumbs, faqLd, SITE } from '../../data/site';
+
+export function getStaticPaths() {
+  const files = import.meta.glob('../../data/pages/srv-*.json', { eager: true }) as Record<string, { default: any }>;
+  return Object.values(files).map((m) => ({ params: { slug: m.default.svc.slug }, props: { v: m.default } }));
+}
+const { v } = Astro.props;
+const S = v.svc;
+const path = '/uslugi/' + S.slug + '/';
+const ld = [
+  { '@context': 'https://schema.org', '@type': 'Service', name: S.short, serviceType: S.h1, description: S.metaDesc, url: SITE + path,
+    provider: { '@id': SITE + '/#business' }, areaServed: { '@type': 'Country', name: 'Polska' } },
+  faqLd(v.svcFaqs),
+  crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/'], [S.short, path]]),
+];
+---
+<Base v={v} page={'srv-' + S.slug} path={path} jsonLd={ld} title={S.metaTitle} description={S.metaDesc} image={S.img || undefined}>
+  <ServiceMain v={v} />
+</Base>

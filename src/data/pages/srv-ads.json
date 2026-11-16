@@ -1,0 +1,1039 @@
+{
+ "theme": "dark",
+ "isLight": "false",
+ "themeLabel": "Włącz tryb jasny",
+ "svc": {
+  "img": "/img/usluga-s3.webp",
+  "file": "/uslugi/kampanie-google-meta-ads/",
+  "slug": "kampanie-google-meta-ads",
+  "short": "Google i Meta Ads",
+  "h1": "Kampanie Google Ads i Meta Ads dla firm",
+  "metaTitle": "Kampanie Google Ads i Meta Ads | top.strony",
+  "metaDesc": "Kampanie w wyszukiwarce, Performance Max, YouTube, Facebook i Instagram. Pomiar każdego leada w GA4, raport z kosztu pozyskania klienta. Bezpłatny audyt konta.",
+  "lead": "Prowadzimy kampanie, które mają przynosić telefony i zamówienia, a nie same kliknięcia. Każde zapytanie mierzymy w GA4, więc wiesz, ile kosztuje Cię klient.",
+  "answer": "Kampanie Google Ads i Meta Ads w top.strony zaczynamy od audytu konta i pomiaru konwersji w GA4. Potem budujemy kampanie w wyszukiwarce, Performance Max, YouTube oraz na Facebooku i Instagramie, optymalizujemy je co tydzień i raz w miesiącu raportujemy koszt pozyskania klienta. Budżet reklamowy płacisz bezpośrednio Google i Meta.",
+  "facts": [
+   [
+    "Google · Meta",
+    "dwie platformy"
+   ],
+   [
+    "GA4",
+    "pomiar każdego leada"
+   ],
+   [
+    "0 zł",
+    "audyt konta na start"
+   ]
+  ],
+  "defT": "Reklama, która płaci za siebie",
+  "def": [
+   "Google Ads pokazuje Twoją firmę osobom, które właśnie szukają usługi: w wyszukiwarce, w Mapach, na YouTube i w Zakupach. Meta Ads dociera do ludzi na Facebooku i Instagramie, zanim zaczną szukać, i buduje popyt.",
+   "Najczęstszy problem, który widzimy w audytach, to brak pomiaru: kampania wydaje budżet, ale nikt nie wie, ile przyniosła telefonów. Dlatego zaczynamy od GA4 i Tag Managera, a dopiero potem skalujemy to, co działa."
+  ],
+  "forT": "Dla kogo są kampanie?",
+  "for": [
+   "Firmy usługowe, które chcą telefonów od zaraz, bez czekania na SEO",
+   "Sklepy internetowe: kampanie produktowe i remarketing",
+   "Gabinety, kliniki i usługi lokalne",
+   "Firmy, które wydają budżet, ale nie wiedzą, co on daje",
+   "Marki, które startują z nowym produktem lub usługą"
+  ],
+  "scope": [
+   [
+    "Audyt konta",
+    "Struktura kampanii, słowa kluczowe, wykluczenia, budżety i pomiar konwersji.",
+    "M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+   ],
+   [
+    "Pomiar w GA4",
+    "Konwersje z telefonów, formularzy i zakupów w GA4, Google Ads i pikselu Meta.",
+    "M3 3v18h18M7 14l4-4 3 3 6-6"
+   ],
+   [
+    "Kampanie w wyszukiwarce",
+    "Reklamy tekstowe na frazy z intencją zakupu i rozszerzenia z telefonem i adresem.",
+    "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5"
+   ],
+   [
+    "Performance Max i Zakupy",
+    "Kampanie produktowe dla sklepów i PMax dla usług z dobrym pomiarem.",
+    "M6 6h15l-1.5 9h-12zM6 6L5 3H2"
+   ],
+   [
+    "YouTube i Display",
+    "Wideo i banery do budowania rozpoznawalności i remarketingu.",
+    "M22 8s-.2-1.6-.8-2.3c-.8-.8-1.7-.8-2.1-.9C16 4.6 12 4.6 12 4.6s-4 0-7.1.2c-.4.1-1.3.1-2.1.9C2.2 6.4 2 8 2 8v3c0 1.6.2 3.2.2 3.2s.2 1.6.8 2.3c.8.8 1.9.8 2.4.9 1.7.2 6.6.2 6.6.2s4 0 7.1-.2c.4-.1 1.3-.1 2.1-.9.6-.7.8-2.3.8-2.3s.2-1.6.2-3.2zM10 15V8l6 3.5z"
+   ],
+   [
+    "Meta Ads",
+    "Kampanie na Facebooku i Instagramie: lead ads, ruch, sprzedaż i remarketing.",
+    "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0"
+   ],
+   [
+    "Kreacje reklamowe",
+    "Teksty, grafiki i krótkie wideo do reklam, testowane w wariantach A/B.",
+    "M9 11l-6 6v3h3l6-6M22 2l-9.5 9.5M15 4l5 5"
+   ],
+   [
+    "Optymalizacja i raport",
+    "Cotygodniowa optymalizacja i comiesięczny raport z kosztu leada i sprzedaży.",
+    "M4 20V10M10 20V4M16 20v-7M22 20H2"
+   ]
+  ],
+  "variants": [
+   [
+    "Google Ads",
+    "Wyszukiwarka, Mapy, Performance Max i YouTube.",
+    [
+     "Audyt i pomiar GA4",
+     "Kampanie Search i PMax",
+     "Raport miesięczny"
+    ],
+    "start w 1–2 tyg."
+   ],
+   [
+    "Meta Ads",
+    "Facebook i Instagram: leady, ruch i sprzedaż.",
+    [
+     "Piksel i Conversions API",
+     "Kreacje i testy A/B",
+     "Remarketing"
+    ],
+    "start w 1–2 tyg."
+   ],
+   [
+    "Google + Meta",
+    "Pełny lejek: Meta buduje popyt, Google zbiera zapytania.",
+    [
+     "Wspólny pomiar",
+     "Jeden raport",
+     "Podział budżetu wg wyników"
+    ],
+    "start w 2 tyg."
+   ]
+  ],
+  "cmpT": "Google Ads czy Meta Ads?",
+  "cmpCols": [
+   "",
+   "Google Ads",
+   "Meta Ads"
+  ],
+  "cmp": [
+   [
+    "Kogo docierasz",
+    "osoby, które aktywnie szukają usługi",
+    "osoby wg zainteresowań, zanim zaczną szukać"
+   ],
+   [
+    "Najlepsze do",
+    "szybkich zapytań i sprzedaży",
+    "budowania popytu, leadów i remarketingu"
+   ],
+   [
+    "Formaty",
+    "tekst, produkty, wideo, mapy",
+    "grafika, karuzela, rolki, formularz lead ads"
+   ],
+   [
+    "Typowy początek",
+    "usługi lokalne, sklepy",
+    "nowe produkty, wydarzenia, usługi wizualne"
+   ]
+  ],
+  "faqs": [
+   [
+    "Jaki budżet na Google Ads na start?",
+    "Zależy od konkurencji fraz i regionu. Po audycie podajemy rekomendowany budżet dzienny i szacunek liczby zapytań. Budżet reklamowy płacisz bezpośrednio Google, osobno od naszej obsługi."
+   ],
+   [
+    "Kiedy zobaczę efekty kampanii?",
+    "Pierwsze zapytania pojawiają się zwykle w ciągu kilku dni od startu. Kampania stabilizuje się po 4–6 tygodniach zbierania danych."
+   ],
+   [
+    "Google Ads czy Meta Ads, od czego zacząć?",
+    "Jeśli klienci szukają Twojej usługi w Google, zacznij od Google Ads. Jeśli usługa jest wizualna albo nowa na rynku, lepiej działa Meta Ads. Często najlepszy jest duet obu."
+   ],
+   [
+    "Czy konto reklamowe będzie moje?",
+    "Tak. Konta Google Ads, Meta i GA4 zakładamy na Ciebie albo pracujemy na Twoich. Masz pełny wgląd 24/7."
+   ],
+   [
+    "Jak mierzycie skuteczność?",
+    "W GA4 i w platformach reklamowych liczymy połączenia, formularze i zakupy. W raporcie dostajesz koszt pozyskania zapytania i klienta."
+   ],
+   [
+    "Czy zrobicie audyt mojego obecnego konta?",
+    "Tak, audyt konta na start jest bezpłatny. Dostajesz listę problemów i rekomendacji, nawet jeśli nie zdecydujesz się na współpracę."
+   ],
+   [
+    "Czy przygotowujecie grafiki i wideo do reklam?",
+    "Tak. Projektujemy grafiki, karuzele i krótkie rolki, a teksty reklam testujemy w wariantach."
+   ]
+  ],
+  "case": "sahra",
+  "related": [
+   "seo",
+   "social",
+   "strony"
+  ],
+  "shotTx": {
+   "alt1": "Kamil Piech omawia z klientem wyniki kampanii reklamowej na monitorze",
+   "alt2": "Omawianie kreacji reklamowej na Instagram na ekranie telefonu",
+   "eyebrow": "Reklama, którą widać w wynikach",
+   "h": "Każda złotówka z budżetu ma swój wynik",
+   "lead": "Co miesiąc siadamy do liczb: ile kosztowało zapytanie, które reklamy działają, a które wyłączamy. Dzięki temu budżet pracuje tam, gdzie przynosi klientów.",
+   "cta": "Zamów bezpłatny audyt →"
+  },
+  "shot1": "/img/usluga-qc0.webp",
+  "shot2": "/img/usluga-qc1.webp",
+  "disp1": "Kampanie Ads,",
+  "disp2": "które płacą",
+  "disp3": "za siebie",
+  "ic1": "M3 3v18h18M7 14l4-4 3 3 6-6",
+  "ic2": "M3 11l15-6v14L3 13zM7 12.5V18a2 2 0 0 0 4 0v-3.5",
+  "ic3": "M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM12 6a6 6 0 1 0 0 12 6 6 0 0 0 0-12zM12 10a2 2 0 1 0 0 4 2 2 0 0 0 0-4z",
+  "bg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+  "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+  "title": "Kampanie Google Ads i Meta Ads",
+  "updated": "listopad 2026",
+  "hasImg": true,
+  "visCls": "has-img",
+  "people": true,
+  "whoOn": false
+ },
+ "svcDef": [
+  {
+   "t": "Google Ads pokazuje Twoją firmę osobom, które właśnie szukają usługi: w wyszukiwarce, w Mapach, na YouTube i w Zakupach. Meta Ads dociera do ludzi na Facebooku i Instagramie, zanim zaczną szukać, i buduje popyt.",
+   "i": "0"
+  },
+  {
+   "t": "Najczęstszy problem, który widzimy w audytach, to brak pomiaru: kampania wydaje budżet, ale nikt nie wie, ile przyniosła telefonów. Dlatego zaczynamy od GA4 i Tag Managera, a dopiero potem skalujemy to, co działa.",
+   "i": "1"
+  }
+ ],
+ "svcFor": [
+  {
+   "t": "Firmy usługowe, które chcą telefonów od zaraz, bez czekania na SEO",
+   "i": "0"
+  },
+  {
+   "t": "Sklepy internetowe: kampanie produktowe i remarketing",
+   "i": "1"
+  },
+  {
+   "t": "Gabinety, kliniki i usługi lokalne",
+   "i": "2"
+  },
+  {
+   "t": "Firmy, które wydają budżet, ale nie wiedzą, co on daje",
+   "i": "3"
+  },
+  {
+   "t": "Marki, które startują z nowym produktem lub usługą",
+   "i": "4"
+  }
+ ],
+ "svcScope": [
+  {
+   "t": "Audyt konta",
+   "d": "Struktura kampanii, słowa kluczowe, wykluczenia, budżety i pomiar konwersji.",
+   "icon": "M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11",
+   "dl": "transition-delay: 0.00s",
+   "i": "0"
+  },
+  {
+   "t": "Pomiar w GA4",
+   "d": "Konwersje z telefonów, formularzy i zakupów w GA4, Google Ads i pikselu Meta.",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "dl": "transition-delay: 0.06s",
+   "i": "1"
+  },
+  {
+   "t": "Kampanie w wyszukiwarce",
+   "d": "Reklamy tekstowe na frazy z intencją zakupu i rozszerzenia z telefonem i adresem.",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "dl": "transition-delay: 0.12s",
+   "i": "2"
+  },
+  {
+   "t": "Performance Max i Zakupy",
+   "d": "Kampanie produktowe dla sklepów i PMax dla usług z dobrym pomiarem.",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2",
+   "dl": "transition-delay: 0.18s",
+   "i": "3"
+  },
+  {
+   "t": "YouTube i Display",
+   "d": "Wideo i banery do budowania rozpoznawalności i remarketingu.",
+   "icon": "M22 8s-.2-1.6-.8-2.3c-.8-.8-1.7-.8-2.1-.9C16 4.6 12 4.6 12 4.6s-4 0-7.1.2c-.4.1-1.3.1-2.1.9C2.2 6.4 2 8 2 8v3c0 1.6.2 3.2.2 3.2s.2 1.6.8 2.3c.8.8 1.9.8 2.4.9 1.7.2 6.6.2 6.6.2s4 0 7.1-.2c.4-.1 1.3-.1 2.1-.9.6-.7.8-2.3.8-2.3s.2-1.6.2-3.2zM10 15V8l6 3.5z",
+   "dl": "transition-delay: 0.00s",
+   "i": "4"
+  },
+  {
+   "t": "Meta Ads",
+   "d": "Kampanie na Facebooku i Instagramie: lead ads, ruch, sprzedaż i remarketing.",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0",
+   "dl": "transition-delay: 0.06s",
+   "i": "5"
+  },
+  {
+   "t": "Kreacje reklamowe",
+   "d": "Teksty, grafiki i krótkie wideo do reklam, testowane w wariantach A/B.",
+   "icon": "M9 11l-6 6v3h3l6-6M22 2l-9.5 9.5M15 4l5 5",
+   "dl": "transition-delay: 0.12s",
+   "i": "6"
+  },
+  {
+   "t": "Optymalizacja i raport",
+   "d": "Cotygodniowa optymalizacja i comiesięczny raport z kosztu leada i sprzedaży.",
+   "icon": "M4 20V10M10 20V4M16 20v-7M22 20H2",
+   "dl": "transition-delay: 0.18s",
+   "i": "7"
+  }
+ ],
+ "svcVariants": [
+  {
+   "name": "Google Ads",
+   "d": "Wyszukiwarka, Mapy, Performance Max i YouTube.",
+   "items": [
+    "Audyt i pomiar GA4",
+    "Kampanie Search i PMax",
+    "Raport miesięczny"
+   ],
+   "time": "start w 1–2 tyg.",
+   "cls": "",
+   "badge": false,
+   "n": "01",
+   "i": "0"
+  },
+  {
+   "name": "Meta Ads",
+   "d": "Facebook i Instagram: leady, ruch i sprzedaż.",
+   "items": [
+    "Piksel i Conversions API",
+    "Kreacje i testy A/B",
+    "Remarketing"
+   ],
+   "time": "start w 1–2 tyg.",
+   "cls": "is-pop",
+   "badge": true,
+   "n": "02",
+   "i": "1"
+  },
+  {
+   "name": "Google + Meta",
+   "d": "Pełny lejek: Meta buduje popyt, Google zbiera zapytania.",
+   "items": [
+    "Wspólny pomiar",
+    "Jeden raport",
+    "Podział budżetu wg wyników"
+   ],
+   "time": "start w 2 tyg.",
+   "cls": "",
+   "badge": false,
+   "n": "03",
+   "i": "2"
+  }
+ ],
+ "svcCmpCols": [
+  {
+   "t": "",
+   "cls": "",
+   "i": "0"
+  },
+  {
+   "t": "Google Ads",
+   "cls": "",
+   "i": "1"
+  },
+  {
+   "t": "Meta Ads",
+   "cls": "is-us",
+   "i": "2"
+  }
+ ],
+ "svcCmpRows": [
+  {
+   "th": "Kogo docierasz",
+   "cells": [
+    {
+     "t": "osoby, które aktywnie szukają usługi",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "osoby wg zainteresowań, zanim zaczną szukać",
+     "cls": "is-us",
+     "i": "1"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "th": "Najlepsze do",
+   "cells": [
+    {
+     "t": "szybkich zapytań i sprzedaży",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "budowania popytu, leadów i remarketingu",
+     "cls": "is-us",
+     "i": "1"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "th": "Formaty",
+   "cells": [
+    {
+     "t": "tekst, produkty, wideo, mapy",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "grafika, karuzela, rolki, formularz lead ads",
+     "cls": "is-us",
+     "i": "1"
+    }
+   ],
+   "i": "2"
+  },
+  {
+   "th": "Typowy początek",
+   "cells": [
+    {
+     "t": "usługi lokalne, sklepy",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "nowe produkty, wydarzenia, usługi wizualne",
+     "cls": "is-us",
+     "i": "1"
+    }
+   ],
+   "i": "3"
+  }
+ ],
+ "svcFaqs": [
+  {
+   "q": "Jaki budżet na Google Ads na start?",
+   "a": "Zależy od konkurencji fraz i regionu. Po audycie podajemy rekomendowany budżet dzienny i szacunek liczby zapytań. Budżet reklamowy płacisz bezpośrednio Google, osobno od naszej obsługi.",
+   "open": true,
+   "closed": false,
+   "i": "0"
+  },
+  {
+   "q": "Kiedy zobaczę efekty kampanii?",
+   "a": "Pierwsze zapytania pojawiają się zwykle w ciągu kilku dni od startu. Kampania stabilizuje się po 4–6 tygodniach zbierania danych.",
+   "open": false,
+   "closed": true,
+   "i": "1"
+  },
+  {
+   "q": "Google Ads czy Meta Ads, od czego zacząć?",
+   "a": "Jeśli klienci szukają Twojej usługi w Google, zacznij od Google Ads. Jeśli usługa jest wizualna albo nowa na rynku, lepiej działa Meta Ads. Często najlepszy jest duet obu.",
+   "open": false,
+   "closed": true,
+   "i": "2"
+  },
+  {
+   "q": "Czy konto reklamowe będzie moje?",
+   "a": "Tak. Konta Google Ads, Meta i GA4 zakładamy na Ciebie albo pracujemy na Twoich. Masz pełny wgląd 24/7.",
+   "open": false,
+   "closed": true,
+   "i": "3"
+  },
+  {
+   "q": "Jak mierzycie skuteczność?",
+   "a": "W GA4 i w platformach reklamowych liczymy połączenia, formularze i zakupy. W raporcie dostajesz koszt pozyskania zapytania i klienta.",
+   "open": false,
+   "closed": true,
+   "i": "4"
+  },
+  {
+   "q": "Czy zrobicie audyt mojego obecnego konta?",
+   "a": "Tak, audyt konta na start jest bezpłatny. Dostajesz listę problemów i rekomendacji, nawet jeśli nie zdecydujesz się na współpracę.",
+   "open": false,
+   "closed": true,
+   "i": "5"
+  },
+  {
+   "q": "Czy przygotowujecie grafiki i wideo do reklam?",
+   "a": "Tak. Projektujemy grafiki, karuzele i krótkie rolki, a teksty reklam testujemy w wariantach.",
+   "open": false,
+   "closed": true,
+   "i": "6"
+  }
+ ],
+ "svcSteps": [
+  {
+   "when": "Dzień 1–3",
+   "t": "Bezpłatny audyt",
+   "d": "Przegląd konta albo analiza rynku, jeśli startujesz od zera.",
+   "n": "01",
+   "i": "0"
+  },
+  {
+   "when": "Tydzień 1",
+   "t": "Pomiar konwersji",
+   "d": "GA4, Tag Manager, konwersje Google Ads i piksel Meta.",
+   "n": "02",
+   "i": "1"
+  },
+  {
+   "when": "Tydzień 1–2",
+   "t": "Kampanie i kreacje",
+   "d": "Struktura kampanii, słowa kluczowe, grupy odbiorców, teksty i grafiki.",
+   "n": "03",
+   "i": "2"
+  },
+  {
+   "when": "Tydzień 2–6",
+   "t": "Optymalizacja",
+   "d": "Co tydzień: stawki, wykluczenia, testy reklam i podział budżetu.",
+   "n": "04",
+   "i": "3"
+  },
+  {
+   "when": "Co miesiąc",
+   "t": "Raport",
+   "d": "Koszt zapytania i klienta, wnioski i plan na kolejny miesiąc.",
+   "n": "05",
+   "i": "4"
+  }
+ ],
+ "svcCase": {
+  "name": "Sahra Art",
+  "img": "/img/realizacja-sahra-art.webp",
+  "lead": "Sklep z ręcznie tkanymi dywanami marokańskimi: e-commerce, SEO i kampanie Google Ads.",
+  "tags": [
+   "Sklep WooCommerce",
+   "SEO",
+   "Google Ads",
+   "Branding"
+  ],
+  "href": "/#realizacje",
+  "alt": "Realizacja: Sahra Art"
+ },
+ "svcRelated": [
+  {
+   "t": "Pozycjonowanie SEO, AEO i GEO",
+   "d": "Pomagamy firmom pojawiać się tam, gdzie klienci szukają: w wynikach Google, w Mapach i w odpowiedziach ChatGPT, Gemini oraz AI Overviews.",
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "bg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "i": "0"
+  },
+  {
+   "t": "Obsługa social media",
+   "d": "Prowadzimy profile firm tak, żeby budowały zaufanie i przynosiły zapytania: według planu, w spójnym stylu marki, z rolkami i raportem co miesiąc.",
+   "href": "/uslugi/social-media/",
+   "bg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+   "i": "1"
+  },
+  {
+   "t": "Strony internetowe",
+   "d": "Projektujemy i kodujemy strony firmowe, które wyglądają dobrze, ale przede wszystkim ładują się w ułamku sekundy, są gotowe pod Google i prowadzą klienta do telefonu.",
+   "href": "/uslugi/strony-internetowe/",
+   "bg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "i": "2"
+  }
+ ],
+ "svcCrumb": "Google i Meta Ads",
+ "navRest": [
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  }
+ ],
+ "megaItems": [
+  {
+   "i": "0",
+   "n": "01",
+   "title": "Strony internetowe",
+   "name": "Strony internetowe",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "tag": "Szybkie strony w Astro i WordPressie",
+   "lead": "Strony firmowe i landing page projektowane od zera, które ładują się w ułamku sekundy i prowadzą do telefonu.",
+   "m1": "2–6 tygodni",
+   "m2": "Astro · WordPress",
+   "subs": [
+    "Strony firmowe",
+    "Landing page",
+    "Strony w Astro",
+    "WordPress",
+    "Redesign",
+    "Opieka techniczna"
+   ],
+   "href": "/uslugi/strony-internetowe/",
+   "cls": "is-on",
+   "hid": "false",
+   "tab": "0",
+   "ibg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "pbg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "dl": "--d: 0.040s"
+  },
+  {
+   "i": "1",
+   "n": "02",
+   "title": "Sklepy e-commerce",
+   "name": "Sklepy e-commerce",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
+   "tag": "WooCommerce i Shopify, które sprzedają",
+   "lead": "Sklepy z płatnościami, kurierami i kartami produktów gotowymi pod Google i Merchant Center.",
+   "m1": "3–6 tygodni",
+   "m2": "WooCommerce · Shopify",
+   "subs": [
+    "WooCommerce",
+    "Shopify",
+    "Płatności online",
+    "Integracje kurierów",
+    "Merchant Center",
+    "Migracja sklepu"
+   ],
+   "href": "/uslugi/sklepy-internetowe/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "pbg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "dl": "--d: 0.075s"
+  },
+  {
+   "i": "2",
+   "n": "03",
+   "title": "Pozycjonowanie SEO, AEO i GEO",
+   "name": "SEO, AEO i GEO",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "tag": "Google, Mapy i odpowiedzi AI",
+   "lead": "Audyt, treści, wizytówka Google i optymalizacja pod ChatGPT, Gemini i AI Overviews.",
+   "m1": "Raport co miesiąc",
+   "m2": "Google · Mapy · AI",
+   "subs": [
+    "Audyt SEO",
+    "SEO lokalne",
+    "Wizytówka Google",
+    "Treści i blog",
+    "AEO / GEO",
+    "Link building"
+   ],
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "pbg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "dl": "--d: 0.110s"
+  },
+  {
+   "i": "3",
+   "n": "04",
+   "title": "Kampanie Google Ads i Meta Ads",
+   "name": "Google i Meta Ads",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "tag": "Kampanie mierzone w GA4",
+   "lead": "Search, Performance Max, YouTube i kampanie na Facebooku oraz Instagramie z pomiarem każdego leada.",
+   "m1": "Pomiar w GA4",
+   "m2": "Google · Meta",
+   "subs": [
+    "Google Ads",
+    "Performance Max",
+    "Meta Ads",
+    "Lead Ads",
+    "Remarketing",
+    "Pomiar GA4"
+   ],
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "pbg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "dl": "--d: 0.145s"
+  },
+  {
+   "i": "4",
+   "n": "05",
+   "title": "Obsługa social media",
+   "name": "Social media",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+   "tag": "Profile, rolki i karuzele",
+   "lead": "Strategia, kalendarz treści, grafiki i rolki wideo na Facebooku, Instagramie i TikToku.",
+   "m1": "Raport co miesiąc",
+   "m2": "FB · IG · TikTok",
+   "subs": [
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Rolki wideo",
+    "Karuzele i grafiki",
+    "Kalendarz treści"
+   ],
+   "href": "/uslugi/social-media/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "pbg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "dl": "--d: 0.180s"
+  },
+  {
+   "i": "5",
+   "n": "06",
+   "title": "Branding i identyfikacja wizualna",
+   "name": "Branding",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "tag": "Logo, kolory i księga znaku",
+   "lead": "Identyfikacja, która buduje rozpoznawalność: logo, typografia, druk i szablony do social mediów.",
+   "m1": "Księga znaku",
+   "m2": "Druk · social",
+   "subs": [
+    "Logo",
+    "Księga znaku",
+    "Kolorystyka",
+    "Wizytówki i druk",
+    "Szablony social",
+    "Rebranding"
+   ],
+   "href": "/uslugi/branding/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "pbg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "dl": "--d: 0.215s"
+  }
+ ],
+ "megaCls": "",
+ "megaBtnCls": "is-cur",
+ "megaExp": "false",
+ "megaHidden": "true",
+ "megaVars": "--mi: 0",
+ "menuOpen": false,
+ "menuExp": "false",
+ "statusCls": "off",
+ "statusLabel": "Teraz offline",
+ "statusNote": "oddzwonimy po 9:00",
+ "fabOpen": false,
+ "fabClosed": true,
+ "navLinks": [
+  {
+   "t": "Usługi",
+   "href": "/uslugi/",
+   "k": "uslugi",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "5"
+  }
+ ],
+ "socials": [
+  {
+   "t": "top.strony na Facebooku",
+   "href": "https://www.facebook.com/topstronypl/",
+   "d": "M9.1 23.7v-8H6.6V12h2.5v-1.6c0-4.1 1.9-6 5.9-6l1.6.1v3.3h-1.3c-1.6 0-2.2.6-2.2 2.1V12h3.5l-.6 3.7h-2.9V24C18.8 23.3 23 18.1 23 12A11 11 0 1 0 9.1 23.7z",
+   "i": "0"
+  },
+  {
+   "t": "top.strony na Instagramie",
+   "href": "https://www.instagram.com/topstrony/",
+   "d": "M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z",
+   "i": "1"
+  },
+  {
+   "t": "top.strony na LinkedIn",
+   "href": "https://www.linkedin.com/in/top-strony-a72347205/",
+   "d": "M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z",
+   "i": "2"
+  }
+ ],
+ "clients": [
+  {
+   "name": "Pure Rehab",
+   "ind": "fizjoterapia",
+   "dl": "transition-delay: 0.00s",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 169px; height: 56px",
+   "i": "0"
+  },
+  {
+   "name": "Eurodomy",
+   "ind": "budowa domów",
+   "dl": "transition-delay: 0.04s",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 150px; height: 56px",
+   "i": "1"
+  },
+  {
+   "name": "Sahra",
+   "ind": "sklep z dywanami",
+   "dl": "transition-delay: 0.08s",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 206px; height: 56px",
+   "i": "2"
+  },
+  {
+   "name": "Marmostyl",
+   "ind": "kamieniarstwo",
+   "dl": "transition-delay: 0.12s",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 148px; height: 56px",
+   "i": "3"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "ind": "oświetlenie sceniczne",
+   "dl": "transition-delay: 0.16s",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 195px; height: 44px",
+   "i": "4"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "ind": "ekspresy do kawy",
+   "dl": "transition-delay: 0.20s",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 281px; height: 34px",
+   "i": "5"
+  },
+  {
+   "name": "SMKA",
+   "ind": "producent preparatów",
+   "dl": "transition-delay: 0.24s",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 212px; height: 56px",
+   "i": "6"
+  },
+  {
+   "name": "Region Zdrowia",
+   "ind": "portal prozdrowotny",
+   "dl": "transition-delay: 0.28s",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 213px; height: 34px",
+   "i": "7"
+  },
+  {
+   "name": "Ventoni",
+   "ind": "biuro rachunkowe",
+   "dl": "transition-delay: 0.32s",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 194px; height: 56px",
+   "i": "8"
+  },
+  {
+   "name": "E-Tabak",
+   "ind": "sieć sklepów",
+   "dl": "transition-delay: 0.36s",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 115px; height: 80px",
+   "i": "9"
+  },
+  {
+   "name": "CloudInsight",
+   "ind": "doradztwo IT",
+   "dl": "transition-delay: 0.40s",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 268px; height: 34px",
+   "i": "10"
+  },
+  {
+   "name": "Fastpol",
+   "ind": "czyszczenie wentylacji",
+   "dl": "transition-delay: 0.44s",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 246px; height: 44px",
+   "i": "11"
+  },
+  {
+   "name": "TSE Remonty",
+   "ind": "remonty",
+   "dl": "transition-delay: 0.48s",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 177px; height: 44px",
+   "i": "12"
+  },
+  {
+   "name": "K|R Projekt",
+   "ind": "projekty wnętrz",
+   "dl": "transition-delay: 0.52s",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 78px; height: 80px",
+   "i": "13"
+  },
+  {
+   "name": "Oligradskyi",
+   "ind": "balustrady stalowe",
+   "dl": "transition-delay: 0.56s",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 116px; height: 80px",
+   "i": "14"
+  }
+ ],
+ "footCols": [
+  {
+   "t": "Usługi",
+   "links": [
+    {
+     "t": "Strony internetowe",
+     "href": "/uslugi/strony-internetowe/",
+     "i": "0"
+    },
+    {
+     "t": "Sklepy e-commerce",
+     "href": "/uslugi/sklepy-internetowe/",
+     "i": "1"
+    },
+    {
+     "t": "SEO · AEO · GEO",
+     "href": "/uslugi/pozycjonowanie-seo/",
+     "i": "2"
+    },
+    {
+     "t": "Google i Meta Ads",
+     "href": "/uslugi/kampanie-google-meta-ads/",
+     "i": "3"
+    },
+    {
+     "t": "Social media",
+     "href": "/uslugi/social-media/",
+     "i": "4"
+    },
+    {
+     "t": "Branding",
+     "href": "/uslugi/branding/",
+     "i": "5"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "t": "Firma",
+   "links": [
+    {
+     "t": "Case studies",
+     "href": "/#realizacje",
+     "i": "0"
+    },
+    {
+     "t": "O nas",
+     "href": "/o-nas/",
+     "i": "1"
+    },
+    {
+     "t": "Realizacje",
+     "href": "/realizacje/",
+     "i": "2"
+    },
+    {
+     "t": "Opinie",
+     "href": "/#opinie",
+     "i": "3"
+    },
+    {
+     "t": "Blog",
+     "href": "/#blog",
+     "i": "4"
+    },
+    {
+     "t": "Kontakt",
+     "href": "/kontakt/",
+     "i": "5"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "t": "Kontakt",
+   "links": [
+    {
+     "t": "+48 501 784 882",
+     "href": "tel:+48501784882",
+     "i": "0"
+    },
+    {
+     "t": "biuro@topstrony.pl",
+     "href": "mailto:biuro@topstrony.pl",
+     "i": "1"
+    },
+    {
+     "t": "ul. Strusia, Piaseczno",
+     "href": "/kontakt/",
+     "i": "2"
+    },
+    {
+     "t": "pon.–pt. 9:00–20:00",
+     "href": "/kontakt/",
+     "i": "3"
+    }
+   ],
+   "i": "2"
+  }
+ ]
+}

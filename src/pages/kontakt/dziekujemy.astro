@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import v from '../../data/pages/kontakt.json';
+---
+<Base noindex v={v} page="kontakt" path="/kontakt/dziekujemy/" title="Dziękujemy za wiadomość – top.strony" description="Twoje zapytanie dotarło. Odezwiemy się w ciągu 24 godzin.">
+  <main id="main">
+    <section class="sec" style="padding: 200px 0 140px; text-align: center">
+      <div class="wrap">
+        <p class="eyebrow h-in">Wiadomość wysłana</p>
+        <h1 class="h h2 h-in">Dziękujemy! Odezwiemy się w ciągu 24 godzin</h1>
+        <p class="lead h-in" style="margin-left: auto; margin-right: auto">Jeśli sprawa jest pilna, zadzwoń od razu: pon.–pt. 9:00–20:00.</p>
+        <div class="hero-ctas h-in" style="justify-content: center; margin-top: 36px">
+          <a href="tel:+48501784882" class="btn btn-g" data-magnetic>Zadzwoń: 501 784 882</a>
+          <a href="/" class="btn btn-o" data-magnetic>Wróć na stronę główną</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>

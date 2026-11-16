@@ -1,0 +1,640 @@
+{
+ "theme": "dark",
+ "isLight": "false",
+ "themeLabel": "Włącz tryb jasny",
+ "svc": {
+  "h1": "",
+  "lead": "",
+  "answer": "",
+  "short": "",
+  "defT": "",
+  "forT": "",
+  "cmpT": "",
+  "bg": "",
+  "icon": ""
+ },
+ "navRest": [
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "is-cur",
+   "cur": "page",
+   "i": "1"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  }
+ ],
+ "megaItems": [
+  {
+   "i": "0",
+   "n": "01",
+   "title": "Strony internetowe",
+   "name": "Strony internetowe",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "tag": "Szybkie strony w Astro i WordPressie",
+   "lead": "Strony firmowe i landing page projektowane od zera, które ładują się w ułamku sekundy i prowadzą do telefonu.",
+   "m1": "2–6 tygodni",
+   "m2": "Astro · WordPress",
+   "subs": [
+    "Strony firmowe",
+    "Landing page",
+    "Strony w Astro",
+    "WordPress",
+    "Redesign",
+    "Opieka techniczna"
+   ],
+   "href": "/uslugi/strony-internetowe/",
+   "cls": "is-on",
+   "hid": "false",
+   "tab": "0",
+   "ibg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "pbg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "dl": "--d: 0.040s"
+  },
+  {
+   "i": "1",
+   "n": "02",
+   "title": "Sklepy e-commerce",
+   "name": "Sklepy e-commerce",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
+   "tag": "WooCommerce i Shopify, które sprzedają",
+   "lead": "Sklepy z płatnościami, kurierami i kartami produktów gotowymi pod Google i Merchant Center.",
+   "m1": "3–6 tygodni",
+   "m2": "WooCommerce · Shopify",
+   "subs": [
+    "WooCommerce",
+    "Shopify",
+    "Płatności online",
+    "Integracje kurierów",
+    "Merchant Center",
+    "Migracja sklepu"
+   ],
+   "href": "/uslugi/sklepy-internetowe/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "pbg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "dl": "--d: 0.075s"
+  },
+  {
+   "i": "2",
+   "n": "03",
+   "title": "Pozycjonowanie SEO, AEO i GEO",
+   "name": "SEO, AEO i GEO",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "tag": "Google, Mapy i odpowiedzi AI",
+   "lead": "Audyt, treści, wizytówka Google i optymalizacja pod ChatGPT, Gemini i AI Overviews.",
+   "m1": "Raport co miesiąc",
+   "m2": "Google · Mapy · AI",
+   "subs": [
+    "Audyt SEO",
+    "SEO lokalne",
+    "Wizytówka Google",
+    "Treści i blog",
+    "AEO / GEO",
+    "Link building"
+   ],
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "pbg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "dl": "--d: 0.110s"
+  },
+  {
+   "i": "3",
+   "n": "04",
+   "title": "Kampanie Google Ads i Meta Ads",
+   "name": "Google i Meta Ads",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "tag": "Kampanie mierzone w GA4",
+   "lead": "Search, Performance Max, YouTube i kampanie na Facebooku oraz Instagramie z pomiarem każdego leada.",
+   "m1": "Pomiar w GA4",
+   "m2": "Google · Meta",
+   "subs": [
+    "Google Ads",
+    "Performance Max",
+    "Meta Ads",
+    "Lead Ads",
+    "Remarketing",
+    "Pomiar GA4"
+   ],
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "pbg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "dl": "--d: 0.145s"
+  },
+  {
+   "i": "4",
+   "n": "05",
+   "title": "Obsługa social media",
+   "name": "Social media",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+   "tag": "Profile, rolki i karuzele",
+   "lead": "Strategia, kalendarz treści, grafiki i rolki wideo na Facebooku, Instagramie i TikToku.",
+   "m1": "Raport co miesiąc",
+   "m2": "FB · IG · TikTok",
+   "subs": [
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Rolki wideo",
+    "Karuzele i grafiki",
+    "Kalendarz treści"
+   ],
+   "href": "/uslugi/social-media/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "pbg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "dl": "--d: 0.180s"
+  },
+  {
+   "i": "5",
+   "n": "06",
+   "title": "Branding i identyfikacja wizualna",
+   "name": "Branding",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "tag": "Logo, kolory i księga znaku",
+   "lead": "Identyfikacja, która buduje rozpoznawalność: logo, typografia, druk i szablony do social mediów.",
+   "m1": "Księga znaku",
+   "m2": "Druk · social",
+   "subs": [
+    "Logo",
+    "Księga znaku",
+    "Kolorystyka",
+    "Wizytówki i druk",
+    "Szablony social",
+    "Rebranding"
+   ],
+   "href": "/uslugi/branding/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "pbg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "dl": "--d: 0.215s"
+  }
+ ],
+ "megaCls": "",
+ "megaBtnCls": "",
+ "megaExp": "false",
+ "megaHidden": "true",
+ "megaVars": "--mi: 0",
+ "menuOpen": false,
+ "menuExp": "false",
+ "statusCls": "off",
+ "statusLabel": "Teraz offline",
+ "statusNote": "oddzwonimy po 9:00",
+ "fabOpen": false,
+ "fabClosed": true,
+ "navLinks": [
+  {
+   "t": "Usługi",
+   "href": "/uslugi/",
+   "k": "uslugi",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "is-cur",
+   "cur": "page",
+   "i": "2"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "5"
+  }
+ ],
+ "socials": [
+  {
+   "t": "top.strony na Facebooku",
+   "href": "https://www.facebook.com/topstronypl/",
+   "d": "M9.1 23.7v-8H6.6V12h2.5v-1.6c0-4.1 1.9-6 5.9-6l1.6.1v3.3h-1.3c-1.6 0-2.2.6-2.2 2.1V12h3.5l-.6 3.7h-2.9V24C18.8 23.3 23 18.1 23 12A11 11 0 1 0 9.1 23.7z",
+   "i": "0"
+  },
+  {
+   "t": "top.strony na Instagramie",
+   "href": "https://www.instagram.com/topstrony/",
+   "d": "M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z",
+   "i": "1"
+  },
+  {
+   "t": "top.strony na LinkedIn",
+   "href": "https://www.linkedin.com/in/top-strony-a72347205/",
+   "d": "M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z",
+   "i": "2"
+  }
+ ],
+ "values": [
+  {
+   "n": "01",
+   "t": "Wynik ponad wygląd",
+   "d": "Ładna strona to dopiero początek. Liczymy telefony, formularze i sprzedaż, nie same polubienia.",
+   "i": "0"
+  },
+  {
+   "n": "02",
+   "t": "Szczerość od pierwszej rozmowy",
+   "d": "Mówimy, co ma sens, a co nie. Jeśli coś nie przyniesie efektu, odradzimy to, nawet kosztem zlecenia.",
+   "i": "1"
+  },
+  {
+   "n": "03",
+   "t": "Jeden opiekun, zero przekazywania",
+   "d": "Rozmawiasz z osobą, która zna Twój projekt od początku i odpowiada za efekt.",
+   "i": "2"
+  },
+  {
+   "n": "04",
+   "t": "Twoje dane i dostępy są Twoje",
+   "d": "Domena, strona, konta reklamowe i analityka należą do Ciebie. Zawsze przekazujemy wszystkie dostępy.",
+   "i": "3"
+  }
+ ],
+ "logosLoop": [
+  {
+   "name": "Pure Rehab",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 102px; height: 34px",
+   "i": "0"
+  },
+  {
+   "name": "Eurodomy",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 91px; height: 34px",
+   "i": "1"
+  },
+  {
+   "name": "Sahra",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 125px; height: 34px",
+   "i": "2"
+  },
+  {
+   "name": "Marmostyl",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 90px; height: 34px",
+   "i": "3"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 124px; height: 28px",
+   "i": "4"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 182px; height: 22px",
+   "i": "5"
+  },
+  {
+   "name": "SMKA",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 129px; height: 34px",
+   "i": "6"
+  },
+  {
+   "name": "Region Zdrowia",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 138px; height: 22px",
+   "i": "7"
+  },
+  {
+   "name": "Ventoni",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 118px; height: 34px",
+   "i": "8"
+  },
+  {
+   "name": "E-Tabak",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 69px; height: 48px",
+   "i": "9"
+  },
+  {
+   "name": "CloudInsight",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 173px; height: 22px",
+   "i": "10"
+  },
+  {
+   "name": "Fastpol",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 157px; height: 28px",
+   "i": "11"
+  },
+  {
+   "name": "TSE Remonty",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 113px; height: 28px",
+   "i": "12"
+  },
+  {
+   "name": "K|R Projekt",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 47px; height: 48px",
+   "i": "13"
+  },
+  {
+   "name": "Oligradskyi",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 70px; height: 48px",
+   "i": "14"
+  },
+  {
+   "name": "Pure Rehab",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 102px; height: 34px",
+   "i": "15"
+  },
+  {
+   "name": "Eurodomy",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 91px; height: 34px",
+   "i": "16"
+  },
+  {
+   "name": "Sahra",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 125px; height: 34px",
+   "i": "17"
+  },
+  {
+   "name": "Marmostyl",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 90px; height: 34px",
+   "i": "18"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 124px; height: 28px",
+   "i": "19"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 182px; height: 22px",
+   "i": "20"
+  },
+  {
+   "name": "SMKA",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 129px; height: 34px",
+   "i": "21"
+  },
+  {
+   "name": "Region Zdrowia",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 138px; height: 22px",
+   "i": "22"
+  },
+  {
+   "name": "Ventoni",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 118px; height: 34px",
+   "i": "23"
+  },
+  {
+   "name": "E-Tabak",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 69px; height: 48px",
+   "i": "24"
+  },
+  {
+   "name": "CloudInsight",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 173px; height: 22px",
+   "i": "25"
+  },
+  {
+   "name": "Fastpol",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 157px; height: 28px",
+   "i": "26"
+  },
+  {
+   "name": "TSE Remonty",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 113px; height: 28px",
+   "i": "27"
+  },
+  {
+   "name": "K|R Projekt",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 47px; height: 48px",
+   "i": "28"
+  },
+  {
+   "name": "Oligradskyi",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 70px; height: 48px",
+   "i": "29"
+  }
+ ],
+ "facts": [
+  {
+   "v": "35",
+   "s": "",
+   "l": "projektów stron i sklepów w portfolio",
+   "i": "0"
+  },
+  {
+   "v": "5,0",
+   "s": "★",
+   "l": "średnia ocena z 20 opinii w Google",
+   "i": "1"
+  },
+  {
+   "v": "15",
+   "s": "+",
+   "l": "branż, od medycyny po przemysł",
+   "i": "2"
+  },
+  {
+   "v": "8",
+   "s": "lat",
+   "l": "doświadczenia w IT i marketingu",
+   "i": "3"
+  },
+  {
+   "v": "24",
+   "s": "h",
+   "l": "na bezpłatną wycenę projektu",
+   "i": "4"
+  }
+ ],
+ "roles": [
+  {
+   "t": "Strategia, SEO i Ads",
+   "d": "Kamil Piech, opiekun projektu",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "i": "0"
+  },
+  {
+   "t": "Grafika i branding",
+   "d": "logo, social media, UI",
+   "icon": "M9 11l-6 6v3h3l6-6M22 2l-9.5 9.5M15 4l5 5",
+   "i": "1"
+  },
+  {
+   "t": "Treści i copywriting",
+   "d": "teksty SEO, FAQ, posty",
+   "icon": "M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z",
+   "i": "2"
+  },
+  {
+   "t": "Programowanie",
+   "d": "Astro, WordPress, WooCommerce",
+   "icon": "M8 6l-6 6 6 6M16 6l6 6-6 6",
+   "i": "3"
+  }
+ ],
+ "certs": [
+  "Karol Dziedzic",
+  "Daniel Boss",
+  "WhitePress",
+  "Senuto"
+ ],
+ "footCols": [
+  {
+   "t": "Usługi",
+   "links": [
+    {
+     "t": "Strony internetowe",
+     "href": "/uslugi/strony-internetowe/",
+     "i": "0"
+    },
+    {
+     "t": "Sklepy e-commerce",
+     "href": "/uslugi/sklepy-internetowe/",
+     "i": "1"
+    },
+    {
+     "t": "SEO · AEO · GEO",
+     "href": "/uslugi/pozycjonowanie-seo/",
+     "i": "2"
+    },
+    {
+     "t": "Google i Meta Ads",
+     "href": "/uslugi/kampanie-google-meta-ads/",
+     "i": "3"
+    },
+    {
+     "t": "Social media",
+     "href": "/uslugi/social-media/",
+     "i": "4"
+    },
+    {
+     "t": "Branding",
+     "href": "/uslugi/branding/",
+     "i": "5"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "t": "Firma",
+   "links": [
+    {
+     "t": "Case studies",
+     "href": "/#realizacje",
+     "i": "0"
+    },
+    {
+     "t": "O nas",
+     "href": "/o-nas/",
+     "i": "1"
+    },
+    {
+     "t": "Realizacje",
+     "href": "/realizacje/",
+     "i": "2"
+    },
+    {
+     "t": "Opinie",
+     "href": "/#opinie",
+     "i": "3"
+    },
+    {
+     "t": "Blog",
+     "href": "/#blog",
+     "i": "4"
+    },
+    {
+     "t": "Kontakt",
+     "href": "/kontakt/",
+     "i": "5"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "t": "Kontakt",
+   "links": [
+    {
+     "t": "+48 501 784 882",
+     "href": "tel:+48501784882",
+     "i": "0"
+    },
+    {
+     "t": "biuro@topstrony.pl",
+     "href": "mailto:biuro@topstrony.pl",
+     "i": "1"
+    },
+    {
+     "t": "ul. Strusia, Piaseczno",
+     "href": "/kontakt/",
+     "i": "2"
+    },
+    {
+     "t": "pon.–pt. 9:00–20:00",
+     "href": "/kontakt/",
+     "i": "3"
+    }
+   ],
+   "i": "2"
+  }
+ ]
+}

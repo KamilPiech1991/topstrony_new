@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import KontaktMain from '../components/gen/KontaktMain.astro';
+import v from '../data/pages/kontakt.json';
+import { crumbs } from '../data/site';
+---
+<Base v={v} page="kontakt" path="/kontakt/" jsonLd={[crumbs([['Strona główna', '/'], ['Kontakt', '/kontakt/']])]}
+  title="Kontakt i bezpłatna wycena w 24 h – top.strony, Piaseczno"
+  description="Zadzwoń 501 784 882, napisz na biuro@topstrony.pl albo wypełnij krótki formularz. Bezpłatną wycenę strony, SEO lub kampanii dostaniesz w 24 godziny.">
+  <KontaktMain v={v} />
+</Base>

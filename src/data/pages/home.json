@@ -1,0 +1,2672 @@
+{
+ "theme": "dark",
+ "isLight": "false",
+ "themeLabel": "Włącz tryb jasny",
+ "svc": {
+  "h1": "",
+  "lead": "",
+  "answer": "",
+  "short": "",
+  "defT": "",
+  "forT": "",
+  "cmpT": "",
+  "bg": "",
+  "icon": ""
+ },
+ "navRest": [
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  }
+ ],
+ "megaItems": [
+  {
+   "i": "0",
+   "n": "01",
+   "title": "Strony internetowe",
+   "name": "Strony internetowe",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "tag": "Szybkie strony w Astro i WordPressie",
+   "lead": "Strony firmowe i landing page projektowane od zera, które ładują się w ułamku sekundy i prowadzą do telefonu.",
+   "m1": "2–6 tygodni",
+   "m2": "Astro · WordPress",
+   "subs": [
+    "Strony firmowe",
+    "Landing page",
+    "Strony w Astro",
+    "WordPress",
+    "Redesign",
+    "Opieka techniczna"
+   ],
+   "href": "/uslugi/strony-internetowe/",
+   "cls": "is-on",
+   "hid": "false",
+   "tab": "0",
+   "ibg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "pbg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "dl": "--d: 0.040s"
+  },
+  {
+   "i": "1",
+   "n": "02",
+   "title": "Sklepy e-commerce",
+   "name": "Sklepy e-commerce",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
+   "tag": "WooCommerce i Shopify, które sprzedają",
+   "lead": "Sklepy z płatnościami, kurierami i kartami produktów gotowymi pod Google i Merchant Center.",
+   "m1": "3–6 tygodni",
+   "m2": "WooCommerce · Shopify",
+   "subs": [
+    "WooCommerce",
+    "Shopify",
+    "Płatności online",
+    "Integracje kurierów",
+    "Merchant Center",
+    "Migracja sklepu"
+   ],
+   "href": "/uslugi/sklepy-internetowe/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "pbg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "dl": "--d: 0.075s"
+  },
+  {
+   "i": "2",
+   "n": "03",
+   "title": "Pozycjonowanie SEO, AEO i GEO",
+   "name": "SEO, AEO i GEO",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "tag": "Google, Mapy i odpowiedzi AI",
+   "lead": "Audyt, treści, wizytówka Google i optymalizacja pod ChatGPT, Gemini i AI Overviews.",
+   "m1": "Raport co miesiąc",
+   "m2": "Google · Mapy · AI",
+   "subs": [
+    "Audyt SEO",
+    "SEO lokalne",
+    "Wizytówka Google",
+    "Treści i blog",
+    "AEO / GEO",
+    "Link building"
+   ],
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "pbg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "dl": "--d: 0.110s"
+  },
+  {
+   "i": "3",
+   "n": "04",
+   "title": "Kampanie Google Ads i Meta Ads",
+   "name": "Google i Meta Ads",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "tag": "Kampanie mierzone w GA4",
+   "lead": "Search, Performance Max, YouTube i kampanie na Facebooku oraz Instagramie z pomiarem każdego leada.",
+   "m1": "Pomiar w GA4",
+   "m2": "Google · Meta",
+   "subs": [
+    "Google Ads",
+    "Performance Max",
+    "Meta Ads",
+    "Lead Ads",
+    "Remarketing",
+    "Pomiar GA4"
+   ],
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "pbg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "dl": "--d: 0.145s"
+  },
+  {
+   "i": "4",
+   "n": "05",
+   "title": "Obsługa social media",
+   "name": "Social media",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+   "tag": "Profile, rolki i karuzele",
+   "lead": "Strategia, kalendarz treści, grafiki i rolki wideo na Facebooku, Instagramie i TikToku.",
+   "m1": "Raport co miesiąc",
+   "m2": "FB · IG · TikTok",
+   "subs": [
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Rolki wideo",
+    "Karuzele i grafiki",
+    "Kalendarz treści"
+   ],
+   "href": "/uslugi/social-media/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "pbg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "dl": "--d: 0.180s"
+  },
+  {
+   "i": "5",
+   "n": "06",
+   "title": "Branding i identyfikacja wizualna",
+   "name": "Branding",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "tag": "Logo, kolory i księga znaku",
+   "lead": "Identyfikacja, która buduje rozpoznawalność: logo, typografia, druk i szablony do social mediów.",
+   "m1": "Księga znaku",
+   "m2": "Druk · social",
+   "subs": [
+    "Logo",
+    "Księga znaku",
+    "Kolorystyka",
+    "Wizytówki i druk",
+    "Szablony social",
+    "Rebranding"
+   ],
+   "href": "/uslugi/branding/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "pbg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "dl": "--d: 0.215s"
+  }
+ ],
+ "megaCls": "",
+ "megaBtnCls": "",
+ "megaExp": "false",
+ "megaHidden": "true",
+ "megaVars": "--mi: 0",
+ "menuOpen": false,
+ "menuExp": "false",
+ "statusCls": "off",
+ "statusLabel": "Teraz offline",
+ "statusNote": "oddzwonimy po 9:00",
+ "fabOpen": false,
+ "fabClosed": true,
+ "navLinks": [
+  {
+   "t": "Usługi",
+   "href": "/uslugi/",
+   "k": "uslugi",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "5"
+  }
+ ],
+ "socials": [
+  {
+   "t": "top.strony na Facebooku",
+   "href": "https://www.facebook.com/topstronypl/",
+   "d": "M9.1 23.7v-8H6.6V12h2.5v-1.6c0-4.1 1.9-6 5.9-6l1.6.1v3.3h-1.3c-1.6 0-2.2.6-2.2 2.1V12h3.5l-.6 3.7h-2.9V24C18.8 23.3 23 18.1 23 12A11 11 0 1 0 9.1 23.7z",
+   "i": "0"
+  },
+  {
+   "t": "top.strony na Instagramie",
+   "href": "https://www.instagram.com/topstrony/",
+   "d": "M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z",
+   "i": "1"
+  },
+  {
+   "t": "top.strony na LinkedIn",
+   "href": "https://www.linkedin.com/in/top-strony-a72347205/",
+   "d": "M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z",
+   "i": "2"
+  }
+ ],
+ "logosLoop": [
+  {
+   "name": "Pure Rehab",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 102px; height: 34px",
+   "i": "0"
+  },
+  {
+   "name": "Eurodomy",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 91px; height: 34px",
+   "i": "1"
+  },
+  {
+   "name": "Sahra",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 125px; height: 34px",
+   "i": "2"
+  },
+  {
+   "name": "Marmostyl",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 90px; height: 34px",
+   "i": "3"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 124px; height: 28px",
+   "i": "4"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 182px; height: 22px",
+   "i": "5"
+  },
+  {
+   "name": "SMKA",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 129px; height: 34px",
+   "i": "6"
+  },
+  {
+   "name": "Region Zdrowia",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 138px; height: 22px",
+   "i": "7"
+  },
+  {
+   "name": "Ventoni",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 118px; height: 34px",
+   "i": "8"
+  },
+  {
+   "name": "E-Tabak",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 69px; height: 48px",
+   "i": "9"
+  },
+  {
+   "name": "CloudInsight",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 173px; height: 22px",
+   "i": "10"
+  },
+  {
+   "name": "Fastpol",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 157px; height: 28px",
+   "i": "11"
+  },
+  {
+   "name": "TSE Remonty",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 113px; height: 28px",
+   "i": "12"
+  },
+  {
+   "name": "K|R Projekt",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 47px; height: 48px",
+   "i": "13"
+  },
+  {
+   "name": "Oligradskyi",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 70px; height: 48px",
+   "i": "14"
+  },
+  {
+   "name": "Pure Rehab",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 102px; height: 34px",
+   "i": "15"
+  },
+  {
+   "name": "Eurodomy",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 91px; height: 34px",
+   "i": "16"
+  },
+  {
+   "name": "Sahra",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 125px; height: 34px",
+   "i": "17"
+  },
+  {
+   "name": "Marmostyl",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 90px; height: 34px",
+   "i": "18"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 124px; height: 28px",
+   "i": "19"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 182px; height: 22px",
+   "i": "20"
+  },
+  {
+   "name": "SMKA",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 129px; height: 34px",
+   "i": "21"
+  },
+  {
+   "name": "Region Zdrowia",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 138px; height: 22px",
+   "i": "22"
+  },
+  {
+   "name": "Ventoni",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 118px; height: 34px",
+   "i": "23"
+  },
+  {
+   "name": "E-Tabak",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 69px; height: 48px",
+   "i": "24"
+  },
+  {
+   "name": "CloudInsight",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 173px; height: 22px",
+   "i": "25"
+  },
+  {
+   "name": "Fastpol",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 157px; height: 28px",
+   "i": "26"
+  },
+  {
+   "name": "TSE Remonty",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 113px; height: 28px",
+   "i": "27"
+  },
+  {
+   "name": "K|R Projekt",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 47px; height: 48px",
+   "i": "28"
+  },
+  {
+   "name": "Oligradskyi",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 70px; height: 48px",
+   "i": "29"
+  }
+ ],
+ "manifesto": [
+  {
+   "t": "Ładna",
+   "cls": "",
+   "i": "0"
+  },
+  {
+   "t": "strona,",
+   "cls": "",
+   "i": "1"
+  },
+  {
+   "t": "która",
+   "cls": "",
+   "i": "2"
+  },
+  {
+   "t": "nie",
+   "cls": "sw-hot",
+   "i": "3"
+  },
+  {
+   "t": "dzwoni,",
+   "cls": "sw-hot",
+   "i": "4"
+  },
+  {
+   "t": "to",
+   "cls": "",
+   "i": "5"
+  },
+  {
+   "t": "koszt,",
+   "cls": "",
+   "i": "6"
+  },
+  {
+   "t": "nie",
+   "cls": "sw-hot",
+   "i": "7"
+  },
+  {
+   "t": "inwestycja.",
+   "cls": "",
+   "i": "8"
+  },
+  {
+   "t": "Budujemy",
+   "cls": "",
+   "i": "9"
+  },
+  {
+   "t": "markę,",
+   "cls": "",
+   "i": "10"
+  },
+  {
+   "t": "stronę",
+   "cls": "",
+   "i": "11"
+  },
+  {
+   "t": "i",
+   "cls": "",
+   "i": "12"
+  },
+  {
+   "t": "ruch",
+   "cls": "",
+   "i": "13"
+  },
+  {
+   "t": "tak,",
+   "cls": "",
+   "i": "14"
+  },
+  {
+   "t": "żeby",
+   "cls": "",
+   "i": "15"
+  },
+  {
+   "t": "każda",
+   "cls": "",
+   "i": "16"
+  },
+  {
+   "t": "złotówka",
+   "cls": "",
+   "i": "17"
+  },
+  {
+   "t": "wydana",
+   "cls": "",
+   "i": "18"
+  },
+  {
+   "t": "na",
+   "cls": "",
+   "i": "19"
+  },
+  {
+   "t": "marketing",
+   "cls": "",
+   "i": "20"
+  },
+  {
+   "t": "wracała",
+   "cls": "",
+   "i": "21"
+  },
+  {
+   "t": "jako",
+   "cls": "",
+   "i": "22"
+  },
+  {
+   "t": "nowi",
+   "cls": "sw-hot",
+   "i": "23"
+  },
+  {
+   "t": "klienci.",
+   "cls": "sw-hot",
+   "i": "24"
+  }
+ ],
+ "pains": [
+  {
+   "q": "Strona jest, ale telefon milczy",
+   "a": "nowa strona z jasną ofertą, szybkim kontaktem i pomiarem każdego zapytania w GA4.",
+   "i": "0"
+  },
+  {
+   "q": "Konkurencja jest wyżej w Google i w Mapach",
+   "a": "SEO lokalne, wizytówka Google i treści, które odpowiadają na pytania klientów.",
+   "i": "1"
+  },
+  {
+   "q": "Reklamy przepalają budżet",
+   "a": "audyt kont Google Ads i Meta Ads, nowe kampanie i raport z kosztu pozyskania klienta.",
+   "i": "2"
+  },
+  {
+   "q": "Profile w social media stoją w miejscu",
+   "a": "plan treści, rolki i grafiki w spójnym brandingu, prowadzone co tydzień.",
+   "i": "3"
+  }
+ ],
+ "services": [
+  {
+   "short": "Strony www",
+   "title": "Strony internetowe",
+   "href": "/kontakt/",
+   "cta": "Zapytaj o stronę",
+   "bg": "linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "text": "Strony firmowe, wizytówki i landing page projektowane od zera, kodowane w Astro albo lekkim WordPressie. Ładują się w ułamku sekundy i są gotowe pod Google od dnia startu. Po publikacji dbamy o aktualizacje i bezpieczeństwo.",
+   "chips": [
+    "Strony firmowe",
+    "Landing page",
+    "Strony w Astro",
+    "WordPress",
+    "Redesign",
+    "Opieka techniczna"
+   ],
+   "i": "0",
+   "n": "01",
+   "active": true,
+   "closed": false,
+   "cls": "is-active"
+  },
+  {
+   "short": "Sklepy",
+   "title": "Sklepy e-commerce",
+   "href": "/kontakt/",
+   "cta": "Zapytaj o sklep",
+   "bg": "linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
+   "text": "Sklepy WooCommerce i Shopify z płatnościami online, kurierami i kartami produktów, które sprzedają. Feed do Google Merchant Center i kampanie produktowe od pierwszego dnia.",
+   "chips": [
+    "WooCommerce",
+    "Shopify",
+    "Płatności online",
+    "Integracje kurierów",
+    "Merchant Center",
+    "Migracja sklepu"
+   ],
+   "i": "1",
+   "n": "02",
+   "active": false,
+   "closed": true,
+   "cls": ""
+  },
+  {
+   "short": "SEO · AEO · GEO",
+   "title": "Pozycjonowanie SEO, AEO i GEO",
+   "href": "#ai",
+   "cta": "Zobacz, jak działamy",
+   "bg": "linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "text": "Audyt, treści, linki i wizytówka Google, która wynosi firmę do Map. Do tego optymalizacja pod odpowiedzi ChatGPT, Gemini i AI Overviews, żeby to Ciebie polecała sztuczna inteligencja.",
+   "chips": [
+    "Audyt SEO",
+    "SEO lokalne",
+    "Wizytówka Google",
+    "Treści i blog",
+    "AEO / GEO",
+    "Link building"
+   ],
+   "i": "2",
+   "n": "03",
+   "active": false,
+   "closed": true,
+   "cls": ""
+  },
+  {
+   "short": "Google i Meta Ads",
+   "title": "Kampanie Google Ads i Meta Ads",
+   "href": "/kontakt/",
+   "cta": "Zapytaj o kampanię",
+   "bg": "linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "text": "Reklamy w wyszukiwarce, Performance Max, YouTube oraz kampanie na Facebooku i Instagramie. Mierzymy każde połączenie i formularz w GA4, więc budżet trafia tam, gdzie są klienci.",
+   "chips": [
+    "Google Ads",
+    "Performance Max",
+    "Meta Ads",
+    "Lead Ads",
+    "Remarketing",
+    "Pomiar GA4"
+   ],
+   "i": "3",
+   "n": "04",
+   "active": false,
+   "closed": true,
+   "cls": ""
+  },
+  {
+   "short": "Social media",
+   "title": "Obsługa social media",
+   "href": "/kontakt/",
+   "cta": "Zapytaj o obsługę",
+   "bg": "linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+   "text": "Prowadzimy profile firm na Facebooku, Instagramie i TikToku: strategia, kalendarz treści, grafiki, karuzele i rolki wideo. Raport co miesiąc z zasięgów i zapytań.",
+   "chips": [
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Rolki wideo",
+    "Karuzele i grafiki",
+    "Kalendarz treści"
+   ],
+   "i": "4",
+   "n": "05",
+   "active": false,
+   "closed": true,
+   "cls": ""
+  },
+  {
+   "short": "Branding",
+   "title": "Branding i identyfikacja wizualna",
+   "href": "/kontakt/",
+   "cta": "Zapytaj o branding",
+   "bg": "linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "text": "Logo, kolory, typografia i księga znaku, które budują rozpoznawalność. Projektujemy też wizytówki, materiały drukowane i szablony do social mediów w jednym stylu.",
+   "chips": [
+    "Logo",
+    "Księga znaku",
+    "Kolorystyka",
+    "Wizytówki i druk",
+    "Szablony social",
+    "Rebranding"
+   ],
+   "i": "5",
+   "n": "06",
+   "active": false,
+   "closed": true,
+   "cls": ""
+  }
+ ],
+ "sources": [
+  {
+   "t": "Google – wyniki",
+   "d": "SEO, treści, blog",
+   "img": "/img/ikona-google.svg",
+   "i": "0"
+  },
+  {
+   "t": "Mapy Google",
+   "d": "wizytówka i opinie",
+   "img": "/img/ikona-maps.svg",
+   "i": "1"
+  },
+  {
+   "t": "Google Ads",
+   "d": "Search, PMax, YouTube",
+   "img": "/img/ikona-ads.svg",
+   "i": "2"
+  },
+  {
+   "t": "Meta Ads",
+   "d": "Facebook i Instagram",
+   "img": "/img/ikona-meta.svg",
+   "i": "3"
+  },
+  {
+   "t": "Social media",
+   "d": "profile, rolki, karuzele",
+   "img": "/img/ikona-facebook.svg",
+   "i": "4"
+  },
+  {
+   "t": "ChatGPT · AI",
+   "d": "cytowania w odpowiedziach AI",
+   "img": "/img/ikona-chatgpt.svg",
+   "i": "5"
+  }
+ ],
+ "outputs": [
+  {
+   "t": "Telefon",
+   "d": "kliknięcie w numer",
+   "icon": "M22 16.9v3a2 2 0 0 1-2.2 2A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3",
+   "cls": "",
+   "i": "0"
+  },
+  {
+   "t": "Formularz",
+   "d": "lead mierzony w GA4",
+   "icon": "M4 4h16v16H4zM8 9h8M8 13h8M8 17h5",
+   "cls": "",
+   "i": "1"
+  },
+  {
+   "t": "Nowy klient",
+   "d": "zamówienie lub umowa",
+   "icon": "M20 6L9 17l-5-5",
+   "cls": "win",
+   "i": "2"
+  }
+ ],
+ "facts": [
+  {
+   "v": "35",
+   "s": "",
+   "l": "projektów stron i sklepów w portfolio",
+   "i": "0"
+  },
+  {
+   "v": "5,0",
+   "s": "★",
+   "l": "średnia ocena z 20 opinii w Google",
+   "i": "1"
+  },
+  {
+   "v": "15",
+   "s": "+",
+   "l": "branż, od medycyny po przemysł",
+   "i": "2"
+  },
+  {
+   "v": "8",
+   "s": "lat",
+   "l": "doświadczenia w IT i marketingu",
+   "i": "3"
+  },
+  {
+   "v": "24",
+   "s": "h",
+   "l": "na bezpłatną wycenę projektu",
+   "i": "4"
+  }
+ ],
+ "cases": [
+  {
+   "name": "Pure Rehab",
+   "href": "#case-pure-rehab",
+   "img": "/img/realizacja-pure-rehab.webp",
+   "alt": "Strona kliniki fizjoterapii Pure Rehab",
+   "tags": [
+    "Strona www",
+    "SEO",
+    "Google i Meta Ads",
+    "Social media"
+   ],
+   "lead": "Klinika fizjoterapii w dwóch lokalizacjach: strona, SEO lokalne, kampanie i social media.",
+   "res": [
+    {
+     "v": "[+ % wizyt]",
+     "l": "wynik do uzupełnienia",
+     "cls": "tbd",
+     "i": "0"
+    },
+    {
+     "v": "2",
+     "l": "lokalizacje w Mapach",
+     "cls": "",
+     "i": "1"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "name": "Sahra Art",
+   "href": "#case-sahra-art",
+   "img": "/img/realizacja-sahra-art.webp",
+   "alt": "Sklep internetowy Sahra Art z dywanami",
+   "tags": [
+    "Sklep WooCommerce",
+    "SEO",
+    "Google Ads",
+    "Branding"
+   ],
+   "lead": "Sklep z ręcznie tkanymi dywanami marokańskimi: e-commerce, SEO i kampanie Google Ads.",
+   "res": [
+    {
+     "v": "[sprzedaż]",
+     "l": "wynik do uzupełnienia",
+     "cls": "tbd",
+     "i": "0"
+    },
+    {
+     "v": "100%",
+     "l": "zamówień online",
+     "cls": "",
+     "i": "1"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "name": "Marmostyl",
+   "href": "#case-marmostyl",
+   "img": "/img/realizacja-marmostyl.webp",
+   "alt": "Strona pracowni kamienia Marmostyl",
+   "tags": [
+    "Strona firmowa",
+    "SEO"
+   ],
+   "lead": "Pracownia kamienia naturalnego: strona z galerią realizacji i SEO lokalne.",
+   "res": [
+    {
+     "v": "[zapytania]",
+     "l": "wynik do uzupełnienia",
+     "cls": "tbd",
+     "i": "0"
+    },
+    {
+     "v": "90+",
+     "l": "PageSpeed (do potwierdzenia)",
+     "cls": "",
+     "i": "1"
+    }
+   ],
+   "i": "2"
+  }
+ ],
+ "five": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "dist": [
+  {
+   "s": "5",
+   "c": "20",
+   "style": "--w: 100%; height: 100%; border-radius: 999px; background: #F5B400",
+   "i": "0"
+  },
+  {
+   "s": "4",
+   "c": "0",
+   "style": "--w: 0%; height: 100%; border-radius: 999px; background: #F5B400",
+   "i": "1"
+  },
+  {
+   "s": "3",
+   "c": "0",
+   "style": "--w: 0%; height: 100%; border-radius: 999px; background: #F5B400",
+   "i": "2"
+  },
+  {
+   "s": "2",
+   "c": "0",
+   "style": "--w: 0%; height: 100%; border-radius: 999px; background: #F5B400",
+   "i": "3"
+  },
+  {
+   "s": "1",
+   "c": "0",
+   "style": "--w: 0%; height: 100%; border-radius: 999px; background: #F5B400",
+   "i": "4"
+  }
+ ],
+ "reviewRows": [
+  {
+   "cls": "rev-a",
+   "items": [
+    {
+     "name": "Adrian Wojnarowski",
+     "ini": "A",
+     "color": "#3F7A15",
+     "meta": "Lokalny przewodnik",
+     "when": "9 miesięcy temu",
+     "text": "Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.",
+     "reply": "Dziękujemy :) To była czysta przyjemność tworzyć dla Ciebie dedykowaną stronę internetową.",
+     "hasReply": true,
+     "i": "0"
+    },
+    {
+     "name": "Michał Szymański",
+     "ini": "M",
+     "color": "#2D6A9F",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.",
+     "reply": "Bardzo dziękujemy za opinię :) Przy każdej realizacji dajemy z siebie 110% zaangażowania.",
+     "hasReply": true,
+     "i": "1"
+    },
+    {
+     "name": "Damian Konieczny",
+     "ini": "D",
+     "color": "#B5651D",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.",
+     "reply": "",
+     "hasReply": false,
+     "i": "2"
+    },
+    {
+     "name": "Artur Zakrzewski",
+     "ini": "A",
+     "color": "#7A3F8F",
+     "meta": "Opinia w Google",
+     "when": "Google",
+     "text": "Strona wykonana w sposób bardzo profesjonalny. Bardzo dobry kontakt z wykonawcą. Szybka realizacja. Bardzo polecam.",
+     "reply": "",
+     "hasReply": false,
+     "i": "3"
+    },
+    {
+     "name": "Adrian Wojnarowski",
+     "ini": "A",
+     "color": "#3F7A15",
+     "meta": "Lokalny przewodnik",
+     "when": "9 miesięcy temu",
+     "text": "Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.",
+     "reply": "Dziękujemy :) To była czysta przyjemność tworzyć dla Ciebie dedykowaną stronę internetową.",
+     "hasReply": true,
+     "i": "4"
+    },
+    {
+     "name": "Michał Szymański",
+     "ini": "M",
+     "color": "#2D6A9F",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.",
+     "reply": "Bardzo dziękujemy za opinię :) Przy każdej realizacji dajemy z siebie 110% zaangażowania.",
+     "hasReply": true,
+     "i": "5"
+    },
+    {
+     "name": "Damian Konieczny",
+     "ini": "D",
+     "color": "#B5651D",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.",
+     "reply": "",
+     "hasReply": false,
+     "i": "6"
+    },
+    {
+     "name": "Artur Zakrzewski",
+     "ini": "A",
+     "color": "#7A3F8F",
+     "meta": "Opinia w Google",
+     "when": "Google",
+     "text": "Strona wykonana w sposób bardzo profesjonalny. Bardzo dobry kontakt z wykonawcą. Szybka realizacja. Bardzo polecam.",
+     "reply": "",
+     "hasReply": false,
+     "i": "7"
+    },
+    {
+     "name": "Adrian Wojnarowski",
+     "ini": "A",
+     "color": "#3F7A15",
+     "meta": "Lokalny przewodnik",
+     "when": "9 miesięcy temu",
+     "text": "Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.",
+     "reply": "Dziękujemy :) To była czysta przyjemność tworzyć dla Ciebie dedykowaną stronę internetową.",
+     "hasReply": true,
+     "i": "8"
+    },
+    {
+     "name": "Michał Szymański",
+     "ini": "M",
+     "color": "#2D6A9F",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.",
+     "reply": "Bardzo dziękujemy za opinię :) Przy każdej realizacji dajemy z siebie 110% zaangażowania.",
+     "hasReply": true,
+     "i": "9"
+    },
+    {
+     "name": "Damian Konieczny",
+     "ini": "D",
+     "color": "#B5651D",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.",
+     "reply": "",
+     "hasReply": false,
+     "i": "10"
+    },
+    {
+     "name": "Artur Zakrzewski",
+     "ini": "A",
+     "color": "#7A3F8F",
+     "meta": "Opinia w Google",
+     "when": "Google",
+     "text": "Strona wykonana w sposób bardzo profesjonalny. Bardzo dobry kontakt z wykonawcą. Szybka realizacja. Bardzo polecam.",
+     "reply": "",
+     "hasReply": false,
+     "i": "11"
+    },
+    {
+     "name": "Adrian Wojnarowski",
+     "ini": "A",
+     "color": "#3F7A15",
+     "meta": "Lokalny przewodnik",
+     "when": "9 miesięcy temu",
+     "text": "Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.",
+     "reply": "Dziękujemy :) To była czysta przyjemność tworzyć dla Ciebie dedykowaną stronę internetową.",
+     "hasReply": true,
+     "i": "12"
+    },
+    {
+     "name": "Michał Szymański",
+     "ini": "M",
+     "color": "#2D6A9F",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.",
+     "reply": "Bardzo dziękujemy za opinię :) Przy każdej realizacji dajemy z siebie 110% zaangażowania.",
+     "hasReply": true,
+     "i": "13"
+    },
+    {
+     "name": "Damian Konieczny",
+     "ini": "D",
+     "color": "#B5651D",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.",
+     "reply": "",
+     "hasReply": false,
+     "i": "14"
+    },
+    {
+     "name": "Artur Zakrzewski",
+     "ini": "A",
+     "color": "#7A3F8F",
+     "meta": "Opinia w Google",
+     "when": "Google",
+     "text": "Strona wykonana w sposób bardzo profesjonalny. Bardzo dobry kontakt z wykonawcą. Szybka realizacja. Bardzo polecam.",
+     "reply": "",
+     "hasReply": false,
+     "i": "15"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "cls": "rev-b",
+   "items": [
+    {
+     "name": "Damian Konieczny",
+     "ini": "D",
+     "color": "#B5651D",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.",
+     "reply": "",
+     "hasReply": false,
+     "i": "0"
+    },
+    {
+     "name": "Artur Zakrzewski",
+     "ini": "A",
+     "color": "#7A3F8F",
+     "meta": "Opinia w Google",
+     "when": "Google",
+     "text": "Strona wykonana w sposób bardzo profesjonalny. Bardzo dobry kontakt z wykonawcą. Szybka realizacja. Bardzo polecam.",
+     "reply": "",
+     "hasReply": false,
+     "i": "1"
+    },
+    {
+     "name": "Adrian Wojnarowski",
+     "ini": "A",
+     "color": "#3F7A15",
+     "meta": "Lokalny przewodnik",
+     "when": "9 miesięcy temu",
+     "text": "Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.",
+     "reply": "Dziękujemy :) To była czysta przyjemność tworzyć dla Ciebie dedykowaną stronę internetową.",
+     "hasReply": true,
+     "i": "2"
+    },
+    {
+     "name": "Michał Szymański",
+     "ini": "M",
+     "color": "#2D6A9F",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.",
+     "reply": "Bardzo dziękujemy za opinię :) Przy każdej realizacji dajemy z siebie 110% zaangażowania.",
+     "hasReply": true,
+     "i": "3"
+    },
+    {
+     "name": "Damian Konieczny",
+     "ini": "D",
+     "color": "#B5651D",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.",
+     "reply": "",
+     "hasReply": false,
+     "i": "4"
+    },
+    {
+     "name": "Artur Zakrzewski",
+     "ini": "A",
+     "color": "#7A3F8F",
+     "meta": "Opinia w Google",
+     "when": "Google",
+     "text": "Strona wykonana w sposób bardzo profesjonalny. Bardzo dobry kontakt z wykonawcą. Szybka realizacja. Bardzo polecam.",
+     "reply": "",
+     "hasReply": false,
+     "i": "5"
+    },
+    {
+     "name": "Adrian Wojnarowski",
+     "ini": "A",
+     "color": "#3F7A15",
+     "meta": "Lokalny przewodnik",
+     "when": "9 miesięcy temu",
+     "text": "Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.",
+     "reply": "Dziękujemy :) To była czysta przyjemność tworzyć dla Ciebie dedykowaną stronę internetową.",
+     "hasReply": true,
+     "i": "6"
+    },
+    {
+     "name": "Michał Szymański",
+     "ini": "M",
+     "color": "#2D6A9F",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.",
+     "reply": "Bardzo dziękujemy za opinię :) Przy każdej realizacji dajemy z siebie 110% zaangażowania.",
+     "hasReply": true,
+     "i": "7"
+    },
+    {
+     "name": "Damian Konieczny",
+     "ini": "D",
+     "color": "#B5651D",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.",
+     "reply": "",
+     "hasReply": false,
+     "i": "8"
+    },
+    {
+     "name": "Artur Zakrzewski",
+     "ini": "A",
+     "color": "#7A3F8F",
+     "meta": "Opinia w Google",
+     "when": "Google",
+     "text": "Strona wykonana w sposób bardzo profesjonalny. Bardzo dobry kontakt z wykonawcą. Szybka realizacja. Bardzo polecam.",
+     "reply": "",
+     "hasReply": false,
+     "i": "9"
+    },
+    {
+     "name": "Adrian Wojnarowski",
+     "ini": "A",
+     "color": "#3F7A15",
+     "meta": "Lokalny przewodnik",
+     "when": "9 miesięcy temu",
+     "text": "Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.",
+     "reply": "Dziękujemy :) To była czysta przyjemność tworzyć dla Ciebie dedykowaną stronę internetową.",
+     "hasReply": true,
+     "i": "10"
+    },
+    {
+     "name": "Michał Szymański",
+     "ini": "M",
+     "color": "#2D6A9F",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.",
+     "reply": "Bardzo dziękujemy za opinię :) Przy każdej realizacji dajemy z siebie 110% zaangażowania.",
+     "hasReply": true,
+     "i": "11"
+    },
+    {
+     "name": "Damian Konieczny",
+     "ini": "D",
+     "color": "#B5651D",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.",
+     "reply": "",
+     "hasReply": false,
+     "i": "12"
+    },
+    {
+     "name": "Artur Zakrzewski",
+     "ini": "A",
+     "color": "#7A3F8F",
+     "meta": "Opinia w Google",
+     "when": "Google",
+     "text": "Strona wykonana w sposób bardzo profesjonalny. Bardzo dobry kontakt z wykonawcą. Szybka realizacja. Bardzo polecam.",
+     "reply": "",
+     "hasReply": false,
+     "i": "13"
+    },
+    {
+     "name": "Adrian Wojnarowski",
+     "ini": "A",
+     "color": "#3F7A15",
+     "meta": "Lokalny przewodnik",
+     "when": "9 miesięcy temu",
+     "text": "Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.",
+     "reply": "Dziękujemy :) To była czysta przyjemność tworzyć dla Ciebie dedykowaną stronę internetową.",
+     "hasReply": true,
+     "i": "14"
+    },
+    {
+     "name": "Michał Szymański",
+     "ini": "M",
+     "color": "#2D6A9F",
+     "meta": "Lokalny przewodnik",
+     "when": "rok temu",
+     "text": "Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.",
+     "reply": "Bardzo dziękujemy za opinię :) Przy każdej realizacji dajemy z siebie 110% zaangażowania.",
+     "hasReply": true,
+     "i": "15"
+    }
+   ],
+   "i": "1"
+  }
+ ],
+ "aiPoints": [
+  {
+   "t": "Odpowiedź na start",
+   "d": "pierwsze zdanie sekcji, które AI może zacytować",
+   "i": "0"
+  },
+  {
+   "t": "Schema.org",
+   "d": "LocalBusiness, Organization, FAQPage",
+   "i": "1"
+  },
+  {
+   "t": "llms.txt",
+   "d": "mapa treści dla modeli językowych",
+   "i": "2"
+  },
+  {
+   "t": "Fakty zamiast sloganów",
+   "d": "adres, terminy, autor, liczby",
+   "i": "3"
+  }
+ ],
+ "clients": [
+  {
+   "name": "Pure Rehab",
+   "ind": "fizjoterapia",
+   "dl": "transition-delay: 0.00s",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 169px; height: 56px",
+   "i": "0"
+  },
+  {
+   "name": "Eurodomy",
+   "ind": "budowa domów",
+   "dl": "transition-delay: 0.04s",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 150px; height: 56px",
+   "i": "1"
+  },
+  {
+   "name": "Sahra",
+   "ind": "sklep z dywanami",
+   "dl": "transition-delay: 0.08s",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 206px; height: 56px",
+   "i": "2"
+  },
+  {
+   "name": "Marmostyl",
+   "ind": "kamieniarstwo",
+   "dl": "transition-delay: 0.12s",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 148px; height: 56px",
+   "i": "3"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "ind": "oświetlenie sceniczne",
+   "dl": "transition-delay: 0.16s",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 195px; height: 44px",
+   "i": "4"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "ind": "ekspresy do kawy",
+   "dl": "transition-delay: 0.20s",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 281px; height: 34px",
+   "i": "5"
+  },
+  {
+   "name": "SMKA",
+   "ind": "producent preparatów",
+   "dl": "transition-delay: 0.24s",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 212px; height: 56px",
+   "i": "6"
+  },
+  {
+   "name": "Region Zdrowia",
+   "ind": "portal prozdrowotny",
+   "dl": "transition-delay: 0.28s",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 213px; height: 34px",
+   "i": "7"
+  },
+  {
+   "name": "Ventoni",
+   "ind": "biuro rachunkowe",
+   "dl": "transition-delay: 0.32s",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 194px; height: 56px",
+   "i": "8"
+  },
+  {
+   "name": "E-Tabak",
+   "ind": "sieć sklepów",
+   "dl": "transition-delay: 0.36s",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 115px; height: 80px",
+   "i": "9"
+  },
+  {
+   "name": "CloudInsight",
+   "ind": "doradztwo IT",
+   "dl": "transition-delay: 0.40s",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 268px; height: 34px",
+   "i": "10"
+  },
+  {
+   "name": "Fastpol",
+   "ind": "czyszczenie wentylacji",
+   "dl": "transition-delay: 0.44s",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 246px; height: 44px",
+   "i": "11"
+  },
+  {
+   "name": "TSE Remonty",
+   "ind": "remonty",
+   "dl": "transition-delay: 0.48s",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 177px; height: 44px",
+   "i": "12"
+  },
+  {
+   "name": "K|R Projekt",
+   "ind": "projekty wnętrz",
+   "dl": "transition-delay: 0.52s",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 78px; height: 80px",
+   "i": "13"
+  },
+  {
+   "name": "Oligradskyi",
+   "ind": "balustrady stalowe",
+   "dl": "transition-delay: 0.56s",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 116px; height: 80px",
+   "i": "14"
+  }
+ ],
+ "stackRows": [
+  {
+   "cls": "",
+   "dur": "--dur: 42.7s",
+   "items": [
+    {
+     "n": "Google",
+     "d": "M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #4285F4",
+     "fill": "fill: #4285F4",
+     "i": "0"
+    },
+    {
+     "n": "Tag Manager",
+     "d": "M12.003 0a3 3 0 0 0-2.121 5.121l6.865 6.865-4.446 4.541 1.745 1.836a3.432 3.432 0 0 1 .7.739l.012.011-.001.002a3.432 3.432 0 0 1 .609 1.953 3.432 3.432 0 0 1-.09.78l7.75-7.647c.031-.029.067-.05.098-.08.023-.023.038-.052.06-.076a2.994 2.994 0 0 0-.06-4.166l-9-9A2.99 2.99 0 0 0 12.003 0zM8.63 2.133L.88 9.809a2.998 2.998 0 0 0 0 4.238l7.7 7.75a3.432 3.432 0 0 1-.077-.729 3.432 3.432 0 0 1 3.431-3.431 3.432 3.432 0 0 1 .826.101l-5.523-5.81 4.371-4.373-2.08-2.08c-.903-.904-1.193-2.183-.898-3.342zm3.304 16.004a2.932 2.932 0 0 0-2.931 2.931A2.932 2.932 0 0 0 11.934 24a2.932 2.932 0 0 0 2.932-2.932 2.932 2.932 0 0 0-2.932-2.931z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #246FDB",
+     "fill": "fill: #246FDB",
+     "i": "1"
+    },
+    {
+     "n": "Looker Studio",
+     "d": "M11.9475 0c-1.1598.0021-2.0982.944-2.096 2.1038a2.1 2.1 0 00.356 1.166l.895-.8959a.884.884 0 11.565.564l-.895.895c.9593.6478 2.2621.3953 2.91-.564.6478-.9593.3953-2.262-.564-2.91A2.096 2.096 0 0011.9475 0zm-.835 6.1128a3.2629 3.2629 0 00-.653-1.965l-1.164 1.162a1.667 1.667 0 01-.318 2.012l.632 1.5449a3.2819 3.2819 0 001.503-2.754zm-3.2499 1.666h-.03c-.9217.0009-1.6697-.7455-1.6707-1.6673-.001-.9217.7454-1.6697 1.6672-1.6707a1.669 1.669 0 01.9195.275l1.152-1.152c-1.4069-1.141-3.4724-.9257-4.6135.4811s-.9257 3.4723.481 4.6135a3.2799 3.2799 0 002.7275.6652l-.633-1.5439v-.001zm4.1279 1.3359c-.728 0-1.452.106-2.15.315l.922 2.2519c2.6872-.6819 5.4184.9438 6.1002 3.631.6818 2.6873-.9439 5.4184-3.6311 6.1002s-5.4184-.9439-6.1002-3.631c-.5682-2.2394.4655-4.5774 2.5041-5.6643l-.91-2.2449c-3.6908 1.808-5.2173 6.2657-3.4093 9.9567l.0005.001c1.808 3.6909 6.2657 5.2173 9.9567 3.4093l.001-.0005c3.6913-1.8071 5.2187-6.2645 3.4116-9.9558a7.4417 7.4417 0 00-6.6865-4.1696h-.008l-.001.001z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #4285F4",
+     "fill": "fill: #4285F4",
+     "i": "2"
+    },
+    {
+     "n": "Hotjar",
+     "d": "M10.119 9.814C12.899 8.27 16.704 6.155 16.704 0h-4.609c0 3.444-1.676 4.375-4.214 5.786C5.1 7.33 1.295 9.444 1.295 15.6h4.61c0-3.444 1.676-4.376 4.214-5.786zM18.096 8.4c0 3.444-1.677 4.376-4.215 5.785-2.778 1.544-6.585 3.66-6.585 9.815h4.609c0-3.444 1.676-4.376 4.214-5.786 2.78-1.544 6.586-3.658 6.586-9.814h-4.609z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #FF3C00",
+     "fill": "fill: #FF3C00",
+     "i": "3"
+    },
+    {
+     "n": "Instagram",
+     "d": "M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #FF0069",
+     "fill": "fill: #FF0069",
+     "i": "4"
+    },
+    {
+     "n": "WooCommerce",
+     "d": "M.754 9.58a.754.754 0 00-.754.758v2.525c0 .42.339.758.758.758h3.135l1.431.799-.326-.799h2.373a.757.757 0 00.758-.758v-2.525a.757.757 0 00-.758-.758H.754zm2.709.445h.03c.065.001.124.023.179.067a.26.26 0 01.103.19.29.29 0 01-.033.16c-.13.239-.236.64-.322 1.199-.083.541-.114.965-.094 1.267a.392.392 0 01-.039.219.213.213 0 01-.176.12c-.086.006-.177-.034-.263-.124-.31-.316-.555-.788-.735-1.416-.216.425-.375.744-.478.957-.196.376-.363.568-.502.578-.09.007-.166-.069-.233-.228-.17-.436-.352-1.277-.548-2.524a.297.297 0 01.054-.222c.047-.064.116-.095.21-.102.169-.013.265.065.288.238.103.695.217 1.284.336 1.766l.727-1.387c.066-.126.15-.192.25-.199.146-.01.237.083.273.28.083.441.188.817.315 1.136.086-.844.233-1.453.44-1.828a.255.255 0 01.218-.147zm1.293.36c.056 0 .116.006.18.02.232.05.411.177.53.386.107.18.161.395.161.654 0 .343-.087.654-.26.94-.2.332-.459.5-.781.5a.88.88 0 01-.18-.022.763.763 0 01-.531-.384 1.287 1.287 0 01-.158-.659c0-.342.085-.655.258-.937.202-.333.462-.498.78-.498zm2.084 0c.056 0 .116.006.18.02.236.05.411.177.53.386.107.18.16.395.16.654 0 .343-.086.654-.259.94-.2.332-.459.5-.781.5a.88.88 0 01-.18-.022.763.763 0 01-.531-.384 1.287 1.287 0 01-.16-.659c0-.342.087-.655.26-.937.202-.333.462-.498.78-.498zm4.437.047c-.305 0-.546.102-.718.304-.173.203-.256.49-.256.856 0 .395.086.697.256.906.17.21.418.316.744.316.315 0 .559-.107.728-.316.17-.21.256-.504.256-.883s-.087-.673-.26-.879c-.176-.202-.424-.304-.75-.304zm-1.466.002a1.13 1.13 0 00-.84.326c-.223.22-.332.499-.332.838 0 .362.108.658.328.88.22.223.505.336.861.336.103 0 .22-.016.346-.052v-.54c-.117.034-.216.051-.303.051a.545.545 0 01-.422-.177c-.106-.12-.16-.278-.16-.48 0-.19.053-.348.156-.468a.498.498 0 01.397-.181c.103 0 .212.015.332.049v-.537a1.394 1.394 0 00-.363-.045zm12.414 0a1.135 1.135 0 00-.84.326c-.223.22-.332.499-.332.838 0 .362.108.658.328.88.22.223.506.336.861.336.103 0 .22-.016.346-.052v-.54c-.116.034-.216.051-.303.051a.545.545 0 01-.422-.177c-.106-.12-.16-.278-.16-.48 0-.19.053-.348.156-.468a.498.498 0 01.397-.181c.103 0 .212.015.332.049v-.537a1.394 1.394 0 00-.363-.045zm-9.598.06l-.29 2.264h.579l.156-1.559.395 1.559h.412l.379-1.555.164 1.555h.603l-.304-2.264h-.791l-.12.508c-.03.13-.06.264-.087.4l-.067.352a29.97 29.97 0 00-.258-1.26h-.771zm2.768 0l-.29 2.264h.579l.156-1.559.396 1.559h.412l.375-1.555.165 1.555h.603l-.305-2.264h-.789l-.119.508c-.03.13-.06.264-.086.4l-.066.352c-.063-.352-.15-.771-.26-1.26h-.771zm3.988 0v2.264h.611v-1.031h.012l.494 1.03h.645l-.489-1.019a.61.61 0 00.37-.552.598.598 0 00-.25-.506c-.167-.123-.394-.186-.68-.186h-.713zm3.377 0v2.264H24v-.483h-.63v-.414h.54v-.468h-.54v-.416h.626v-.483H22.76zm-4.793.004v2.264h1.24v-.483h-.627v-.416h.541v-.468h-.54v-.415h.622v-.482h-1.236zm2.025.432c.146.003.25.025.313.072.063.046.091.12.091.227 0 .156-.135.236-.404.24v-.54zm-15.22.011c-.104 0-.205.069-.301.211a1.078 1.078 0 00-.2.639c0 .096.02.2.06.303.049.13.117.198.196.215.083.016.173-.02.27-.106.123-.11.205-.273.252-.492.016-.077.023-.16.023-.246 0-.097-.02-.2-.06-.303-.05-.13-.116-.198-.196-.215a.246.246 0 00-.045-.006zm2.083 0c-.103 0-.204.069-.3.211a1.078 1.078 0 00-.2.639c0 .096.02.2.06.303.049.13.117.198.196.215.083.016.173-.02.27-.106.123-.11.205-.273.252-.492.013-.077.023-.16.023-.246 0-.097-.02-.2-.06-.303-.05-.13-.116-.198-.196-.215a.246.246 0 00-.045-.006zm4.428.006c.233 0 .354.218.354.66-.004.273-.038.46-.098.553a.293.293 0 01-.262.139.266.266 0 01-.242-.139c-.056-.093-.084-.28-.084-.562 0-.436.11-.65.332-.65Z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #96588A",
+     "fill": "fill: #96588A",
+     "i": "5"
+    },
+    {
+     "n": "Tailwind CSS",
+     "d": "M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #06B6D4",
+     "fill": "fill: #06B6D4",
+     "i": "6"
+    },
+    {
+     "n": "HTML5",
+     "d": "M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #E34F26",
+     "fill": "fill: #E34F26",
+     "i": "7"
+    },
+    {
+     "n": "GitHub",
+     "d": "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "8"
+    },
+    {
+     "n": "Notion",
+     "d": "M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936 1.035l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.667c0-.839.374-1.54 1.447-1.632z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "9"
+    },
+    {
+     "n": "ChatGPT",
+     "d": "M9.205 8.658v-2.26c0-.19.072-.333.238-.428l4.543-2.616c.619-.357 1.356-.523 2.117-.523 2.854 0 4.662 2.212 4.662 4.566 0 .167 0 .357-.024.547l-4.71-2.759a.797.797 0 00-.856 0l-5.97 3.473zm10.609 8.8V12.06c0-.333-.143-.57-.429-.737l-5.97-3.473 1.95-1.118a.433.433 0 01.476 0l4.543 2.617c1.309.76 2.189 2.378 2.189 3.948 0 1.808-1.07 3.473-2.76 4.163zM7.802 12.703l-1.95-1.142c-.167-.095-.239-.238-.239-.428V5.899c0-2.545 1.95-4.472 4.591-4.472 1 0 1.927.333 2.712.928L8.23 5.067c-.285.166-.428.404-.428.737v6.898zM12 15.128l-2.795-1.57v-3.33L12 8.658l2.795 1.57v3.33L12 15.128zm1.796 7.23c-1 0-1.927-.332-2.712-.927l4.686-2.712c.285-.166.428-.404.428-.737v-6.898l1.974 1.142c.167.095.238.238.238.428v5.233c0 2.545-1.974 4.472-4.614 4.472zm-5.637-5.303l-4.544-2.617c-1.308-.761-2.188-2.378-2.188-3.948A4.482 4.482 0 014.21 6.327v5.423c0 .333.143.571.428.738l5.947 3.449-1.95 1.118a.432.432 0 01-.476 0zm-.262 3.9c-2.688 0-4.662-2.021-4.662-4.519 0-.19.024-.38.047-.57l4.686 2.71c.286.167.571.167.856 0l5.97-3.448v2.26c0 .19-.07.333-.237.428l-4.543 2.616c-.619.357-1.356.523-2.117.523zm5.899 2.83a5.947 5.947 0 005.827-4.756C22.287 18.339 24 15.84 24 13.296c0-1.665-.713-3.282-1.998-4.448.119-.5.19-.999.19-1.498 0-3.401-2.759-5.947-5.946-5.947-.642 0-1.26.095-1.88.31A5.962 5.962 0 0010.205 0a5.947 5.947 0 00-5.827 4.757C1.713 5.447 0 7.945 0 10.49c0 1.666.713 3.283 1.998 4.448-.119.5-.19 1-.19 1.499 0 3.401 2.759 5.946 5.946 5.946.642 0 1.26-.095 1.88-.309a5.96 5.96 0 004.162 1.713z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "10"
+    },
+    {
+     "n": "Google",
+     "d": "M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #4285F4",
+     "fill": "fill: #4285F4",
+     "i": "11"
+    },
+    {
+     "n": "Tag Manager",
+     "d": "M12.003 0a3 3 0 0 0-2.121 5.121l6.865 6.865-4.446 4.541 1.745 1.836a3.432 3.432 0 0 1 .7.739l.012.011-.001.002a3.432 3.432 0 0 1 .609 1.953 3.432 3.432 0 0 1-.09.78l7.75-7.647c.031-.029.067-.05.098-.08.023-.023.038-.052.06-.076a2.994 2.994 0 0 0-.06-4.166l-9-9A2.99 2.99 0 0 0 12.003 0zM8.63 2.133L.88 9.809a2.998 2.998 0 0 0 0 4.238l7.7 7.75a3.432 3.432 0 0 1-.077-.729 3.432 3.432 0 0 1 3.431-3.431 3.432 3.432 0 0 1 .826.101l-5.523-5.81 4.371-4.373-2.08-2.08c-.903-.904-1.193-2.183-.898-3.342zm3.304 16.004a2.932 2.932 0 0 0-2.931 2.931A2.932 2.932 0 0 0 11.934 24a2.932 2.932 0 0 0 2.932-2.932 2.932 2.932 0 0 0-2.932-2.931z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #246FDB",
+     "fill": "fill: #246FDB",
+     "i": "12"
+    },
+    {
+     "n": "Looker Studio",
+     "d": "M11.9475 0c-1.1598.0021-2.0982.944-2.096 2.1038a2.1 2.1 0 00.356 1.166l.895-.8959a.884.884 0 11.565.564l-.895.895c.9593.6478 2.2621.3953 2.91-.564.6478-.9593.3953-2.262-.564-2.91A2.096 2.096 0 0011.9475 0zm-.835 6.1128a3.2629 3.2629 0 00-.653-1.965l-1.164 1.162a1.667 1.667 0 01-.318 2.012l.632 1.5449a3.2819 3.2819 0 001.503-2.754zm-3.2499 1.666h-.03c-.9217.0009-1.6697-.7455-1.6707-1.6673-.001-.9217.7454-1.6697 1.6672-1.6707a1.669 1.669 0 01.9195.275l1.152-1.152c-1.4069-1.141-3.4724-.9257-4.6135.4811s-.9257 3.4723.481 4.6135a3.2799 3.2799 0 002.7275.6652l-.633-1.5439v-.001zm4.1279 1.3359c-.728 0-1.452.106-2.15.315l.922 2.2519c2.6872-.6819 5.4184.9438 6.1002 3.631.6818 2.6873-.9439 5.4184-3.6311 6.1002s-5.4184-.9439-6.1002-3.631c-.5682-2.2394.4655-4.5774 2.5041-5.6643l-.91-2.2449c-3.6908 1.808-5.2173 6.2657-3.4093 9.9567l.0005.001c1.808 3.6909 6.2657 5.2173 9.9567 3.4093l.001-.0005c3.6913-1.8071 5.2187-6.2645 3.4116-9.9558a7.4417 7.4417 0 00-6.6865-4.1696h-.008l-.001.001z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #4285F4",
+     "fill": "fill: #4285F4",
+     "i": "13"
+    },
+    {
+     "n": "Hotjar",
+     "d": "M10.119 9.814C12.899 8.27 16.704 6.155 16.704 0h-4.609c0 3.444-1.676 4.375-4.214 5.786C5.1 7.33 1.295 9.444 1.295 15.6h4.61c0-3.444 1.676-4.376 4.214-5.786zM18.096 8.4c0 3.444-1.677 4.376-4.215 5.785-2.778 1.544-6.585 3.66-6.585 9.815h4.609c0-3.444 1.676-4.376 4.214-5.786 2.78-1.544 6.586-3.658 6.586-9.814h-4.609z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #FF3C00",
+     "fill": "fill: #FF3C00",
+     "i": "14"
+    },
+    {
+     "n": "Instagram",
+     "d": "M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #FF0069",
+     "fill": "fill: #FF0069",
+     "i": "15"
+    },
+    {
+     "n": "WooCommerce",
+     "d": "M.754 9.58a.754.754 0 00-.754.758v2.525c0 .42.339.758.758.758h3.135l1.431.799-.326-.799h2.373a.757.757 0 00.758-.758v-2.525a.757.757 0 00-.758-.758H.754zm2.709.445h.03c.065.001.124.023.179.067a.26.26 0 01.103.19.29.29 0 01-.033.16c-.13.239-.236.64-.322 1.199-.083.541-.114.965-.094 1.267a.392.392 0 01-.039.219.213.213 0 01-.176.12c-.086.006-.177-.034-.263-.124-.31-.316-.555-.788-.735-1.416-.216.425-.375.744-.478.957-.196.376-.363.568-.502.578-.09.007-.166-.069-.233-.228-.17-.436-.352-1.277-.548-2.524a.297.297 0 01.054-.222c.047-.064.116-.095.21-.102.169-.013.265.065.288.238.103.695.217 1.284.336 1.766l.727-1.387c.066-.126.15-.192.25-.199.146-.01.237.083.273.28.083.441.188.817.315 1.136.086-.844.233-1.453.44-1.828a.255.255 0 01.218-.147zm1.293.36c.056 0 .116.006.18.02.232.05.411.177.53.386.107.18.161.395.161.654 0 .343-.087.654-.26.94-.2.332-.459.5-.781.5a.88.88 0 01-.18-.022.763.763 0 01-.531-.384 1.287 1.287 0 01-.158-.659c0-.342.085-.655.258-.937.202-.333.462-.498.78-.498zm2.084 0c.056 0 .116.006.18.02.236.05.411.177.53.386.107.18.16.395.16.654 0 .343-.086.654-.259.94-.2.332-.459.5-.781.5a.88.88 0 01-.18-.022.763.763 0 01-.531-.384 1.287 1.287 0 01-.16-.659c0-.342.087-.655.26-.937.202-.333.462-.498.78-.498zm4.437.047c-.305 0-.546.102-.718.304-.173.203-.256.49-.256.856 0 .395.086.697.256.906.17.21.418.316.744.316.315 0 .559-.107.728-.316.17-.21.256-.504.256-.883s-.087-.673-.26-.879c-.176-.202-.424-.304-.75-.304zm-1.466.002a1.13 1.13 0 00-.84.326c-.223.22-.332.499-.332.838 0 .362.108.658.328.88.22.223.505.336.861.336.103 0 .22-.016.346-.052v-.54c-.117.034-.216.051-.303.051a.545.545 0 01-.422-.177c-.106-.12-.16-.278-.16-.48 0-.19.053-.348.156-.468a.498.498 0 01.397-.181c.103 0 .212.015.332.049v-.537a1.394 1.394 0 00-.363-.045zm12.414 0a1.135 1.135 0 00-.84.326c-.223.22-.332.499-.332.838 0 .362.108.658.328.88.22.223.506.336.861.336.103 0 .22-.016.346-.052v-.54c-.116.034-.216.051-.303.051a.545.545 0 01-.422-.177c-.106-.12-.16-.278-.16-.48 0-.19.053-.348.156-.468a.498.498 0 01.397-.181c.103 0 .212.015.332.049v-.537a1.394 1.394 0 00-.363-.045zm-9.598.06l-.29 2.264h.579l.156-1.559.395 1.559h.412l.379-1.555.164 1.555h.603l-.304-2.264h-.791l-.12.508c-.03.13-.06.264-.087.4l-.067.352a29.97 29.97 0 00-.258-1.26h-.771zm2.768 0l-.29 2.264h.579l.156-1.559.396 1.559h.412l.375-1.555.165 1.555h.603l-.305-2.264h-.789l-.119.508c-.03.13-.06.264-.086.4l-.066.352c-.063-.352-.15-.771-.26-1.26h-.771zm3.988 0v2.264h.611v-1.031h.012l.494 1.03h.645l-.489-1.019a.61.61 0 00.37-.552.598.598 0 00-.25-.506c-.167-.123-.394-.186-.68-.186h-.713zm3.377 0v2.264H24v-.483h-.63v-.414h.54v-.468h-.54v-.416h.626v-.483H22.76zm-4.793.004v2.264h1.24v-.483h-.627v-.416h.541v-.468h-.54v-.415h.622v-.482h-1.236zm2.025.432c.146.003.25.025.313.072.063.046.091.12.091.227 0 .156-.135.236-.404.24v-.54zm-15.22.011c-.104 0-.205.069-.301.211a1.078 1.078 0 00-.2.639c0 .096.02.2.06.303.049.13.117.198.196.215.083.016.173-.02.27-.106.123-.11.205-.273.252-.492.016-.077.023-.16.023-.246 0-.097-.02-.2-.06-.303-.05-.13-.116-.198-.196-.215a.246.246 0 00-.045-.006zm2.083 0c-.103 0-.204.069-.3.211a1.078 1.078 0 00-.2.639c0 .096.02.2.06.303.049.13.117.198.196.215.083.016.173-.02.27-.106.123-.11.205-.273.252-.492.013-.077.023-.16.023-.246 0-.097-.02-.2-.06-.303-.05-.13-.116-.198-.196-.215a.246.246 0 00-.045-.006zm4.428.006c.233 0 .354.218.354.66-.004.273-.038.46-.098.553a.293.293 0 01-.262.139.266.266 0 01-.242-.139c-.056-.093-.084-.28-.084-.562 0-.436.11-.65.332-.65Z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #96588A",
+     "fill": "fill: #96588A",
+     "i": "16"
+    },
+    {
+     "n": "Tailwind CSS",
+     "d": "M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #06B6D4",
+     "fill": "fill: #06B6D4",
+     "i": "17"
+    },
+    {
+     "n": "HTML5",
+     "d": "M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #E34F26",
+     "fill": "fill: #E34F26",
+     "i": "18"
+    },
+    {
+     "n": "GitHub",
+     "d": "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "19"
+    },
+    {
+     "n": "Notion",
+     "d": "M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936 1.035l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.667c0-.839.374-1.54 1.447-1.632z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "20"
+    },
+    {
+     "n": "ChatGPT",
+     "d": "M9.205 8.658v-2.26c0-.19.072-.333.238-.428l4.543-2.616c.619-.357 1.356-.523 2.117-.523 2.854 0 4.662 2.212 4.662 4.566 0 .167 0 .357-.024.547l-4.71-2.759a.797.797 0 00-.856 0l-5.97 3.473zm10.609 8.8V12.06c0-.333-.143-.57-.429-.737l-5.97-3.473 1.95-1.118a.433.433 0 01.476 0l4.543 2.617c1.309.76 2.189 2.378 2.189 3.948 0 1.808-1.07 3.473-2.76 4.163zM7.802 12.703l-1.95-1.142c-.167-.095-.239-.238-.239-.428V5.899c0-2.545 1.95-4.472 4.591-4.472 1 0 1.927.333 2.712.928L8.23 5.067c-.285.166-.428.404-.428.737v6.898zM12 15.128l-2.795-1.57v-3.33L12 8.658l2.795 1.57v3.33L12 15.128zm1.796 7.23c-1 0-1.927-.332-2.712-.927l4.686-2.712c.285-.166.428-.404.428-.737v-6.898l1.974 1.142c.167.095.238.238.238.428v5.233c0 2.545-1.974 4.472-4.614 4.472zm-5.637-5.303l-4.544-2.617c-1.308-.761-2.188-2.378-2.188-3.948A4.482 4.482 0 014.21 6.327v5.423c0 .333.143.571.428.738l5.947 3.449-1.95 1.118a.432.432 0 01-.476 0zm-.262 3.9c-2.688 0-4.662-2.021-4.662-4.519 0-.19.024-.38.047-.57l4.686 2.71c.286.167.571.167.856 0l5.97-3.448v2.26c0 .19-.07.333-.237.428l-4.543 2.616c-.619.357-1.356.523-2.117.523zm5.899 2.83a5.947 5.947 0 005.827-4.756C22.287 18.339 24 15.84 24 13.296c0-1.665-.713-3.282-1.998-4.448.119-.5.19-.999.19-1.498 0-3.401-2.759-5.947-5.946-5.947-.642 0-1.26.095-1.88.31A5.962 5.962 0 0010.205 0a5.947 5.947 0 00-5.827 4.757C1.713 5.447 0 7.945 0 10.49c0 1.666.713 3.283 1.998 4.448-.119.5-.19 1-.19 1.499 0 3.401 2.759 5.946 5.946 5.946.642 0 1.26-.095 1.88-.309a5.96 5.96 0 004.162 1.713z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "21"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "cls": "rev",
+   "dur": "--dur: 43.1s",
+   "items": [
+    {
+     "n": "Google Ads",
+     "d": "M3.9998 22.9291C1.7908 22.9291 0 21.1383 0 18.9293s1.7908-3.9998 3.9998-3.9998 3.9998 1.7908 3.9998 3.9998-1.7908 3.9998-3.9998 3.9998zm19.4643-6.0004L15.4632 3.072C14.3586 1.1587 11.9121.5028 9.9988 1.6074S7.4295 5.1585 8.5341 7.0718l8.0009 13.8567c1.1046 1.9133 3.5511 2.5679 5.4644 1.4646 1.9134-1.1046 2.568-3.5511 1.4647-5.4644zM7.5137 4.8438L1.5645 15.1484A4.5 4.5 0 0 1 4 14.4297c2.5597-.0075 4.6248 2.1585 4.4941 4.7148l3.2168-5.5723-3.6094-6.25c-.4499-.7793-.6322-1.6394-.5878-2.4784z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #4285F4",
+     "fill": "fill: #4285F4",
+     "i": "0"
+    },
+    {
+     "n": "Search Console",
+     "d": "M8.548 1.156L6.832 2.872v1.682h1.716zm0 3.398v.035H6.832v-.035H3.386L0 7.844v3.577h2.826V8.94c0-.525.429-.954.954-.954h16.476c.525 0 .954.43.954.954v2.48h2.754V7.844l-3.386-3.29H17.3v.035h-1.717v-.035zm7.035 0H17.3V2.872l-1.717-1.716zM8.679 1.188V2.84h6.773V1.188zm11.471 7.07a.834.834 0 00-.132.01l-.543.002c-5.216.014-10.432-.008-15.648.01-.435-.063-.794.436-.716.883v2.264h17.812c-.016-.888.045-1.782-.034-2.666-.104-.342-.427-.502-.739-.502zm-15.422.634a.689.698 0 01.689.698.689.698 0 01-.689.697.689.698 0 01-.688-.697.689.698 0 01.688-.698zm2.134 0a.689.698 0 01.689.698.689.698 0 01-.689.697.689.698 0 01-.688-.697.689.698 0 01.688-.698zM.036 11.645v9.156c0 1.05.858 1.908 1.907 1.908h.883V11.645zm21.174 0v11.064h.882c1.05 0 1.908-.858 1.908-1.908v-9.156zM4.057 13.133v6.85h6.137v-6.85zm13.243.021v3.777l-1.708.977-1.708-.977v-3.758a4.006 4.006 0 000 7.23v2.441h3.457v-2.442a4.006 4.006 0 00-.041-7.248zm-13.243 8.26v1.43h7.925v-1.43z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #458CF5",
+     "fill": "fill: #458CF5",
+     "i": "1"
+    },
+    {
+     "n": "Senuto",
+     "d": "",
+     "dup": "false",
+     "badge": true,
+     "svg": false,
+     "t": "S",
+     "bg": "background: #6C2BD9",
+     "fill": "fill: #6C2BD9",
+     "i": "2"
+    },
+    {
+     "n": "Meta Ads",
+     "d": "M6.915 4.03c-1.968 0-3.683 1.28-4.871 3.113C.704 9.208 0 11.883 0 14.449c0 .706.07 1.369.21 1.973a6.624 6.624 0 0 0 .265.86 5.297 5.297 0 0 0 .371.761c.696 1.159 1.818 1.927 3.593 1.927 1.497 0 2.633-.671 3.965-2.444.76-1.012 1.144-1.626 2.663-4.32l.756-1.339.186-.325c.061.1.121.196.183.3l2.152 3.595c.724 1.21 1.665 2.556 2.47 3.314 1.046.987 1.992 1.22 3.06 1.22 1.075 0 1.876-.355 2.455-.843a3.743 3.743 0 0 0 .81-.973c.542-.939.861-2.127.861-3.745 0-2.72-.681-5.357-2.084-7.45-1.282-1.912-2.957-2.93-4.716-2.93-1.047 0-2.088.467-3.053 1.308-.652.57-1.257 1.29-1.82 2.05-.69-.875-1.335-1.547-1.958-2.056-1.182-.966-2.315-1.303-3.454-1.303zm10.16 2.053c1.147 0 2.188.758 2.992 1.999 1.132 1.748 1.647 4.195 1.647 6.4 0 1.548-.368 2.9-1.839 2.9-.58 0-1.027-.23-1.664-1.004-.496-.601-1.343-1.878-2.832-4.358l-.617-1.028a44.908 44.908 0 0 0-1.255-1.98c.07-.109.141-.224.211-.327 1.12-1.667 2.118-2.602 3.358-2.602zm-10.201.553c1.265 0 2.058.791 2.675 1.446.307.327.737.871 1.234 1.579l-1.02 1.566c-.757 1.163-1.882 3.017-2.837 4.338-1.191 1.649-1.81 1.817-2.486 1.817-.524 0-1.038-.237-1.383-.794-.263-.426-.464-1.13-.464-2.046 0-2.221.63-4.535 1.66-6.088.454-.687.964-1.226 1.533-1.533a2.264 2.264 0 0 1 1.088-.285z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #0467DF",
+     "fill": "fill: #0467DF",
+     "i": "3"
+    },
+    {
+     "n": "TikTok",
+     "d": "M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "4"
+    },
+    {
+     "n": "WordPress",
+     "d": "M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #21759B",
+     "fill": "fill: #21759B",
+     "i": "5"
+    },
+    {
+     "n": "Astro",
+     "d": "M8.358 20.162c-1.186-1.07-1.532-3.316-1.038-4.944.856 1.026 2.043 1.352 3.272 1.535 1.897.283 3.76.177 5.522-.678.202-.098.388-.229.608-.36.166.473.209.95.151 1.437-.14 1.185-.738 2.1-1.688 2.794-.38.277-.782.525-1.175.787-1.205.804-1.531 1.747-1.078 3.119l.044.148a3.158 3.158 0 0 1-1.407-1.188 3.31 3.31 0 0 1-.544-1.815c-.004-.32-.004-.642-.048-.958-.106-.769-.472-1.113-1.161-1.133-.707-.02-1.267.411-1.415 1.09-.012.053-.028.104-.045.165h.002zm-5.961-4.445s3.24-1.575 6.49-1.575l2.451-7.565c.092-.366.36-.614.662-.614.302 0 .57.248.662.614l2.45 7.565c3.85 0 6.491 1.575 6.491 1.575L16.088.727C15.93.285 15.663 0 15.303 0H8.697c-.36 0-.615.285-.784.727l-5.516 14.99z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #BC52EE",
+     "fill": "fill: #BC52EE",
+     "i": "6"
+    },
+    {
+     "n": "PHP",
+     "d": "M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #777BB4",
+     "fill": "fill: #777BB4",
+     "i": "7"
+    },
+    {
+     "n": "CSS",
+     "d": "M0 0v20.16A3.84 3.84 0 0 0 3.84 24h16.32A3.84 3.84 0 0 0 24 20.16V3.84A3.84 3.84 0 0 0 20.16 0Zm14.256 13.08c1.56 0 2.28 1.08 2.304 2.64h-1.608c.024-.288-.048-.6-.144-.84-.096-.192-.288-.264-.552-.264-.456 0-.696.264-.696.84-.024.576.288.888.768 1.08.72.288 1.608.744 1.92 1.296q.432.648.432 1.656c0 1.608-.912 2.592-2.496 2.592-1.656 0-2.4-1.032-2.424-2.688h1.68c0 .792.264 1.176.792 1.176.264 0 .456-.072.552-.24.192-.312.24-1.176-.048-1.512-.312-.408-.912-.6-1.32-.816q-.828-.396-1.224-.936c-.24-.36-.36-.888-.36-1.536 0-1.44.936-2.472 2.424-2.448m5.4 0c1.584 0 2.304 1.08 2.328 2.64h-1.608c0-.288-.048-.6-.168-.84-.096-.192-.264-.264-.528-.264-.48 0-.72.264-.72.84s.288.888.792 1.08c.696.288 1.608.744 1.92 1.296.264.432.408.984.408 1.656.024 1.608-.888 2.592-2.472 2.592-1.68 0-2.424-1.056-2.448-2.688h1.68c0 .744.264 1.176.792 1.176.264 0 .456-.072.552-.24.216-.312.264-1.176-.048-1.512-.288-.408-.888-.6-1.32-.816-.552-.264-.96-.576-1.2-.936s-.36-.888-.36-1.536c-.024-1.44.912-2.472 2.4-2.448m-11.031.018c.711-.006 1.419.198 1.839.63.432.432.672 1.128.648 1.992H9.336c.024-.456-.096-.792-.432-.96-.312-.144-.768-.048-.888.24-.12.264-.192.576-.168.864v3.504c0 .744.264 1.128.768 1.128a.65.65 0 0 0 .552-.264c.168-.24.192-.552.168-.84h1.776c.096 1.632-.984 2.712-2.568 2.688-1.536 0-2.496-.864-2.472-2.472v-4.032c0-.816.24-1.44.696-1.848.432-.408 1.146-.624 1.857-.63",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #663399",
+     "fill": "fill: #663399",
+     "i": "8"
+    },
+    {
+     "n": "Cloudflare",
+     "d": "M16.5088 16.8447c.1475-.5068.0908-.9707-.1553-1.3154-.2246-.3164-.6045-.499-1.0615-.5205l-8.6592-.1123a.1559.1559 0 0 1-.1333-.0713c-.0283-.042-.0351-.0986-.021-.1553.0278-.084.1123-.1484.2036-.1562l8.7359-.1123c1.0351-.0489 2.1601-.8868 2.5537-1.9136l.499-1.3013c.0215-.0561.0293-.1128.0147-.168-.5625-2.5463-2.835-4.4453-5.5499-4.4453-2.5039 0-4.6284 1.6177-5.3876 3.8614-.4927-.3658-1.1187-.5625-1.794-.499-1.2026.119-2.1665 1.083-2.2861 2.2856-.0283.31-.0069.6128.0635.894C1.5683 13.171 0 14.7754 0 16.752c0 .1748.0142.3515.0352.5273.0141.083.0844.1475.1689.1475h15.9814c.0909 0 .1758-.0645.2032-.1553l.12-.4268zm2.7568-5.5634c-.0771 0-.1611 0-.2383.0112-.0566 0-.1054.0415-.127.0976l-.3378 1.1744c-.1475.5068-.0918.9707.1543 1.3164.2256.3164.6055.498 1.0625.5195l1.8437.1133c.0557 0 .1055.0263.1329.0703.0283.043.0351.1074.0214.1562-.0283.084-.1132.1485-.204.1553l-1.921.1123c-1.041.0488-2.1582.8867-2.5527 1.914l-.1406.3585c-.0283.0713.0215.1416.0986.1416h6.5977c.0771 0 .1474-.0489.169-.126.1122-.4082.1757-.837.1757-1.2803 0-2.6025-2.125-4.727-4.7344-4.727",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #F38020",
+     "fill": "fill: #F38020",
+     "i": "9"
+    },
+    {
+     "n": "Trello",
+     "d": "M21.147 0H2.853A2.86 2.86 0 000 2.853v18.294A2.86 2.86 0 002.853 24h18.294A2.86 2.86 0 0024 21.147V2.853A2.86 2.86 0 0021.147 0zM10.34 17.287a.953.953 0 01-.953.953h-4a.954.954 0 01-.954-.953V5.38a.953.953 0 01.954-.953h4a.954.954 0 01.953.953zm9.233-5.467a.944.944 0 01-.953.947h-4a.947.947 0 01-.953-.947V5.38a.953.953 0 01.953-.953h4a.954.954 0 01.953.953z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #0052CC",
+     "fill": "fill: #0052CC",
+     "i": "10"
+    },
+    {
+     "n": "Gemini",
+     "d": "M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #8E75B2",
+     "fill": "fill: #8E75B2",
+     "i": "11"
+    },
+    {
+     "n": "Google Ads",
+     "d": "M3.9998 22.9291C1.7908 22.9291 0 21.1383 0 18.9293s1.7908-3.9998 3.9998-3.9998 3.9998 1.7908 3.9998 3.9998-1.7908 3.9998-3.9998 3.9998zm19.4643-6.0004L15.4632 3.072C14.3586 1.1587 11.9121.5028 9.9988 1.6074S7.4295 5.1585 8.5341 7.0718l8.0009 13.8567c1.1046 1.9133 3.5511 2.5679 5.4644 1.4646 1.9134-1.1046 2.568-3.5511 1.4647-5.4644zM7.5137 4.8438L1.5645 15.1484A4.5 4.5 0 0 1 4 14.4297c2.5597-.0075 4.6248 2.1585 4.4941 4.7148l3.2168-5.5723-3.6094-6.25c-.4499-.7793-.6322-1.6394-.5878-2.4784z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #4285F4",
+     "fill": "fill: #4285F4",
+     "i": "12"
+    },
+    {
+     "n": "Search Console",
+     "d": "M8.548 1.156L6.832 2.872v1.682h1.716zm0 3.398v.035H6.832v-.035H3.386L0 7.844v3.577h2.826V8.94c0-.525.429-.954.954-.954h16.476c.525 0 .954.43.954.954v2.48h2.754V7.844l-3.386-3.29H17.3v.035h-1.717v-.035zm7.035 0H17.3V2.872l-1.717-1.716zM8.679 1.188V2.84h6.773V1.188zm11.471 7.07a.834.834 0 00-.132.01l-.543.002c-5.216.014-10.432-.008-15.648.01-.435-.063-.794.436-.716.883v2.264h17.812c-.016-.888.045-1.782-.034-2.666-.104-.342-.427-.502-.739-.502zm-15.422.634a.689.698 0 01.689.698.689.698 0 01-.689.697.689.698 0 01-.688-.697.689.698 0 01.688-.698zm2.134 0a.689.698 0 01.689.698.689.698 0 01-.689.697.689.698 0 01-.688-.697.689.698 0 01.688-.698zM.036 11.645v9.156c0 1.05.858 1.908 1.907 1.908h.883V11.645zm21.174 0v11.064h.882c1.05 0 1.908-.858 1.908-1.908v-9.156zM4.057 13.133v6.85h6.137v-6.85zm13.243.021v3.777l-1.708.977-1.708-.977v-3.758a4.006 4.006 0 000 7.23v2.441h3.457v-2.442a4.006 4.006 0 00-.041-7.248zm-13.243 8.26v1.43h7.925v-1.43z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #458CF5",
+     "fill": "fill: #458CF5",
+     "i": "13"
+    },
+    {
+     "n": "Senuto",
+     "d": "",
+     "dup": "true",
+     "badge": true,
+     "svg": false,
+     "t": "S",
+     "bg": "background: #6C2BD9",
+     "fill": "fill: #6C2BD9",
+     "i": "14"
+    },
+    {
+     "n": "Meta Ads",
+     "d": "M6.915 4.03c-1.968 0-3.683 1.28-4.871 3.113C.704 9.208 0 11.883 0 14.449c0 .706.07 1.369.21 1.973a6.624 6.624 0 0 0 .265.86 5.297 5.297 0 0 0 .371.761c.696 1.159 1.818 1.927 3.593 1.927 1.497 0 2.633-.671 3.965-2.444.76-1.012 1.144-1.626 2.663-4.32l.756-1.339.186-.325c.061.1.121.196.183.3l2.152 3.595c.724 1.21 1.665 2.556 2.47 3.314 1.046.987 1.992 1.22 3.06 1.22 1.075 0 1.876-.355 2.455-.843a3.743 3.743 0 0 0 .81-.973c.542-.939.861-2.127.861-3.745 0-2.72-.681-5.357-2.084-7.45-1.282-1.912-2.957-2.93-4.716-2.93-1.047 0-2.088.467-3.053 1.308-.652.57-1.257 1.29-1.82 2.05-.69-.875-1.335-1.547-1.958-2.056-1.182-.966-2.315-1.303-3.454-1.303zm10.16 2.053c1.147 0 2.188.758 2.992 1.999 1.132 1.748 1.647 4.195 1.647 6.4 0 1.548-.368 2.9-1.839 2.9-.58 0-1.027-.23-1.664-1.004-.496-.601-1.343-1.878-2.832-4.358l-.617-1.028a44.908 44.908 0 0 0-1.255-1.98c.07-.109.141-.224.211-.327 1.12-1.667 2.118-2.602 3.358-2.602zm-10.201.553c1.265 0 2.058.791 2.675 1.446.307.327.737.871 1.234 1.579l-1.02 1.566c-.757 1.163-1.882 3.017-2.837 4.338-1.191 1.649-1.81 1.817-2.486 1.817-.524 0-1.038-.237-1.383-.794-.263-.426-.464-1.13-.464-2.046 0-2.221.63-4.535 1.66-6.088.454-.687.964-1.226 1.533-1.533a2.264 2.264 0 0 1 1.088-.285z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #0467DF",
+     "fill": "fill: #0467DF",
+     "i": "15"
+    },
+    {
+     "n": "TikTok",
+     "d": "M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "16"
+    },
+    {
+     "n": "WordPress",
+     "d": "M21.469 6.825c.84 1.537 1.318 3.3 1.318 5.175 0 3.979-2.156 7.456-5.363 9.325l3.295-9.527c.615-1.54.82-2.771.82-3.864 0-.405-.026-.78-.07-1.11m-7.981.105c.647-.03 1.232-.105 1.232-.105.582-.075.514-.93-.067-.899 0 0-1.755.135-2.88.135-1.064 0-2.85-.15-2.85-.15-.585-.03-.661.855-.075.885 0 0 .54.061 1.125.09l1.68 4.605-2.37 7.08L5.354 6.9c.649-.03 1.234-.1 1.234-.1.585-.075.516-.93-.065-.896 0 0-1.746.138-2.874.138-.2 0-.438-.008-.69-.015C4.911 3.15 8.235 1.215 12 1.215c2.809 0 5.365 1.072 7.286 2.833-.046-.003-.091-.009-.141-.009-1.06 0-1.812.923-1.812 1.914 0 .89.513 1.643 1.06 2.531.411.72.89 1.643.89 2.977 0 .915-.354 1.994-.821 3.479l-1.075 3.585-3.9-11.61.001.014zM12 22.784c-1.059 0-2.081-.153-3.048-.437l3.237-9.406 3.315 9.087c.024.053.05.101.078.149-1.12.393-2.325.609-3.582.609M1.211 12c0-1.564.336-3.05.935-4.39L7.29 21.709C3.694 19.96 1.212 16.271 1.211 12M12 0C5.385 0 0 5.385 0 12s5.385 12 12 12 12-5.385 12-12S18.615 0 12 0",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #21759B",
+     "fill": "fill: #21759B",
+     "i": "17"
+    },
+    {
+     "n": "Astro",
+     "d": "M8.358 20.162c-1.186-1.07-1.532-3.316-1.038-4.944.856 1.026 2.043 1.352 3.272 1.535 1.897.283 3.76.177 5.522-.678.202-.098.388-.229.608-.36.166.473.209.95.151 1.437-.14 1.185-.738 2.1-1.688 2.794-.38.277-.782.525-1.175.787-1.205.804-1.531 1.747-1.078 3.119l.044.148a3.158 3.158 0 0 1-1.407-1.188 3.31 3.31 0 0 1-.544-1.815c-.004-.32-.004-.642-.048-.958-.106-.769-.472-1.113-1.161-1.133-.707-.02-1.267.411-1.415 1.09-.012.053-.028.104-.045.165h.002zm-5.961-4.445s3.24-1.575 6.49-1.575l2.451-7.565c.092-.366.36-.614.662-.614.302 0 .57.248.662.614l2.45 7.565c3.85 0 6.491 1.575 6.491 1.575L16.088.727C15.93.285 15.663 0 15.303 0H8.697c-.36 0-.615.285-.784.727l-5.516 14.99z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #BC52EE",
+     "fill": "fill: #BC52EE",
+     "i": "18"
+    },
+    {
+     "n": "PHP",
+     "d": "M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #777BB4",
+     "fill": "fill: #777BB4",
+     "i": "19"
+    },
+    {
+     "n": "CSS",
+     "d": "M0 0v20.16A3.84 3.84 0 0 0 3.84 24h16.32A3.84 3.84 0 0 0 24 20.16V3.84A3.84 3.84 0 0 0 20.16 0Zm14.256 13.08c1.56 0 2.28 1.08 2.304 2.64h-1.608c.024-.288-.048-.6-.144-.84-.096-.192-.288-.264-.552-.264-.456 0-.696.264-.696.84-.024.576.288.888.768 1.08.72.288 1.608.744 1.92 1.296q.432.648.432 1.656c0 1.608-.912 2.592-2.496 2.592-1.656 0-2.4-1.032-2.424-2.688h1.68c0 .792.264 1.176.792 1.176.264 0 .456-.072.552-.24.192-.312.24-1.176-.048-1.512-.312-.408-.912-.6-1.32-.816q-.828-.396-1.224-.936c-.24-.36-.36-.888-.36-1.536 0-1.44.936-2.472 2.424-2.448m5.4 0c1.584 0 2.304 1.08 2.328 2.64h-1.608c0-.288-.048-.6-.168-.84-.096-.192-.264-.264-.528-.264-.48 0-.72.264-.72.84s.288.888.792 1.08c.696.288 1.608.744 1.92 1.296.264.432.408.984.408 1.656.024 1.608-.888 2.592-2.472 2.592-1.68 0-2.424-1.056-2.448-2.688h1.68c0 .744.264 1.176.792 1.176.264 0 .456-.072.552-.24.216-.312.264-1.176-.048-1.512-.288-.408-.888-.6-1.32-.816-.552-.264-.96-.576-1.2-.936s-.36-.888-.36-1.536c-.024-1.44.912-2.472 2.4-2.448m-11.031.018c.711-.006 1.419.198 1.839.63.432.432.672 1.128.648 1.992H9.336c.024-.456-.096-.792-.432-.96-.312-.144-.768-.048-.888.24-.12.264-.192.576-.168.864v3.504c0 .744.264 1.128.768 1.128a.65.65 0 0 0 .552-.264c.168-.24.192-.552.168-.84h1.776c.096 1.632-.984 2.712-2.568 2.688-1.536 0-2.496-.864-2.472-2.472v-4.032c0-.816.24-1.44.696-1.848.432-.408 1.146-.624 1.857-.63",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #663399",
+     "fill": "fill: #663399",
+     "i": "20"
+    },
+    {
+     "n": "Cloudflare",
+     "d": "M16.5088 16.8447c.1475-.5068.0908-.9707-.1553-1.3154-.2246-.3164-.6045-.499-1.0615-.5205l-8.6592-.1123a.1559.1559 0 0 1-.1333-.0713c-.0283-.042-.0351-.0986-.021-.1553.0278-.084.1123-.1484.2036-.1562l8.7359-.1123c1.0351-.0489 2.1601-.8868 2.5537-1.9136l.499-1.3013c.0215-.0561.0293-.1128.0147-.168-.5625-2.5463-2.835-4.4453-5.5499-4.4453-2.5039 0-4.6284 1.6177-5.3876 3.8614-.4927-.3658-1.1187-.5625-1.794-.499-1.2026.119-2.1665 1.083-2.2861 2.2856-.0283.31-.0069.6128.0635.894C1.5683 13.171 0 14.7754 0 16.752c0 .1748.0142.3515.0352.5273.0141.083.0844.1475.1689.1475h15.9814c.0909 0 .1758-.0645.2032-.1553l.12-.4268zm2.7568-5.5634c-.0771 0-.1611 0-.2383.0112-.0566 0-.1054.0415-.127.0976l-.3378 1.1744c-.1475.5068-.0918.9707.1543 1.3164.2256.3164.6055.498 1.0625.5195l1.8437.1133c.0557 0 .1055.0263.1329.0703.0283.043.0351.1074.0214.1562-.0283.084-.1132.1485-.204.1553l-1.921.1123c-1.041.0488-2.1582.8867-2.5527 1.914l-.1406.3585c-.0283.0713.0215.1416.0986.1416h6.5977c.0771 0 .1474-.0489.169-.126.1122-.4082.1757-.837.1757-1.2803 0-2.6025-2.125-4.727-4.7344-4.727",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #F38020",
+     "fill": "fill: #F38020",
+     "i": "21"
+    },
+    {
+     "n": "Trello",
+     "d": "M21.147 0H2.853A2.86 2.86 0 000 2.853v18.294A2.86 2.86 0 002.853 24h18.294A2.86 2.86 0 0024 21.147V2.853A2.86 2.86 0 0021.147 0zM10.34 17.287a.953.953 0 01-.953.953h-4a.954.954 0 01-.954-.953V5.38a.953.953 0 01.954-.953h4a.954.954 0 01.953.953zm9.233-5.467a.944.944 0 01-.953.947h-4a.947.947 0 01-.953-.947V5.38a.953.953 0 01.953-.953h4a.954.954 0 01.953.953z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #0052CC",
+     "fill": "fill: #0052CC",
+     "i": "22"
+    },
+    {
+     "n": "Gemini",
+     "d": "M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #8E75B2",
+     "fill": "fill: #8E75B2",
+     "i": "23"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "cls": "",
+   "dur": "--dur: 44.7s",
+   "items": [
+    {
+     "n": "Google Analytics 4",
+     "d": "M22.84 2.9982v17.9987c.0086 1.6473-1.3197 2.9897-2.967 2.9984a2.9808 2.9808 0 01-.3677-.0208c-1.528-.226-2.6477-1.5558-2.6105-3.1V3.1204c-.0369-1.5458 1.0856-2.8762 2.6157-3.1 1.6361-.1915 3.1178.9796 3.3093 2.6158.014.1201.0208.241.0202.3619zM4.1326 18.0548c-1.6417 0-2.9726 1.331-2.9726 2.9726C1.16 22.6691 2.4909 24 4.1326 24s2.9726-1.3309 2.9726-2.9726-1.331-2.9726-2.9726-2.9726zm7.8728-9.0098c-.0171 0-.0342 0-.0513.0003-1.6495.0904-2.9293 1.474-2.891 3.1256v7.9846c0 2.167.9535 3.4825 2.3505 3.763 1.6118.3266 3.1832-.7152 3.5098-2.327.04-.1974.06-.3983.0593-.5998v-8.9585c.003-1.6474-1.33-2.9852-2.9773-2.9882z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #E37400",
+     "fill": "fill: #E37400",
+     "i": "0"
+    },
+    {
+     "n": "Wizytówka Google",
+     "d": "M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #4285F4",
+     "fill": "fill: #4285F4",
+     "i": "1"
+    },
+    {
+     "n": "Semrush",
+     "d": "M20.698 11.911c0 .444-.226.516-.79.516-.596 0-.706-.1-.77-.554-.118-1.152-.896-2.13-2.201-2.24-.418-.034-.518-.19-.518-.706 0-.48.074-.708.446-.708 2.265.01 3.833 1.832 3.833 3.69v.002zm3.3 0c0-3.456-2.338-7.11-7.74-7.11H5.52c-.218 0-.354.11-.354.31 0 .109.082.209.156.26.388.31.97.654 1.73 1.036.743.372 1.323.616 1.903.852.246.1.336.208.336.344 0 .19-.136.308-.4.308H.372c-.254 0-.372.164-.372.326 0 .136.044.254.162.372.69.726 1.796 1.596 3.4 2.604 1.466.91 2.98 1.74 4.533 2.492.236.11.308.236.308.372-.008.154-.126.28-.4.28H4.1c-.216 0-.344.12-.344.3 0 .1.08.226.19.326.888.808 2.311 1.688 4.207 2.494 2.53 1.08 5.094 1.721 7.98 1.721 5.465 0 7.867-4.087 7.867-7.289l-.002.002zm-7.133 5.104c-2.794 0-5.132-2.276-5.132-5.114 0-2.794 2.33-5.04 5.132-5.04 2.863 0 5.111 2.24 5.111 5.04a5.086 5.086 0 0 1-5.111 5.114z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #FF642D",
+     "fill": "fill: #FF642D",
+     "i": "2"
+    },
+    {
+     "n": "Facebook",
+     "d": "M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #0866FF",
+     "fill": "fill: #0866FF",
+     "i": "3"
+    },
+    {
+     "n": "YouTube",
+     "d": "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #FF0000",
+     "fill": "fill: #FF0000",
+     "i": "4"
+    },
+    {
+     "n": "Shopify",
+     "d": "M15.337 23.979l7.216-1.561s-2.604-17.613-2.625-17.73c-.018-.116-.114-.192-.211-.192s-1.929-.136-1.929-.136-1.275-1.274-1.439-1.411c-.045-.037-.075-.057-.121-.074l-.914 21.104h.023zM11.71 11.305s-.81-.424-1.774-.424c-1.447 0-1.504.906-1.504 1.141 0 1.232 3.24 1.715 3.24 4.629 0 2.295-1.44 3.76-3.406 3.76-2.354 0-3.54-1.465-3.54-1.465l.646-2.086s1.245 1.066 2.28 1.066c.675 0 .975-.545.975-.932 0-1.619-2.654-1.694-2.654-4.359-.034-2.237 1.571-4.416 4.827-4.416 1.257 0 1.875.361 1.875.361l-.945 2.715-.02.01zM11.17.83c.136 0 .271.038.405.135-.984.465-2.064 1.639-2.508 3.992-.656.213-1.293.405-1.889.578C7.697 3.75 8.951.84 11.17.84V.83zm1.235 2.949v.135c-.754.232-1.583.484-2.394.736.466-1.777 1.333-2.645 2.085-2.971.193.501.309 1.176.309 2.1zm.539-2.234c.694.074 1.141.867 1.429 1.755-.349.114-.735.231-1.158.366v-.252c0-.752-.096-1.371-.271-1.871v.002zm2.992 1.289c-.02 0-.06.021-.078.021s-.289.075-.714.21c-.423-1.233-1.176-2.37-2.508-2.37h-.115C12.135.209 11.669 0 11.265 0 8.159 0 6.675 3.877 6.21 5.846c-1.194.365-2.063.636-2.16.674-.675.213-.694.232-.772.87-.075.462-1.83 14.063-1.83 14.063L15.009 24l.927-21.166z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #7AB55C",
+     "fill": "fill: #7AB55C",
+     "i": "5"
+    },
+    {
+     "n": "JavaScript",
+     "d": "M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #F7DF1E",
+     "fill": "fill: #F7DF1E",
+     "i": "6"
+    },
+    {
+     "n": "Figma",
+     "d": "M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #F24E1E",
+     "fill": "fill: #F24E1E",
+     "i": "7"
+    },
+    {
+     "n": "Vercel",
+     "d": "m12 1.608 12 20.784H0Z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "8"
+    },
+    {
+     "n": "Claude",
+     "d": "m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #D97757",
+     "fill": "fill: #D97757",
+     "i": "9"
+    },
+    {
+     "n": "Perplexity",
+     "d": "M22.3977 7.0896h-2.3106V.0676l-7.5094 6.3542V.1577h-1.1554v6.1966L4.4904 0v7.0896H1.6023v10.3976h2.8882V24l6.932-6.3591v6.2005h1.1554v-6.0469l6.9318 6.1807v-6.4879h2.8882V7.0896zm-3.4657-4.531v4.531h-5.355l5.355-4.531zm-13.2862.0676 4.8691 4.4634H5.6458V2.6262zM2.7576 16.332V8.245h7.8476l-6.1149 6.1147v1.9723H2.7576zm2.8882 5.0404v-3.8852h.0001v-2.6488l5.7763-5.7764v7.0111l-5.7764 5.2993zm12.7086.0248-5.7766-5.1509V9.0618l5.7766 5.7766v6.5588zm2.8882-5.0652h-1.733v-1.9723L13.3948 8.245h7.8478v8.087z",
+     "dup": "false",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #1FB8CD",
+     "fill": "fill: #1FB8CD",
+     "i": "10"
+    },
+    {
+     "n": "Google Analytics 4",
+     "d": "M22.84 2.9982v17.9987c.0086 1.6473-1.3197 2.9897-2.967 2.9984a2.9808 2.9808 0 01-.3677-.0208c-1.528-.226-2.6477-1.5558-2.6105-3.1V3.1204c-.0369-1.5458 1.0856-2.8762 2.6157-3.1 1.6361-.1915 3.1178.9796 3.3093 2.6158.014.1201.0208.241.0202.3619zM4.1326 18.0548c-1.6417 0-2.9726 1.331-2.9726 2.9726C1.16 22.6691 2.4909 24 4.1326 24s2.9726-1.3309 2.9726-2.9726-1.331-2.9726-2.9726-2.9726zm7.8728-9.0098c-.0171 0-.0342 0-.0513.0003-1.6495.0904-2.9293 1.474-2.891 3.1256v7.9846c0 2.167.9535 3.4825 2.3505 3.763 1.6118.3266 3.1832-.7152 3.5098-2.327.04-.1974.06-.3983.0593-.5998v-8.9585c.003-1.6474-1.33-2.9852-2.9773-2.9882z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #E37400",
+     "fill": "fill: #E37400",
+     "i": "11"
+    },
+    {
+     "n": "Wizytówka Google",
+     "d": "M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #4285F4",
+     "fill": "fill: #4285F4",
+     "i": "12"
+    },
+    {
+     "n": "Semrush",
+     "d": "M20.698 11.911c0 .444-.226.516-.79.516-.596 0-.706-.1-.77-.554-.118-1.152-.896-2.13-2.201-2.24-.418-.034-.518-.19-.518-.706 0-.48.074-.708.446-.708 2.265.01 3.833 1.832 3.833 3.69v.002zm3.3 0c0-3.456-2.338-7.11-7.74-7.11H5.52c-.218 0-.354.11-.354.31 0 .109.082.209.156.26.388.31.97.654 1.73 1.036.743.372 1.323.616 1.903.852.246.1.336.208.336.344 0 .19-.136.308-.4.308H.372c-.254 0-.372.164-.372.326 0 .136.044.254.162.372.69.726 1.796 1.596 3.4 2.604 1.466.91 2.98 1.74 4.533 2.492.236.11.308.236.308.372-.008.154-.126.28-.4.28H4.1c-.216 0-.344.12-.344.3 0 .1.08.226.19.326.888.808 2.311 1.688 4.207 2.494 2.53 1.08 5.094 1.721 7.98 1.721 5.465 0 7.867-4.087 7.867-7.289l-.002.002zm-7.133 5.104c-2.794 0-5.132-2.276-5.132-5.114 0-2.794 2.33-5.04 5.132-5.04 2.863 0 5.111 2.24 5.111 5.04a5.086 5.086 0 0 1-5.111 5.114z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #FF642D",
+     "fill": "fill: #FF642D",
+     "i": "13"
+    },
+    {
+     "n": "Facebook",
+     "d": "M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #0866FF",
+     "fill": "fill: #0866FF",
+     "i": "14"
+    },
+    {
+     "n": "YouTube",
+     "d": "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #FF0000",
+     "fill": "fill: #FF0000",
+     "i": "15"
+    },
+    {
+     "n": "Shopify",
+     "d": "M15.337 23.979l7.216-1.561s-2.604-17.613-2.625-17.73c-.018-.116-.114-.192-.211-.192s-1.929-.136-1.929-.136-1.275-1.274-1.439-1.411c-.045-.037-.075-.057-.121-.074l-.914 21.104h.023zM11.71 11.305s-.81-.424-1.774-.424c-1.447 0-1.504.906-1.504 1.141 0 1.232 3.24 1.715 3.24 4.629 0 2.295-1.44 3.76-3.406 3.76-2.354 0-3.54-1.465-3.54-1.465l.646-2.086s1.245 1.066 2.28 1.066c.675 0 .975-.545.975-.932 0-1.619-2.654-1.694-2.654-4.359-.034-2.237 1.571-4.416 4.827-4.416 1.257 0 1.875.361 1.875.361l-.945 2.715-.02.01zM11.17.83c.136 0 .271.038.405.135-.984.465-2.064 1.639-2.508 3.992-.656.213-1.293.405-1.889.578C7.697 3.75 8.951.84 11.17.84V.83zm1.235 2.949v.135c-.754.232-1.583.484-2.394.736.466-1.777 1.333-2.645 2.085-2.971.193.501.309 1.176.309 2.1zm.539-2.234c.694.074 1.141.867 1.429 1.755-.349.114-.735.231-1.158.366v-.252c0-.752-.096-1.371-.271-1.871v.002zm2.992 1.289c-.02 0-.06.021-.078.021s-.289.075-.714.21c-.423-1.233-1.176-2.37-2.508-2.37h-.115C12.135.209 11.669 0 11.265 0 8.159 0 6.675 3.877 6.21 5.846c-1.194.365-2.063.636-2.16.674-.675.213-.694.232-.772.87-.075.462-1.83 14.063-1.83 14.063L15.009 24l.927-21.166z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #7AB55C",
+     "fill": "fill: #7AB55C",
+     "i": "16"
+    },
+    {
+     "n": "JavaScript",
+     "d": "M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #F7DF1E",
+     "fill": "fill: #F7DF1E",
+     "i": "17"
+    },
+    {
+     "n": "Figma",
+     "d": "M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.588v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.02 3.019 3.02h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.588v8.98zM8.148 8.981c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h3.117V8.981H8.148zM8.172 24c-2.489 0-4.515-2.014-4.515-4.49s2.014-4.49 4.49-4.49h4.588v4.441c0 2.503-2.047 4.539-4.563 4.539zm-.024-7.51a3.023 3.023 0 0 0-3.019 3.019c0 1.665 1.365 3.019 3.044 3.019 1.705 0 3.093-1.376 3.093-3.068v-2.97H8.148zm7.704 0h-.098c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h.098c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.49-4.49 4.49zm-.097-7.509c-1.665 0-3.019 1.355-3.019 3.019s1.355 3.019 3.019 3.019h.098c1.665 0 3.019-1.355 3.019-3.019s-1.355-3.019-3.019-3.019h-.098z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #F24E1E",
+     "fill": "fill: #F24E1E",
+     "i": "18"
+    },
+    {
+     "n": "Vercel",
+     "d": "m12 1.608 12 20.784H0Z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: var(--ink)",
+     "fill": "fill: var(--ink)",
+     "i": "19"
+    },
+    {
+     "n": "Claude",
+     "d": "m4.7144 15.9555 4.7174-2.6471.079-.2307-.079-.1275h-.2307l-.7893-.0486-2.6956-.0729-2.3375-.0971-2.2646-.1214-.5707-.1215-.5343-.7042.0546-.3522.4797-.3218.686.0608 1.5179.1032 2.2767.1578 1.6514.0972 2.4468.255h.3886l.0546-.1579-.1336-.0971-.1032-.0972L6.973 9.8356l-2.55-1.6879-1.3356-.9714-.7225-.4918-.3643-.4614-.1578-1.0078.6557-.7225.8803.0607.2246.0607.8925.686 1.9064 1.4754 2.4893 1.8336.3643.3035.1457-.1032.0182-.0728-.164-.2733-1.3539-2.4467-1.445-2.4893-.6435-1.032-.17-.6194c-.0607-.255-.1032-.4674-.1032-.7285L6.287.1335 6.6997 0l.9957.1336.419.3642.6192 1.4147 1.0018 2.2282 1.5543 3.0296.4553.8985.2429.8318.091.255h.1579v-.1457l.1275-1.706.2368-2.0947.2307-2.6957.0789-.7589.3764-.9107.7468-.4918.5828.2793.4797.686-.0668.4433-.2853 1.8517-.5586 2.9021-.3643 1.9429h.2125l.2429-.2429.9835-1.3053 1.6514-2.0643.7286-.8196.85-.9046.5464-.4311h1.0321l.759 1.1293-.34 1.1657-1.0625 1.3478-.8804 1.1414-1.2628 1.7-.7893 1.36.0729.1093.1882-.0183 2.8535-.607 1.5421-.2794 1.8396-.3157.8318.3886.091.3946-.3278.8075-1.967.4857-2.3072.4614-3.4364.8136-.0425.0304.0486.0607 1.5482.1457.6618.0364h1.621l3.0175.2247.7892.522.4736.6376-.079.4857-1.2142.6193-1.6393-.3886-3.825-.9107-1.3113-.3279h-.1822v.1093l1.0929 1.0686 2.0035 1.8092 2.5075 2.3314.1275.5768-.3218.4554-.34-.0486-2.2039-1.6575-.85-.7468-1.9246-1.621h-.1275v.17l.4432.6496 2.3436 3.5214.1214 1.0807-.17.3521-.6071.2125-.6679-.1214-1.3721-1.9246L14.38 17.959l-1.1414-1.9428-.1397.079-.674 7.2552-.3156.3703-.7286.2793-.6071-.4614-.3218-.7468.3218-1.4753.3886-1.9246.3157-1.53.2853-1.9004.17-.6314-.0121-.0425-.1397.0182-1.4328 1.9672-2.1796 2.9446-1.7243 1.8456-.4128.164-.7164-.3704.0667-.6618.4008-.5889 2.386-3.0357 1.4389-1.882.929-1.0868-.0062-.1579h-.0546l-6.3385 4.1164-1.1293.1457-.4857-.4554.0608-.7467.2307-.2429 1.9064-1.3114Z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #D97757",
+     "fill": "fill: #D97757",
+     "i": "20"
+    },
+    {
+     "n": "Perplexity",
+     "d": "M22.3977 7.0896h-2.3106V.0676l-7.5094 6.3542V.1577h-1.1554v6.1966L4.4904 0v7.0896H1.6023v10.3976h2.8882V24l6.932-6.3591v6.2005h1.1554v-6.0469l6.9318 6.1807v-6.4879h2.8882V7.0896zm-3.4657-4.531v4.531h-5.355l5.355-4.531zm-13.2862.0676 4.8691 4.4634H5.6458V2.6262zM2.7576 16.332V8.245h7.8476l-6.1149 6.1147v1.9723H2.7576zm2.8882 5.0404v-3.8852h.0001v-2.6488l5.7763-5.7764v7.0111l-5.7764 5.2993zm12.7086.0248-5.7766-5.1509V9.0618l5.7766 5.7766v6.5588zm2.8882-5.0652h-1.733v-1.9723L13.3948 8.245h7.8478v8.087z",
+     "dup": "true",
+     "badge": false,
+     "svg": true,
+     "t": "",
+     "bg": "background: #1FB8CD",
+     "fill": "fill: #1FB8CD",
+     "i": "21"
+    }
+   ],
+   "i": "2"
+  }
+ ],
+ "stackCount": "34",
+ "steps": [
+  {
+   "when": "Dzień 1–3",
+   "t": "Bezpłatna konsultacja i brief",
+   "d": "Poznajemy firmę, klientów i cele. Ustalamy zakres, budżet i termin, a wycenę dostajesz w ciągu 24 godzin.",
+   "n": "01",
+   "sticky": "top: 110px",
+   "i": "0"
+  },
+  {
+   "when": "Tydzień 1",
+   "t": "Analiza rynku i konkurencji",
+   "d": "Sprawdzamy lokalną konkurencję, popyt w Google i pytania, które klienci zadają AI. Z tego powstaje plan strony, treści i kampanii.",
+   "n": "02",
+   "sticky": "top: 126px",
+   "i": "1"
+  },
+  {
+   "when": "Tydzień 1–2",
+   "t": "Branding i makieta UX",
+   "d": "Ustalamy wygląd marki i układ strony: ścieżki do kontaktu, hierarchię treści. Akceptujesz makietę przed projektem graficznym.",
+   "n": "03",
+   "sticky": "top: 142px",
+   "i": "2"
+  },
+  {
+   "when": "Tydzień 2–3",
+   "t": "Projekt graficzny",
+   "d": "Projekt w Figmie w kolorach marki, na komputer i telefon. Dwie rundy poprawek w cenie.",
+   "n": "04",
+   "sticky": "top: 158px",
+   "i": "3"
+  },
+  {
+   "when": "Tydzień 3–5",
+   "t": "Wdrożenie i SEO on-page",
+   "d": "Kodujemy w Astro lub WordPressie, wdrażamy treści, dane strukturalne, llms.txt, GA4 i Tag Managera.",
+   "n": "05",
+   "sticky": "top: 174px",
+   "i": "4"
+  },
+  {
+   "when": "Tydzień 5–6",
+   "t": "Testy, start i kampanie",
+   "d": "Testujemy na telefonach, sprawdzamy Core Web Vitals i formularze. Publikujemy stronę i uruchamiamy kampanie.",
+   "n": "06",
+   "sticky": "top: 190px",
+   "i": "5"
+  },
+  {
+   "when": "Co miesiąc",
+   "t": "Rozwój i raporty",
+   "d": "Rozwijamy SEO, social media i reklamy. Raz w miesiącu dostajesz raport z ruchu, zapytań i kosztów.",
+   "n": "07",
+   "sticky": "top: 206px",
+   "i": "6"
+  }
+ ],
+ "roles": [
+  {
+   "t": "Strategia, SEO i Ads",
+   "d": "Kamil Piech, opiekun projektu",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "i": "0"
+  },
+  {
+   "t": "Grafika i branding",
+   "d": "logo, social media, UI",
+   "icon": "M9 11l-6 6v3h3l6-6M22 2l-9.5 9.5M15 4l5 5",
+   "i": "1"
+  },
+  {
+   "t": "Treści i copywriting",
+   "d": "teksty SEO, FAQ, posty",
+   "icon": "M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z",
+   "i": "2"
+  },
+  {
+   "t": "Programowanie",
+   "d": "Astro, WordPress, WooCommerce",
+   "icon": "M8 6l-6 6 6 6M16 6l6 6-6 6",
+   "i": "3"
+  }
+ ],
+ "certs": [
+  "Karol Dziedzic",
+  "Daniel Boss",
+  "WhitePress",
+  "Senuto"
+ ],
+ "projRows": [
+  {
+   "no": "01",
+   "name": "Strona firmowa",
+   "short": "Strona, która tłumaczy ofertę w kilka sekund i prowadzi do telefonu.",
+   "v0": "Wizytówka",
+   "v1": "Serwis",
+   "meta": "Do 5 sekcji · Astro · gotowa pod Google i AI",
+   "time": "2–3 tyg.",
+   "segCls": "",
+   "p0": "true",
+   "p1": "false",
+   "i": "0",
+   "meta0": "Do 5 sekcji · Astro · gotowa pod Google i AI",
+   "meta1": "Oferta, blog, podstrony lokalne · Astro lub WordPress",
+   "time0": "2–3 tyg.",
+   "time1": "4–6 tyg."
+  },
+  {
+   "no": "02",
+   "name": "Sklep e-commerce",
+   "short": "Sklep z płatnościami, kurierami i kartami produktów pod Google.",
+   "v0": "Start",
+   "v1": "Rozbudowany",
+   "meta": "Warianty, integracje z hurtownią, Merchant Center",
+   "time": "5–6 tyg.",
+   "segCls": "is-b",
+   "p0": "false",
+   "p1": "true",
+   "i": "1",
+   "meta0": "Do 100 produktów · płatności i kurierzy",
+   "meta1": "Warianty, integracje z hurtownią, Merchant Center",
+   "time0": "3–4 tyg.",
+   "time1": "5–6 tyg."
+  },
+  {
+   "no": "03",
+   "name": "SEO · AEO · GEO",
+   "short": "Widoczność w Google, w Mapach i w odpowiedziach AI.",
+   "v0": "Lokalnie",
+   "v1": "Cała Polska",
+   "meta": "Piaseczno, Warszawa i okolice · Mapy Google",
+   "time": "start w 7 dni",
+   "segCls": "",
+   "p0": "true",
+   "p1": "false",
+   "i": "2",
+   "meta0": "Piaseczno, Warszawa i okolice · Mapy Google",
+   "meta1": "Frazy ogólnopolskie · treści i linki",
+   "time0": "start w 7 dni",
+   "time1": "start w 14 dni"
+  },
+  {
+   "no": "04",
+   "name": "Google i Meta Ads",
+   "short": "Kampanie nastawione na telefony, formularze i sprzedaż.",
+   "v0": "Jeden kanał",
+   "v1": "Google + Meta",
+   "meta": "Google Ads albo Meta Ads · pomiar GA4",
+   "time": "start w 5 dni",
+   "segCls": "",
+   "p0": "true",
+   "p1": "false",
+   "i": "3",
+   "meta0": "Google Ads albo Meta Ads · pomiar GA4",
+   "meta1": "Oba kanały i remarketing · raport kosztu leada",
+   "time0": "start w 5 dni",
+   "time1": "start w 7 dni"
+  },
+  {
+   "no": "05",
+   "name": "Social media",
+   "short": "Profile prowadzone co tydzień, z rolkami i grafikami.",
+   "v0": "Start",
+   "v1": "Pełna obsługa",
+   "meta": "Facebook + Instagram · 8 postów w miesiącu",
+   "time": "start w 7 dni",
+   "segCls": "",
+   "p0": "true",
+   "p1": "false",
+   "i": "4",
+   "meta0": "Facebook + Instagram · 8 postów w miesiącu",
+   "meta1": "FB, IG, TikTok · rolki, karuzele, reklamy",
+   "time0": "start w 7 dni",
+   "time1": "start w 10 dni"
+  },
+  {
+   "no": "06",
+   "name": "Branding",
+   "short": "Logo i identyfikacja, które budują rozpoznawalność.",
+   "v0": "Logo",
+   "v1": "Pełna identyfikacja",
+   "meta": "Logo w wersjach + kolory i fonty",
+   "time": "2–3 tyg.",
+   "segCls": "",
+   "p0": "true",
+   "p1": "false",
+   "i": "5",
+   "meta0": "Logo w wersjach + kolory i fonty",
+   "meta1": "Księga znaku, druk, szablony social",
+   "time0": "2–3 tyg.",
+   "time1": "4–6 tyg."
+  }
+ ],
+ "quoteSteps": [
+  {
+   "n": "1",
+   "t": "Krótki brief",
+   "d": "formularz albo telefon, 10 minut",
+   "i": "0"
+  },
+  {
+   "n": "2",
+   "t": "Rozmowa o celach",
+   "d": "zakres, funkcje, kanały i termin",
+   "i": "1"
+  },
+  {
+   "n": "3",
+   "t": "Wycena w 24 h",
+   "d": "stała cena za projekt w umowie",
+   "i": "2"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Ile kosztuje strona internetowa dla firmy?",
+   "a": "Cenę każdej strony ustalamy indywidualnie, bo zależy od liczby podstron, funkcji, integracji i tego, czy przygotowujemy treści. Po krótkiej rozmowie w ciągu 24 godzin dostajesz bezpłatną wycenę ze stałą ceną za cały projekt, zapisaną w umowie.",
+   "open": true,
+   "cls": "open",
+   "exp": "true",
+   "sign": "−",
+   "i": "0"
+  },
+  {
+   "q": "Ile trwa stworzenie strony lub sklepu internetowego?",
+   "a": "Strona firmowa powstaje zwykle w 2–6 tygodni od briefu do publikacji, sklep internetowy w 3–6 tygodni. Termin zależy od zakresu i tempa akceptacji, a zapisujemy go w umowie.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "1"
+  },
+  {
+   "q": "Ile kosztuje pozycjonowanie i kiedy widać efekty?",
+   "a": "Pozycjonowanie rozliczamy w stałej miesięcznej opłacie ustalanej po audycie. Pierwsze efekty w SEO lokalnym i w Mapach Google widać zwykle po 2–3 miesiącach, w trudniejszych branżach po 4–6 miesiącach.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "2"
+  },
+  {
+   "q": "Czym różni się SEO od AEO i GEO?",
+   "a": "SEO to widoczność w wynikach Google. AEO (Answer Engine Optimization) przygotowuje treści tak, żeby wyszukiwarki i asystenci podawali je jako gotową odpowiedź. GEO (Generative Engine Optimization) zwiększa szansę, że ChatGPT, Gemini czy Perplexity zacytują Twoją firmę. Robimy wszystkie trzy jednocześnie.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "3"
+  },
+  {
+   "q": "Google Ads czy Meta Ads – co wybrać na start?",
+   "a": "Google Ads działa najlepiej, gdy klienci sami szukają usługi, na przykład „hydraulik Piaseczno”. Meta Ads sprawdza się, gdy trzeba pokazać ofertę ludziom, którzy jeszcze jej nie szukają. Często zaczynamy od Google Ads, a Meta dokładamy do remarketingu.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "4"
+  },
+  {
+   "q": "Jaki budżet reklamowy wystarczy na początek?",
+   "a": "Budżet dobieramy do branży, zasięgu i celu. Na start ustalamy kwotę, która pozwoli zebrać dane w 4–6 tygodni, a potem przesuwamy pieniądze na kampanie, które przynoszą zapytania. Budżet reklamowy płacisz bezpośrednio do Google lub Meta.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "5"
+  },
+  {
+   "q": "Co obejmuje obsługa social media?",
+   "a": "Strategię i kalendarz treści, grafiki, karuzele i rolki wideo, publikację na Facebooku, Instagramie lub TikToku, odpowiedzi na komentarze oraz miesięczny raport. Na życzenie dokładamy kampanie Meta Ads.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "6"
+  },
+  {
+   "q": "Czy zaprojektujecie logo i identyfikację wizualną?",
+   "a": "Tak. Projektujemy logo, kolorystykę, typografię i księgę znaku, a potem wykorzystujemy je na stronie, w social mediach i w materiałach drukowanych, żeby marka wyglądała spójnie wszędzie.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "7"
+  },
+  {
+   "q": "WordPress czy strona pisana w kodzie?",
+   "a": "Strony w kodzie (u nas Astro) są szybsze, bezpieczniejsze i lepiej się pozycjonują. WordPress na czystym motywie polecamy, gdy chcesz często samodzielnie edytować treści. Nie używamy ciężkich page builderów.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "8"
+  },
+  {
+   "q": "Kto jest właścicielem strony i treści?",
+   "a": "Ty. Po zakończeniu projektu przekazujemy prawa autorskie, dostępy do strony, domeny, hostingu, Google Analytics i kont reklamowych. Wszystko zapisujemy w umowie.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "9"
+  },
+  {
+   "q": "Czy zajmiecie się stroną po publikacji?",
+   "a": "Tak. Oferujemy opiekę techniczną: aktualizacje, kopie zapasowe, bezpieczeństwo i raporty wydajności, a także dalsze SEO, kampanie i social media.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "10"
+  },
+  {
+   "q": "Czy pracujecie tylko z firmami z Piaseczna i Warszawy?",
+   "a": "Nie. Biuro mamy w Piasecznie i chętnie spotykamy się na miejscu z firmami z okolic Warszawy, ale pracujemy też zdalnie z klientami z całej Polski.",
+   "open": false,
+   "cls": "",
+   "exp": "false",
+   "sign": "+",
+   "i": "11"
+  }
+ ],
+ "posts": [
+  {
+   "img": "/img/b-laptop.webp",
+   "alt": "Laptop z otwartą stroną internetową firmy",
+   "cat": "Strony www",
+   "time": "6 min",
+   "t": "Jak powinna wyglądać strona internetowa firmy?",
+   "d": "Domena, unikalna wartość, oferta, opinie, FAQ i kontakt: elementy, które zamieniają odwiedzających w klientów.",
+   "href": "#blog",
+   "i": "0"
+  },
+  {
+   "img": "/img/b-coded.webp",
+   "alt": "Kod strony internetowej w edytorze",
+   "cat": "Technologia",
+   "time": "7 min",
+   "t": "Strona na WordPressie czy pisana kodem?",
+   "d": "Porównujemy szybkość, bezpieczeństwo i koszty utrzymania stron z page buildera, na czystym motywie i w kodzie.",
+   "href": "#blog",
+   "i": "1"
+  },
+  {
+   "img": "/img/b-expert.webp",
+   "alt": "Ekspert omawiający strategię SEO",
+   "cat": "SEO",
+   "time": "5 min",
+   "t": "Ogromna wartość bloga dla pozycjonowania",
+   "d": "Jak blog buduje pozycję eksperta, zdobywa linki i ruch z długiego ogona, także w odpowiedziach AI.",
+   "href": "#blog",
+   "i": "2"
+  }
+ ],
+ "footCols": [
+  {
+   "t": "Usługi",
+   "links": [
+    {
+     "t": "Strony internetowe",
+     "href": "/uslugi/strony-internetowe/",
+     "i": "0"
+    },
+    {
+     "t": "Sklepy e-commerce",
+     "href": "/uslugi/sklepy-internetowe/",
+     "i": "1"
+    },
+    {
+     "t": "SEO · AEO · GEO",
+     "href": "/uslugi/pozycjonowanie-seo/",
+     "i": "2"
+    },
+    {
+     "t": "Google i Meta Ads",
+     "href": "/uslugi/kampanie-google-meta-ads/",
+     "i": "3"
+    },
+    {
+     "t": "Social media",
+     "href": "/uslugi/social-media/",
+     "i": "4"
+    },
+    {
+     "t": "Branding",
+     "href": "/uslugi/branding/",
+     "i": "5"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "t": "Firma",
+   "links": [
+    {
+     "t": "Case studies",
+     "href": "/#realizacje",
+     "i": "0"
+    },
+    {
+     "t": "O nas",
+     "href": "/o-nas/",
+     "i": "1"
+    },
+    {
+     "t": "Realizacje",
+     "href": "/realizacje/",
+     "i": "2"
+    },
+    {
+     "t": "Opinie",
+     "href": "/#opinie",
+     "i": "3"
+    },
+    {
+     "t": "Blog",
+     "href": "/#blog",
+     "i": "4"
+    },
+    {
+     "t": "Kontakt",
+     "href": "/kontakt/",
+     "i": "5"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "t": "Kontakt",
+   "links": [
+    {
+     "t": "+48 501 784 882",
+     "href": "tel:+48501784882",
+     "i": "0"
+    },
+    {
+     "t": "biuro@topstrony.pl",
+     "href": "mailto:biuro@topstrony.pl",
+     "i": "1"
+    },
+    {
+     "t": "ul. Strusia, Piaseczno",
+     "href": "/kontakt/",
+     "i": "2"
+    },
+    {
+     "t": "pon.–pt. 9:00–20:00",
+     "href": "/kontakt/",
+     "i": "3"
+    }
+   ],
+   "i": "2"
+  }
+ ]
+}

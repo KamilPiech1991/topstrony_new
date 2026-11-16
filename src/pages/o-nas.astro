@@ -1,0 +1,11 @@
+---
+import Base from '../layouts/Base.astro';
+import OnasMain from '../components/gen/OnasMain.astro';
+import v from '../data/pages/onas.json';
+import { crumbs } from '../data/site';
+---
+<Base v={v} page="onas" path="/o-nas/" jsonLd={[crumbs([['Strona główna', '/'], ['O nas', '/o-nas/']])]}
+  title="O nas – top.strony, agencja marketingowa z Piaseczna"
+  description="Poznaj top.strony: mała agencja z Piaseczna, w której rozmawiasz z ludźmi robiącymi Twój projekt. Strony, SEO, reklamy i social media od 2018 roku.">
+  <OnasMain v={v} />
+</Base>

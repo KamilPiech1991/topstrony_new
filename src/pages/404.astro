@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import v from '../data/pages/home.json';
+---
+<Base noindex v={v} page="404" path="/404/" title="Nie ma takiej strony – top.strony" description="Ta strona nie istnieje lub została przeniesiona.">
+  <main id="main">
+    <section class="sec" style="padding: 200px 0 140px; text-align: center">
+      <div class="wrap">
+        <p class="eyebrow h-in">Błąd 404</p>
+        <h1 class="h h2 h-in">Tej strony tu nie ma, ale klienci wciąż mogą Cię znaleźć</h1>
+        <p class="lead h-in" style="margin-left: auto; margin-right: auto">Adres mógł się zmienić. Zajrzyj do usług albo napisz do nas, a podpowiemy, gdzie szukać.</p>
+        <div class="hero-ctas h-in" style="justify-content: center; margin-top: 36px">
+          <a href="/" class="btn btn-g" data-magnetic>Strona główna</a>
+          <a href="/uslugi/" class="btn btn-o" data-magnetic>Zobacz usługi</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>

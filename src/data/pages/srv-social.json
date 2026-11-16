@@ -1,0 +1,1069 @@
+{
+ "theme": "dark",
+ "isLight": "false",
+ "themeLabel": "Włącz tryb jasny",
+ "svc": {
+  "img": "/img/usluga-s4.webp",
+  "file": "/uslugi/social-media/",
+  "slug": "social-media",
+  "short": "Social media",
+  "h1": "Prowadzenie social media dla firm: Facebook, Instagram, TikTok",
+  "metaTitle": "Prowadzenie social media dla firm | top.strony",
+  "metaDesc": "Strategia, kalendarz treści, grafiki, karuzele i rolki na Facebooka, Instagrama i TikToka. Moderacja i raport co miesiąc. Bezpłatna konsultacja.",
+  "lead": "Prowadzimy profile firm tak, żeby budowały zaufanie i przynosiły zapytania: według planu, w spójnym stylu marki, z rolkami i raportem co miesiąc.",
+  "answer": "Prowadzenie social media w top.strony obejmuje audyt profili, strategię komunikacji, kalendarz treści, grafiki, karuzele i rolki wideo, publikację oraz moderację komentarzy na Facebooku, Instagramie i TikToku. Co miesiąc raportujemy zasięgi i zapytania, a profile i konta zawsze należą do Ciebie.",
+  "facts": [
+   [
+    "FB · IG · TikTok",
+    "platformy"
+   ],
+   [
+    "plan",
+    "kalendarz na miesiąc"
+   ],
+   [
+    "co miesiąc",
+    "raport z wyników"
+   ]
+  ],
+  "defT": "Plan zamiast publikowania od przypadku",
+  "def": [
+   "Profil, na którym ostatni post pojawił się pół roku temu, odstrasza bardziej niż brak profilu. Klienci sprawdzają social media, zanim zadzwonią: szukają zdjęć realizacji, opinii i dowodu, że firma działa.",
+   "Dlatego zaczynamy od strategii: do kogo mówimy, o czym i w jakim formacie. Potem co miesiąc dostajesz kalendarz treści do akceptacji, a my zajmujemy się grafiką, rolkami, publikacją i odpowiedziami na komentarze."
+  ],
+  "forT": "Dla kogo prowadzimy social media?",
+  "for": [
+   "Firmy lokalne: gabinety, salony, restauracje, usługi",
+   "Marki z produktem, które chcą budować społeczność",
+   "Firmy, które nie mają czasu na regularne publikacje",
+   "Właściciele, którzy chcą budować markę osobistą",
+   "Firmy, które łączą social media z kampaniami Meta Ads"
+  ],
+  "scope": [
+   [
+    "Audyt i strategia",
+    "Analiza profili i konkurencji, grupa docelowa, tematy i ton komunikacji.",
+    "M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+   ],
+   [
+    "Kalendarz treści",
+    "Plan publikacji na cały miesiąc do akceptacji przed startem.",
+    "M3 5h18v16H3zM16 3v4M8 3v4M3 10h18"
+   ],
+   [
+    "Grafiki i karuzele",
+    "Posty i karuzele w spójnym stylu marki, z szablonami do wielokrotnego użycia.",
+    "M3 3h18v18H3zM3 15l5-5 4 4 3-3 6 6"
+   ],
+   [
+    "Rolki wideo",
+    "Scenariusze, montaż i napisy do rolek na Instagram, Facebook i TikTok.",
+    "M23 7l-7 5 7 5zM1 5h15v14H1z"
+   ],
+   [
+    "Publikacja i moderacja",
+    "Regularne publikacje, odpowiedzi na komentarze i wiadomości.",
+    "M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12z"
+   ],
+   [
+    "Profil Firmy w Google",
+    "Wpisy i zdjęcia na wizytówce Google jako uzupełnienie social mediów.",
+    "M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"
+   ],
+   [
+    "Promowanie postów",
+    "Wsparcie najlepszych treści budżetem w Meta Ads, żeby dotarły dalej.",
+    "M3 3v18h18M7 14l4-4 3 3 6-6"
+   ],
+   [
+    "Raport co miesiąc",
+    "Zasięgi, zaangażowanie, nowi obserwujący i zapytania z social mediów.",
+    "M4 20V10M10 20V4M16 20v-7M22 20H2"
+   ]
+  ],
+  "variants": [
+   [
+    "Start",
+    "Jeden profil i regularna obecność.",
+    [
+     "Facebook lub Instagram",
+     "Kalendarz i grafiki",
+     "Moderacja"
+    ],
+    "od 1. miesiąca"
+   ],
+   [
+    "Wzrost",
+    "Facebook i Instagram z rolkami.",
+    [
+     "Grafiki, karuzele, rolki",
+     "Moderacja i stories",
+     "Raport miesięczny"
+    ],
+    "od 1. miesiąca"
+   ],
+   [
+    "Pełna obsługa",
+    "Social media razem z kampaniami Meta Ads.",
+    [
+     "FB, IG i TikTok",
+     "Rolki co tydzień",
+     "Kampanie Meta Ads"
+    ],
+    "od 1. miesiąca"
+   ]
+  ],
+  "cmpT": "Samodzielnie, pracownik czy agencja?",
+  "cmpCols": [
+   "",
+   "Samodzielnie",
+   "Pracownik",
+   "top.strony"
+  ],
+  "cmp": [
+   [
+    "Czas właściciela",
+    "kilka godzin tygodniowo",
+    "zarządzanie osobą",
+    "akceptacja planu raz w miesiącu"
+   ],
+   [
+    "Grafika i wideo",
+    "zależne od umiejętności",
+    "zwykle jedna osoba",
+    "grafik, montaż i copywriter"
+   ],
+   [
+    "Ciągłość",
+    "przerwy w zapracowanych tygodniach",
+    "urlopy i zwolnienia",
+    "publikacje zgodnie z planem"
+   ],
+   [
+    "Połączenie z reklamą i SEO",
+    "rzadko",
+    "zależne od kompetencji",
+    "w jednym zespole"
+   ]
+  ],
+  "faqs": [
+   [
+    "Co obejmuje prowadzenie social media?",
+    "Audyt i strategię, kalendarz treści, grafiki, karuzele i rolki, publikację, moderację komentarzy oraz raport co miesiąc. Kampanie Meta Ads możemy dodać jako rozszerzenie."
+   ],
+   [
+    "Ile postów miesięcznie publikujecie?",
+    "Liczbę dobieramy do celu i budżetu. Ważniejsza od liczby jest regularność i jakość. Dokładny plan dostajesz przed startem."
+   ],
+   [
+    "Czy nagrywacie rolki?",
+    "Montujemy rolki z Twoich nagrań albo przygotowujemy scenariusze i wskazówki do nagrania telefonem."
+   ],
+   [
+    "Czy muszę akceptować każdy post?",
+    "Akceptujesz kalendarz na cały miesiąc z góry. Później publikujemy według planu, a Ty masz wgląd w każdą publikację."
+   ],
+   [
+    "Czy profile będą należały do mnie?",
+    "Tak. Profile i konta zawsze są Twoje. Pracujemy na dostępach, które nam udostępniasz."
+   ],
+   [
+    "Które platformy wybrać?",
+    "Dla większości firm lokalnych najważniejsze są Facebook i Instagram. TikTok polecamy markom, które mogą pokazywać kulisy pracy i produkty w wideo."
+   ],
+   [
+    "Czy prowadzicie też reklamy na Facebooku?",
+    "Tak. Social media łączymy z kampaniami Meta Ads, żeby najlepsze treści docierały do nowych klientów."
+   ]
+  ],
+  "case": "pure",
+  "related": [
+   "ads",
+   "branding",
+   "seo"
+  ],
+  "shotTx": {
+   "alt1": "Kamil Piech nagrywa rolkę z właścicielką salonu",
+   "alt2": "Planowanie kalendarza treści do social mediów",
+   "eyebrow": "Treści z życia firmy",
+   "h": "Najlepsze rolki powstają tam, gdzie pracujesz",
+   "lead": "Klienci chcą zobaczyć ludzi i kulisy, a nie stockowe zdjęcia. Pomagamy nagrać krótkie wideo u Ciebie w firmie i planujemy treści tak, żeby publikacje szły regularnie.",
+   "cta": "Zapytaj o social media →"
+  },
+  "shot1": "/img/usluga-qd0.webp",
+  "shot2": "/img/usluga-qd1.webp",
+  "disp1": "Social media,",
+  "disp2": "które budują",
+  "disp3": "zaufanie",
+  "ic1": "M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z",
+  "ic2": "M23 7l-7 5 7 5zM1 5h15v14H1z",
+  "ic3": "M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12z",
+  "bg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+  "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+  "title": "Obsługa social media",
+  "updated": "listopad 2026",
+  "hasImg": true,
+  "visCls": "has-img",
+  "people": true,
+  "whoOn": false
+ },
+ "svcDef": [
+  {
+   "t": "Profil, na którym ostatni post pojawił się pół roku temu, odstrasza bardziej niż brak profilu. Klienci sprawdzają social media, zanim zadzwonią: szukają zdjęć realizacji, opinii i dowodu, że firma działa.",
+   "i": "0"
+  },
+  {
+   "t": "Dlatego zaczynamy od strategii: do kogo mówimy, o czym i w jakim formacie. Potem co miesiąc dostajesz kalendarz treści do akceptacji, a my zajmujemy się grafiką, rolkami, publikacją i odpowiedziami na komentarze.",
+   "i": "1"
+  }
+ ],
+ "svcFor": [
+  {
+   "t": "Firmy lokalne: gabinety, salony, restauracje, usługi",
+   "i": "0"
+  },
+  {
+   "t": "Marki z produktem, które chcą budować społeczność",
+   "i": "1"
+  },
+  {
+   "t": "Firmy, które nie mają czasu na regularne publikacje",
+   "i": "2"
+  },
+  {
+   "t": "Właściciele, którzy chcą budować markę osobistą",
+   "i": "3"
+  },
+  {
+   "t": "Firmy, które łączą social media z kampaniami Meta Ads",
+   "i": "4"
+  }
+ ],
+ "svcScope": [
+  {
+   "t": "Audyt i strategia",
+   "d": "Analiza profili i konkurencji, grupa docelowa, tematy i ton komunikacji.",
+   "icon": "M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11",
+   "dl": "transition-delay: 0.00s",
+   "i": "0"
+  },
+  {
+   "t": "Kalendarz treści",
+   "d": "Plan publikacji na cały miesiąc do akceptacji przed startem.",
+   "icon": "M3 5h18v16H3zM16 3v4M8 3v4M3 10h18",
+   "dl": "transition-delay: 0.06s",
+   "i": "1"
+  },
+  {
+   "t": "Grafiki i karuzele",
+   "d": "Posty i karuzele w spójnym stylu marki, z szablonami do wielokrotnego użycia.",
+   "icon": "M3 3h18v18H3zM3 15l5-5 4 4 3-3 6 6",
+   "dl": "transition-delay: 0.12s",
+   "i": "2"
+  },
+  {
+   "t": "Rolki wideo",
+   "d": "Scenariusze, montaż i napisy do rolek na Instagram, Facebook i TikTok.",
+   "icon": "M23 7l-7 5 7 5zM1 5h15v14H1z",
+   "dl": "transition-delay: 0.18s",
+   "i": "3"
+  },
+  {
+   "t": "Publikacja i moderacja",
+   "d": "Regularne publikacje, odpowiedzi na komentarze i wiadomości.",
+   "icon": "M21 12a8.5 8.5 0 0 1-12.4 7.6L3 21l1.4-5.4A8.5 8.5 0 1 1 21 12z",
+   "dl": "transition-delay: 0.00s",
+   "i": "4"
+  },
+  {
+   "t": "Profil Firmy w Google",
+   "d": "Wpisy i zdjęcia na wizytówce Google jako uzupełnienie social mediów.",
+   "icon": "M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z",
+   "dl": "transition-delay: 0.06s",
+   "i": "5"
+  },
+  {
+   "t": "Promowanie postów",
+   "d": "Wsparcie najlepszych treści budżetem w Meta Ads, żeby dotarły dalej.",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "dl": "transition-delay: 0.12s",
+   "i": "6"
+  },
+  {
+   "t": "Raport co miesiąc",
+   "d": "Zasięgi, zaangażowanie, nowi obserwujący i zapytania z social mediów.",
+   "icon": "M4 20V10M10 20V4M16 20v-7M22 20H2",
+   "dl": "transition-delay: 0.18s",
+   "i": "7"
+  }
+ ],
+ "svcVariants": [
+  {
+   "name": "Start",
+   "d": "Jeden profil i regularna obecność.",
+   "items": [
+    "Facebook lub Instagram",
+    "Kalendarz i grafiki",
+    "Moderacja"
+   ],
+   "time": "od 1. miesiąca",
+   "cls": "",
+   "badge": false,
+   "n": "01",
+   "i": "0"
+  },
+  {
+   "name": "Wzrost",
+   "d": "Facebook i Instagram z rolkami.",
+   "items": [
+    "Grafiki, karuzele, rolki",
+    "Moderacja i stories",
+    "Raport miesięczny"
+   ],
+   "time": "od 1. miesiąca",
+   "cls": "is-pop",
+   "badge": true,
+   "n": "02",
+   "i": "1"
+  },
+  {
+   "name": "Pełna obsługa",
+   "d": "Social media razem z kampaniami Meta Ads.",
+   "items": [
+    "FB, IG i TikTok",
+    "Rolki co tydzień",
+    "Kampanie Meta Ads"
+   ],
+   "time": "od 1. miesiąca",
+   "cls": "",
+   "badge": false,
+   "n": "03",
+   "i": "2"
+  }
+ ],
+ "svcCmpCols": [
+  {
+   "t": "",
+   "cls": "",
+   "i": "0"
+  },
+  {
+   "t": "Samodzielnie",
+   "cls": "",
+   "i": "1"
+  },
+  {
+   "t": "Pracownik",
+   "cls": "",
+   "i": "2"
+  },
+  {
+   "t": "top.strony",
+   "cls": "is-us",
+   "i": "3"
+  }
+ ],
+ "svcCmpRows": [
+  {
+   "th": "Czas właściciela",
+   "cells": [
+    {
+     "t": "kilka godzin tygodniowo",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "zarządzanie osobą",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "akceptacja planu raz w miesiącu",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "th": "Grafika i wideo",
+   "cells": [
+    {
+     "t": "zależne od umiejętności",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "zwykle jedna osoba",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "grafik, montaż i copywriter",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "th": "Ciągłość",
+   "cells": [
+    {
+     "t": "przerwy w zapracowanych tygodniach",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "urlopy i zwolnienia",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "publikacje zgodnie z planem",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "2"
+  },
+  {
+   "th": "Połączenie z reklamą i SEO",
+   "cells": [
+    {
+     "t": "rzadko",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "zależne od kompetencji",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "w jednym zespole",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "3"
+  }
+ ],
+ "svcFaqs": [
+  {
+   "q": "Co obejmuje prowadzenie social media?",
+   "a": "Audyt i strategię, kalendarz treści, grafiki, karuzele i rolki, publikację, moderację komentarzy oraz raport co miesiąc. Kampanie Meta Ads możemy dodać jako rozszerzenie.",
+   "open": true,
+   "closed": false,
+   "i": "0"
+  },
+  {
+   "q": "Ile postów miesięcznie publikujecie?",
+   "a": "Liczbę dobieramy do celu i budżetu. Ważniejsza od liczby jest regularność i jakość. Dokładny plan dostajesz przed startem.",
+   "open": false,
+   "closed": true,
+   "i": "1"
+  },
+  {
+   "q": "Czy nagrywacie rolki?",
+   "a": "Montujemy rolki z Twoich nagrań albo przygotowujemy scenariusze i wskazówki do nagrania telefonem.",
+   "open": false,
+   "closed": true,
+   "i": "2"
+  },
+  {
+   "q": "Czy muszę akceptować każdy post?",
+   "a": "Akceptujesz kalendarz na cały miesiąc z góry. Później publikujemy według planu, a Ty masz wgląd w każdą publikację.",
+   "open": false,
+   "closed": true,
+   "i": "3"
+  },
+  {
+   "q": "Czy profile będą należały do mnie?",
+   "a": "Tak. Profile i konta zawsze są Twoje. Pracujemy na dostępach, które nam udostępniasz.",
+   "open": false,
+   "closed": true,
+   "i": "4"
+  },
+  {
+   "q": "Które platformy wybrać?",
+   "a": "Dla większości firm lokalnych najważniejsze są Facebook i Instagram. TikTok polecamy markom, które mogą pokazywać kulisy pracy i produkty w wideo.",
+   "open": false,
+   "closed": true,
+   "i": "5"
+  },
+  {
+   "q": "Czy prowadzicie też reklamy na Facebooku?",
+   "a": "Tak. Social media łączymy z kampaniami Meta Ads, żeby najlepsze treści docierały do nowych klientów.",
+   "open": false,
+   "closed": true,
+   "i": "6"
+  }
+ ],
+ "svcSteps": [
+  {
+   "when": "Tydzień 1",
+   "t": "Audyt profili",
+   "d": "Analiza obecnych profili, konkurencji i grupy docelowej.",
+   "n": "01",
+   "i": "0"
+  },
+  {
+   "when": "Tydzień 1–2",
+   "t": "Strategia i styl",
+   "d": "Tematy, ton komunikacji, szablony graficzne i formaty rolek.",
+   "n": "02",
+   "i": "1"
+  },
+  {
+   "when": "Co miesiąc",
+   "t": "Kalendarz do akceptacji",
+   "d": "Plan publikacji na cały miesiąc z grafikami i opisami.",
+   "n": "03",
+   "i": "2"
+  },
+  {
+   "when": "Co tydzień",
+   "t": "Publikacja i moderacja",
+   "d": "Posty, stories i rolki zgodnie z planem, odpowiedzi na komentarze.",
+   "n": "04",
+   "i": "3"
+  },
+  {
+   "when": "Co miesiąc",
+   "t": "Raport",
+   "d": "Zasięgi, zaangażowanie, zapytania i wnioski na kolejny miesiąc.",
+   "n": "05",
+   "i": "4"
+  }
+ ],
+ "svcCase": {
+  "name": "Pure Rehab",
+  "img": "/img/realizacja-pure-rehab.webp",
+  "lead": "Klinika fizjoterapii w dwóch lokalizacjach: strona, SEO lokalne, kampanie i social media.",
+  "tags": [
+   "Strona www",
+   "SEO",
+   "Google i Meta Ads",
+   "Social media"
+  ],
+  "href": "/#realizacje",
+  "alt": "Realizacja: Pure Rehab"
+ },
+ "svcRelated": [
+  {
+   "t": "Kampanie Google Ads i Meta Ads",
+   "d": "Prowadzimy kampanie, które mają przynosić telefony i zamówienia, a nie same kliknięcia. Każde zapytanie mierzymy w GA4, więc wiesz, ile kosztuje Cię klient.",
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "bg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "i": "0"
+  },
+  {
+   "t": "Branding i identyfikacja wizualna",
+   "d": "Projektujemy markę, którą klienci rozpoznają: logo, kolory, typografię i zasady, dzięki którym strona, social media i druk wyglądają jak jedna firma.",
+   "href": "/uslugi/branding/",
+   "bg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "i": "1"
+  },
+  {
+   "t": "Pozycjonowanie SEO, AEO i GEO",
+   "d": "Pomagamy firmom pojawiać się tam, gdzie klienci szukają: w wynikach Google, w Mapach i w odpowiedziach ChatGPT, Gemini oraz AI Overviews.",
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "bg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "i": "2"
+  }
+ ],
+ "svcCrumb": "Social media",
+ "navRest": [
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  }
+ ],
+ "megaItems": [
+  {
+   "i": "0",
+   "n": "01",
+   "title": "Strony internetowe",
+   "name": "Strony internetowe",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "tag": "Szybkie strony w Astro i WordPressie",
+   "lead": "Strony firmowe i landing page projektowane od zera, które ładują się w ułamku sekundy i prowadzą do telefonu.",
+   "m1": "2–6 tygodni",
+   "m2": "Astro · WordPress",
+   "subs": [
+    "Strony firmowe",
+    "Landing page",
+    "Strony w Astro",
+    "WordPress",
+    "Redesign",
+    "Opieka techniczna"
+   ],
+   "href": "/uslugi/strony-internetowe/",
+   "cls": "is-on",
+   "hid": "false",
+   "tab": "0",
+   "ibg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "pbg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "dl": "--d: 0.040s"
+  },
+  {
+   "i": "1",
+   "n": "02",
+   "title": "Sklepy e-commerce",
+   "name": "Sklepy e-commerce",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
+   "tag": "WooCommerce i Shopify, które sprzedają",
+   "lead": "Sklepy z płatnościami, kurierami i kartami produktów gotowymi pod Google i Merchant Center.",
+   "m1": "3–6 tygodni",
+   "m2": "WooCommerce · Shopify",
+   "subs": [
+    "WooCommerce",
+    "Shopify",
+    "Płatności online",
+    "Integracje kurierów",
+    "Merchant Center",
+    "Migracja sklepu"
+   ],
+   "href": "/uslugi/sklepy-internetowe/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "pbg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "dl": "--d: 0.075s"
+  },
+  {
+   "i": "2",
+   "n": "03",
+   "title": "Pozycjonowanie SEO, AEO i GEO",
+   "name": "SEO, AEO i GEO",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "tag": "Google, Mapy i odpowiedzi AI",
+   "lead": "Audyt, treści, wizytówka Google i optymalizacja pod ChatGPT, Gemini i AI Overviews.",
+   "m1": "Raport co miesiąc",
+   "m2": "Google · Mapy · AI",
+   "subs": [
+    "Audyt SEO",
+    "SEO lokalne",
+    "Wizytówka Google",
+    "Treści i blog",
+    "AEO / GEO",
+    "Link building"
+   ],
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "pbg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "dl": "--d: 0.110s"
+  },
+  {
+   "i": "3",
+   "n": "04",
+   "title": "Kampanie Google Ads i Meta Ads",
+   "name": "Google i Meta Ads",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "tag": "Kampanie mierzone w GA4",
+   "lead": "Search, Performance Max, YouTube i kampanie na Facebooku oraz Instagramie z pomiarem każdego leada.",
+   "m1": "Pomiar w GA4",
+   "m2": "Google · Meta",
+   "subs": [
+    "Google Ads",
+    "Performance Max",
+    "Meta Ads",
+    "Lead Ads",
+    "Remarketing",
+    "Pomiar GA4"
+   ],
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "pbg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "dl": "--d: 0.145s"
+  },
+  {
+   "i": "4",
+   "n": "05",
+   "title": "Obsługa social media",
+   "name": "Social media",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+   "tag": "Profile, rolki i karuzele",
+   "lead": "Strategia, kalendarz treści, grafiki i rolki wideo na Facebooku, Instagramie i TikToku.",
+   "m1": "Raport co miesiąc",
+   "m2": "FB · IG · TikTok",
+   "subs": [
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Rolki wideo",
+    "Karuzele i grafiki",
+    "Kalendarz treści"
+   ],
+   "href": "/uslugi/social-media/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "pbg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "dl": "--d: 0.180s"
+  },
+  {
+   "i": "5",
+   "n": "06",
+   "title": "Branding i identyfikacja wizualna",
+   "name": "Branding",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "tag": "Logo, kolory i księga znaku",
+   "lead": "Identyfikacja, która buduje rozpoznawalność: logo, typografia, druk i szablony do social mediów.",
+   "m1": "Księga znaku",
+   "m2": "Druk · social",
+   "subs": [
+    "Logo",
+    "Księga znaku",
+    "Kolorystyka",
+    "Wizytówki i druk",
+    "Szablony social",
+    "Rebranding"
+   ],
+   "href": "/uslugi/branding/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "pbg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "dl": "--d: 0.215s"
+  }
+ ],
+ "megaCls": "",
+ "megaBtnCls": "is-cur",
+ "megaExp": "false",
+ "megaHidden": "true",
+ "megaVars": "--mi: 0",
+ "menuOpen": false,
+ "menuExp": "false",
+ "statusCls": "off",
+ "statusLabel": "Teraz offline",
+ "statusNote": "oddzwonimy po 9:00",
+ "fabOpen": false,
+ "fabClosed": true,
+ "navLinks": [
+  {
+   "t": "Usługi",
+   "href": "/uslugi/",
+   "k": "uslugi",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "5"
+  }
+ ],
+ "socials": [
+  {
+   "t": "top.strony na Facebooku",
+   "href": "https://www.facebook.com/topstronypl/",
+   "d": "M9.1 23.7v-8H6.6V12h2.5v-1.6c0-4.1 1.9-6 5.9-6l1.6.1v3.3h-1.3c-1.6 0-2.2.6-2.2 2.1V12h3.5l-.6 3.7h-2.9V24C18.8 23.3 23 18.1 23 12A11 11 0 1 0 9.1 23.7z",
+   "i": "0"
+  },
+  {
+   "t": "top.strony na Instagramie",
+   "href": "https://www.instagram.com/topstrony/",
+   "d": "M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z",
+   "i": "1"
+  },
+  {
+   "t": "top.strony na LinkedIn",
+   "href": "https://www.linkedin.com/in/top-strony-a72347205/",
+   "d": "M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z",
+   "i": "2"
+  }
+ ],
+ "clients": [
+  {
+   "name": "Pure Rehab",
+   "ind": "fizjoterapia",
+   "dl": "transition-delay: 0.00s",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 169px; height: 56px",
+   "i": "0"
+  },
+  {
+   "name": "Eurodomy",
+   "ind": "budowa domów",
+   "dl": "transition-delay: 0.04s",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 150px; height: 56px",
+   "i": "1"
+  },
+  {
+   "name": "Sahra",
+   "ind": "sklep z dywanami",
+   "dl": "transition-delay: 0.08s",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 206px; height: 56px",
+   "i": "2"
+  },
+  {
+   "name": "Marmostyl",
+   "ind": "kamieniarstwo",
+   "dl": "transition-delay: 0.12s",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 148px; height: 56px",
+   "i": "3"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "ind": "oświetlenie sceniczne",
+   "dl": "transition-delay: 0.16s",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 195px; height: 44px",
+   "i": "4"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "ind": "ekspresy do kawy",
+   "dl": "transition-delay: 0.20s",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 281px; height: 34px",
+   "i": "5"
+  },
+  {
+   "name": "SMKA",
+   "ind": "producent preparatów",
+   "dl": "transition-delay: 0.24s",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 212px; height: 56px",
+   "i": "6"
+  },
+  {
+   "name": "Region Zdrowia",
+   "ind": "portal prozdrowotny",
+   "dl": "transition-delay: 0.28s",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 213px; height: 34px",
+   "i": "7"
+  },
+  {
+   "name": "Ventoni",
+   "ind": "biuro rachunkowe",
+   "dl": "transition-delay: 0.32s",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 194px; height: 56px",
+   "i": "8"
+  },
+  {
+   "name": "E-Tabak",
+   "ind": "sieć sklepów",
+   "dl": "transition-delay: 0.36s",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 115px; height: 80px",
+   "i": "9"
+  },
+  {
+   "name": "CloudInsight",
+   "ind": "doradztwo IT",
+   "dl": "transition-delay: 0.40s",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 268px; height: 34px",
+   "i": "10"
+  },
+  {
+   "name": "Fastpol",
+   "ind": "czyszczenie wentylacji",
+   "dl": "transition-delay: 0.44s",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 246px; height: 44px",
+   "i": "11"
+  },
+  {
+   "name": "TSE Remonty",
+   "ind": "remonty",
+   "dl": "transition-delay: 0.48s",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 177px; height: 44px",
+   "i": "12"
+  },
+  {
+   "name": "K|R Projekt",
+   "ind": "projekty wnętrz",
+   "dl": "transition-delay: 0.52s",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 78px; height: 80px",
+   "i": "13"
+  },
+  {
+   "name": "Oligradskyi",
+   "ind": "balustrady stalowe",
+   "dl": "transition-delay: 0.56s",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 116px; height: 80px",
+   "i": "14"
+  }
+ ],
+ "footCols": [
+  {
+   "t": "Usługi",
+   "links": [
+    {
+     "t": "Strony internetowe",
+     "href": "/uslugi/strony-internetowe/",
+     "i": "0"
+    },
+    {
+     "t": "Sklepy e-commerce",
+     "href": "/uslugi/sklepy-internetowe/",
+     "i": "1"
+    },
+    {
+     "t": "SEO · AEO · GEO",
+     "href": "/uslugi/pozycjonowanie-seo/",
+     "i": "2"
+    },
+    {
+     "t": "Google i Meta Ads",
+     "href": "/uslugi/kampanie-google-meta-ads/",
+     "i": "3"
+    },
+    {
+     "t": "Social media",
+     "href": "/uslugi/social-media/",
+     "i": "4"
+    },
+    {
+     "t": "Branding",
+     "href": "/uslugi/branding/",
+     "i": "5"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "t": "Firma",
+   "links": [
+    {
+     "t": "Case studies",
+     "href": "/#realizacje",
+     "i": "0"
+    },
+    {
+     "t": "O nas",
+     "href": "/o-nas/",
+     "i": "1"
+    },
+    {
+     "t": "Realizacje",
+     "href": "/realizacje/",
+     "i": "2"
+    },
+    {
+     "t": "Opinie",
+     "href": "/#opinie",
+     "i": "3"
+    },
+    {
+     "t": "Blog",
+     "href": "/#blog",
+     "i": "4"
+    },
+    {
+     "t": "Kontakt",
+     "href": "/kontakt/",
+     "i": "5"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "t": "Kontakt",
+   "links": [
+    {
+     "t": "+48 501 784 882",
+     "href": "tel:+48501784882",
+     "i": "0"
+    },
+    {
+     "t": "biuro@topstrony.pl",
+     "href": "mailto:biuro@topstrony.pl",
+     "i": "1"
+    },
+    {
+     "t": "ul. Strusia, Piaseczno",
+     "href": "/kontakt/",
+     "i": "2"
+    },
+    {
+     "t": "pon.–pt. 9:00–20:00",
+     "href": "/kontakt/",
+     "i": "3"
+    }
+   ],
+   "i": "2"
+  }
+ ]
+}

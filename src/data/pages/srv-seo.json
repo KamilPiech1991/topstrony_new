@@ -1,0 +1,1069 @@
+{
+ "theme": "dark",
+ "isLight": "false",
+ "themeLabel": "Włącz tryb jasny",
+ "svc": {
+  "img": "/img/usluga-s2.webp",
+  "file": "/uslugi/pozycjonowanie-seo/",
+  "slug": "pozycjonowanie-seo",
+  "short": "SEO · AEO · GEO",
+  "h1": "Pozycjonowanie stron SEO, AEO i GEO",
+  "metaTitle": "Pozycjonowanie SEO, AEO i GEO | top.strony",
+  "metaDesc": "Pozycjonowanie stron w Google, Mapach i odpowiedziach AI. Audyt, SEO lokalne, wizytówka Google, treści i linki. Raport co miesiąc. Bezpłatna analiza.",
+  "lead": "Pomagamy firmom pojawiać się tam, gdzie klienci szukają: w wynikach Google, w Mapach i w odpowiedziach ChatGPT, Gemini oraz AI Overviews.",
+  "answer": "Pozycjonowanie w top.strony to systematyczna praca nad trzema obszarami: SEO (pozycje w wynikach Google), SEO lokalne (wizytówka i Mapy Google) oraz AEO i GEO (cytowania w odpowiedziach AI). Zaczynamy od bezpłatnej analizy widoczności, a co miesiąc dostajesz raport z pozycji, ruchu i zapytań.",
+  "facts": [
+   [
+    "SEO · AEO · GEO",
+    "trzy kanały"
+   ],
+   [
+    "co miesiąc",
+    "raport z wyników"
+   ],
+   [
+    "0 zł",
+    "analiza na start"
+   ]
+  ],
+  "defT": "Czym jest pozycjonowanie i co się w nim zmieniło?",
+  "def": [
+   "Pozycjonowanie to dostosowanie strony do wymagań wyszukiwarek, żeby była jak najwyżej w wynikach na wybrane frazy. Składa się z działań on-page (struktura, treści, szybkość, technika, mobile) i off-page (naturalne linki z wartościowych stron).",
+   "Dziś klienci pytają też sztuczną inteligencję. AEO (Answer Engine Optimization) i GEO (Generative Engine Optimization) to przygotowanie treści tak, żeby ChatGPT, Gemini i AI Overviews cytowały Twoją firmę. Działamy etycznie i zgodnie z zasadami Google: systematycznie, z naciskiem na jakość, a nie szybki efekt."
+  ],
+  "forT": "Dla kogo jest pozycjonowanie?",
+  "for": [
+   "Lokalne firmy usługowe, które chcą klientów z Map Google",
+   "Sklepy i punkty usługowe w dużych miastach",
+   "Lekarze, prawnicy, restauracje, warsztaty, salony",
+   "Sklepy internetowe, które chcą więcej sprzedaży bez płacenia za klik",
+   "Każda firma, która chce klientów z najbliższej okolicy"
+  ],
+  "scope": [
+   [
+    "Audyt SEO",
+    "Technika, indeksacja, szybkość, treści i linki. Lista poprawek uszeregowana według wpływu.",
+    "M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"
+   ],
+   [
+    "Dobór fraz",
+    "Frazy, które przynoszą klientów, a nie tylko ruch, sprawdzone w Senuto i Search Console.",
+    "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5"
+   ],
+   [
+    "SEO lokalne i Mapy",
+    "Wizytówka Google, kategorie, zdjęcia, wpisy, opinie i spójne dane NAP w katalogach.",
+    "M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"
+   ],
+   [
+    "Treści i blog",
+    "Podstrony usług i artykuły odpowiadające na pytania klientów, z odpowiedzią w pierwszym zdaniu.",
+    "M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"
+   ],
+   [
+    "AEO i GEO",
+    "Schema.org, FAQ, llms.txt i fakty, które AI może zacytować: adres, autor, liczby, terminy.",
+    "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z"
+   ],
+   [
+    "Link building",
+    "Naturalne linki z lokalnych serwisów, katalogów branżowych i artykułów sponsorowanych.",
+    "M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"
+   ],
+   [
+    "Optymalizacja techniczna",
+    "Core Web Vitals, przekierowania, dane strukturalne, mapa witryny, robots.txt.",
+    "M8 6l-6 6 6 6M16 6l6 6-6 6"
+   ],
+   [
+    "Raport co miesiąc",
+    "Pozycje, ruch, połączenia i formularze z GA4 oraz plan na kolejny miesiąc.",
+    "M3 3v18h18M7 14l4-4 3 3 6-6"
+   ]
+  ],
+  "variants": [
+   [
+    "SEO lokalne",
+    "Dla firm, które obsługują klientów w jednym mieście lub powiecie.",
+    [
+     "Wizytówka Google",
+     "Podstrony lokalne",
+     "Opinie i katalogi NAP"
+    ],
+    "efekty od 2–3 mies."
+   ],
+   [
+    "SEO ogólnopolskie",
+    "Dla firm i sklepów, które sprzedają w całej Polsce.",
+    [
+     "Treści i blog",
+     "Link building",
+     "Optymalizacja techniczna"
+    ],
+    "efekty od 3–6 mies."
+   ],
+   [
+    "AEO i GEO",
+    "Dodatek do SEO: widoczność w odpowiedziach ChatGPT, Gemini i AI Overviews.",
+    [
+     "Schema.org i FAQ",
+     "llms.txt",
+     "Treści z odpowiedzią na start"
+    ],
+    "wdrożenie 2–4 tyg."
+   ]
+  ],
+  "cmpT": "SEO, AEO i GEO: czym się różnią?",
+  "cmpCols": [
+   "",
+   "SEO",
+   "AEO",
+   "GEO"
+  ],
+  "cmp": [
+   [
+    "Cel",
+    "wysoka pozycja w wynikach Google",
+    "odpowiedź w polu wyróżnionym i AI Overviews",
+    "cytowanie w ChatGPT, Gemini, Perplexity"
+   ],
+   [
+    "Co optymalizujemy",
+    "frazy, technikę, linki",
+    "pytania i krótkie odpowiedzi",
+    "fakty, autora, dane strukturalne"
+   ],
+   [
+    "Miara sukcesu",
+    "pozycje i ruch organiczny",
+    "wyświetlenia odpowiedzi",
+    "wzmianki i cytowania marki"
+   ],
+   [
+    "Czas do efektu",
+    "3–6 miesięcy",
+    "kilka tygodni od wdrożenia",
+    "zależny od modelu AI"
+   ]
+  ],
+  "faqs": [
+   [
+    "Ile trwa pozycjonowanie, zanim zobaczę efekty?",
+    "W SEO lokalnym pierwsze efekty widać zwykle po 2–3 miesiącach, w konkurencyjnych frazach ogólnopolskich po 3–6 miesiącach. Pozycjonowanie to praca ciągła, a nie jednorazowa usługa."
+   ],
+   [
+    "Czym różni się SEO od AEO i GEO?",
+    "SEO walczy o pozycje w wynikach Google. AEO przygotowuje odpowiedzi do pól wyróżnionych i AI Overviews. GEO sprawia, że ChatGPT, Gemini i Perplexity cytują Twoją firmę."
+   ],
+   [
+    "Czy gwarantujecie pierwsze miejsce w Google?",
+    "Nie. Nikt nie kontroluje algorytmu Google, a obietnice gwarancji to sygnał ostrzegawczy. Gwarantujemy systematyczną pracę, przejrzysty raport i działania zgodne z wytycznymi Google."
+   ],
+   [
+    "Czy potrzebuję strony, żeby wizytówka Google była wysoko?",
+    "Wizytówka może działać bez strony, ale spójna strona z podstronami usług i miast wyraźnie wzmacnia pozycję w Mapach."
+   ],
+   [
+    "Jak mierzycie efekty?",
+    "Co miesiąc raportujemy pozycje fraz, ruch z Google, połączenia i formularze z GA4 oraz wzmianki w odpowiedziach AI."
+   ],
+   [
+    "Czy pozycjonowanie działa w małym mieście?",
+    "Tak. W mniejszych miejscowościach konkurencja jest zwykle słabsza, więc SEO lokalne daje efekty szybciej."
+   ],
+   [
+    "Ile kosztuje pozycjonowanie strony?",
+    "Zależy od konkurencji w branży, liczby fraz i lokalizacji. Po bezpłatnej analizie widoczności przygotujemy plan i wycenę miesięczną."
+   ]
+  ],
+  "case": "pure",
+  "related": [
+   "strony",
+   "ads",
+   "sklepy"
+  ],
+  "shotTx": {
+   "alt1": "Kamil Piech prezentuje klientom wzrost ruchu z Google na dużym ekranie",
+   "alt2": "Pokazywanie właścicielce kawiarni widoczności firmy w Mapach Google",
+   "eyebrow": "Widoczność lokalna",
+   "h": "Klient szuka w telefonie, a Ty jesteś na mapie",
+   "lead": "Większość lokalnych zapytań zaczyna się w telefonie i kończy w Mapach Google. Dopracowujemy wizytówkę, opinie i stronę tak, żeby Twoja firma była pierwszym wyborem w okolicy.",
+   "cta": "Zamów bezpłatną analizę →"
+  },
+  "shot1": "/img/usluga-qb0.webp",
+  "shot2": "/img/usluga-qb1.webp",
+  "disp1": "Pozycjonowanie,",
+  "disp2": "które widać",
+  "disp3": "w Google i AI",
+  "ic1": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+  "ic2": "M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z",
+  "ic3": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+  "bg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+  "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+  "title": "Pozycjonowanie SEO, AEO i GEO",
+  "updated": "listopad 2026",
+  "hasImg": true,
+  "visCls": "has-img",
+  "people": true,
+  "whoOn": false
+ },
+ "svcDef": [
+  {
+   "t": "Pozycjonowanie to dostosowanie strony do wymagań wyszukiwarek, żeby była jak najwyżej w wynikach na wybrane frazy. Składa się z działań on-page (struktura, treści, szybkość, technika, mobile) i off-page (naturalne linki z wartościowych stron).",
+   "i": "0"
+  },
+  {
+   "t": "Dziś klienci pytają też sztuczną inteligencję. AEO (Answer Engine Optimization) i GEO (Generative Engine Optimization) to przygotowanie treści tak, żeby ChatGPT, Gemini i AI Overviews cytowały Twoją firmę. Działamy etycznie i zgodnie z zasadami Google: systematycznie, z naciskiem na jakość, a nie szybki efekt.",
+   "i": "1"
+  }
+ ],
+ "svcFor": [
+  {
+   "t": "Lokalne firmy usługowe, które chcą klientów z Map Google",
+   "i": "0"
+  },
+  {
+   "t": "Sklepy i punkty usługowe w dużych miastach",
+   "i": "1"
+  },
+  {
+   "t": "Lekarze, prawnicy, restauracje, warsztaty, salony",
+   "i": "2"
+  },
+  {
+   "t": "Sklepy internetowe, które chcą więcej sprzedaży bez płacenia za klik",
+   "i": "3"
+  },
+  {
+   "t": "Każda firma, która chce klientów z najbliższej okolicy",
+   "i": "4"
+  }
+ ],
+ "svcScope": [
+  {
+   "t": "Audyt SEO",
+   "d": "Technika, indeksacja, szybkość, treści i linki. Lista poprawek uszeregowana według wpływu.",
+   "icon": "M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11",
+   "dl": "transition-delay: 0.00s",
+   "i": "0"
+  },
+  {
+   "t": "Dobór fraz",
+   "d": "Frazy, które przynoszą klientów, a nie tylko ruch, sprawdzone w Senuto i Search Console.",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "dl": "transition-delay: 0.06s",
+   "i": "1"
+  },
+  {
+   "t": "SEO lokalne i Mapy",
+   "d": "Wizytówka Google, kategorie, zdjęcia, wpisy, opinie i spójne dane NAP w katalogach.",
+   "icon": "M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z",
+   "dl": "transition-delay: 0.12s",
+   "i": "2"
+  },
+  {
+   "t": "Treści i blog",
+   "d": "Podstrony usług i artykuły odpowiadające na pytania klientów, z odpowiedzią w pierwszym zdaniu.",
+   "icon": "M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z",
+   "dl": "transition-delay: 0.18s",
+   "i": "3"
+  },
+  {
+   "t": "AEO i GEO",
+   "d": "Schema.org, FAQ, llms.txt i fakty, które AI może zacytować: adres, autor, liczby, terminy.",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "dl": "transition-delay: 0.00s",
+   "i": "4"
+  },
+  {
+   "t": "Link building",
+   "d": "Naturalne linki z lokalnych serwisów, katalogów branżowych i artykułów sponsorowanych.",
+   "icon": "M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7",
+   "dl": "transition-delay: 0.06s",
+   "i": "5"
+  },
+  {
+   "t": "Optymalizacja techniczna",
+   "d": "Core Web Vitals, przekierowania, dane strukturalne, mapa witryny, robots.txt.",
+   "icon": "M8 6l-6 6 6 6M16 6l6 6-6 6",
+   "dl": "transition-delay: 0.12s",
+   "i": "6"
+  },
+  {
+   "t": "Raport co miesiąc",
+   "d": "Pozycje, ruch, połączenia i formularze z GA4 oraz plan na kolejny miesiąc.",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "dl": "transition-delay: 0.18s",
+   "i": "7"
+  }
+ ],
+ "svcVariants": [
+  {
+   "name": "SEO lokalne",
+   "d": "Dla firm, które obsługują klientów w jednym mieście lub powiecie.",
+   "items": [
+    "Wizytówka Google",
+    "Podstrony lokalne",
+    "Opinie i katalogi NAP"
+   ],
+   "time": "efekty od 2–3 mies.",
+   "cls": "",
+   "badge": false,
+   "n": "01",
+   "i": "0"
+  },
+  {
+   "name": "SEO ogólnopolskie",
+   "d": "Dla firm i sklepów, które sprzedają w całej Polsce.",
+   "items": [
+    "Treści i blog",
+    "Link building",
+    "Optymalizacja techniczna"
+   ],
+   "time": "efekty od 3–6 mies.",
+   "cls": "is-pop",
+   "badge": true,
+   "n": "02",
+   "i": "1"
+  },
+  {
+   "name": "AEO i GEO",
+   "d": "Dodatek do SEO: widoczność w odpowiedziach ChatGPT, Gemini i AI Overviews.",
+   "items": [
+    "Schema.org i FAQ",
+    "llms.txt",
+    "Treści z odpowiedzią na start"
+   ],
+   "time": "wdrożenie 2–4 tyg.",
+   "cls": "",
+   "badge": false,
+   "n": "03",
+   "i": "2"
+  }
+ ],
+ "svcCmpCols": [
+  {
+   "t": "",
+   "cls": "",
+   "i": "0"
+  },
+  {
+   "t": "SEO",
+   "cls": "",
+   "i": "1"
+  },
+  {
+   "t": "AEO",
+   "cls": "",
+   "i": "2"
+  },
+  {
+   "t": "GEO",
+   "cls": "is-us",
+   "i": "3"
+  }
+ ],
+ "svcCmpRows": [
+  {
+   "th": "Cel",
+   "cells": [
+    {
+     "t": "wysoka pozycja w wynikach Google",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "odpowiedź w polu wyróżnionym i AI Overviews",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "cytowanie w ChatGPT, Gemini, Perplexity",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "th": "Co optymalizujemy",
+   "cells": [
+    {
+     "t": "frazy, technikę, linki",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "pytania i krótkie odpowiedzi",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "fakty, autora, dane strukturalne",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "th": "Miara sukcesu",
+   "cells": [
+    {
+     "t": "pozycje i ruch organiczny",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "wyświetlenia odpowiedzi",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "wzmianki i cytowania marki",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "2"
+  },
+  {
+   "th": "Czas do efektu",
+   "cells": [
+    {
+     "t": "3–6 miesięcy",
+     "cls": "",
+     "i": "0"
+    },
+    {
+     "t": "kilka tygodni od wdrożenia",
+     "cls": "",
+     "i": "1"
+    },
+    {
+     "t": "zależny od modelu AI",
+     "cls": "is-us",
+     "i": "2"
+    }
+   ],
+   "i": "3"
+  }
+ ],
+ "svcFaqs": [
+  {
+   "q": "Ile trwa pozycjonowanie, zanim zobaczę efekty?",
+   "a": "W SEO lokalnym pierwsze efekty widać zwykle po 2–3 miesiącach, w konkurencyjnych frazach ogólnopolskich po 3–6 miesiącach. Pozycjonowanie to praca ciągła, a nie jednorazowa usługa.",
+   "open": true,
+   "closed": false,
+   "i": "0"
+  },
+  {
+   "q": "Czym różni się SEO od AEO i GEO?",
+   "a": "SEO walczy o pozycje w wynikach Google. AEO przygotowuje odpowiedzi do pól wyróżnionych i AI Overviews. GEO sprawia, że ChatGPT, Gemini i Perplexity cytują Twoją firmę.",
+   "open": false,
+   "closed": true,
+   "i": "1"
+  },
+  {
+   "q": "Czy gwarantujecie pierwsze miejsce w Google?",
+   "a": "Nie. Nikt nie kontroluje algorytmu Google, a obietnice gwarancji to sygnał ostrzegawczy. Gwarantujemy systematyczną pracę, przejrzysty raport i działania zgodne z wytycznymi Google.",
+   "open": false,
+   "closed": true,
+   "i": "2"
+  },
+  {
+   "q": "Czy potrzebuję strony, żeby wizytówka Google była wysoko?",
+   "a": "Wizytówka może działać bez strony, ale spójna strona z podstronami usług i miast wyraźnie wzmacnia pozycję w Mapach.",
+   "open": false,
+   "closed": true,
+   "i": "3"
+  },
+  {
+   "q": "Jak mierzycie efekty?",
+   "a": "Co miesiąc raportujemy pozycje fraz, ruch z Google, połączenia i formularze z GA4 oraz wzmianki w odpowiedziach AI.",
+   "open": false,
+   "closed": true,
+   "i": "4"
+  },
+  {
+   "q": "Czy pozycjonowanie działa w małym mieście?",
+   "a": "Tak. W mniejszych miejscowościach konkurencja jest zwykle słabsza, więc SEO lokalne daje efekty szybciej.",
+   "open": false,
+   "closed": true,
+   "i": "5"
+  },
+  {
+   "q": "Ile kosztuje pozycjonowanie strony?",
+   "a": "Zależy od konkurencji w branży, liczby fraz i lokalizacji. Po bezpłatnej analizie widoczności przygotujemy plan i wycenę miesięczną.",
+   "open": false,
+   "closed": true,
+   "i": "6"
+  }
+ ],
+ "svcSteps": [
+  {
+   "when": "Tydzień 1",
+   "t": "Bezpłatna analiza",
+   "d": "Sprawdzamy widoczność strony, wizytówki i konkurencji. Mówimy, co da najszybszy efekt.",
+   "n": "01",
+   "i": "0"
+  },
+  {
+   "when": "Tydzień 1–2",
+   "t": "Audyt i plan fraz",
+   "d": "Pełny audyt techniczny i treści, dobór fraz i plan na pierwsze 3 miesiące.",
+   "n": "02",
+   "i": "1"
+  },
+  {
+   "when": "Miesiąc 1",
+   "t": "Poprawki on-page",
+   "d": "Technika, szybkość, nagłówki, dane strukturalne i wizytówka Google.",
+   "n": "03",
+   "i": "2"
+  },
+  {
+   "when": "Miesiąc 2+",
+   "t": "Treści i linki",
+   "d": "Nowe podstrony i artykuły, link building, wpisy w wizytówce, AEO i GEO.",
+   "n": "04",
+   "i": "3"
+  },
+  {
+   "when": "Co miesiąc",
+   "t": "Raport i plan",
+   "d": "Pozycje, ruch, zapytania i wzmianki w AI oraz plan na kolejny miesiąc.",
+   "n": "05",
+   "i": "4"
+  }
+ ],
+ "svcCase": {
+  "name": "Pure Rehab",
+  "img": "/img/realizacja-pure-rehab.webp",
+  "lead": "Klinika fizjoterapii w dwóch lokalizacjach: strona, SEO lokalne, kampanie i social media.",
+  "tags": [
+   "Strona www",
+   "SEO",
+   "Google i Meta Ads",
+   "Social media"
+  ],
+  "href": "/#realizacje",
+  "alt": "Realizacja: Pure Rehab"
+ },
+ "svcRelated": [
+  {
+   "t": "Strony internetowe",
+   "d": "Projektujemy i kodujemy strony firmowe, które wyglądają dobrze, ale przede wszystkim ładują się w ułamku sekundy, są gotowe pod Google i prowadzą klienta do telefonu.",
+   "href": "/uslugi/strony-internetowe/",
+   "bg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "i": "0"
+  },
+  {
+   "t": "Kampanie Google Ads i Meta Ads",
+   "d": "Prowadzimy kampanie, które mają przynosić telefony i zamówienia, a nie same kliknięcia. Każde zapytanie mierzymy w GA4, więc wiesz, ile kosztuje Cię klient.",
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "bg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "i": "1"
+  },
+  {
+   "t": "Sklepy e-commerce",
+   "d": "Budujemy sklepy, które sprzedają: z wygodnym koszykiem, płatnościami online, integracją kurierów i kartami produktów przygotowanymi pod Google od pierwszego dnia.",
+   "href": "/uslugi/sklepy-internetowe/",
+   "bg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
+   "i": "2"
+  }
+ ],
+ "svcCrumb": "SEO · AEO · GEO",
+ "navRest": [
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  }
+ ],
+ "megaItems": [
+  {
+   "i": "0",
+   "n": "01",
+   "title": "Strony internetowe",
+   "name": "Strony internetowe",
+   "icon": "M3 5h18v12H3zM8 21h8M12 17v4M3 9h18",
+   "tag": "Szybkie strony w Astro i WordPressie",
+   "lead": "Strony firmowe i landing page projektowane od zera, które ładują się w ułamku sekundy i prowadzą do telefonu.",
+   "m1": "2–6 tygodni",
+   "m2": "Astro · WordPress",
+   "subs": [
+    "Strony firmowe",
+    "Landing page",
+    "Strony w Astro",
+    "WordPress",
+    "Redesign",
+    "Opieka techniczna"
+   ],
+   "href": "/uslugi/strony-internetowe/",
+   "cls": "is-on",
+   "hid": "false",
+   "tab": "0",
+   "ibg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "pbg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #18301A 100%)",
+   "dl": "--d: 0.040s"
+  },
+  {
+   "i": "1",
+   "n": "02",
+   "title": "Sklepy e-commerce",
+   "name": "Sklepy e-commerce",
+   "icon": "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z",
+   "tag": "WooCommerce i Shopify, które sprzedają",
+   "lead": "Sklepy z płatnościami, kurierami i kartami produktów gotowymi pod Google i Merchant Center.",
+   "m1": "3–6 tygodni",
+   "m2": "WooCommerce · Shopify",
+   "subs": [
+    "WooCommerce",
+    "Shopify",
+    "Płatności online",
+    "Integracje kurierów",
+    "Merchant Center",
+    "Migracja sklepu"
+   ],
+   "href": "/uslugi/sklepy-internetowe/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "pbg": "background: linear-gradient(155deg, #6B6A2C 0%, #403F1C 55%, #2A2914 100%)",
+   "dl": "--d: 0.075s"
+  },
+  {
+   "i": "2",
+   "n": "03",
+   "title": "Pozycjonowanie SEO, AEO i GEO",
+   "name": "SEO, AEO i GEO",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "tag": "Google, Mapy i odpowiedzi AI",
+   "lead": "Audyt, treści, wizytówka Google i optymalizacja pod ChatGPT, Gemini i AI Overviews.",
+   "m1": "Raport co miesiąc",
+   "m2": "Google · Mapy · AI",
+   "subs": [
+    "Audyt SEO",
+    "SEO lokalne",
+    "Wizytówka Google",
+    "Treści i blog",
+    "AEO / GEO",
+    "Link building"
+   ],
+   "href": "/uslugi/pozycjonowanie-seo/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "pbg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
+   "dl": "--d: 0.110s"
+  },
+  {
+   "i": "3",
+   "n": "04",
+   "title": "Kampanie Google Ads i Meta Ads",
+   "name": "Google i Meta Ads",
+   "icon": "M3 3v18h18M7 14l4-4 3 3 6-6",
+   "tag": "Kampanie mierzone w GA4",
+   "lead": "Search, Performance Max, YouTube i kampanie na Facebooku oraz Instagramie z pomiarem każdego leada.",
+   "m1": "Pomiar w GA4",
+   "m2": "Google · Meta",
+   "subs": [
+    "Google Ads",
+    "Performance Max",
+    "Meta Ads",
+    "Lead Ads",
+    "Remarketing",
+    "Pomiar GA4"
+   ],
+   "href": "/uslugi/kampanie-google-meta-ads/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "pbg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "dl": "--d: 0.145s"
+  },
+  {
+   "i": "4",
+   "n": "05",
+   "title": "Obsługa social media",
+   "name": "Social media",
+   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
+   "tag": "Profile, rolki i karuzele",
+   "lead": "Strategia, kalendarz treści, grafiki i rolki wideo na Facebooku, Instagramie i TikToku.",
+   "m1": "Raport co miesiąc",
+   "m2": "FB · IG · TikTok",
+   "subs": [
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "Rolki wideo",
+    "Karuzele i grafiki",
+    "Kalendarz treści"
+   ],
+   "href": "/uslugi/social-media/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "pbg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
+   "dl": "--d: 0.180s"
+  },
+  {
+   "i": "5",
+   "n": "06",
+   "title": "Branding i identyfikacja wizualna",
+   "name": "Branding",
+   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "tag": "Logo, kolory i księga znaku",
+   "lead": "Identyfikacja, która buduje rozpoznawalność: logo, typografia, druk i szablony do social mediów.",
+   "m1": "Księga znaku",
+   "m2": "Druk · social",
+   "subs": [
+    "Logo",
+    "Księga znaku",
+    "Kolorystyka",
+    "Wizytówki i druk",
+    "Szablony social",
+    "Rebranding"
+   ],
+   "href": "/uslugi/branding/",
+   "cls": "",
+   "hid": "true",
+   "tab": "-1",
+   "ibg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "pbg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
+   "dl": "--d: 0.215s"
+  }
+ ],
+ "megaCls": "",
+ "megaBtnCls": "is-cur",
+ "megaExp": "false",
+ "megaHidden": "true",
+ "megaVars": "--mi: 0",
+ "menuOpen": false,
+ "menuExp": "false",
+ "statusCls": "off",
+ "statusLabel": "Teraz offline",
+ "statusNote": "oddzwonimy po 9:00",
+ "fabOpen": false,
+ "fabClosed": true,
+ "navLinks": [
+  {
+   "t": "Usługi",
+   "href": "/uslugi/",
+   "k": "uslugi",
+   "cls": "",
+   "cur": "false",
+   "i": "0"
+  },
+  {
+   "t": "Case studies",
+   "href": "/#realizacje",
+   "k": "case",
+   "cls": "",
+   "cur": "false",
+   "i": "1"
+  },
+  {
+   "t": "O nas",
+   "href": "/o-nas/",
+   "k": "onas",
+   "cls": "",
+   "cur": "false",
+   "i": "2"
+  },
+  {
+   "t": "Realizacje",
+   "href": "/realizacje/",
+   "k": "real",
+   "cls": "",
+   "cur": "false",
+   "i": "3"
+  },
+  {
+   "t": "Opinie",
+   "href": "/#opinie",
+   "k": "opinie",
+   "cls": "",
+   "cur": "false",
+   "i": "4"
+  },
+  {
+   "t": "Kontakt",
+   "href": "/kontakt/",
+   "k": "kontakt",
+   "cls": "",
+   "cur": "false",
+   "i": "5"
+  }
+ ],
+ "socials": [
+  {
+   "t": "top.strony na Facebooku",
+   "href": "https://www.facebook.com/topstronypl/",
+   "d": "M9.1 23.7v-8H6.6V12h2.5v-1.6c0-4.1 1.9-6 5.9-6l1.6.1v3.3h-1.3c-1.6 0-2.2.6-2.2 2.1V12h3.5l-.6 3.7h-2.9V24C18.8 23.3 23 18.1 23 12A11 11 0 1 0 9.1 23.7z",
+   "i": "0"
+  },
+  {
+   "t": "top.strony na Instagramie",
+   "href": "https://www.instagram.com/topstrony/",
+   "d": "M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3c1.2-.1 1.6-.1 4.8-.1zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z",
+   "i": "1"
+  },
+  {
+   "t": "top.strony na LinkedIn",
+   "href": "https://www.linkedin.com/in/top-strony-a72347205/",
+   "d": "M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9V21H9z",
+   "i": "2"
+  }
+ ],
+ "clients": [
+  {
+   "name": "Pure Rehab",
+   "ind": "fizjoterapia",
+   "dl": "transition-delay: 0.00s",
+   "mask": "--u: url(/img/logo-klienta-purerehab.webp); width: 169px; height: 56px",
+   "i": "0"
+  },
+  {
+   "name": "Eurodomy",
+   "ind": "budowa domów",
+   "dl": "transition-delay: 0.04s",
+   "mask": "--u: url(/img/logo-klienta-eurodomy.webp); width: 150px; height: 56px",
+   "i": "1"
+  },
+  {
+   "name": "Sahra",
+   "ind": "sklep z dywanami",
+   "dl": "transition-delay: 0.08s",
+   "mask": "--u: url(/img/logo-klienta-sahra.webp); width: 206px; height: 56px",
+   "i": "2"
+  },
+  {
+   "name": "Marmostyl",
+   "ind": "kamieniarstwo",
+   "dl": "transition-delay: 0.12s",
+   "mask": "--u: url(/img/logo-klienta-marmostyl.webp); width: 148px; height: 56px",
+   "i": "3"
+  },
+  {
+   "name": "Veles Stage Lights",
+   "ind": "oświetlenie sceniczne",
+   "dl": "transition-delay: 0.16s",
+   "mask": "--u: url(/img/logo-klienta-veles.webp); width: 195px; height: 44px",
+   "i": "4"
+  },
+  {
+   "name": "GOODO · Rancilio",
+   "ind": "ekspresy do kawy",
+   "dl": "transition-delay: 0.20s",
+   "mask": "--u: url(/img/logo-klienta-rancilio.webp); width: 281px; height: 34px",
+   "i": "5"
+  },
+  {
+   "name": "SMKA",
+   "ind": "producent preparatów",
+   "dl": "transition-delay: 0.24s",
+   "mask": "--u: url(/img/logo-klienta-smka.webp); width: 212px; height: 56px",
+   "i": "6"
+  },
+  {
+   "name": "Region Zdrowia",
+   "ind": "portal prozdrowotny",
+   "dl": "transition-delay: 0.28s",
+   "mask": "--u: url(/img/logo-klienta-regionzdrowia.webp); width: 213px; height: 34px",
+   "i": "7"
+  },
+  {
+   "name": "Ventoni",
+   "ind": "biuro rachunkowe",
+   "dl": "transition-delay: 0.32s",
+   "mask": "--u: url(/img/logo-klienta-ventoni.webp); width: 194px; height: 56px",
+   "i": "8"
+  },
+  {
+   "name": "E-Tabak",
+   "ind": "sieć sklepów",
+   "dl": "transition-delay: 0.36s",
+   "mask": "--u: url(/img/logo-klienta-etabak.webp); width: 115px; height: 80px",
+   "i": "9"
+  },
+  {
+   "name": "CloudInsight",
+   "ind": "doradztwo IT",
+   "dl": "transition-delay: 0.40s",
+   "mask": "--u: url(/img/logo-klienta-cloudinsight.webp); width: 268px; height: 34px",
+   "i": "10"
+  },
+  {
+   "name": "Fastpol",
+   "ind": "czyszczenie wentylacji",
+   "dl": "transition-delay: 0.44s",
+   "mask": "--u: url(/img/logo-klienta-fastclean.webp); width: 246px; height: 44px",
+   "i": "11"
+  },
+  {
+   "name": "TSE Remonty",
+   "ind": "remonty",
+   "dl": "transition-delay: 0.48s",
+   "mask": "--u: url(/img/logo-klienta-tse.webp); width: 177px; height: 44px",
+   "i": "12"
+  },
+  {
+   "name": "K|R Projekt",
+   "ind": "projekty wnętrz",
+   "dl": "transition-delay: 0.52s",
+   "mask": "--u: url(/img/logo-klienta-krprojekt.webp); width: 78px; height: 80px",
+   "i": "13"
+  },
+  {
+   "name": "Oligradskyi",
+   "ind": "balustrady stalowe",
+   "dl": "transition-delay: 0.56s",
+   "mask": "--u: url(/img/logo-klienta-oligradskyi.webp); width: 116px; height: 80px",
+   "i": "14"
+  }
+ ],
+ "footCols": [
+  {
+   "t": "Usługi",
+   "links": [
+    {
+     "t": "Strony internetowe",
+     "href": "/uslugi/strony-internetowe/",
+     "i": "0"
+    },
+    {
+     "t": "Sklepy e-commerce",
+     "href": "/uslugi/sklepy-internetowe/",
+     "i": "1"
+    },
+    {
+     "t": "SEO · AEO · GEO",
+     "href": "/uslugi/pozycjonowanie-seo/",
+     "i": "2"
+    },
+    {
+     "t": "Google i Meta Ads",
+     "href": "/uslugi/kampanie-google-meta-ads/",
+     "i": "3"
+    },
+    {
+     "t": "Social media",
+     "href": "/uslugi/social-media/",
+     "i": "4"
+    },
+    {
+     "t": "Branding",
+     "href": "/uslugi/branding/",
+     "i": "5"
+    }
+   ],
+   "i": "0"
+  },
+  {
+   "t": "Firma",
+   "links": [
+    {
+     "t": "Case studies",
+     "href": "/#realizacje",
+     "i": "0"
+    },
+    {
+     "t": "O nas",
+     "href": "/o-nas/",
+     "i": "1"
+    },
+    {
+     "t": "Realizacje",
+     "href": "/realizacje/",
+     "i": "2"
+    },
+    {
+     "t": "Opinie",
+     "href": "/#opinie",
+     "i": "3"
+    },
+    {
+     "t": "Blog",
+     "href": "/#blog",
+     "i": "4"
+    },
+    {
+     "t": "Kontakt",
+     "href": "/kontakt/",
+     "i": "5"
+    }
+   ],
+   "i": "1"
+  },
+  {
+   "t": "Kontakt",
+   "links": [
+    {
+     "t": "+48 501 784 882",
+     "href": "tel:+48501784882",
+     "i": "0"
+    },
+    {
+     "t": "biuro@topstrony.pl",
+     "href": "mailto:biuro@topstrony.pl",
+     "i": "1"
+    },
+    {
+     "t": "ul. Strusia, Piaseczno",
+     "href": "/kontakt/",
+     "i": "2"
+    },
+    {
+     "t": "pon.–pt. 9:00–20:00",
+     "href": "/kontakt/",
+     "i": "3"
+    }
+   ],
+   "i": "2"
+  }
+ ]
+}

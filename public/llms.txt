@@ -1,0 +1,16 @@
+# top.strony
+
+> Agencja marketingowa z Piaseczna (Qamitech Kamil Piech). Projektujemy strony i sklepy internetowe, pozycjonujemy w Google i w odpowiedziach AI (SEO, AEO, GEO), prowadzimy kampanie Google Ads i Meta Ads, social media oraz branding. Pracujemy z firmami z Piaseczna, Warszawy i całej Polski. Kontakt: +48 501 784 882, biuro@topstrony.pl, pon.–pt. 9:00–20:00.
+
+## Usługi
+- [Strony internetowe](https://topstrony.pl/uslugi/strony-internetowe/): strony firmowe i landing page w Astro lub WordPressie, gotowe pod Google.
+- [Sklepy internetowe](https://topstrony.pl/uslugi/sklepy-internetowe/): WooCommerce i Shopify z płatnościami, kurierami i Merchant Center.
+- [Pozycjonowanie SEO, AEO i GEO](https://topstrony.pl/uslugi/pozycjonowanie-seo/): Google, Mapy Google i odpowiedzi ChatGPT, Gemini, AI Overviews.
+- [Kampanie Google Ads i Meta Ads](https://topstrony.pl/uslugi/kampanie-google-meta-ads/): Search, Performance Max, YouTube, Facebook i Instagram z pomiarem w GA4.
+- [Social media](https://topstrony.pl/uslugi/social-media/): strategia, kalendarz treści, grafiki, karuzele i rolki na FB, IG i TikToku.
+- [Branding](https://topstrony.pl/uslugi/branding/): logo, kolory, typografia, księga znaku i szablony.
+
+## Firma
+- [O nas](https://topstrony.pl/o-nas/)
+- [Realizacje](https://topstrony.pl/realizacje/)
+- [Kontakt i wycena w 24 h](https://topstrony.pl/kontakt/)

@@ -1,0 +1,440 @@
+{
+ "6269a351337c714de74007900b7b45b5": {
+  "src": "/img/w1cut.webp",
+  "w": 670,
+  "h": 900
+ },
+ "03b1f4b88f91f9dd9bc67bda8f426522": {
+  "src": "/img/w2cut.webp",
+  "w": 720,
+  "h": 890
+ },
+ "b068a00d500d1a6495a95ebac319f2f8": {
+  "src": "/img/w3cut.webp",
+  "w": 720,
+  "h": 896
+ },
+ "0f095689f2cb526c621156216547039e": {
+  "src": "/img/w4cut.webp",
+  "w": 704,
+  "h": 900
+ },
+ "8290e57173958d5e7e13ddb9761fba72": {
+  "src": "/img/logo-klienta-cloudinsight.webp",
+  "w": 520,
+  "h": 66
+ },
+ "7f4304274c7b184df3c7bc9fcc22240b": {
+  "src": "/img/logo-klienta-etabak.webp",
+  "w": 173,
+  "h": 120
+ },
+ "fe1c6639945ce62a0032917bf8596ebc": {
+  "src": "/img/logo-klienta-eurodomy.webp",
+  "w": 320,
+  "h": 120
+ },
+ "83c80ef3dd3fc5e6906d9bf92fe6c1ad": {
+  "src": "/img/logo-klienta-fastclean.webp",
+  "w": 520,
+  "h": 93
+ },
+ "3b6f008f5f64d38638ad3b64baadebfc": {
+  "src": "/img/logo-klienta-krprojekt.webp",
+  "w": 116,
+  "h": 120
+ },
+ "10b4c870b68a6833d35a87c3cfea9455": {
+  "src": "/img/logo-klienta-marmostyl.webp",
+  "w": 318,
+  "h": 120
+ },
+ "a693c0783f066115c84aed12f161b12d": {
+  "src": "/img/logo-klienta-oligradskyi.webp",
+  "w": 172,
+  "h": 119
+ },
+ "fa4e17a8e58b2e56b0750a76745a7232": {
+  "src": "/img/logo-klienta-purerehab.webp",
+  "w": 361,
+  "h": 120
+ },
+ "9ef1c42c431447388b6232e50d71520e": {
+  "src": "/img/logo-klienta-rancilio.webp",
+  "w": 520,
+  "h": 63
+ },
+ "ff2641b5e16f94cfade153cc66917394": {
+  "src": "/img/logo-klienta-regionzdrowia.webp",
+  "w": 520,
+  "h": 83
+ },
+ "3b61bca0d52568e53fd204880b1154d9": {
+  "src": "/img/logo-klienta-sahra.webp",
+  "w": 440,
+  "h": 120
+ },
+ "fecb951bdfdc5655b49698da81999e80": {
+  "src": "/img/logo-klienta-smka.webp",
+  "w": 455,
+  "h": 120
+ },
+ "1b39315d21a8a1c6f779325fb414800d": {
+  "src": "/img/logo-klienta-tse.webp",
+  "w": 484,
+  "h": 120
+ },
+ "84630ba82cb1e5a91e2c974c6721928a": {
+  "src": "/img/logo-klienta-veles.webp",
+  "w": 520,
+  "h": 117
+ },
+ "207b48a24b7b20799f4cf48c2940c206": {
+  "src": "/img/logo-klienta-ventoni.webp",
+  "w": 415,
+  "h": 120
+ },
+ "941232038628f1a0a6953f5c45f7cf8e": {
+  "src": "/img/top-strony-logo-ink.webp",
+  "w": 600,
+  "h": 184
+ },
+ "4b963850bc2170fa5f309e233c5dbd94": {
+  "src": "/img/top-strony-logo-white.webp",
+  "w": 600,
+  "h": 184
+ },
+ "b330e5ebba115a5c993c1e4e6c736c2f": {
+  "src": "/img/ikona-google.svg"
+ },
+ "9eaa97717ba88c622d1e72ac2c81d85a": {
+  "src": "/img/ikona-maps.svg"
+ },
+ "b2c30c8141dae44d220cf712166a0d55": {
+  "src": "/img/ikona-ads.svg"
+ },
+ "4a80527b18a7aeb9eb3f0ff1fb58842f": {
+  "src": "/img/ikona-meta.svg"
+ },
+ "f07ae2859508fe7ac9f5b15a62bd61a0": {
+  "src": "/img/ikona-facebook.svg"
+ },
+ "e91b702d9c58992a5137de9d115407d1": {
+  "src": "/img/ikona-chatgpt.svg"
+ },
+ "33b84ed27ac937041a635ebd06756bfc": {
+  "src": "/img/kamil-piech-k1cut.webp",
+  "w": 760,
+  "h": 965
+ },
+ "8022f5a5bd94fb40e1f5c6dc9f7c3cd4": {
+  "src": "/img/kamil-piech-k3cut.webp",
+  "w": 738,
+  "h": 1000
+ },
+ "410ab8d47689ea55ccc403a63e37b95c": {
+  "src": "/img/kamil-piech-k4cut.webp",
+  "w": 760,
+  "h": 939
+ },
+ "7f6a02ba9603bf44da30aa9e6ac3eff1": {
+  "src": "/img/kamil-piech-k3photo.webp",
+  "w": 1000,
+  "h": 1356
+ },
+ "4446671ad02478d47fa72ef0d0b289be": {
+  "src": "/img/kamil-piech-k2photo.webp",
+  "w": 1100,
+  "h": 1649
+ },
+ "6e719eaccb7afb69047e66002f988fa8": {
+  "src": "/img/kamil-piech-k1face.webp",
+  "w": 300,
+  "h": 300
+ },
+ "c3209298172fca7650ebb6b14534617f": {
+  "src": "/img/kamil-piech-face2.webp",
+  "w": 300,
+  "h": 300
+ },
+ "cf04000343e38ab9384de1d704379a1f": {
+  "src": "/img/usluga-s0.webp",
+  "w": 896,
+  "h": 1120
+ },
+ "36f2003cc50ca6f874c360015dd07713": {
+  "src": "/img/usluga-s1.webp",
+  "w": 896,
+  "h": 1120
+ },
+ "1c3e1e7243a1f436708dd4910ee69312": {
+  "src": "/img/usluga-s2.webp",
+  "w": 896,
+  "h": 1120
+ },
+ "a5997ede186cacc272cf98e0ed86ae15": {
+  "src": "/img/usluga-s3.webp",
+  "w": 896,
+  "h": 1120
+ },
+ "5df406033f9e9e39fdf196d6de170fdb": {
+  "src": "/img/usluga-s4.webp",
+  "w": 896,
+  "h": 1120
+ },
+ "859206c3b6e87c8249fadac80e785199": {
+  "src": "/img/usluga-s5.webp",
+  "w": 896,
+  "h": 1120
+ },
+ "3a5a7b82445a706df1d7d5d3163502be": {
+  "src": "/img/usluga-p0.webp",
+  "w": 1024,
+  "h": 688
+ },
+ "1b09939d033119059aa72bbe7204e4fe": {
+  "src": "/img/usluga-p1.webp",
+  "w": 880,
+  "h": 1168
+ },
+ "7917b49274b169883117ce94f480c33f": {
+  "src": "/img/usluga-qa0.webp",
+  "w": 1024,
+  "h": 688
+ },
+ "cb4cddddc1e47913ebd686d6538e317f": {
+  "src": "/img/usluga-qa1.webp",
+  "w": 880,
+  "h": 1168
+ },
+ "d80dbedc72f75bf7e973b00e9f82bfc7": {
+  "src": "/img/usluga-qb0.webp",
+  "w": 1024,
+  "h": 688
+ },
+ "d82bba6994aaad0ebba8fc957ae0d79e": {
+  "src": "/img/usluga-qb1.webp",
+  "w": 880,
+  "h": 1168
+ },
+ "fab57f9ff7e1c8f1bbd13d9fd6103b41": {
+  "src": "/img/usluga-qc0.webp",
+  "w": 1024,
+  "h": 688
+ },
+ "ea2066e3ce4caf53e7e32f893ec131a1": {
+  "src": "/img/usluga-qc1.webp",
+  "w": 880,
+  "h": 1168
+ },
+ "752ea4c3a796cd8f7279b49b339e14a9": {
+  "src": "/img/usluga-qd0.webp",
+  "w": 1024,
+  "h": 688
+ },
+ "89a20157c5d3445ee4dbaf1abd46d9fa": {
+  "src": "/img/usluga-qd1.webp",
+  "w": 880,
+  "h": 1168
+ },
+ "0b202689b7993ec2389c80c8823955be": {
+  "src": "/img/usluga-qe0.webp",
+  "w": 1024,
+  "h": 688
+ },
+ "b86ed3b9236c6e05c85071ece4bb94e9": {
+  "src": "/img/usluga-qe1.webp",
+  "w": 880,
+  "h": 1168
+ },
+ "397117a6bde6324c47664b34a9785b43": {
+  "src": "/img/realizacja-rushing-rivers-institute.webp",
+  "w": 860,
+  "h": 600
+ },
+ "643dba31d1b5f00a88cf03aacf65dd63": {
+  "src": "/img/realizacja-oligradskyi.webp",
+  "w": 860,
+  "h": 600
+ },
+ "58d523d0b471de1877900fcce2f59d8f": {
+  "src": "/img/realizacja-sahra-art.webp",
+  "w": 860,
+  "h": 600
+ },
+ "97b4ce96b210c1b0df94e11b0637aac3": {
+  "src": "/img/realizacja-e-tabak.webp",
+  "w": 860,
+  "h": 600
+ },
+ "196e1ba0b4bd2935ff5eb3c9f2b65b68": {
+  "src": "/img/realizacja-klub-sportowy-face-2-face.webp",
+  "w": 860,
+  "h": 600
+ },
+ "8dd0acbe7b7d1f622cbf7abf8afa0611": {
+  "src": "/img/realizacja-tse-remonty.webp",
+  "w": 860,
+  "h": 600
+ },
+ "3694a8748f0c14fc942102f8eb472a68": {
+  "src": "/img/realizacja-marmostyl.webp",
+  "w": 860,
+  "h": 600
+ },
+ "1b660e13cd4211d9d9541559c6bb138b": {
+  "src": "/img/realizacja-veles-stage-lights.webp",
+  "w": 860,
+  "h": 600
+ },
+ "b0f30a5b4108eace2e19edd9d0a72529": {
+  "src": "/img/realizacja-cloudinsight.webp",
+  "w": 860,
+  "h": 600
+ },
+ "d9be58d150dab998fe476e26c446e0d4": {
+  "src": "/img/realizacja-reventon-design.webp",
+  "w": 860,
+  "h": 600
+ },
+ "891ca277fc21ec192b2ba35207c037ff": {
+  "src": "/img/realizacja-bogdan-grzeszczyk-photo-amp-video.webp",
+  "w": 860,
+  "h": 600
+ },
+ "e81629e36e8735261ebcd6fa2048cd1c": {
+  "src": "/img/realizacja-ventoni-biuro-rachunkowe.webp",
+  "w": 860,
+  "h": 600
+ },
+ "43795941db11fb909332c91b8b232693": {
+  "src": "/img/realizacja-obok-lasu.webp",
+  "w": 860,
+  "h": 600
+ },
+ "06e4891b4e9779359a9dbd27c67d735c": {
+  "src": "/img/realizacja-vision-and-sound.webp",
+  "w": 860,
+  "h": 600
+ },
+ "80a14079b47068ed90e135f9ece96a1f": {
+  "src": "/img/realizacja-convey-cargo.webp",
+  "w": 860,
+  "h": 600
+ },
+ "2f9dfd76c6b48f7f60bf26ab960db03d": {
+  "src": "/img/realizacja-graschem.webp",
+  "w": 860,
+  "h": 573
+ },
+ "39ba43424c1a5831f4ead1e3d8ed20bb": {
+  "src": "/img/realizacja-emix.webp",
+  "w": 860,
+  "h": 600
+ },
+ "aa0dfa9e48dfcc96d86319d439ec76cb": {
+  "src": "/img/realizacja-pure-rehab.webp",
+  "w": 860,
+  "h": 600
+ },
+ "5230d6bacf57cd05232f5eac70b1084b": {
+  "src": "/img/realizacja-goodo-rancilio-ekspresy.webp",
+  "w": 860,
+  "h": 600
+ },
+ "6d98c03ec09f7da1708e0e23e7abafde": {
+  "src": "/img/realizacja-mc-good-work.webp",
+  "w": 860,
+  "h": 600
+ },
+ "65e9ef8eb1b90966cc3a819fc0a7d27d": {
+  "src": "/img/realizacja-fastpol-fastclean.webp",
+  "w": 860,
+  "h": 600
+ },
+ "e73cfc8a7bd9cc02c6fa9359657396f1": {
+  "src": "/img/realizacja-dom-opieki-obok-lasu.webp",
+  "w": 860,
+  "h": 600
+ },
+ "a2df486506852b86f4bee35e556ddf6f": {
+  "src": "/img/realizacja-psotel-gracja.webp",
+  "w": 860,
+  "h": 600
+ },
+ "89122bc96e31e162f214c539eb0e9cfc": {
+  "src": "/img/realizacja-region-zdrowia-fundacja-proturmed.webp",
+  "w": 860,
+  "h": 600
+ },
+ "78da2545843204d3b3e60eb053db6b74": {
+  "src": "/img/realizacja-dynamic-marketing.webp",
+  "w": 860,
+  "h": 600
+ },
+ "f900be1f2abca90e445bd64df2f085d2": {
+  "src": "/img/realizacja-studio-gracja-studio-psiej-urody.webp",
+  "w": 860,
+  "h": 600
+ },
+ "37603718782d507acd69757e57712bc7": {
+  "src": "/img/realizacja-3p-energia.webp",
+  "w": 860,
+  "h": 600
+ },
+ "8c5a9a37f7a6640abf58a6fc99eb49e3": {
+  "src": "/img/realizacja-kancelaria-radcy-prawnego-malgorzata-wilczek.webp",
+  "w": 860,
+  "h": 600
+ },
+ "6d88d8d20397b50ec8dd2a74c3b0367a": {
+  "src": "/img/realizacja-elite-detailing-team.webp",
+  "w": 860,
+  "h": 600
+ },
+ "200fc566c584658ace1699d168ce262f": {
+  "src": "/img/realizacja-smka.webp",
+  "w": 860,
+  "h": 600
+ },
+ "078a45074d41acfba04122c583c15204": {
+  "src": "/img/realizacja-agtes-serwis.webp",
+  "w": 860,
+  "h": 600
+ },
+ "0e1dea2abdd528587b06192bde0b9436": {
+  "src": "/img/realizacja-kr-projekt.webp",
+  "w": 860,
+  "h": 594
+ },
+ "ba42bccadffcdafd4026a52e7179399d": {
+  "src": "/img/realizacja-opieka-plus.webp",
+  "w": 860,
+  "h": 600
+ },
+ "5e7a043a2d26337250d5e36fc99805d9": {
+  "src": "/img/realizacja-eurodomy-pl.webp",
+  "w": 860,
+  "h": 600
+ },
+ "4456935be6408d9077716eb1070c69d7": {
+  "src": "/img/realizacja-little-frank.webp",
+  "w": 860,
+  "h": 573
+ },
+ "8703dba9689638ffd50ff9c614fd9511": {
+  "src": "/img/b-coded.webp",
+  "w": 900,
+  "h": 600
+ },
+ "ba5601d5628c310d6b7502cb921746dc": {
+  "src": "/img/b-expert.webp",
+  "w": 900,
+  "h": 600
+ },
+ "f004aa3677eafdab35ab06144ff7811e": {
+  "src": "/img/b-laptop.webp",
+  "w": 900,
+  "h": 580
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "Main.dc.html": "/",
+ "ONas.dc.html": "/o-nas/",
+ "Kontakt.dc.html": "/kontakt/",
+ "Realizacje.dc.html": "/realizacje/",
+ "/case-studies/": "/#realizacje",
+ "/opinie/": "/#opinie",
+ "/blog/": "/#blog",
+ "Usluga-Strony.dc.html": "/uslugi/strony-internetowe/",
+ "Usluga-Sklepy.dc.html": "/uslugi/sklepy-internetowe/",
+ "Usluga-SEO.dc.html": "/uslugi/pozycjonowanie-seo/",
+ "Usluga-Ads.dc.html": "/uslugi/kampanie-google-meta-ads/",
+ "Usluga-Social.dc.html": "/uslugi/social-media/",
+ "Usluga-Branding.dc.html": "/uslugi/branding/"
+}

@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import HomeMain from '../components/gen/HomeMain.astro';
+import v from '../data/pages/home.json';
+import { faqLd, SITE } from '../data/site';
+
+const ld = [
+  { '@context': 'https://schema.org', '@type': 'WebSite', '@id': SITE + '/#website', name: 'top.strony', url: SITE + '/', inLanguage: 'pl-PL' },
+  faqLd(v.faqs),
+];
+---
+<Base v={v} page="home" path="/" jsonLd={ld}
+  title="top.strony – agencja marketingowa: strony, sklepy, SEO, reklamy, social media, branding"
+  description="Strony i sklepy internetowe, pozycjonowanie SEO, AEO i GEO, kampanie Google Ads i Meta Ads, social media i branding. Agencja z Piaseczna, wycena w 24 h.">
+  <HomeMain v={v} />
+</Base>
