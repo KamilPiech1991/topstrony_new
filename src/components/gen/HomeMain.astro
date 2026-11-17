@@ -396,45 +396,6 @@ const { v } = Astro.props;
     </div>
   </section>
 
-  <!-- ============ 14. WYCENA ============ -->
-  <section id="wycena" class="sec alt deco-rings deco-l" aria-labelledby="wycena-h">
-    <div class="wrap">
-      <div class="head rv">
-        <div>
-          <p class="eyebrow scr">Jak wyceniamy</p>
-          <h2 id="wycena-h" class="h h2 split"><span class="wm"><span class="wi">Każdy</span></span> <span class="wm"><span class="wi">projekt</span></span> <span class="wm"><span class="wi">wyceniamy</span></span> <span class="wm"><span class="wi">indywidualnie.</span></span> <span class="wm"><span class="wi">Wycena</span></span> <span class="wm"><span class="wi">w</span></span> <span class="wm"><span class="wi">24</span></span> <span class="wm"><span class="wi">h.</span></span></h2>
-        </div>
-        <p class="lead" style="max-width: 400px; margin: 0">Przełącz wariant, żeby zobaczyć zakres i orientacyjny czas. Cenę ustalamy po rozmowie i zapisujemy w umowie.</p>
-      </div>
-      <div class="rule"></div>
-      <div class="stg">
-        {(v.projRows ?? []).map((r) => (<Fragment>
-          <div class="prow">
-            <div class="prow-head"><span class="prow-no">{r?.no}</span><a href="/kontakt/" class="prow-name">{r?.name}</a></div>
-            <div>
-              <p class="prow-short">{r?.short}</p>
-              <p class="prow-meta" data-m0={r?.meta0} data-m1={r?.meta1}>{r?.meta}</p>
-            </div>
-            <div class="prow-end">
-              <div class={`seg ${r?.segCls ?? ''}`} role="group" aria-label={`Wariant: ${r?.name ?? ''}`}>
-                <span class="seg-thumb" aria-hidden="true"></span>
-                <button type="button" aria-pressed={r?.p0} data-act="proj" data-i={r.i} data-k="0">{r?.v0}</button>
-                <button type="button" aria-pressed={r?.p1} data-act="proj" data-i={r.i} data-k="1">{r?.v1}</button>
-              </div>
-              <div class="prow-val" data-t0={r?.time0} data-t1={r?.time1}><span class="prow-val-l">czas</span>{r?.time}</div>
-              <a href="/kontakt/" class="prow-go" data-magnetic aria-label={`${r?.name ?? ''}: zapytaj o wycenę`}>→</a>
-            </div>
-          </div>
-        </Fragment>))}
-      </div>
-      <div class="qsteps stg">
-        {(v.quoteSteps ?? []).map((q) => (<Fragment>
-          <div class="card qstep"><i>{q?.n}</i><div><b>{q?.t}</b><span>{q?.d}</span></div></div>
-        </Fragment>))}
-      </div>
-    </div>
-  </section>
-
   <!-- ============ BANER 4 ============ -->
   <section class="cta-sec" aria-labelledby="cta4-h">
     <div class="wrap">
