@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import home from '../../data/pages/home.json';
+import { articles, kbUrl, fmtDate } from '../../data/kb';
+import { crumbs, SITE } from '../../data/site';
+import '../../styles/kb.css';
+
+const ld = [
+  crumbs([['Strona główna', '/'], ['Baza wiedzy', '/baza-wiedzy/']]),
+  { '@context': 'https://schema.org', '@type': 'CollectionPage', name: 'Baza wiedzy top.strony', url: SITE + '/baza-wiedzy/',
+    hasPart: articles.map((a) => ({ '@type': 'Article', headline: a.meta.title, url: SITE + kbUrl(a.slug) })) },
+];
+---
+<Base v={home} page="baza" path="/baza-wiedzy/" jsonLd={ld}
+  title="Baza wiedzy – strony www, SEO i marketing | top.strony"
+  description="Praktyczne artykuły o stronach internetowych, SEO, AEO i GEO oraz reklamach. Odpowiedzi na pytania, które zadają nam klienci.">
+  <main id="main">
+    <section class="kb-hero" aria-labelledby="kb-h1">
+      <div class="wrap">
+        <p class="eyebrow h-in">Baza wiedzy</p>
+        <h1 id="kb-h1" class="h h-in">Wiedza, która pomaga zdobywać klientów</h1>
+        <p class="kb-lead h-in">Praktyczne artykuły o stronach internetowych, pozycjonowaniu i reklamach. Piszemy o tym, o co pytają nas klienci.</p>
+      </div>
+    </section>
+    <section class="kb-list" aria-label="Lista artykułów">
+      <div class="wrap">
+        <div class="kb-grid">
+          {articles.map((a, i) => (
+            <article class="kb-card rv">
+              <a href={kbUrl(a.slug)} class="kb-card-img" aria-label={`Czytaj: ${a.meta.title}`} tabindex="-1">
+                <img src={a.meta.image} alt={a.meta.imageAlt} width="800" height="560" loading={i < 3 ? 'eager' : 'lazy'} decoding="async" />
+              </a>
+              <p class="kb-meta"><b>{a.meta.category}</b> — {a.meta.readingTime} min czytania · {fmtDate(a.meta.date)}</p>
+              <h2 class="h"><a href={kbUrl(a.slug)}>{a.meta.title}</a></h2>
+              <p class="d">{a.meta.description}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>

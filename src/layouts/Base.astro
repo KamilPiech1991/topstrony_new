@@ -19,6 +19,17 @@ const { v, title, description, path, image = '/img/og-topstrony.jpg', jsonLd = [
 const canonical = new URL(path, SITE).href;
 const ogImage = new URL(image, SITE).href;
 const ld = [business, ...jsonLd];
+// pozycja "Baza wiedzy" w menu (przed "Kontakt")
+const withKb = (arr: any[] | undefined) => {
+  if (!arr || arr.some((l) => l.k === 'baza')) return arr;
+  const cur = page === 'baza';
+  const item = { t: 'Baza wiedzy', href: '/baza-wiedzy/', k: 'baza', cls: cur ? 'is-cur' : '', cur: cur ? 'page' : 'false' };
+  const at = arr.findIndex((l) => l.k === 'kontakt');
+  const out = [...arr];
+  out.splice(at < 0 ? out.length : at, 0, item);
+  return out.map((l, i) => ({ ...l, i: String(i) }));
+};
+const hv = { ...v, navRest: withKb(v.navRest), navLinks: withKb(v.navLinks) };
 ---
 <!doctype html>
 <html lang="pl">
@@ -53,9 +64,9 @@ const ld = [business, ...jsonLd];
     <div class="cur" aria-hidden="true"><span>Zobacz</span></div>
     <div class="prog" aria-hidden="true"></div>
     <a href="#main" class="sr-only">Przejdź do treści</a>
-    <Header v={v} />
+    <Header v={hv} />
     <slot />
-    <Footer v={v} />
+    <Footer v={hv} />
   </div>
   <script>
     import '../scripts/app';

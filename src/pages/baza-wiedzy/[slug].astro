@@ -1,0 +1,108 @@
+---
+import Base from '../../layouts/Base.astro';
+import home from '../../data/pages/home.json';
+import { articles, kbUrl, fmtDate, isoDate } from '../../data/kb';
+import { crumbs, SITE } from '../../data/site';
+import '../../styles/kb.css';
+
+export function getStaticPaths() {
+  return articles.map((a) => ({ params: { slug: a.slug }, props: { slug: a.slug } }));
+}
+const { slug } = Astro.props;
+const art = articles.find((a) => a.slug === slug)!;
+const { meta, Content } = art;
+const toc = art.headings.filter((h) => h.depth === 2 || h.depth === 3);
+const others = articles.filter((a) => a.slug !== slug).slice(0, 4);
+const url = SITE + kbUrl(slug);
+
+const ld = [
+  crumbs([['Strona główna', '/'], ['Baza wiedzy', '/baza-wiedzy/'], [meta.title, kbUrl(slug)]]),
+  { '@context': 'https://schema.org', '@type': 'Article', headline: meta.title, description: meta.description,
+    image: SITE + meta.image, datePublished: isoDate(meta.date), dateModified: isoDate(meta.date),
+    mainEntityOfPage: url, inLanguage: 'pl-PL',
+    author: { '@type': 'Person', name: 'Kamil Piech', url: SITE + '/o-nas/' },
+    publisher: { '@type': 'Organization', name: 'top.strony', logo: { '@type': 'ImageObject', url: SITE + '/img/top-strony-logo-ink.webp' } } },
+];
+---
+<Base v={home} page="baza" path={kbUrl(slug)} jsonLd={ld} image={meta.image}
+  title={`${meta.title} | Baza wiedzy top.strony`} description={meta.description}>
+  <main id="main">
+    <header class="kb-art-hero">
+      <div class="wrap">
+        <ol class="kb-crumbs" aria-label="Ścieżka nawigacji">
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/baza-wiedzy/">Baza wiedzy</a></li>
+          <li aria-current="page">{meta.title}</li>
+        </ol>
+        <h1 class="h h-in">{meta.title}</h1>
+        <p class="kb-info">
+          <span class="cat">{meta.category}</span>
+          <time datetime={isoDate(meta.date)}>{fmtDate(meta.date)}</time>
+          <span>{meta.readingTime} min czytania</span>
+          <span>Autor: Kamil Piech</span>
+        </p>
+      </div>
+    </header>
+
+    <div class="kb-body">
+      <div class="wrap kb-layout">
+        <aside class="kb-aside kb-aside-l" aria-label="Spis treści">
+          <h2>Spis treści</h2>
+          <ul class="kb-toc" data-toc>
+            {toc.map((h) => (
+              <li class={`d${h.depth}`}><a href={`#${h.slug}`}>{h.text}</a></li>
+            ))}
+          </ul>
+        </aside>
+
+        <article>
+          <figure class="kb-fig"><img src={meta.image} alt={meta.imageAlt} width="1200" height="675" loading="eager" decoding="async" /></figure>
+          <div class="kb-prose" data-prose><Content /></div>
+        </article>
+
+        <aside class="kb-aside kb-aside-r" aria-label="Inne artykuły">
+          {others.length > 0 && (
+            <>
+              <h2>Inne artykuły</h2>
+              <div class="kb-side-list kb-side-card card">
+                {others.map((o) => (
+                  <a href={kbUrl(o.slug)} class="kb-mini">
+                    <img src={o.meta.image} alt="" width="84" height="64" loading="lazy" decoding="async" />
+                    <span><b>{o.meta.title}</b><small>{o.meta.category} · {o.meta.readingTime} min</small></span>
+                  </a>
+                ))}
+              </div>
+            </>
+          )}
+          <div class="kb-cta-card">
+            <b>Bezpłatna wycena w 24 h</b>
+            <p>Opisz, czego potrzebujesz. Odpowiemy konkretnie i bez zobowiązań.</p>
+            <a href="/kontakt/" class="btn btn-g" data-magnetic>Poproś o wycenę</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <section class="kb-more" aria-labelledby="kb-more-h">
+      <div class="wrap">
+        <h2 id="kb-more-h" class="h">Zobacz więcej w bazie wiedzy</h2>
+        <p><a href="/baza-wiedzy/" class="btn btn-d">Wszystkie artykuły</a></p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // podświetlanie aktualnej sekcji w spisie treści
+    const links = Array.from(document.querySelectorAll<HTMLAnchorElement>('[data-toc] a'));
+    const heads = links.map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean) as HTMLElement[];
+    if (links.length && 'IntersectionObserver' in window) {
+      const on = (id: string) => links.forEach((a) => a.classList.toggle('is-on', decodeURIComponent(a.hash.slice(1)) === id));
+      const io = new IntersectionObserver((es) => {
+        const vis = es.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (vis) on(vis.target.id);
+      }, { rootMargin: '-110px 0px -65% 0px' });
+      heads.forEach((h) => io.observe(h));
+      on(heads[0]?.id ?? '');
+    }
+  </script>
+</Base>

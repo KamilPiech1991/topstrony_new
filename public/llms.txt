@@ -10,6 +10,12 @@
 - [Social media](https://topstrony.pl/uslugi/social-media/): strategia, kalendarz treści, grafiki, karuzele i rolki na FB, IG i TikToku.
 - [Branding](https://topstrony.pl/uslugi/branding/): logo, kolory, typografia, księga znaku i szablony.
 
+## Baza wiedzy
+- [Baza wiedzy](https://topstrony.pl/baza-wiedzy/): artykuły o stronach internetowych, SEO i marketingu.
+- [Jak powinna wyglądać strona internetowa firmy?](https://topstrony.pl/baza-wiedzy/jak-powinna-wygladac-strona-internetowa-firmy/)
+- [Strona na WordPressie czy pisana kodem?](https://topstrony.pl/baza-wiedzy/wordpress-czy-strona-pisana-kodem/)
+- [Ogromna wartość bloga dla pozycjonowania](https://topstrony.pl/baza-wiedzy/wartosc-bloga-dla-pozycjonowania/)
+
 ## Firma
 - [O nas](https://topstrony.pl/o-nas/)
 - [Realizacje](https://topstrony.pl/realizacje/)

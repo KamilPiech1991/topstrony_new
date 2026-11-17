@@ -53,6 +53,8 @@ main = re.sub(r'<!-- ============ 14\. WYCENA ============ -->.*?(?=<!-- =======
 h = h.replace('<a href="#wycena" onClick="{{ closeMega }}">Policz projekt w kalkulatorze</a>', '<a href="/kontakt/" onClick="{{ closeMega }}">Poproś o bezpłatną wycenę</a>')
 gen('Header', h.replace('href="#top" class="logo"', 'href="/" class="logo"').replace('href="#wycena"', 'href="/#wycena"').replace('href="#case-sahra-art"', 'href="/#case-sahra-art"'))
 gen('Footer', f.replace('href="#top" class="logo"', 'href="/" class="logo"'))
+# sekcja bloga na stronie głównej -> Baza wiedzy
+main = main.replace('href="#blog" class="btn btn-d"', 'href="/baza-wiedzy/" class="btn btn-d"').replace('Ostatnie wpisy na blogu', 'Z naszej bazy wiedzy')
 gen('HomeMain', main)
 gen('OnasMain', parts('onas_body.html')[1])
 gen('KontaktMain', parts('kontakt_body.html')[1])
@@ -65,5 +67,13 @@ for p in glob.glob('src/data/pages/*.json'):
     keys = set(used['Header']) | set(used['Footer']) | set(used[m]) | {'theme', 'svc'}
     d = json.load(open(p))
     d = {k: v for k, v in d.items() if k in keys}
+    for col in d.get('footCols', []):
+        for l in col.get('links', []):
+            if l.get('t') == 'Blog':
+                l['t'] = 'Baza wiedzy'; l['href'] = '/baza-wiedzy/'
+    if 'posts' in d:
+        slugs = ['jak-powinna-wygladac-strona-internetowa-firmy', 'wordpress-czy-strona-pisana-kodem', 'wartosc-bloga-dla-pozycjonowania']
+        for i, post in enumerate(d['posts']):
+            post['href'] = '/baza-wiedzy/%s/' % slugs[i]
     json.dump(d, open(p, 'w'), ensure_ascii=False, indent=1)
 print(json.dumps(used, indent=0))

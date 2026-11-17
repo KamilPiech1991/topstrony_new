@@ -2421,7 +2421,7 @@
    "time": "6 min",
    "t": "Jak powinna wyglądać strona internetowa firmy?",
    "d": "Domena, unikalna wartość, oferta, opinie, FAQ i kontakt: elementy, które zamieniają odwiedzających w klientów.",
-   "href": "#blog",
+   "href": "/baza-wiedzy/jak-powinna-wygladac-strona-internetowa-firmy/",
    "i": "0"
   },
   {
@@ -2431,7 +2431,7 @@
    "time": "7 min",
    "t": "Strona na WordPressie czy pisana kodem?",
    "d": "Porównujemy szybkość, bezpieczeństwo i koszty utrzymania stron z page buildera, na czystym motywie i w kodzie.",
-   "href": "#blog",
+   "href": "/baza-wiedzy/wordpress-czy-strona-pisana-kodem/",
    "i": "1"
   },
   {
@@ -2441,7 +2441,7 @@
    "time": "5 min",
    "t": "Ogromna wartość bloga dla pozycjonowania",
    "d": "Jak blog buduje pozycję eksperta, zdobywa linki i ruch z długiego ogona, także w odpowiedziach AI.",
-   "href": "#blog",
+   "href": "/baza-wiedzy/wartosc-bloga-dla-pozycjonowania/",
    "i": "2"
   }
  ],
@@ -2506,8 +2506,8 @@
      "i": "3"
     },
     {
-     "t": "Blog",
-     "href": "/#blog",
+     "t": "Baza wiedzy",
+     "href": "/baza-wiedzy/",
      "i": "4"
     },
     {
