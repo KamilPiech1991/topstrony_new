@@ -1,0 +1,136 @@
+---
+import Base from '../../layouts/Base.astro';
+import home from '../../data/pages/home.json';
+import cases from '../../data/cases.json';
+import { crumbs, SITE } from '../../data/site';
+import '../../styles/case.css';
+
+export function getStaticPaths() {
+  return cases.map((c) => ({ params: { slug: c.slug }, props: { c } }));
+}
+const { c } = Astro.props as { c: (typeof cases)[number] };
+const v = {
+  ...home,
+  navRest: home.navRest.map((l: any) => ({ ...l, cls: l.k === 'real' ? 'is-cur' : '', cur: l.k === 'real' ? 'page' : 'false' })),
+  navLinks: home.navLinks.map((l: any) => ({ ...l, cls: l.k === 'real' ? 'is-cur' : '', cur: l.k === 'real' ? 'page' : 'false' })),
+};
+const idx = cases.findIndex((x) => x.slug === c.slug);
+const related = [1, 2, 3].map((k) => cases[(idx + k) % cases.length]);
+const isShop = c.cat === 'E-commerce';
+const branza = c.facts.find((f) => f[0] === 'Branża')?.[1];
+const url = `/realizacje/${c.slug}/`;
+const ld = [
+  crumbs([['Strona główna', '/'], ['Realizacje', '/realizacje/'], [c.title, url]]),
+  { '@context': 'https://schema.org', '@type': 'CreativeWork', name: c.title, description: c.lead, url: SITE + url,
+    image: c.cover ? SITE + c.cover.src : undefined, creator: { '@id': SITE + '/#business' },
+    about: branza, sameAs: c.live || undefined },
+];
+---
+<Base v={v} page="real" path={url} jsonLd={ld} image={c.cover?.src}
+  title={`${c.title} – realizacja ${isShop ? 'sklepu internetowego' : 'strony internetowej'} | top.strony`}
+  description={`${c.title}: ${branza ?? c.cat}. Zobacz, jak zaprojektowaliśmy ${isShop ? 'sklep' : 'stronę'}: wyzwanie, rozwiązanie, technologie i zrzuty ekranu.`}>
+  <main id="main">
+    <section class="cs-hero" aria-labelledby="cs-h1">
+      <div class="wrap">
+        <ol class="cs-crumbs" aria-label="Ścieżka nawigacji">
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/realizacje/">Realizacje</a></li>
+          <li aria-current="page">{c.title}</li>
+        </ol>
+        <div class="cs-top">
+          <div>
+            <p class="eyebrow h-in">{c.label}</p>
+            <h1 id="cs-h1" class="h h-in">{c.title}</h1>
+            <p class="cs-lead h-in">{c.lead}</p>
+          </div>
+          {c.live && <a class="btn btn-g h-in" data-magnetic href={c.live} target="_blank" rel="noopener nofollow">Zobacz stronę na żywo <span aria-hidden="true">↗</span></a>}
+        </div>
+        <dl class="cs-facts rv">
+          {c.facts.map(([k, val]) => (<div><dt>{k}</dt><dd>{val}</dd></div>))}
+        </dl>
+      </div>
+    </section>
+
+    {c.cover && (
+      <section class="cs-cover" aria-label="Główny zrzut ekranu">
+        <div class="wrap">
+          <figure class="frame rv">
+            <div class="frame-bar" aria-hidden="true"><i></i><i></i><i></i><em>{c.domain}</em></div>
+            <img src={c.cover.src} width={c.cover.w} height={c.cover.h} alt={c.cover.alt} fetchpriority="high" decoding="async" />
+          </figure>
+        </div>
+      </section>
+    )}
+
+    <section class="cs-story" aria-label="O projekcie">
+      <div class="wrap">
+        {c.story.map((s) => (
+          <div class="cs-row rv">
+            <div><span class="cs-num">{s.n}</span><h2 class="h">{s.h}</h2></div>
+            <div>
+              {s.p.map((p) => <p>{p}</p>)}
+              {s.pts.length > 0 && <ul class="cs-pts">{s.pts.map((p) => <li>{p}</li>)}</ul>}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    {(c.shots.length > 0 || c.mobile) && (
+      <section class="cs-gal" aria-labelledby="cs-gal-h">
+        <div class="wrap">
+          <h2 id="cs-gal-h" class="h rv">{c.galleryH || 'Jak wygląda strona'}</h2>
+          <div class="cs-gal-grid">
+            <div class="cs-gal-col">
+              {c.shots.map((s) => (
+                <figure class="frame rv">
+                  <div class="frame-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+                  <img src={s.src} width={s.w} height={s.h} alt={s.alt} loading="lazy" decoding="async" />
+                </figure>
+              ))}
+            </div>
+            {c.mobile && (
+              <div class="rv d1">
+                <figure class="phone"><img src={c.mobile.src} width={c.mobile.w} height={c.mobile.h} alt={c.mobile.alt} loading="lazy" decoding="async" /></figure>
+                {c.caption && <p class="cs-cap">{c.caption}</p>}
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <section class="cs-stack" aria-label="Technologie i funkcje">
+      <div class="wrap cs-stack-grid">
+        {c.tech.length > 0 && <div class="rv"><h2 class="h">{c.techH}</h2><ul class="cs-chips is-acc">{c.tech.map((t) => <li>{t}</li>)}</ul></div>}
+        {c.feat.length > 0 && <div class="rv d1"><h2 class="h">{c.featH}</h2><ul class="cs-chips">{c.feat.map((t) => <li>{t}</li>)}</ul></div>}
+      </div>
+    </section>
+
+    <section class="cs-cta" aria-labelledby="cs-cta-h">
+      <div class="wrap">
+        <div class="cs-cta-box rv">
+          <div>
+            <h2 id="cs-cta-h" class="h">{c.cta || 'Chcesz podobny projekt dla swojej firmy?'}</h2>
+            {c.ctaP && <p>{c.ctaP}</p>}
+          </div>
+          <a href="/kontakt/" class="btn btn-g" data-magnetic>Porozmawiajmy</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cs-rel" aria-labelledby="cs-rel-h">
+      <div class="wrap">
+        <div class="cs-rel-head rv"><h2 id="cs-rel-h" class="h">Inne realizacje</h2><a href="/realizacje/">Wszystkie realizacje →</a></div>
+        <div class="cs-rel-grid">
+          {related.map((r) => (
+            <a class="cs-card rv" href={`/realizacje/${r.slug}/`}>
+              <span class="cs-card-img"><img src={r.thumb} alt="" width="800" height="560" loading="lazy" decoding="async" /></span>
+              <small>{r.cat}</small><b>{r.title}</b>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>

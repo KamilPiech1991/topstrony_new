@@ -6,7 +6,8 @@
   "ind": "Generalny wykonawca / budowa domów jednorodzinnych",
   "img": "/img/realizacja-eurodomy-pl.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "eurodomy"
  },
  {
   "t": "E-Tabak",
@@ -15,7 +16,8 @@
   "ind": "Sklep internetowy i sieć sklepów / e-papierosy i akcesoria",
   "img": "/img/realizacja-e-tabak.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "e-tabak"
  },
  {
   "t": "Dom Opieki Obok Lasu",
@@ -24,7 +26,8 @@
   "ind": "Dom opieki dla seniorów / opieka i rehabilitacja",
   "img": "/img/realizacja-dom-opieki-obok-lasu.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "obok-lasu"
  },
  {
   "t": "Marmostyl",
@@ -33,7 +36,8 @@
   "ind": "Kamieniarstwo / blaty i wykończenia z kamienia naturalnego",
   "img": "/img/realizacja-marmostyl.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "marmostyl"
  },
  {
   "t": "Pure Rehab",
@@ -42,7 +46,8 @@
   "ind": "Fizjoterapia i rehabilitacja",
   "img": "/img/realizacja-pure-rehab.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "pure-rehab"
  },
  {
   "t": "Sahra Art",
@@ -51,7 +56,8 @@
   "ind": "Sklep internetowy / ręcznie tkane dywany marokańskie",
   "img": "/img/realizacja-sahra-art.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "sahra-art"
  },
  {
   "t": "GOODO – Rancilio Ekspresy",
@@ -60,7 +66,8 @@
   "ind": "Dystrybucja profesjonalnych ekspresów do kawy",
   "img": "/img/realizacja-goodo-rancilio-ekspresy.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "goodo-rancilio-ekspresy"
  },
  {
   "t": "SMKA",
@@ -69,7 +76,8 @@
   "ind": "Producent preparatów koloidalnych / sklep internetowy B2C i B2B",
   "img": "/img/realizacja-smka.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "smka"
  },
  {
   "t": "Region Zdrowia (Fundacja Proturmed)",
@@ -78,7 +86,8 @@
   "ind": "Portal informacyjny / turystyka prozdrowotna",
   "img": "/img/realizacja-region-zdrowia-fundacja-proturmed.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "region-zdrowia"
  },
  {
   "t": "Psotel Gracja",
@@ -87,7 +96,8 @@
   "ind": "Hotel dla psów / usługi dla zwierząt",
   "img": "/img/realizacja-psotel-gracja.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "psotel-gracja"
  },
  {
   "t": "Bogdan Grzeszczyk – Photo & Video",
@@ -96,7 +106,8 @@
   "ind": "Fotografia i filmowanie (biznes, eventy, dron)",
   "img": "/img/realizacja-bogdan-grzeszczyk-photo-amp-video.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "bogdan-grzeszczyk"
  },
  {
   "t": "Ventoni – Biuro Rachunkowe",
@@ -105,7 +116,8 @@
   "ind": "Biuro rachunkowe / usługi księgowe",
   "img": "/img/realizacja-ventoni-biuro-rachunkowe.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "ventoni"
  },
  {
   "t": "Fastpol (Fastclean)",
@@ -114,7 +126,8 @@
   "ind": "Czyszczenie i dezynfekcja wentylacji",
   "img": "/img/realizacja-fastpol-fastclean.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "fastpol"
  },
  {
   "t": "CloudInsight",
@@ -123,7 +136,8 @@
   "ind": "Doradztwo IT / chmura, dane i AI",
   "img": "/img/realizacja-cloudinsight.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "cloudinsight"
  },
  {
   "t": "Klub Sportowy Face 2 Face",
@@ -132,7 +146,8 @@
   "ind": "Klub sportowy / szkoła tańca dla dzieci i młodzieży",
   "img": "/img/realizacja-klub-sportowy-face-2-face.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "face2face"
  },
  {
   "t": "Veles Stage Lights",
@@ -141,7 +156,8 @@
   "ind": "Producent oświetlenia scenicznego",
   "img": "/img/realizacja-veles-stage-lights.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "veles-lighting"
  },
  {
   "t": "Oligradskyi",
@@ -150,7 +166,8 @@
   "ind": "Balustrady i konstrukcje stalowe na zamówienie",
   "img": "/img/realizacja-oligradskyi.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "oligradskyi"
  },
  {
   "t": "Elite Detailing Team",
@@ -159,7 +176,8 @@
   "ind": "Auto detailing / kosmetyka samochodowa",
   "img": "/img/realizacja-elite-detailing-team.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "elite-detailing"
  },
  {
   "t": "Rushing Rivers Institute",
@@ -168,7 +186,8 @@
   "ind": "Organizacja non-profit / ochrona i zarządzanie rzekami",
   "img": "/img/realizacja-rushing-rivers-institute.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "rushing-rivers"
  },
  {
   "t": "MC Good Work",
@@ -177,7 +196,8 @@
   "ind": "Producent systemów zamocowań instalacyjnych i sanitarnych",
   "img": "/img/realizacja-mc-good-work.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "mc-good-work"
  },
  {
   "t": "Reventon design",
@@ -240,7 +260,8 @@
   "ind": "Sklep internetowy / materiały instalacyjne (gaz, woda, ogrzewanie, wentylacja)",
   "img": "/img/realizacja-emix.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "emix"
  },
  {
   "t": "Vision And Sound",
@@ -249,7 +270,8 @@
   "ind": "Filmowanie i fotografia ślubna",
   "img": "/img/realizacja-vision-and-sound.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "vision-and-sound"
  },
  {
   "t": "Agtes Serwis",
@@ -276,7 +298,8 @@
   "ind": "Remonty i wykończenia wnętrz / meble na wymiar",
   "img": "/img/realizacja-tse-remonty.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "tse-remonty"
  },
  {
   "t": "Graschem",
@@ -294,7 +317,8 @@
   "ind": "Spedycja i transport międzynarodowy",
   "img": "/img/realizacja-convey-cargo.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "convey-cargo"
  },
  {
   "t": "Kancelaria Radcy Prawnego Małgorzata Wilczek",
@@ -303,7 +327,8 @@
   "ind": "Kancelaria prawna / radca prawny",
   "img": "/img/realizacja-kancelaria-radcy-prawnego-malgorzata-wilczek.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "kancelaria-wilczek"
  },
  {
   "t": "Studio Gracja – Studio psiej urody",
@@ -312,6 +337,7 @@
   "ind": "Salon groomerski / pielęgnacja psów i kotów",
   "img": "/img/realizacja-studio-gracja-studio-psiej-urody.webp",
   "w": 860,
-  "h": 600
+  "h": 600,
+  "slug": "studio-gracja"
  }
 ]

@@ -1,0 +1,3002 @@
+[
+ {
+  "slug": "eurodomy",
+  "src": "eurodomy",
+  "label": "Strona www · Generalny wykonawca / budowa domów jednorodzinnych",
+  "title": "Eurodomy.pl",
+  "lead": "Eurodomy.pl to generalny wykonawca domów jednorodzinnych, który buduje domy według dowolnego projektu – od projektu po stan deweloperski. Firma działa w powiecie piaseczyńskim i na Mazowszu, a dobór materiałów i rozwiązań technologicznych ustala indywidualnie z klientem.",
+  "live": "https://www.eurodomy.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Eurodomy.pl"
+   ],
+   [
+    "Branża",
+    "Generalny wykonawca / budowa domów jednorodzinnych"
+   ],
+   [
+    "Lokalizacja",
+    "Złotokłos (powiat piaseczyński, Mazowsze)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, Kadence Blocks"
+   ]
+  ],
+  "domain": "eurodomy.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Eurodomy.pl to generalny wykonawca domów jednorodzinnych z ponad 25-letnim doświadczeniem, działający w powiecie piaseczyńskim i na Mazowszu. Firma buduje domy według dowolnego projektu i prowadzi cały proces – od projektu po stan deweloperski – jako jeden wykonawca odpowiedzialny za efekt końcowy. Oferta skierowana jest do osób planujących budowę własnego domu."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Budowa domu to dla klienta duża i długoterminowa decyzja, dlatego firma potrzebowała strony, która od pierwszego ekranu buduje zaufanie i pokazuje doświadczenie wykonawcy. Kluczowe było czytelne przedstawienie modelu współpracy z jednym wykonawcą odpowiedzialnym za cały proces oraz udokumentowanie zrealizowanych budów. Strona miała też ułatwiać kontakt i zachęcać do zapytania o wycenę."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy stronę opartą na dużych, realistycznych wizualizacjach domów i eleganckiej typografii, która podkreśla charakter marki. Na stronie głównej wyeksponowaliśmy doświadczenie firmy oraz korzyści z budowy z generalnym wykonawcą, każdorazowo zakończone wezwaniem do zapytania o wycenę. Przygotowaliśmy rozbudowaną sekcję realizacji w formie slidera z lokalizacjami budów i odnośnikami do filmów. Całość domyka sekcja lokalizacji z mapą Google oraz stopka z danymi kontaktowymi poszczególnych działów firmy."
+    ],
+    "pts": [
+     "hero z wizualizacją domu i trzema kluczowymi wyróżnikami firmy",
+     "sekcja „Jesteśmy Generalnym Wykonawcą” z korzyściami i przyciskiem wyceny",
+     "slider realizacji z nazwami miejscowości i linkami do filmów",
+     "mapa Google z lokalizacją biura i oceną firmy",
+     "stopka z kontaktami do działów i danymi rejestrowymi",
+     "wersja mobilna z rozwijanym menu"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "Splide",
+   "GLightbox",
+   "Rank Math SEO",
+   "Trustindex",
+   "Google Maps"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "sekcja przewag i doświadczenia firmy",
+   "galeria realizacji w formie slidera z linkami do filmów",
+   "wezwanie do wyceny (CTA)",
+   "mapa dojazdu Google z oceną firmy",
+   "dane kontaktowe z podziałem na działy",
+   "baza wiedzy",
+   "opinie klientów",
+   "responsywna wersja mobilna"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/eurodomy/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Eurodomy.pl"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/eurodomy/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Eurodomy.pl — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/eurodomy/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Eurodomy.pl — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/eurodomy/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Eurodomy.pl — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-eurodomy-pl.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "e-tabak",
+  "src": "e-tabak",
+  "label": "E-commerce · Sklep internetowy i sieć sklepów / e-papierosy i akcesoria",
+  "title": "E-Tabak",
+  "lead": "E-Tabak to sieć sklepów stacjonarnych i sklep internetowy z e-papierosami, e-płynami, akcesoriami do wapowania, woreczkami nikotynowymi, produktami CBD, shishą i akcesoriami. Na stronie firma prezentuje ponad 3000 produktów oraz listę swoich sklepów z adresami i godzinami otwarcia.",
+  "live": "https://e-tabak.pl/",
+  "facts": [
+   [
+    "Klient",
+    "E-Tabak"
+   ],
+   [
+    "Branża",
+    "Sklep internetowy i sieć sklepów / e-papierosy i akcesoria"
+   ],
+   [
+    "Lokalizacja",
+    "Mazowsze i Lubelszczyzna (m.in. Piaseczno, Warszawa, Zamość, Poznań)"
+   ],
+   [
+    "Zakres",
+    "Sklep internetowy — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, WooCommerce, Dedykowany motyw WordPress"
+   ]
+  ],
+  "domain": "e-tabak.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "E-Tabak to sieć sklepów z e-papierosami, e-płynami i akcesoriami, obecna w kilkudziesięciu lokalizacjach – głównie na Mazowszu i Lubelszczyźnie. Oprócz sklepów stacjonarnych firma prowadzi sklep internetowy z szerokim asortymentem: od e-papierosów i liquidów, przez woreczki nikotynowe i produkty CBD, po shishę, akcesoria i produkty marki własnej. Oferta kierowana jest wyłącznie do osób pełnoletnich."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Firma potrzebowała sklepu internetowego, który obsłuży bardzo szeroki asortyment i pozwoli klientom szybko znaleźć konkretny produkt, wariant czy promocję. Równie ważne było połączenie sprzedaży online z siecią sklepów stacjonarnych, tak aby klient łatwo sprawdził najbliższy punkt i godziny otwarcia. Ze względu na charakter produktów strona musiała też ograniczać dostęp osobom niepełnoletnim."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Wdrożyliśmy sklep na WordPress i WooCommerce z dedykowanym, ciemnym motywem nawiązującym do charakteru marki. Strona główna prowadzi klienta przez kategorie produktów, promocje tygodnia, bestsellery i najważniejsze działy asortymentu, a filtry AJAX i warianty produktów ułatwiają wybór. Zintegrowaliśmy płatności online, wysyłkę, program lojalnościowy oraz newsletter, a przy wejściu na stronę wyświetlamy weryfikację wieku. Sekcja „Nasze sklepy” łączy interaktywną mapę z listą lokalizacji, telefonami i godzinami otwarcia."
+    ],
+    "pts": [
+     "dedykowany motyw WooCommerce w ciemnej kolorystyce marki",
+     "kafelki kategorii z licznikami produktów i wyszukiwarka",
+     "sekcje promocji tygodnia, bestsellerów i działów asortymentu",
+     "płatności online, wysyłka i program punktów lojalnościowych",
+     "weryfikacja wieku przy wejściu na stronę",
+     "mapa sieci sklepów z adresami, telefonami i godzinami otwarcia"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "WooCommerce",
+   "Dedykowany motyw WordPress",
+   "Swiper",
+   "Tpay",
+   "BeRocket AJAX Product Filters",
+   "Variation Swatches for WooCommerce",
+   "Easy Loyalty Points and Rewards",
+   "Flexible Shipping"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "sklep internetowy z koszykiem i płatnościami online",
+   "kategorie produktów z licznikami",
+   "promocje tygodnia i bestsellery",
+   "wyszukiwarka produktów",
+   "filtrowanie produktów (AJAX)",
+   "warianty produktów (np. smaki, rezystancje)",
+   "program lojalnościowy z punktami",
+   "weryfikacja wieku 18+",
+   "mapa i lista sklepów stacjonarnych z godzinami otwarcia",
+   "newsletter",
+   "blog",
+   "sekcja partnerów (marek)"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/e-tabak/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — E-Tabak"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/e-tabak/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "E-Tabak — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/e-tabak/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "E-Tabak — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/e-tabak/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "E-Tabak — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-e-tabak.webp",
+  "cat": "E-commerce"
+ },
+ {
+  "slug": "obok-lasu",
+  "src": "obok-lasu",
+  "label": "Strona www · Dom opieki dla seniorów / opieka i rehabilitacja",
+  "title": "Dom Opieki Obok Lasu",
+  "lead": "Obok Lasu to dom opieki dla seniorów w Grębiszewie, w Mazowieckim Parku Krajobrazowym, oferujący pobyty z opieką medyczną, rehabilitacją i zajęciami artystyczno-kulturalnymi. Placówkę prowadzi Fundacja „Opieka Plus”.",
+  "live": "https://obok-lasu.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Dom Opieki Obok Lasu"
+   ],
+   [
+    "Branża",
+    "Dom opieki dla seniorów / opieka i rehabilitacja"
+   ],
+   [
+    "Lokalizacja",
+    "Grębiszew k. Mińska Mazowieckiego (ok. 30 km od Warszawy)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, Kadence Blocks"
+   ]
+  ],
+  "domain": "obok-lasu.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Dom Opieki Obok Lasu to placówka dla osób starszych położona w Grębiszewie, w sercu Mazowieckiego Parku Krajobrazowego, około 30 km od Warszawy. Ośrodek zapewnia całodobową opiekę, fachową opiekę medyczną i rehabilitacyjną, własną stołówkę oraz przestrzeń do aktywności artystyczno-kulturalnych, a teren o powierzchni 10 ha jest ogrodzony i monitorowany. Placówkę prowadzi Fundacja „Opieka Plus”."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Wybór domu opieki dla bliskiej osoby to trudna, emocjonalna decyzja, dlatego placówka potrzebowała strony, która przede wszystkim buduje zaufanie i pokazuje realne warunki pobytu. Rodziny szukają informacji o opiece, infrastrukturze, otoczeniu i opiniach innych osób, a następnie chcą łatwo się skontaktować. Strona miała odpowiadać na te pytania i prowadzić do rozmowy o pobycie."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy spokojną, ciepłą stronę w zielonej kolorystyce, nawiązującej do leśnego otoczenia ośrodka. Na stronie głównej połączyliśmy opinie z Google, galerię zdjęć placówki, sekcję wartości oraz opis tego, co zapewniamy seniorom. Osobną sekcję poświęciliśmy lokalizacji w centrum natury i infrastrukturze ośrodka, z wezwaniem do zapytania o pobyt. Na dole strony umieściliśmy formularz kontaktowy, numery infolinii i recepcji, dokumenty do pobrania oraz mapę dojazdu, a na urządzeniach mobilnych stały przycisk infolinii."
+    ],
+    "pts": [
+     "hero z wezwaniem „Zarezerwuj pobyt”",
+     "opinie klientów z Google na tle leśnego zdjęcia",
+     "slider ze zdjęciami ośrodka i sekcja wartości z ikonami",
+     "opis lokalizacji w Mazowieckim Parku Krajobrazowym i infrastruktury",
+     "formularz kontaktowy z reCAPTCHA, dokumenty do pobrania i mapa",
+     "pływający przycisk „Infolinia” w wersji mobilnej"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "Splide",
+   "SimpleLightbox",
+   "Contact Form 7",
+   "Trustindex",
+   "Rank Math SEO",
+   "Google Maps"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "formularz kontaktowy",
+   "opinie klientów z Google",
+   "galeria ośrodka (slider)",
+   "sekcja wartości placówki",
+   "opis lokalizacji i infrastruktury",
+   "dokumenty do pobrania (ankieta, zaświadczenie lekarskie)",
+   "mapa dojazdu",
+   "przycisk infolinii",
+   "rozbudowane menu (mega menu)"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/obok-lasu/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Dom Opieki Obok Lasu"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/obok-lasu/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Dom Opieki Obok Lasu — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/obok-lasu/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Dom Opieki Obok Lasu — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/obok-lasu/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Dom Opieki Obok Lasu — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-dom-opieki-obok-lasu.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "marmostyl",
+  "src": "marmostyl",
+  "label": "Strona www · Kamieniarstwo / blaty i wykończenia z kamienia naturalnego",
+  "title": "Marmostyl",
+  "lead": "Marmostyl to pracownia kamienia naturalnego, która importuje i obrabia marmury, granity, trawertyny, kwarcyty, onyksy oraz konglomeraty i spieki kwarcowe. Firma wykonuje na zamówienie blaty kuchenne i łazienkowe, schody, parapety i zabudowy kominkowe, zapewniając pomiar, cięcie i montaż.",
+  "live": "https://www.marmostyl.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Marmostyl"
+   ],
+   [
+    "Branża",
+    "Kamieniarstwo / blaty i wykończenia z kamienia naturalnego"
+   ],
+   [
+    "Lokalizacja",
+    "Stara Iwiczna k. Warszawy"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Page Builder Framework, Contact Form 7"
+   ]
+  ],
+  "domain": "marmostyl.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Marmostyl to pracownia kamienia naturalnego ze Starej Iwicznej pod Warszawą, z ponad 12-letnim doświadczeniem w kamieniarstwie budowlanym. W ofercie ma setki materiałów i kolorów kamienia importowanego m.in. z Włoch, Hiszpanii, Grecji, Indii, RPA i Brazylii, a także konglomeraty i spieki kwarcowe znanych producentów, których jest autoryzowanym dystrybutorem. Firma wykonuje na zamówienie blaty, schody, parapety, łazienki i zabudowy kominkowe – od pomiaru po montaż."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Kamień naturalny to produkt, który klient chce przede wszystkim zobaczyć, dlatego pracownia potrzebowała strony eksponującej materiały i gotowe realizacje w atrakcyjnej formie. Ważne było uporządkowanie szerokiej oferty materiałów, pokazanie współpracy z uznanymi producentami oraz zachęcenie do kontaktu i wizyty w salonie."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy stronę w ciemnej, eleganckiej kolorystyce, która podkreśla fakturę i kolory kamienia na zdjęciach. Pełnoekranowy slider prowadzi do głównych grup materiałów – granitów, marmurów i kwarcytów – a sekcja o firmie przedstawia zakres usług i wyróżniki pracowni. Przygotowaliśmy galerię realizacji podzieloną na blaty kuchenne, blaty łazienkowe, kominki i schody oraz sekcję partnerów handlowych z logotypami producentów. Kontakt ułatwiają formularz w stopce i pływające przyciski telefonu oraz mediów społecznościowych."
+    ],
+    "pts": [
+     "pełnoekranowy slider z podziałem na granity, marmury i kwarcyty",
+     "sekcja „Kilka słów o nas” z wyróżnikami: wybór, jakość, bezpłatne doradztwo",
+     "galeria realizacji: blaty kuchenne, łazienkowe, kominki, schody",
+     "licznik lat doświadczenia i logotypy partnerów handlowych",
+     "formularz kontaktowy z danymi doradców",
+     "pływające przyciski kontaktu i social media"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Page Builder Framework",
+   "Contact Form 7",
+   "Simply Gallery Block",
+   "Everest Tab Lite",
+   "Popup Box",
+   "myStickyElements Pro"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "slider z ofertą materiałów (granity, marmury, kwarcyty)",
+   "sekcja o firmie",
+   "galeria realizacji",
+   "sekcja partnerów handlowych z logotypami",
+   "formularz kontaktowy",
+   "pływające przyciski kontaktu (telefon, Facebook, Instagram)",
+   "baner zgody na cookies"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/marmostyl/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Marmostyl"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/marmostyl/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Marmostyl — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/marmostyl/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Marmostyl — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/marmostyl/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Marmostyl — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-marmostyl.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "pure-rehab",
+  "src": "pure-rehab",
+  "label": "Strona www · Fizjoterapia i rehabilitacja",
+  "title": "Pure Rehab",
+  "lead": "Pure Rehab to gabinet fizjoterapii i rehabilitacji w Nowej Iwicznej, kilka minut od Piaseczna. Oferuje m.in. fizjoterapię, terapię manualną, osteopatię, masaż leczniczy, fizjoterapię dzieci oraz zajęcia grupowe – prywatnie, bez skierowania.",
+  "live": "https://purerehab.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Pure Rehab"
+   ],
+   [
+    "Branża",
+    "Fizjoterapia i rehabilitacja"
+   ],
+   [
+    "Lokalizacja",
+    "Nowa Iwiczna k. Piaseczna (ul. Graniczna 39)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, Kadence Blocks"
+   ]
+  ],
+  "domain": "purerehab.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Pure Rehab to gabinet fizjoterapii i rehabilitacji w Nowej Iwicznej, w gminie Lesznowola, kilka minut od Piaseczna. Zespół łączy fizjoterapię, medycynę i nowoczesne podejście do zdrowia, pomagając pacjentom w każdym wieku – po urazach, operacjach i w ramach profilaktyki, także dzieciom i niemowlętom. Gabinet przyjmuje prywatnie, bez skierowania."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Gabinet fizjoterapii potrzebował strony, która szybko odpowie pacjentom na podstawowe pytania: z czym mogą przyjść, ile kosztuje wizyta, kto ich przyjmie i jak się zapisać. Ważne było też budowanie zaufania do specjalistów oraz widoczność w wynikach wyszukiwania dla lokalnych fraz, a przede wszystkim maksymalne skrócenie drogi do umówienia wizyty."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy jasną, nowoczesną stronę w turkusowej kolorystyce, z hasłem „Ruch to zdrowie” i dwoma głównymi przyciskami: kontakt i przegląd zabiegów. Tuż pod hero umieściliśmy blok „W skrócie” z adresem, zakresem usług, cenami i numerem do zapisów, a dalej slider z kluczowymi usługami. Zintegrowaliśmy opinie z Google, profile fizjoterapeutów z ZnanyLekarz oraz rezerwację przez Booksy, a sekcja FAQ w formie akordeonu odpowiada na najczęstsze pytania pacjentów. Dodatkowo wdrożyliśmy popup zachęcający do umówienia konsultacji."
+    ],
+    "pts": [
+     "hero z hasłem „Ruch to zdrowie” i dwoma wezwaniami do działania",
+     "blok „W skrócie” z adresem, zakresem usług, cenami i telefonem",
+     "slider usług: fizjoterapia, osteopatia, rehabilitacja, masaże",
+     "opinie z Google i profile fizjoterapeutów z ZnanyLekarz",
+     "FAQ w formie akordeonu",
+     "rezerwacja przez Booksy i popup „Umów konsultację”"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "LiteSpeed Cache",
+   "Popup Maker",
+   "ZnanyLekarz / Docplanner widget",
+   "Booksy",
+   "Trustindex",
+   "Rank Math SEO"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "przegląd usług w formie slidera",
+   "cennik",
+   "opinie pacjentów z Google",
+   "profile fizjoterapeutów z umawianiem wizyt (ZnanyLekarz)",
+   "rezerwacje online (Booksy)",
+   "FAQ (akordeon)",
+   "popup zachęcający do umówienia konsultacji",
+   "zajęcia grupowe",
+   "zespół / kadra"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/pure-rehab/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Pure Rehab"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/pure-rehab/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Pure Rehab — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/pure-rehab/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Pure Rehab — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/pure-rehab/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Pure Rehab — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-pure-rehab.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "sahra-art",
+  "src": "sahra-art",
+  "label": "E-commerce · Sklep internetowy / ręcznie tkane dywany marokańskie",
+  "title": "Sahra Art",
+  "lead": "Sahra Art to sklep internetowy z ręcznie tkanymi dywanami marokańskimi z owczej wełny, m.in. z kolekcji Beni Mrirt, tworzonymi przez tkaczki z gór Atlas. Marka oferuje gotowe, unikatowe dywany oraz dywany tkane na zamówienie.",
+  "live": "https://www.sahraart.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Sahra Art"
+   ],
+   [
+    "Branża",
+    "Sklep internetowy / ręcznie tkane dywany marokańskie"
+   ],
+   [
+    "Lokalizacja",
+    "Warszawa (spotkania na miejscu)"
+   ],
+   [
+    "Zakres",
+    "Sklep internetowy — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, WooCommerce, Dedykowany motyw WordPress"
+   ]
+  ],
+  "domain": "sahraart.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Sahra Art to marka i sklep internetowy z ręcznie tkanymi dywanami marokańskimi. Dywany powstają ze 100% owczej wełny w pracowniach tkaczek z gór Atlas, z którymi marka współpracuje, wspierając ich tradycyjne rzemiosło – każdy egzemplarz jest unikatem. Oprócz gotowych dywanów Sahra Art przyjmuje zamówienia na dywany tkane według rozmiaru, kolorów i wzoru wybranego przez klienta."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Ręcznie tkany dywan to produkt premium, którego wartość wynika z materiału, pracy rzemieślniczek i historii – sklep musiał to przekazać, zanim klient spojrzy na cenę. Marka potrzebowała sklepu, który łączy klimat magazynu wnętrzarskiego z wygodnym zakupem online, a jednocześnie jasno komunikuje warunki dostawy, zwrotów i realizacji zamówień indywidualnych."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy sklep na WooCommerce z dedykowanym motywem w stylu edytorialnym – z szeryfową typografią, ciepłą paletą barw i dużymi zdjęciami splotów i wnętrz. Strona główna opowiada historię marki: od wełny i tkaczek z gór Atlas, przez polecane produkty z szybkim podglądem, po sekcję dywanów na zamówienie z czasem realizacji. Wyeksponowaliśmy argumenty zakupowe – darmową dostawę, naturalną wełnę, bezpieczne płatności i 14 dni na zwrot – oraz przygotowaliśmy FAQ i zapis do newslettera z kodem rabatowym."
+    ],
+    "pts": [
+     "dedykowany motyw WooCommerce w stylu edytorialnym",
+     "sekcje storytellingowe o rzemiośle i tkaczkach z gór Atlas",
+     "karuzela polecanych dywanów z szybkim podglądem, wymiarami i ceną",
+     "sekcja „Dywan na zamówienie” z czasem realizacji",
+     "pasek korzyści: dostawa, wełna, płatności, zwroty",
+     "FAQ i newsletter z kodem rabatowym"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "WooCommerce",
+   "Dedykowany motyw WordPress",
+   "LiteSpeed Cache"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "sklep z koszykiem i płatnościami online (BLIK, karty, Google Pay, Apple Pay)",
+   "szybki podgląd produktu",
+   "dywany na zamówienie",
+   "wyszukiwarka produktów",
+   "konto klienta",
+   "FAQ",
+   "newsletter z kodem rabatowym (popup)",
+   "pasek z informacjami o dostawie i realizacji",
+   "panel zgód na cookies"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/sahra-art/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Sahra Art"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/sahra-art/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Sahra Art — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/sahra-art/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Sahra Art — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/sahra-art/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Sahra Art — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-sahra-art.webp",
+  "cat": "E-commerce"
+ },
+ {
+  "slug": "goodo-rancilio-ekspresy",
+  "src": "rancilio-ekspresy",
+  "label": "E-commerce · Dystrybucja profesjonalnych ekspresów do kawy",
+  "title": "GOODO – Rancilio Ekspresy",
+  "lead": "GOODO Sp. z o.o. jest oficjalnym i autoryzowanym dystrybutorem marki Rancilio w Polsce. Oferuje profesjonalne i automatyczne ekspresy do kawy (Rancilio, Egro), młynki, akcesoria baristyczne oraz serwis, instalację i szkolenia.",
+  "live": "https://rancilioekspresy.pl/",
+  "facts": [
+   [
+    "Klient",
+    "GOODO – Rancilio Ekspresy"
+   ],
+   [
+    "Branża",
+    "Dystrybucja profesjonalnych ekspresów do kawy"
+   ],
+   [
+    "Lokalizacja",
+    "Zamienie (k. Piaseczna)"
+   ],
+   [
+    "Zakres",
+    "Sklep internetowy — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, Kadence Blocks"
+   ]
+  ],
+  "domain": "rancilioekspresy.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "GOODO to oficjalny i autoryzowany dystrybutor włoskiej marki Rancilio w Polsce. Firma oferuje profesjonalne ekspresy kolbowe Rancilio, automatyczne ekspresy Egro, młynki do kawy, chłodziarki do mleka i akcesoria baristyczne. Obsługuje kawiarnie, restauracje, hotele i biura, zapewniając doradztwo, instalację, szkolenia oraz serwis gwarancyjny i pogwarancyjny."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Jako autoryzowany dystrybutor GOODO potrzebowało strony, która jasno pokaże związek z marką Rancilio i zbuduje zaufanie klientów z branży HoReCa. Szeroka oferta – od ekspresów do kawiarni po sprzęt do biura i domu – musiała zostać uporządkowana tak, aby klient szybko znalazł urządzenie dopasowane do swojego lokalu. Strona miała też odpowiadać na typowe pytania przed zakupem i kierować do kontaktu z doradcą."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy stronę w estetyce marki Rancilio, z logotypami Rancilio, Rancilio Specialty i Egro w nagłówku oraz wyraźnym komunikatem o autoryzowanej dystrybucji już w pierwszym ekranie. Ofertę podzieliliśmy na dwanaście kafli kategorii ze zdjęciami – według typu urządzenia i miejsca zastosowania – oraz dodaliśmy mega menu. Przygotowaliśmy sekcję o firmie GOODO, rozbudowane FAQ, które pomaga dobrać ekspres do lokalu, oraz powtarzające się wezwania do kontaktu. Stronę wdrożyliśmy na WordPressie z motywem Kadence, co pozwala klientowi samodzielnie rozwijać katalog."
+    ],
+    "pts": [
+     "Hero z komunikatem o autoryzowanej dystrybucji Rancilio w Polsce",
+     "12 kategorii oferty w formie kafli ze zdjęciami",
+     "Mega menu i szybki dostęp do katalogu produktów",
+     "Sekcja „Kim jesteśmy” ze zdjęciem zespołu",
+     "FAQ pomagające dobrać ekspres do rodzaju lokalu",
+     "Wyraźne CTA kierujące do kontaktu z doradcą"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "Rank Math SEO"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "katalog produktów w podziale na kategorie",
+   "mega menu oferty",
+   "katalog produktów do pobrania",
+   "sekcja o firmie",
+   "FAQ w formie akordeonu",
+   "wezwania do kontaktu (CTA)",
+   "telefon i e-mail w nagłówku",
+   "wyszukiwarka",
+   "linki do mediów społecznościowych"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/goodo-rancilio-ekspresy/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — GOODO – Rancilio Ekspresy"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/goodo-rancilio-ekspresy/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "GOODO – Rancilio Ekspresy — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/goodo-rancilio-ekspresy/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "GOODO – Rancilio Ekspresy — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/goodo-rancilio-ekspresy/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "GOODO – Rancilio Ekspresy — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-goodo-rancilio-ekspresy.webp",
+  "cat": "E-commerce"
+ },
+ {
+  "slug": "smka",
+  "src": "smka-portal",
+  "label": "E-commerce · Producent preparatów koloidalnych / sklep internetowy B2C i B2B",
+  "title": "SMKA",
+  "lead": "SMKA to platforma sprzedażowa producenta naturalnych preparatów do ochrony i pielęgnacji ludzi, zwierząt i roślin. W ofercie są m.in. wodne roztwory koloidalne srebra, złota, miedzi i platyny marek System EGP i System Pupilek, stymulator wzrostu roślin oraz produkty z dodatkiem srebra.",
+  "live": "https://smka.pl/",
+  "facts": [
+   [
+    "Klient",
+    "SMKA"
+   ],
+   [
+    "Branża",
+    "Producent preparatów koloidalnych / sklep internetowy B2C i B2B"
+   ],
+   [
+    "Zakres",
+    "Sklep internetowy — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, WooCommerce, Kadence"
+   ]
+  ],
+  "domain": "smka.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "SMKA to producent naturalnych preparatów do ochrony i pielęgnacji, przeznaczonych dla ludzi, zwierząt i rolnictwa. Ofertę tworzą m.in. koloidy srebra, złota, miedzi i platyny marek System EGP i System Pupilek, neutralizatory zapachów, stymulator wzrostu roślin oraz tekstylia z dodatkiem srebra. Firma sprzedaje zarówno klientom indywidualnym, jak i partnerom handlowym."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Producent potrzebował platformy, która połączy sprzedaż detaliczną z obsługą partnerów handlowych. Szeroki asortyment dla trzech grup odbiorców – ludzi, zwierząt i rolnictwa – musiał być czytelnie podzielony, a zakup prosty i bezpieczny. Ważne było też budowanie zaufania do mniej oczywistej kategorii produktów: przez treści edukacyjne, opinie klientów i rzetelne opisy."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy i wdrożyliśmy sklep na WooCommerce z koszykiem, kontem klienta, płatnościami PayU i paskiem informującym o darmowej dostawie od 499 zł. Dodaliśmy strefę B2B oraz formularz rejestracji partnerów handlowych, dzięki czemu jedna platforma obsługuje klientów detalicznych i hurtowych. Stronę główną zbudowaliśmy wokół kategorii produktów, zakładek z produktami polecanymi i bloków „dla ludzi / dla zwierząt / dla rolnictwa”. Zaufanie budują sekcja porad, wyróżnione bestsellery oraz opinie z Google, a wyszukiwarka, schowek i katalog online ułatwiają poruszanie się po ofercie."
+    ],
+    "pts": [
+     "Sklep WooCommerce z płatnościami online PayU",
+     "Strefa B2B i rejestracja partnerów handlowych",
+     "Kafle kategorii i zakładki z produktami polecanymi",
+     "Podział oferty na produkty dla ludzi, zwierząt i rolnictwa",
+     "Blog „Porady i ciekawostki” oraz opinie klientów z Google",
+     "Wyszukiwarka, schowek i katalog produktów online"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "WooCommerce",
+   "Kadence",
+   "Kadence Blocks",
+   "B2BKing",
+   "PayU",
+   "Flexible Shipping",
+   "TI WooCommerce Wishlist",
+   "Ivory Search"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "sklep internetowy z koszykiem i płatnościami online",
+   "strefa B2B i program partnerów handlowych",
+   "konto klienta",
+   "schowek (lista ulubionych)",
+   "wyszukiwarka produktów",
+   "slider w sekcji hero",
+   "produkty polecane w zakładkach",
+   "katalog produktów online",
+   "pasek darmowej dostawy od 499 zł",
+   "opinie klientów z Google",
+   "blog z poradami",
+   "automatyczne tłumaczenie strony na wiele języków"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/smka/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — SMKA"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/smka/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "SMKA — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/smka/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "SMKA — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/smka/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "SMKA — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-smka.webp",
+  "cat": "E-commerce"
+ },
+ {
+  "slug": "region-zdrowia",
+  "src": "region-zdrowia",
+  "label": "Strona www · Portal informacyjny / turystyka prozdrowotna",
+  "title": "Region Zdrowia (Fundacja Proturmed)",
+  "lead": "Regionzdrowia.pl to portal prezentujący parki zdrowia i miejsca prozdrowotne w województwie pomorskim, wraz z aktualnymi wydarzeniami i ofertą zdrowotno-medyczną. Projekt prowadzi Fundacja Proturmed, a uzupełnia go bezpłatna aplikacja mobilna Perkoz.",
+  "live": "https://regionzdrowia.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Region Zdrowia (Fundacja Proturmed)"
+   ],
+   [
+    "Branża",
+    "Portal informacyjny / turystyka prozdrowotna"
+   ],
+   [
+    "Lokalizacja",
+    "województwo pomorskie (Fundacja Proturmed, Gdańsk)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, Kadence Blocks"
+   ]
+  ],
+  "domain": "regionzdrowia.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Region Zdrowia to portal Fundacji Proturmed, który promuje prozdrowotne zasoby województwa pomorskiego. Zbiera w jednym miejscu parki zdrowia, miejsca prozdrowotne, wydarzenia na świeżym powietrzu i ofertę zdrowotno-medyczną regionu. Jest skierowany do mieszkańców i turystów, którzy chcą aktywnie spędzać czas i dbać o zdrowie."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Projekt potrzebował portalu, który uporządkuje dużą i stale rosnącą bazę parków, miejsc i wydarzeń, tak aby użytkownik łatwo znalazł coś w swojej okolicy. Treści muszą być regularnie aktualizowane przez redakcję, a serwis powinien być dostępny dla jak najszerszej grupy odbiorców, także osób z niepełnosprawnościami. Strona miała również promować aplikację mobilną Perkoz i wyniki rankingu parków zdrowia."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy portal z czytelnym podziałem na cztery główne obszary: parki zdrowia, miejsca prozdrowotne, dostępność atrakcji i ofertę zdrowotno-medyczną. Strona główna prezentuje najnowsze wydarzenia, parki z ocenami w skali gwiazdkowej, miejsca prozdrowotne i artykuły, a każda sekcja prowadzi do pełnych list. Przygotowaliśmy osobny blok promujący aplikację Perkoz z odnośnikami do Google Play i App Store. Wdrożyliśmy narzędzia dostępności (wysoki kontrast, powiększenie czcionki) oraz przełącznik wersji językowej, a całość oparliśmy na WordPressie z motywem Kadence, co ułatwia redakcji bieżące dodawanie treści."
+    ],
+    "pts": [
+     "Struktura oparta na czterech obszarach: parki, miejsca, dostępność, oferta medyczna",
+     "Kalendarz najnowszych wydarzeń w parkach",
+     "Katalog parków zdrowia z ocenami",
+     "Blok promujący aplikację mobilną Perkoz",
+     "Narzędzia dostępności i przełącznik języka PL/EN",
+     "Artykuły, rankingi i ciekawostki o regionie"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "TranslatePress",
+   "WP Accessibility",
+   "Splide",
+   "Google Business Reviews Rating",
+   "Rank Math SEO"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "baza parków zdrowia z ocenami",
+   "baza miejsc prozdrowotnych",
+   "kalendarz wydarzeń",
+   "artykuły i rankingi",
+   "promocja aplikacji mobilnej (Google Play, App Store)",
+   "wyszukiwarka",
+   "narzędzia dostępności (wysoki kontrast, powiększenie czcionki)",
+   "przełącznik języka PL/EN",
+   "slider w sekcji hero",
+   "sekcja ciekawostek w formie akordeonu",
+   "linki do mediów społecznościowych"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/region-zdrowia/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Region Zdrowia (Fundacja Proturmed)"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/region-zdrowia/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Region Zdrowia (Fundacja Proturmed) — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/region-zdrowia/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Region Zdrowia (Fundacja Proturmed) — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/region-zdrowia/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Region Zdrowia (Fundacja Proturmed) — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-region-zdrowia-fundacja-proturmed.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "psotel-gracja",
+  "src": "pso-tel-gracja",
+  "label": "Strona www · Hotel dla psów / usługi dla zwierząt",
+  "title": "Psotel Gracja",
+  "lead": "Psotel Gracja to hotel dla psów w Żabieńcu, obsługujący klientów z Warszawy, Piaseczna i okolic. Oprócz pobytów ze spacerami i wybiegami oferuje kąpiel, strzyżenie i pielęgnację psów oraz psie taxi.",
+  "live": "https://www.psotelgracja.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Psotel Gracja"
+   ],
+   [
+    "Branża",
+    "Hotel dla psów / usługi dla zwierząt"
+   ],
+   [
+    "Lokalizacja",
+    "Żabieniec (Piaseczno i okolice Warszawy)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "HTML5 / CSS3, JavaScript, Bootstrap"
+   ]
+  ],
+  "domain": "psotelgracja.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Psotel Gracja to hotel dla psów położony w Żabieńcu, w okolicach Piaseczna i Warszawy. Zapewnia psom wszystkich ras opiekę podczas nieobecności właścicieli: komfortowe pokoje i boksy, trzy spacery dziennie, dwa wybiegi i opiekę medyczną. W ofercie są także kąpiel, strzyżenie i trymowanie oraz psie taxi."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Właściciele psów, zanim powierzą komuś swojego pupila, szukają przede wszystkim zaufania: chcą zobaczyć miejsce, poznać zasady i opinie innych klientów. Hotel potrzebował strony, która pokaże warunki pobytu i usługi dodatkowe, odpowie na najczęstsze pytania i ułatwi wstępne oszacowanie kosztów. Strona miała też maksymalnie skracać drogę do rezerwacji – telefonicznie lub przez formularz kontaktowy."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy ciepłą, przyjazną stronę z ilustracjami psów, zaokrąglonymi elementami i jasną kolorystyką. W pierwszym ekranie umieściliśmy godziny przyjazdów i odbiorów oraz przyciski rezerwacji, a w nagłówku przycisk otwierający kalkulator, który szacuje koszt pobytu na podstawie wielkości psa, rodzaju zakwaterowania i dat. Przygotowaliśmy sekcje o hotelu, usługach dodatkowych w zakładkach (kąpiel, strzyżenie, psie taxi), galerię zdjęć, opinie klientów i FAQ. Stronę zakodowaliśmy od podstaw, bez CMS, z wykorzystaniem siatki Bootstrap, dzięki czemu jest lekka i dobrze działa na telefonach."
+    ],
+    "pts": [
+     "Kalkulator orientacyjnego kosztu pobytu psa",
+     "Godziny przyjazdów i przyciski rezerwacji w pierwszym ekranie",
+     "Usługi dodatkowe w zakładkach: kąpiel, strzyżenie, psie taxi",
+     "Galeria zdjęć z hotelu i opinie klientów",
+     "FAQ z odpowiedziami na pytania przed pierwszym pobytem",
+     "Lekka strona zakodowana od podstaw, bez CMS"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "HTML5 / CSS3",
+   "JavaScript",
+   "Bootstrap"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "kalkulator kosztu pobytu",
+   "przyciski rezerwacji i połączenia telefonicznego",
+   "usługi dodatkowe w zakładkach",
+   "galeria zdjęć",
+   "opinie klientów",
+   "FAQ",
+   "cennik",
+   "regulamin",
+   "podstrona groomera",
+   "blog z ciekawostkami",
+   "zapis do newslettera",
+   "mapa dojazdu (Google Maps)"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/psotel-gracja/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Psotel Gracja"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/psotel-gracja/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Psotel Gracja — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/psotel-gracja/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Psotel Gracja — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/psotel-gracja/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Psotel Gracja — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-psotel-gracja.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "bogdan-grzeszczyk",
+  "src": "bogdan-grzeszczyk",
+  "label": "Strona www · Fotografia i filmowanie (biznes, eventy, dron)",
+  "title": "Bogdan Grzeszczyk – Photo & Video",
+  "lead": "Bogdan Grzeszczyk to fotograf i filmowiec, który od ponad 10 lat specjalizuje się w fotografii i filmowaniu biznesowym, eventowym oraz w zdjęciach z drona.",
+  "live": "https://bogdangrzeszczyk.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Bogdan Grzeszczyk – Photo & Video"
+   ],
+   [
+    "Branża",
+    "Fotografia i filmowanie (biznes, eventy, dron)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Motyw Neon, LiteSpeed Cache"
+   ]
+  ],
+  "domain": "bogdangrzeszczyk.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Bogdan Grzeszczyk jest fotografem i filmowcem z ponad 10-letnim doświadczeniem. Specjalizuje się w fotografii i filmowaniu biznesowym, eventowym oraz w ujęciach z drona. Współpracuje z firmami krajowymi i międzynarodowymi, które potrzebują profesjonalnych materiałów wizerunkowych."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Fotograf i filmowiec potrzebował strony, która przede wszystkim pokaże jego prace i pozwoli klientom biznesowym szybko ocenić styl i jakość realizacji. Dwie różne usługi – fotografia i film – wymagały wyraźnego rozdzielenia, a portfolio czytelnego podziału na rodzaje zleceń. Strona miała też w prosty sposób prowadzić do kontaktu."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy minimalistyczną, ciemną stronę, w której pierwsze skrzypce grają zdjęcia i nagrania. Strona startowa to podzielony ekran z wyborem usługi: Fotografia lub Filmowanie. Na podstronach przygotowaliśmy portfolio w kategoriach (zdjęcia biznesowe, eventowe, z drona), galerie z podglądem w lightboxie oraz krótką prezentację autora. Każda podstrona kończy się wyraźnym blokiem kontaktowym z telefonem i e-mailem, a całość oparliśmy na WordPressie z optymalizacją LiteSpeed Cache."
+    ],
+    "pts": [
+     "Strona startowa z podziałem na Fotografię i Filmowanie",
+     "Portfolio w kategoriach: biznes, eventy, dron",
+     "Galerie zdjęć z podglądem w lightboxie",
+     "Ciemna, minimalistyczna oprawa eksponująca prace",
+     "Blok kontaktowy z telefonem i e-mailem na każdej podstronie"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Motyw Neon",
+   "LiteSpeed Cache",
+   "Contact Form 7",
+   "SimplyGallery",
+   "lightGallery.js"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "strona startowa z wyborem usługi (Fotografia / Filmowanie)",
+   "portfolio w podziale na kategorie",
+   "galerie zdjęć z lightboxem",
+   "formularz kontaktowy",
+   "telefon i e-mail w widocznym miejscu",
+   "pełnoekranowe menu"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/bogdan-grzeszczyk/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Bogdan Grzeszczyk – Photo & Video"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/bogdan-grzeszczyk/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Bogdan Grzeszczyk – Photo & Video — widok strony na komputerze (1)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/bogdan-grzeszczyk/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Bogdan Grzeszczyk – Photo & Video — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-bogdan-grzeszczyk-photo-amp-video.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "ventoni",
+  "src": "ventoni",
+  "label": "E-commerce · Biuro rachunkowe / usługi księgowe",
+  "title": "Ventoni – Biuro Rachunkowe",
+  "lead": "Ventoni to biuro rachunkowe z Piaseczna, które prowadzi kompleksową obsługę księgową, kadrową i płacową jednoosobowych działalności oraz spółek. Oferuje także konsultacje księgowe i pomoc w założeniu firmy.",
+  "live": "https://ventoni.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Ventoni – Biuro Rachunkowe"
+   ],
+   [
+    "Branża",
+    "Biuro rachunkowe / usługi księgowe"
+   ],
+   [
+    "Lokalizacja",
+    "Piaseczno"
+   ],
+   [
+    "Zakres",
+    "Sklep internetowy — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, Kadence Blocks"
+   ]
+  ],
+  "domain": "ventoni.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Ventoni to biuro rachunkowe z Piaseczna, obsługujące jednoosobowe działalności gospodarcze i spółki z Piaseczna, Warszawy i okolic. Prowadzi pełną i uproszczoną księgowość, kadry i płace, doradza w sprawach podatkowych i pomaga w założeniu firmy. Swoją współpracę z klientami opiera na rzetelności, bezpieczeństwie danych, sprawnej komunikacji i indywidualnym podejściu."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Biuro rachunkowe potrzebowało strony, która w prosty sposób przedstawi zakres usług i zbuduje zaufanie przedsiębiorców szukających księgowej w okolicy. Ważne było, aby strona była dobrze widoczna w wyszukiwarce na lokalne zapytania i odpowiadała na pytania, które klienci zadają przed rozpoczęciem współpracy. Kontakt z biurem miał być możliwy w kilku wygodnych formach."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy jasną, elegancką stronę z wyrazistym hasłem „Biuro rachunkowe Piaseczno dla biznesu” i przyciskiem prowadzącym do oferty. Usługi przedstawiliśmy w czterech kartach z ikonami, z których każda prowadzi do osobnej podstrony, a wartości biura opisaliśmy w sekcji czterech filarów współpracy. Przygotowaliśmy FAQ, blog z poradami księgowymi, cennik oraz lokalne podstrony dla okolicznych miejscowości, które wspierają widoczność w wyszukiwarce. Sekcja kontaktowa łączy formularz, telefon, e-mail i adres biura, a dodatkowo dodaliśmy czat WhatsApp."
+    ],
+    "pts": [
+     "Hero z lokalnym hasłem i przyciskiem do oferty",
+     "Cztery karty usług z osobnymi podstronami",
+     "Sekcja czterech filarów współpracy",
+     "FAQ, blog z poradami i cennik",
+     "Lokalne podstrony SEO dla okolicznych miejscowości",
+     "Formularz kontaktowy i czat WhatsApp"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "WP WhatsApp Chat",
+   "Rank Math SEO"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "oferta usług z osobnymi podstronami",
+   "cennik",
+   "blog z poradami księgowymi",
+   "FAQ w formie akordeonu",
+   "formularz kontaktowy",
+   "czat WhatsApp",
+   "dane kontaktowe i adres biura",
+   "lokalne podstrony dla okolicznych miejscowości",
+   "linki do mediów społecznościowych"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/ventoni/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Ventoni – Biuro Rachunkowe"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/ventoni/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Ventoni – Biuro Rachunkowe — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/ventoni/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Ventoni – Biuro Rachunkowe — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/ventoni/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Ventoni – Biuro Rachunkowe — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-ventoni-biuro-rachunkowe.webp",
+  "cat": "E-commerce"
+ },
+ {
+  "slug": "fastpol",
+  "src": "fastclean",
+  "label": "Strona www · Czyszczenie i dezynfekcja wentylacji",
+  "title": "Fastpol (Fastclean)",
+  "lead": "Fastpol (marka Fastclean) zajmuje się czyszczeniem i dezynfekcją kanałów wentylacyjnych, central wentylacyjnych i wentylacji kuchennej oraz inspekcją kamerą, pracując na urządzeniach firmy Pressovac. Obsługuje klientów biznesowych i indywidualnych na terenie całej Polski i krajów UE.",
+  "live": "https://www.fastclean.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Fastpol (Fastclean)"
+   ],
+   [
+    "Branża",
+    "Czyszczenie i dezynfekcja wentylacji"
+   ],
+   [
+    "Lokalizacja",
+    "Warszawa i okolice, działalność w całej Polsce i krajach UE"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, Kadence Blocks"
+   ]
+  ],
+  "domain": "fastclean.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Fastpol, działający pod marką Fastclean, to firma specjalizująca się w czyszczeniu i dezynfekcji systemów wentylacyjnych – od kanałów i central wentylacyjnych po wentylację kuchenną w gastronomii. Pracuje na sprzęcie fińskiej firmy Pressovac i obsługuje zarówno klientów biznesowych (obiekty przemysłowe, komercyjne, hotelowe), jak i osoby prywatne w całej Polsce oraz w krajach UE."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Firma potrzebowała strony, która jasno przedstawi specjalistyczne usługi wentylacyjne zarówno klientom biznesowym, jak i prywatnym, a jednocześnie zbuduje zaufanie do wykonawcy działającego w całym kraju. Ważne było pokazanie sprzętu, doświadczenia i referencji oraz odpowiedź na typowe pytania, w tym o wymagania prawne i częstotliwość czyszczenia. Strona miała też wspierać pozyskiwanie zapytań o wycenę i widoczność w wyszukiwarce w wielu miastach."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy stronę w granatowo-pomarańczowej kolorystyce marki, z wyraźnym hero i przyciskiem „Zamów bezpłatną wycenę” od razu na starcie. Pod nim umieściliśmy logotypy firm, z którymi współpracuje Fastpol, trzy wyróżniki firmy oraz opinie klientów z Google. Ofertę podzieliliśmy na czytelne kafelki usług i listę usług dodatkowych, a zasięg działalności zilustrowaliśmy mapą. Dodaliśmy sekcję wideo, galerię sprzętu Pressovac oraz rozbudowane FAQ w akordeonach z podziałem na kategorie, a całość uzupełniliśmy treścią ekspercką i podstronami lokalnymi wspierającymi SEO."
+    ],
+    "pts": [
+     "Hero z wezwaniem do działania „Zamów bezpłatną wycenę”",
+     "Sekcja logotypów klientów i opinie Google budujące zaufanie",
+     "Kafelki czterech głównych usług i lista usług dodatkowych",
+     "Mapa zasięgu działalności w Polsce i Europie",
+     "Galeria sprzętu Pressovac i sekcja wideo",
+     "FAQ w akordeonach z nawigacją po kategoriach i podstrony lokalne dla miast"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "LiteSpeed Cache",
+   "Rank Math SEO",
+   "Trustindex",
+   "Twenty20",
+   "GLightbox",
+   "Google Maps"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "oferta usług w formie kafelków",
+   "lista usług dodatkowych",
+   "logotypy klientów (sekcja „Współpracujemy z topowymi firmami”)",
+   "opinie klientów z Google (widżet Trustindex)",
+   "mapa zasięgu działalności",
+   "sekcja wideo „Zobacz jak działamy”",
+   "galeria używanego sprzętu",
+   "rozbudowane FAQ w akordeonach z nawigacją po kategoriach",
+   "tekst ekspercki pod SEO",
+   "podstrony lokalne dla miast (Gdańsk, Kraków, Łódź, Wrocław, Poznań)",
+   "przycisk „Zamów bezpłatną wycenę”",
+   "baner zgody na pliki cookie"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/fastpol/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Fastpol (Fastclean)"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/fastpol/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Fastpol (Fastclean) — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/fastpol/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Fastpol (Fastclean) — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/fastpol/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Fastpol (Fastclean) — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-fastpol-fastclean.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "cloudinsight",
+  "src": "cloud-insight",
+  "label": "Strona www · Doradztwo IT / chmura, dane i AI",
+  "title": "CloudInsight",
+  "lead": "CloudInsight pomaga organizacjom budować przewagę technologiczną – od architektury, przez analitykę i przetwarzanie danych, AI i automatyzację, po bezpieczeństwo i aplikacje biznesowe. Pracuje w modelu vendor-agnostic, w środowiskach multi-cloud i z różnymi platformami analitycznymi.",
+  "live": "https://www.cloudinsight.pl/pl/",
+  "facts": [
+   [
+    "Klient",
+    "CloudInsight"
+   ],
+   [
+    "Branża",
+    "Doradztwo IT / chmura, dane i AI"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Dedykowany motyw WordPress, TranslatePress"
+   ]
+  ],
+  "domain": "cloudinsight.pl/pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "CloudInsight to firma technologiczna, która wspiera organizacje w budowaniu przewagi technologicznej – od projektowania architektury po wdrożenia. Specjalizuje się w analityce i przetwarzaniu danych, AI i automatyzacji, bezpieczeństwie i governance oraz aplikacjach biznesowych, pracując niezależnie od dostawców w środowiskach multi-cloud."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Firma doradcza z obszaru chmury i danych potrzebowała strony, która w prosty sposób przedstawi szeroki zakres usług decydentom biznesowym i technicznym. Kluczowe było pokazanie podejścia – strategii przed narzędziem i niezależności od dostawców – tak, aby zbudować wiarygodność eksperta. Strona miała też obsługiwać klientów polsko- i anglojęzycznych oraz prowadzić do kontaktu ze specjalistą."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy oszczędny, nowoczesny serwis z dużą ilością przestrzeni, w kolorystyce granatu i żółci z motywem chmur. Na stronie głównej zestawiliśmy pięć obszarów usług jako czytelną listę prowadzącą do podstron, a filozofię firmy przedstawiliśmy w trzech numerowanych filarach. Sekcja technologii z logotypami platform pokazuje kompetencje bez zbędnego tekstu, a powtarzane wezwania do kontaktu prowadzą użytkownika do rozmowy ze specjalistą. Wdrożyliśmy dwie wersje językowe (PL/EN) na dedykowanym motywie WordPress."
+    ],
+    "pts": [
+     "Hero z hasłem „Technologia jako strategiczna przewaga” i CTA do kontaktu",
+     "Lista pięciu obszarów usług z osobnymi podstronami",
+     "Trzy filary podejścia: strategia, architektura, vendor-agnostic",
+     "Sekcja logotypów technologii i platform chmurowych",
+     "Wersje językowe PL/EN",
+     "Dedykowany motyw WordPress z formularzem kontaktowym"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Dedykowany motyw WordPress",
+   "TranslatePress",
+   "Contact Form 7",
+   "Trustindex",
+   "Rank Math SEO"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "pięć obszarów usług z podstronami",
+   "sekcja filozofii „Jak myślimy o technologii”",
+   "logotypy technologii (AWS, Azure, Google Cloud, Snowflake, Databricks, Power BI i in.)",
+   "wersje językowe PL/EN",
+   "sekcja kontaktowa z CTA",
+   "podstrony O nas, Kariera, Kontakt",
+   "formularz kontaktowy (Contact Form 7)"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/cloudinsight/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — CloudInsight"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/cloudinsight/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "CloudInsight — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/cloudinsight/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "CloudInsight — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/cloudinsight/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "CloudInsight — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-cloudinsight.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "face2face",
+  "src": "face2face",
+  "label": "Strona www · Klub sportowy / szkoła tańca dla dzieci i młodzieży",
+  "title": "Klub Sportowy Face 2 Face",
+  "lead": "Face 2 Face to klub sportowy prowadzący zajęcia taneczne i akrobatyczne dla dzieci, młodzieży i dorosłych – od pierwszych kroków po starty w zawodach. Zajęcia (m.in. disco dance, commercial, dance kids) odbywają się w kilku lokalizacjach.",
+  "live": "https://face2face.com.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Klub Sportowy Face 2 Face"
+   ],
+   [
+    "Branża",
+    "Klub sportowy / szkoła tańca dla dzieci i młodzieży"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, Kadence Blocks"
+   ]
+  ],
+  "domain": "face2face.com.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Klub Sportowy Face 2 Face to miejsce, w którym ruch staje się pasją. Klub prowadzi różnorodne zajęcia taneczne i akrobatyczne dla przedszkolaków, starszych dzieci, młodzieży i dorosłych – zarówno rekreacyjnie, jak i z myślą o startach w zawodach – w kilku lokalizacjach, z zespołem doświadczonych instruktorów."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Klub potrzebował strony, która przemówi przede wszystkim do rodziców szukających zajęć dla dzieci: szybko pokaże, jakie zajęcia są dostępne, gdzie się odbywają i kto je prowadzi. Równie ważne było oddanie atmosfery klubu i jego wartości, tak aby zbudować zaufanie i zachęcić do zapisów. Strona miała też odpowiadać na praktyczne pytania, np. o strój na zajęcia."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy energiczną, kolorową stronę w głębokim fiolecie z neonowymi akcentami, z dużym zdjęciem tańczących dzieci w hero. Najważniejsze informacje zebraliśmy w czterech kolorowych kafelkach – Zajęcia, Lokalizacje, Instruktorzy i O nas – prowadzących do podstron. Galeria zdjęć z treningów i występów oraz sekcja „Nasza filozofia” oddają charakter klubu, a FAQ w akordeonie odpowiada na praktyczne pytania rodziców. Wyraźne przyciski „Dołącz do nas” i „Zapisz się!” prowadzą do zapisów, a układ został dopasowany do urządzeń mobilnych."
+    ],
+    "pts": [
+     "Hero ze zdjęciem i hasłem „Z miłości do sportu!”",
+     "Cztery kolorowe kafelki prowadzące do kluczowych podstron",
+     "Galeria zdjęć z treningów i występów z powiększaniem",
+     "Sekcja „Nasza filozofia” prezentująca wartości klubu",
+     "FAQ w akordeonie dla rodziców",
+     "CTA „Dołącz do nas” / „Zapisz się!” i podstrona z dokumentami"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "GLightbox",
+   "Rank Math SEO"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "kafelki nawigacyjne: Zajęcia, Lokalizacje, Instruktorzy, O nas",
+   "galeria zdjęć z lightboxem",
+   "sekcja „Nasza filozofia”",
+   "FAQ w akordeonie",
+   "przycisk „Dołącz do nas” i zakładka „Zapisz się!”",
+   "podstrona z dokumentami do pobrania",
+   "sekcja kontaktowa z CTA",
+   "baner zgody na pliki cookie"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/face2face/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Klub Sportowy Face 2 Face"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/face2face/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Klub Sportowy Face 2 Face — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/face2face/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Klub Sportowy Face 2 Face — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/face2face/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Klub Sportowy Face 2 Face — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-klub-sportowy-face-2-face.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "veles-lighting",
+  "src": "veles-lighting",
+  "label": "E-commerce · Producent oświetlenia scenicznego",
+  "title": "Veles Stage Lights",
+  "lead": "Veles to marka profesjonalnego oświetlenia scenicznego przeznaczonego na eventy, koncerty i do studiów telewizyjnych. W ofercie są m.in. reflektory PAR o szczelności IP65 (Storm S, Storm XL) oraz tuby LED (Veles Eye, Vector LED Tube), także w wersjach akumulatorowych.",
+  "live": "https://veles-lighting.com/",
+  "facts": [
+   [
+    "Klient",
+    "Veles Stage Lights"
+   ],
+   [
+    "Branża",
+    "Producent oświetlenia scenicznego"
+   ],
+   [
+    "Zakres",
+    "Sklep internetowy — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, WooCommerce, Kadence"
+   ]
+  ],
+  "domain": "veles-lighting.com",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Veles to marka wysokiej jakości oświetlenia scenicznego, zaprojektowanego z myślą o eventach, koncertach i produkcjach telewizyjnych. Oferuje m.in. wodoodporne reflektory LED PAR i tuby LED dla techników eventowych, filmowców i twórców, łącząc jakość z konkurencyjną ceną."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Marka oświetlenia scenicznego potrzebowała anglojęzycznej strony, która zaprezentuje produkty profesjonalistom z branży eventowej i telewizyjnej. Kluczowe było czytelne pokazanie linii produktowych i najważniejszych parametrów urządzeń oraz zbudowanie wizerunku profesjonalnej marki. Strona miała też ułatwiać kontakt handlowy i utrzymywanie relacji z odbiorcami."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy ciemną, sceniczną stronę z czerwonymi akcentami, nawiązującą do świata koncertów, z hero pokazującym oświetloną scenę. Ofertę podzieliliśmy na trzy linie produktów, a w sekcji „Veles products” przygotowaliśmy karty urządzeń ze zdjęciem, opisem kluczowych parametrów i przejściem do podstrony produktu. Katalog oparliśmy na WooCommerce, co ułatwia zarządzanie produktami. Dodaliśmy sekcję o marce, zapis do newslettera, aktualności oraz widoczne wezwania do kontaktu i adres e-mail w nagłówku."
+    ],
+    "pts": [
+     "Ciemny, sceniczny design z czerwonymi akcentami",
+     "Podział oferty na trzy linie produktowe",
+     "Karty produktów z parametrami i podstronami produktów",
+     "Katalog produktów oparty na WooCommerce",
+     "Formularz zapisu do newslettera",
+     "CTA „Contact with us” i e-mail w nagłówku"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "WooCommerce",
+   "Kadence",
+   "Kadence Blocks",
+   "Rank Math SEO"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "katalog produktów z kartami produktów",
+   "podział oferty na linie (oświetlenie statyczne, IP65, akumulatorowe)",
+   "sekcja aktualności (News)",
+   "zapis do newslettera",
+   "podstrona O nas",
+   "formularz kontaktowy i adres e-mail w nagłówku",
+   "strona w języku angielskim",
+   "baner zgody na pliki cookie"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/veles-lighting/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Veles Stage Lights"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/veles-lighting/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Veles Stage Lights — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/veles-lighting/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Veles Stage Lights — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/veles-lighting/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Veles Stage Lights — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-veles-stage-lights.webp",
+  "cat": "E-commerce"
+ },
+ {
+  "slug": "oligradskyi",
+  "src": "oligradskyi",
+  "label": "Strona www · Balustrady i konstrukcje stalowe na zamówienie",
+  "title": "Oligradskyi",
+  "lead": "Oligradskyi wykonuje na zamówienie balustrady metalowe, nierdzewne, malowane proszkowo, szklane i stalowe w połączeniu z drewnem, a także schody i konstrukcje stalowe. W ofercie są również meble ze stali nierdzewnej z drewnem lub szkłem, regały, drabiny, odboje i ogrodzenia.",
+  "live": "https://oligradskyi.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Oligradskyi"
+   ],
+   [
+    "Branża",
+    "Balustrady i konstrukcje stalowe na zamówienie"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Dedykowany motyw WordPress, Contact Form 7"
+   ]
+  ],
+  "domain": "oligradskyi.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Oligradskyi to wykonawca balustrad i konstrukcji stalowych na zamówienie – od balustrad nierdzewnych, malowanych proszkowo i szklanych po połączenia stali z drewnem, schody i meble ze stali. Firma realizuje balustrady schodowe, balkonowe i tarasowe dla nieruchomości mieszkalnych i komercyjnych, stawiając na indywidualne podejście do każdego projektu."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Firma wykonująca balustrady na zamówienie potrzebowała strony, która pokaże szeroki wybór rodzajów balustrad i jakość wykonania na zdjęciach realizacji. Klient szukający balustrady chce szybko zobaczyć dostępne warianty, przykładowe projekty i opinie innych klientów, a następnie łatwo poprosić o wycenę. Strona miała więc łączyć funkcję portfolio z budowaniem zaufania i pozyskiwaniem zapytań."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy elegancką stronę w ciemnej kolorystyce ze złotymi akcentami, nawiązującą do logo marki. W hero umieściliśmy slider prezentujący pięć głównych typów balustrad wraz z telefonem, e-mailem i linkami do social mediów. Przygotowaliśmy sekcję szybkiej wyceny z trzema zasadami współpracy, galerię realizacji oraz karuzelę siedmiu kategorii oferty prowadzących do osobnych podstron. Zaufanie budują opinie klientów z Google wyświetlane w widżecie, a całość działa na dedykowanym motywie WordPress."
+    ],
+    "pts": [
+     "Slider w hero z pięcioma rodzajami balustrad",
+     "Sekcja „Uzyskaj szybką wycenę” z CTA",
+     "Galeria realizacji z podstroną wszystkich projektów",
+     "Karuzela siedmiu kategorii balustrad z podstronami",
+     "Opinie klientów z Google (Trustindex)",
+     "Kontakt i social media widoczne od razu w hero"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Dedykowany motyw WordPress",
+   "Contact Form 7",
+   "Trustindex"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "slider w hero z pięcioma typami balustrad",
+   "sekcja „Uzyskaj szybką wycenę”",
+   "galeria realizacji z podstroną wszystkich realizacji",
+   "karuzela kategorii oferty (7 rodzajów balustrad) z podstronami",
+   "opinie klientów z Google (widżet Trustindex)",
+   "linki do Facebooka, Instagrama i Pinteresta",
+   "telefon i e-mail w hero",
+   "formularz kontaktowy (Contact Form 7)",
+   "baner zgody na pliki cookie"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/oligradskyi/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Oligradskyi"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/oligradskyi/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Oligradskyi — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/oligradskyi/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Oligradskyi — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/oligradskyi/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Oligradskyi — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-oligradskyi.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "elite-detailing",
+  "src": "elite-detailing",
+  "label": "Strona www · Auto detailing / kosmetyka samochodowa",
+  "title": "Elite Detailing Team",
+  "lead": "Studio auto detailingu z Piaseczna, które zajmuje się czyszczeniem, pielęgnacją i zabezpieczaniem nadwozia oraz wnętrza samochodów. W ofercie są m.in. korekta i polerowanie lakieru, powłoki ceramiczne, renowacja reflektorów, pranie tapicerki i powłoki hydrofobowe na szyby.",
+  "live": "https://elite-detailing.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Elite Detailing Team"
+   ],
+   [
+    "Branża",
+    "Auto detailing / kosmetyka samochodowa"
+   ],
+   [
+    "Lokalizacja",
+    "Piaseczno (ul. Geodetów 176); obsługa Piaseczna, Konstancina, Józefosławia i Julianowa"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "HTML5 / CSS3, PHP, Bootstrap"
+   ]
+  ],
+  "domain": "elite-detailing.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Elite Detailing Team to studio auto detailingu działające w Piasecznie, obsługujące klientów z Piaseczna, Konstancina, Józefosławia i Julianowa. Firma oferuje kompleksową kosmetykę samochodową: od mycia i sprzątania wnętrza, przez pranie tapicerki, po korektę lakieru, powłoki ceramiczne i renowację reflektorów. Usługi kieruje do kierowców, którzy przygotowują auto do sprzedaży, chcą zadbać o nowy samochód lub po prostu lubią mieć zadbany pojazd."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Studio potrzebowało strony, która jasno pokaże szeroki zakres usług detailingowych i pomoże klientom z okolicy szybko zorientować się, co mogą zlecić. Ważne było, aby witryna była dobrze widoczna w wynikach wyszukiwania dla lokalnych fraz, budowała wizerunek starannego, profesjonalnego warsztatu i ułatwiała kontakt. Klient chciał też odpowiedzieć na częste pytanie o koszt usług, kierując zainteresowanych do cennika."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy ciemną, elegancką stronę ze złotymi akcentami, która nawiązuje do charakteru usług premium dla samochodów. Stronę główną zbudowaliśmy wokół sytuacji klientów – sprzedaż auta, nowy samochód z salonu, dbanie o czystość – prezentowanych w interaktywnych kafelkach, a dalej w blokach tekstu ze zdjęciami opisaliśmy zakres usług i atuty studia. Przygotowaliśmy osobne podstrony dla cennika, korekty lakieru i renowacji lamp oraz treści nastawione na lokalne SEO dla Piaseczna i okolic. Sekcję kontaktu wyposażyliśmy w formularz wysyłany bez przeładowania strony, mapę Google i dane teleadresowe z godzinami pracy, a w kodzie wdrożyliśmy dane strukturalne schema.org i narzędzia analityczne."
+    ],
+    "pts": [
+     "Ciemny, elegancki layout ze złotymi akcentami i dużymi zdjęciami samochodów",
+     "Interaktywne kafelki flip-card dla trzech typowych potrzeb klientów",
+     "Osobne podstrony: oferta, cennik, korekta lakieru, renowacja lamp",
+     "Formularz kontaktowy z wysyłką AJAX i mapa Google z lokalizacją studia",
+     "Treści i dane strukturalne schema.org pod lokalne SEO (Piaseczno, Konstancin, Józefosław)",
+     "Integracja z Google Analytics, Tag Managerem i Meta Pixel"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "HTML5 / CSS3",
+   "PHP",
+   "Bootstrap",
+   "jQuery",
+   "Google Maps",
+   "Dane strukturalne Schema.org"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "prezentacja usług z kafelkami typu flip-card",
+   "osobne podstrony usług (korekta lakieru, renowacja lamp)",
+   "cennik",
+   "formularz kontaktowy",
+   "mapa dojazdu Google Maps",
+   "dane kontaktowe i godziny pracy w stopce",
+   "link do profilu na Facebooku",
+   "dane strukturalne schema.org (AutoBodyShop)",
+   "treści zoptymalizowane pod lokalne SEO"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/elite-detailing/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Elite Detailing Team"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/elite-detailing/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Elite Detailing Team — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/elite-detailing/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Elite Detailing Team — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/elite-detailing/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Elite Detailing Team — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-elite-detailing-team.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "rushing-rivers",
+  "src": "rushing-rivers",
+  "label": "Strona www · Organizacja non-profit / ochrona i zarządzanie rzekami",
+  "title": "Rushing Rivers Institute",
+  "lead": "Rushing Rivers Institute to organizacja non-profit promująca edukację rzeczną oraz właściwe wykorzystanie nauki w zarządzaniu rzekami i ich renaturyzacji. Prowadzi badania stosowane na zlecenie, oferuje rozwiązania inżynierskie łączące nauki fizyczne i ekologiczne, szkolenia oraz recenzje projektów, a także rozwija i promuje metodę MesoHABSIM.",
+  "live": "http://www.rushingrivers.org/",
+  "facts": [
+   [
+    "Klient",
+    "Rushing Rivers Institute"
+   ],
+   [
+    "Branża",
+    "Organizacja non-profit / ochrona i zarządzanie rzekami"
+   ],
+   [
+    "Lokalizacja",
+    "Biura: Wilmington, Delaware (USA) oraz Grębiszew k. Mińska Mazowieckiego (UE)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "HTML5 / CSS3, PHP, Bootstrap"
+   ]
+  ],
+  "domain": "rushingrivers.org",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Rushing Rivers Institute to organizacja non-profit (501c3) z biurami w Stanach Zjednoczonych i w Polsce, która promuje edukację na temat rzek oraz oparte na nauce zarządzanie nimi i ich renaturyzację. Instytut prowadzi badania stosowane, oferuje rozwiązania inżynierskie łączące wiedzę fizyczną i ekologiczną, szkolenia oraz recenzje projektów. Jest głównym twórcą i promotorem metody MesoHABSIM, a współpracuje z naukowcami z uczelni i instytutów badawczych w kraju i za granicą."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Organizacja potrzebowała przejrzystej, anglojęzycznej strony, która wyjaśni jej misję i obszary działania odbiorcom z różnych krajów – instytucjom, naukowcom i partnerom projektów. Witryna miała w prosty sposób przedstawić tematykę ochrony rzek, metodę MesoHABSIM i ofertę usług, a także ułatwić kontakt z biurami w USA i w Europie."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Przygotowaliśmy lekką stronę w jasnej, naturalnej kolorystyce, w której główną rolę grają zdjęcia rzek. Pod sekcją hero z hasłem projektu umieściliśmy trzy ikony prowadzące do kluczowych części: About Us, Consortium i Outcomes. Misję i działalność instytutu opisaliśmy w naprzemiennych blokach tekstu i zdjęć, a osobne podstrony poświęciliśmy metodzie MesoHABSIM, usługom, narzędziu Sim-Stream i zespołowi. Na końcu strony zebraliśmy dane obu biur i formularz kontaktowy, a w stopce linki do profili w mediach społecznościowych."
+    ],
+    "pts": [
+     "Sekcja hero z hasłem i zdjęciem z prac terenowych",
+     "Nawigacja ikonowa do sekcji About Us, Consortium i Outcomes",
+     "Naprzemienne bloki tekst + zdjęcie opisujące misję i działalność",
+     "Podstrony: MesoHABSIM, Service, Sim-Stream, Staff, Contact",
+     "Dane kontaktowe biur w USA i UE oraz formularz wysyłany przez AJAX",
+     "Responsywne menu mobilne i linki do Facebooka oraz YouTube"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "HTML5 / CSS3",
+   "PHP",
+   "Bootstrap",
+   "jQuery"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "sekcja hero z hasłem projektu",
+   "nawigacja ikonowa do sekcji (About Us, Consortium, Outcomes)",
+   "bloki tekst + zdjęcie prezentujące misję",
+   "podstrony: MesoHABSIM, Service, Sim-Stream, Staff, Contact",
+   "dane kontaktowe biur w USA i UE",
+   "formularz kontaktowy",
+   "linki do Facebooka i YouTube",
+   "responsywne menu mobilne (hamburger)"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/rushing-rivers/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Rushing Rivers Institute"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/rushing-rivers/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Rushing Rivers Institute — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/rushing-rivers/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Rushing Rivers Institute — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/rushing-rivers/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Rushing Rivers Institute — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-rushing-rivers-institute.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "mc-good-work",
+  "src": "instalacje-grzewcze-mcgoodwork",
+  "label": "Strona www · Producent systemów zamocowań instalacyjnych i sanitarnych",
+  "title": "MC Good Work",
+  "lead": "MC Good Work specjalizuje się w produkcji systemów zamocowań instalacyjnych i sanitarnych. W ofercie są m.in. uchwyty z tworzywa i obejmy stalowe do rur, systemy wsporników montażowych, elementy do wentylacji, kołki rozporowe oraz akcesoria do instalacji grzewczych, kanalizacyjnych i miedzianych.",
+  "live": "https://mcgoodwork.pl/",
+  "facts": [
+   [
+    "Klient",
+    "MC Good Work"
+   ],
+   [
+    "Branża",
+    "Producent systemów zamocowań instalacyjnych i sanitarnych"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "HTML5 / CSS3, Bootstrap, jQuery"
+   ]
+  ],
+  "domain": "mcgoodwork.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "MC Good Work to producent systemów zamocowań instalacyjnych i sanitarnych, który według informacji na stronie od ponad 20 lat dostarcza swoje produkty na rynek polski i europejski. Oferta obejmuje systemy wsporników do podwieszania rur, uchwyty i obejmy do rur, obejmy do wentylacji, zamocowania sanitarne oraz uchwyty do grzejników żeliwnych i aluminiowych. Produkty są przeznaczone dla branży instalacyjnej i sanitarnej."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Producent z bardzo szeroką gamą drobnych elementów instalacyjnych potrzebował strony, na której klienci szybko znajdą interesującą ich grupę produktów. Ważne było uporządkowanie oferty w czytelne kategorie, pokazanie marki Good Work jako solidnego dostawcy i ułatwienie dostępu do pełnego katalogu. Strona miała też prowadzić zainteresowanych do kontaktu z firmą."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy wyrazistą stronę w żółto-czarnej kolorystyce marki, z pełnoszerokim sliderem prezentującym najważniejsze grupy produktów. Tuż pod nim umieściliśmy siatkę 14 kategorii ze zdjęciami produktów na białym tle, prowadzących do osobnych podstron oferty, a tę samą strukturę odwzorowaliśmy w rozwijanym menu. Dodaliśmy sekcję o firmie, cztery wyróżniki marki oraz wyraźne przyciski do kontaktu i katalogu PDF dostępnego z menu. Całość jest responsywna, z animacjami przy przewijaniu i przygotowaniem pod kampanie Google Ads z obsługą Consent Mode."
+    ],
+    "pts": [
+     "Pełnoszeroki slider z głównymi grupami produktów i przyciskami do oferty",
+     "Siatka 14 kategorii produktów ze zdjęciami prowadzącymi do podstron",
+     "Rozwijane menu oferty i przycisk pobrania katalogu PDF",
+     "Sekcje O firmie i wyróżniki marki (Instalacje, Dokładność, Europejski rynek, Akcesoria)",
+     "Żółto-czarna identyfikacja wizualna marki i animacje przy przewijaniu",
+     "Tag Google Ads z domyślnymi ustawieniami Google Consent Mode"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "HTML5 / CSS3",
+   "Bootstrap",
+   "jQuery",
+   "Slick Carousel",
+   "AOS"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "slider z głównymi grupami produktów",
+   "katalog produktów podzielony na 14 kategorii",
+   "rozwijane menu oferty",
+   "katalog PDF do pobrania",
+   "sekcja O firmie",
+   "aktualności",
+   "podstrona kontaktowa",
+   "link do profilu na Facebooku",
+   "animacje przy przewijaniu"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/mc-good-work/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — MC Good Work"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/mc-good-work/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "MC Good Work — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/mc-good-work/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "MC Good Work — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/mc-good-work/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "MC Good Work — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-mc-good-work.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "emix",
+  "src": "emix",
+  "label": "Strona www · Sklep internetowy / materiały instalacyjne (gaz, woda, ogrzewanie, wentylacja)",
+  "title": "EMIX",
+  "lead": "EMIX dostarcza produkty do instalacji gazowych, wodnych, grzewczych i wentylacyjnych dla instalatorów, firm wykonawczych, odbiorców hurtowych i klientów indywidualnych. Realizuje bieżące zamówienia oraz nietypowe rozwiązania przygotowywane pod konkretne inwestycje, m.in. szafki i punkty gazowe.",
+  "live": "https://emix.waw.pl/",
+  "facts": [
+   [
+    "Klient",
+    "EMIX"
+   ],
+   [
+    "Branża",
+    "Sklep internetowy / materiały instalacyjne (gaz, woda, ogrzewanie, wentylacja)"
+   ],
+   [
+    "Lokalizacja",
+    "Baniocha (ul. Solec 152 B, 05-532 Baniocha)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "Shoper, Szablon ShopGadget, Google Maps"
+   ]
+  ],
+  "domain": "emix.waw.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "EMIX to dostawca materiałów instalacyjnych z Banioch pod Warszawą. Firma oferuje m.in. szafki i punkty gazowe, przyłącza gazowe, rury i kształtki (PEX, PP-R, miedziane, mosiężne, elektrooporowe), armaturę oraz akcesoria montażowe. Obsługuje instalatorów, firmy wykonawcze, odbiorców hurtowych i klientów indywidualnych."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Firma potrzebowała sklepu internetowego, w którym szeroki asortyment techniczny będzie łatwy do przeglądania zarówno dla instalatorów, jak i klientów indywidualnych. Ważne było uporządkowanie kilkunastu kategorii produktów, wyeksponowanie najważniejszych grup asortymentu oraz pokazanie, że firma realizuje także zamówienia nietypowe. Klient chciał również, aby dane kontaktowe i dojazd do siedziby były pod ręką."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Wdrożyliśmy sklep na platformie Shoper z rozbudowanym menu kategorii po lewej stronie i siatką polecanych produktów z cenami i przyciskiem dodania do koszyka. Najważniejsze grupy asortymentu, takie jak punkty gazowe, kształtki elektrooporowe, złączki PEX i rury miedziane, wyróżniliśmy graficznymi kafelkami w spójnej, żółto-czarnej kolorystyce. Pod produktami przygotowaliśmy sekcję „O firmie” z opisem oferty, informacją o zamówieniach indywidualnych, danymi firmy, godzinami pracy i mapą z przyciskiem wyznaczenia trasy. Całość uzupełniają nowości, promocje, newsletter i konto klienta."
+    ],
+    "pts": [
+     "sklep Shoper z koszykiem, kontem klienta i stronicowaniem produktów",
+     "menu kilkunastu kategorii asortymentu instalacyjnego",
+     "graficzne kafelki wyróżniające kluczowe grupy produktów",
+     "sekcja „Super oferta” i oznaczenia nowości",
+     "blok „O firmie” z danymi, godzinami pracy i grupami klientów",
+     "mapa Google z przyciskami „Zadzwoń teraz”, „Napisz e-mail”, „Wyznacz trasę”"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "Shoper",
+   "Szablon ShopGadget",
+   "Google Maps"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "sklep z koszykiem i kontem klienta",
+   "katalog produktów w kategoriach",
+   "nowości i promocje",
+   "sekcja „Super oferta”",
+   "kafelki kategorii z grafikami",
+   "sekcja „O firmie” z danymi kontaktowymi i godzinami pracy",
+   "mapa dojazdu z wyznaczaniem trasy",
+   "zapis do newslettera"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/emix/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — EMIX"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/emix/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "EMIX — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/emix/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "EMIX — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/emix/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "EMIX — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-emix.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "vision-and-sound",
+  "src": "vision-and-sound",
+  "label": "Strona www · Filmowanie i fotografia ślubna",
+  "title": "Vision And Sound",
+  "lead": "Vision And Sound to zespół kamerzystów i fotografów, który filmuje i fotografuje wesela, od przygotowań i ceremonii po przyjęcie weselne. Oferuje m.in. nagrania w jakości 4K, ujęcia z drona i pendrive w spersonalizowanym drewnianym pudełku.",
+  "live": "https://www.visionandsound.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Vision And Sound"
+   ],
+   [
+    "Branża",
+    "Filmowanie i fotografia ślubna"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Elementor, Kadence"
+   ]
+  ],
+  "domain": "visionandsound.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Vision And Sound to zespół profesjonalnych kamerzystów i fotografów specjalizujących się w filmach ślubnych i fotografii weselnej. Firma współpracuje z parami z całej Polski i dopasowuje materiał do preferencji i stylu każdej pary. W ofercie są m.in. nagrania 4K, ujęcia z drona i pamiątkowy pendrive w drewnianym pudełku."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "W branży ślubnej para wybiera kamerzystę głównie na podstawie emocji, jakie budzą jego prace, oraz opinii innych par. Firma potrzebowała strony, która od pierwszego ekranu pokaże klimat jej filmów i zdjęć, przekona do jakości usług i zachęci do szybkiego kontaktu. Ważne było także czytelne przedstawienie zakresu usługi i tego, co para otrzymuje w pakiecie."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy elegancką stronę w ciemnej kolorystyce, na której zdjęcia ślubne wyróżniają się jak w kinie. Hero z dużym nagłówkiem prowadzi do sekcji powitalnej, a tuż pod nią umieściliśmy widżet z opiniami z Google i wyraźny przycisk szybkiego połączenia. Dalej znajdują się sekcje „Dlaczego my?” i „Co możemy Ci zapewnić?”, przyciski do oferty i kontaktu oraz karuzela zdjęć z wesel, a całość zamyka zaproszenie do portfolio. Do nagłówków dobraliśmy szeryfowy krój Marcellus, który podkreśla uroczysty charakter usług."
+    ],
+    "pts": [
+     "ciemny, „kinowy” layout eksponujący zdjęcia ślubne",
+     "widżet opinii z Google tuż pod sekcją powitalną",
+     "wyraźny przycisk „Zadzwoń do nas teraz!” z numerem telefonu",
+     "sekcje „Dlaczego my?” i „Co możemy Ci zapewnić?” (4K, dron, pendrive w pudełku)",
+     "karuzela zdjęć z wesel i odnośnik do portfolio",
+     "zakładki: Oferta, Cennik, Portfolio, Kontakt, Blog"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Elementor",
+   "Kadence",
+   "Swiper",
+   "Trustindex",
+   "Contact Form 7",
+   "TablePress",
+   "Rank Math SEO"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "oferta i cennik",
+   "portfolio filmów i zdjęć",
+   "opinie klientów z Google",
+   "przycisk szybkiego połączenia telefonicznego",
+   "karuzela zdjęć",
+   "formularz kontaktowy",
+   "blog"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/vision-and-sound/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Vision And Sound"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/vision-and-sound/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Vision And Sound — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/vision-and-sound/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Vision And Sound — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/vision-and-sound/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Vision And Sound — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-vision-and-sound.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "tse-remonty",
+  "src": "tse-remonty",
+  "label": "Strona www · Remonty i wykończenia wnętrz / meble na wymiar",
+  "title": "TSE Remonty",
+  "lead": "TSE Remonty wykonuje kompleksowe wykończenia wnętrz „pod klucz” na rynku pierwotnym i wtórnym oraz meble na wymiar: kuchenne, szafy, garderoby i meble łazienkowe.",
+  "live": "https://www.tseremonty.pl/",
+  "facts": [
+   [
+    "Klient",
+    "TSE Remonty"
+   ],
+   [
+    "Branża",
+    "Remonty i wykończenia wnętrz / meble na wymiar"
+   ],
+   [
+    "Lokalizacja",
+    "Józefosław (Piaseczno, Warszawa)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Page Builder Framework, Contact Form 7"
+   ]
+  ],
+  "domain": "tseremonty.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "TSE Remonty to firma remontowo-wykończeniowa z Józefosławia, działająca w okolicach Piaseczna i Warszawy. Zajmuje się kompleksowym wykończeniem mieszkań „pod klucz” na rynku pierwotnym i wtórnym oraz wykonuje meble na wymiar – kuchnie, szafy, garderoby i zabudowy łazienkowe. Oferta skierowana jest do klientów indywidualnych, którzy chcą powierzyć remont jednej firmie."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Firma potrzebowała strony, która w prosty sposób pokaże dwa główne obszary jej działalności: wykończenia wnętrz i meble na wymiar. W branży remontowej klienci przed kontaktem chcą zobaczyć efekty wcześniejszych prac i zrozumieć zasady współpracy, dlatego ważne było wyeksponowanie realizacji i budowanie zaufania. Strona miała też ułatwiać wysłanie zapytania o wycenę."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy stronę opartą na dużych, jasnych fotografiach wnętrz, które od pierwszego ekranu pokazują charakter realizacji. Na stronie głównej przygotowaliśmy slider z dwiema głównymi usługami, sekcje opisujące podejście firmy do pracy oraz blok specjalności prowadzący do osobnych podstron. Sekcję „Kilka wybranych realizacji” zbudowaliśmy jako mozaikę zdjęć z powiększaniem, a pełną galerię i cennik umieściliśmy w menu. Stronę zamyka sekcja kontaktowa z danymi firmy i formularzem zapytania. Całość wdrożyliśmy na WordPressie, dzięki czemu klient może samodzielnie dodawać nowe zdjęcia realizacji."
+    ],
+    "pts": [
+     "Slider w sekcji hero z dwiema głównymi usługami",
+     "Osobne podstrony: wykończenia wnętrz i meble na wymiar",
+     "Galeria realizacji w formie mozaiki z lightboxem",
+     "Podstrona z cennikiem usług",
+     "Formularz kontaktowy ze zgodami RODO i pełnymi danymi firmy",
+     "Wdrożenie na WordPressie z możliwością samodzielnej edycji treści"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Page Builder Framework",
+   "Contact Form 7",
+   "Photo Gallery",
+   "Rolo Slider",
+   "GLightbox"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "slider w sekcji hero",
+   "prezentacja oferty (wykończenia wnętrz, meble na wymiar)",
+   "osobne podstrony usług",
+   "galeria realizacji z powiększaniem zdjęć (lightbox)",
+   "cennik",
+   "sekcja O nas",
+   "formularz kontaktowy ze zgodami RODO",
+   "dane kontaktowe i firmowe w stopce",
+   "link do profilu na Facebooku"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/tse-remonty/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — TSE Remonty"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/tse-remonty/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "TSE Remonty — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/tse-remonty/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "TSE Remonty — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/tse-remonty/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "TSE Remonty — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-tse-remonty.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "convey-cargo",
+  "src": "convey-cargo",
+  "label": "Transport · Spedycja i transport międzynarodowy",
+  "title": "Convey Cargo",
+  "lead": "Convey Cargo Sp. z o.o. organizuje procesy spedycyjne i transport ładunków na całym świecie – drogowy, kolejowy, lotniczy, morski i multimodalny – a także magazynowanie i odprawę celną. Firma dysponuje własną flotą pojazdów z naczepami typu plandeka i chłodnia.",
+  "live": "https://conveycargo.com.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Convey Cargo"
+   ],
+   [
+    "Branża",
+    "Spedycja i transport międzynarodowy"
+   ],
+   [
+    "Lokalizacja",
+    "Warszawa"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "HTML5 / CSS3"
+   ]
+  ],
+  "domain": "conveycargo.com.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Convey Cargo to warszawska firma spedycyjno-logistyczna, która organizuje transport ładunków w dowolne miejsce na świecie. W ofercie ma transport drogowy, drobnicowy, kolejowy, lotniczy, morski i multimodalny, przewóz ładunków ponadgabarytowych, magazynowanie oraz odprawę celną. Dysponuje własną flotą z naczepami chłodniczymi i plandekami."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Firma spedycyjna o szerokiej ofercie potrzebowała strony, która uporządkuje wiele rodzajów usług i pozwoli klientowi szybko znaleźć właściwy rodzaj transportu. Ważne było także budowanie wiarygodności wobec klientów biznesowych – pokazanie własnego taboru, zabezpieczeń ładunku i danych rejestrowych. Strona miała jednocześnie wspierać rekrutację pracowników."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy ciemny, wyrazisty serwis z dużą typografią i zdjęciami dróg i pojazdów, który podkreśla charakter branży transportowej. Na stronie głównej przygotowaliśmy sekcję o firmie, osobny blok poświęcony własnemu taborowi i zabezpieczeniom ładunku oraz sekcję zachęcającą do dołączenia do zespołu. Wszystkie usługi zebraliśmy w czytelnej siatce kafelków z ikonami, z których każdy prowadzi do osobnej podstrony z opisem. Stronę zamyka formularz kontaktowy z pełnymi danymi rejestrowymi spółki, a w serwisie udostępniliśmy też dokumenty firmowe do pobrania."
+    ],
+    "pts": [
+     "Pełnoekranowe hero z dużym logotypem marki",
+     "Siatka 10 usług z ikonami i osobnymi podstronami",
+     "Sekcja o własnym taborze i zabezpieczeniach ładunku",
+     "Podstrona Rekrutacja dla kandydatów",
+     "Formularz kontaktowy i dane rejestrowe spółki",
+     "Lekka, statyczna strona HTML/CSS"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "HTML5 / CSS3"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "pełnoekranowe hero z logotypem marki",
+   "sekcja O nas",
+   "prezentacja własnego taboru i zabezpieczeń",
+   "katalog 10 usług z ikonami i osobnymi podstronami",
+   "podstrona Rekrutacja",
+   "formularz kontaktowy",
+   "dane rejestrowe firmy",
+   "dokumenty firmowe do pobrania (licencja, KRS, REGON/NIP)",
+   "polityka prywatności"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/convey-cargo/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Convey Cargo"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/convey-cargo/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Convey Cargo — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/convey-cargo/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Convey Cargo — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/convey-cargo/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Convey Cargo — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-convey-cargo.webp",
+  "cat": "Transport"
+ },
+ {
+  "slug": "kancelaria-wilczek",
+  "src": "kancelaria-wilczek",
+  "label": "Strona www · Kancelaria prawna / radca prawny",
+  "title": "Kancelaria Radcy Prawnego Małgorzata Wilczek",
+  "lead": "Kancelaria radcy prawnego Małgorzaty Wilczek świadczy pomoc prawną m.in. w sprawach frankowych, WIBOR, sankcji kredytu darmowego, prawie rodzinnym, spadkowym, karnym, administracyjnym i odszkodowaniach. Prowadzi biura w Warszawie i Lublinie, a klientom z innych regionów oferuje porady online.",
+  "live": "https://wilczek-kancelaria.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Kancelaria Radcy Prawnego Małgorzata Wilczek"
+   ],
+   [
+    "Branża",
+    "Kancelaria prawna / radca prawny"
+   ],
+   [
+    "Lokalizacja",
+    "Warszawa, Lublin"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "WordPress, Elementor, OceanWP"
+   ]
+  ],
+  "domain": "wilczek-kancelaria.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Kancelaria Radcy Prawnego Małgorzaty Wilczek to zespół radców prawnych z biurami w Warszawie i Lublinie, reprezentujący klientów z całej Polski. Kancelaria zajmuje się szczególnie sporami konsumentów z instytucjami finansowymi – sprawami frankowymi, WIBOR i sankcją kredytu darmowego – a także prawem rodzinnym, spadkowym, karnym, administracyjnym i odszkodowaniami. Pomaga zarówno osobom prywatnym, jak i przedsiębiorcom."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Kancelaria potrzebowała strony, która jasno przedstawi szeroki zakres specjalizacji i pozwoli klientowi szybko odnaleźć swój problem prawny. W usługach prawnych kluczowe jest zaufanie, dlatego strona miała budować wizerunek profesjonalnej, a jednocześnie przystępnej kancelarii. Ważne było też zachęcenie do pierwszego kontaktu – zarówno osób z Warszawy i Lublina, jak i klientów z innych regionów korzystających z porad online."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy elegancką stronę w stonowanej, brązowo-beżowej kolorystyce, z fotografiami bibliotek i książek, które podkreślają prawniczy charakter kancelarii. Na stronie głównej przygotowaliśmy sekcję wyjaśniającą, jak kancelaria pomaga klientom z całej Polski, wyróżniony blok dla konsumentów poszkodowanych przez instytucje finansowe oraz siatkę 12 obszarów prawa z krótkimi opisami i odnośnikami do podstron. W wielu miejscach umieściliśmy wezwania do kontaktu i bezpłatnej konsultacji, a stronę zamyka formularz kontaktowy i dane obu biur. Serwis wdrożyliśmy na WordPressie z Elementorem, z blogiem i banerem zgód cookie."
+    ],
+    "pts": [
+     "Siatka 12 specjalizacji z ikonami i podstronami usług",
+     "Wyróżniona sekcja dla kredytobiorców (CHF, WIBOR, SKD)",
+     "Wezwania do bezpłatnej konsultacji w kluczowych miejscach",
+     "Formularz kontaktowy i dane biur w Warszawie i Lublinie",
+     "Blog kancelarii i linki do mediów społecznościowych",
+     "Wdrożenie na WordPressie z Elementorem i zarządzaniem zgodami cookie"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Elementor",
+   "OceanWP",
+   "Dodatki do Elementora",
+   "Happy Addons",
+   "ElementsKit Lite",
+   "Essential Addons",
+   "Contact Form 7"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "prezentacja zakresu usług (12 obszarów prawa z podstronami)",
+   "sekcja O kancelarii",
+   "wezwania do bezpłatnej konsultacji",
+   "formularz kontaktowy",
+   "dane kontaktowe biur w Warszawie i Lublinie",
+   "blog",
+   "linki do mediów społecznościowych (Facebook, Instagram, TikTok, YouTube)",
+   "baner zgody na pliki cookie"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/kancelaria-wilczek/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Kancelaria Radcy Prawnego Małgorzata Wilczek"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/kancelaria-wilczek/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Kancelaria Radcy Prawnego Małgorzata Wilczek — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/kancelaria-wilczek/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Kancelaria Radcy Prawnego Małgorzata Wilczek — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/kancelaria-wilczek/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Kancelaria Radcy Prawnego Małgorzata Wilczek — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-kancelaria-radcy-prawnego-malgorzata-wilczek.webp",
+  "cat": "Strona www"
+ },
+ {
+  "slug": "studio-gracja",
+  "src": "studio-gracja",
+  "label": "Strona www · Salon groomerski / pielęgnacja psów i kotów",
+  "title": "Studio Gracja – Studio psiej urody",
+  "lead": "Studio Gracja to salon psiej urody, który zajmuje się strzyżeniem psów i kotów, trymowaniem, kąpielami oraz ultradźwiękowym usuwaniem kamienia nazębnego u psów bez narkozy. Salon mieści się w Żabieńcu i obsługuje klientów z okolic Piaseczna i Konstancina.",
+  "live": "https://www.studio-gracja.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Studio Gracja – Studio psiej urody"
+   ],
+   [
+    "Branża",
+    "Salon groomerski / pielęgnacja psów i kotów"
+   ],
+   [
+    "Lokalizacja",
+    "Żabieniec k. Piaseczna (Piaseczno, Konstancin)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa — projekt i wdrożenie"
+   ],
+   [
+    "Technologia",
+    "HTML5 / CSS3, Bootstrap, Rellax.js"
+   ]
+  ],
+  "domain": "studio-gracja.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "Studio Gracja to salon psiej urody prowadzony przez doświadczoną groomerkę i hodowczynię psów, położony w Żabieńcu w okolicach Piaseczna i Konstancina. Salon oferuje strzyżenie psów i kotów, trymowanie ras szorstkowłosych, kąpiele z doborem kosmetyków oraz usuwanie kamienia nazębnego metodą ultradźwiękową bez narkozy. To miejsce dla właścicieli, którzy szukają indywidualnego i spokojnego podejścia do swojego pupila."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Lokalny salon groomerski potrzebował strony, która przedstawi właścicielkę i jej podejście do zwierząt, bo w tej branży klienci wybierają osobę, której mogą zaufać. Strona miała jasno opisać poszczególne zabiegi, ułatwić sprawdzenie cen i dojazdu oraz zachęcić do szybkiego kontaktu telefonicznego. Ważne było też, aby była dobrze widoczna dla osób szukających groomera w okolicy Piaseczna i Konstancina."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Zaprojektowaliśmy ciepłą, przyjazną stronę w fioletowo-różowej kolorystyce, z dużymi zdjęciami psów w okrągłych kadrach i dekoracyjnymi motywami łapek. Na stronie głównej przygotowaliśmy sekcję „Kilka słów o mnie”, w której groomerka przedstawia swoje doświadczenie i podejście do zwierząt, a następnie osobne bloki dla każdej usługi – strzyżenia, trymowania, kąpieli i usuwania kamienia – z przyciskiem prowadzącym do cennika. Dodaliśmy sekcję lokalizacji z mapą Google, dane kontaktowe w stopce oraz pływający przycisk połączenia telefonicznego. Treści i opisy uwzględniają lokalne frazy, takie jak Piaseczno i Konstancin."
+    ],
+    "pts": [
+     "Sekcja „Kilka słów o mnie” przedstawiająca groomerkę",
+     "Osobne bloki usług z przyciskami do cennika",
+     "Podstrona z cennikiem zabiegów",
+     "Mapa Google z lokalizacją salonu",
+     "Pływający przycisk szybkiego połączenia telefonicznego",
+     "Lekka strona HTML/CSS z Bootstrapem i efektami paralaksy"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "HTML5 / CSS3",
+   "Bootstrap",
+   "Rellax.js",
+   "Google Maps"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "sekcja O mnie (przedstawienie groomerki)",
+   "opisy usług: strzyżenie, trymowanie, kąpiele, usuwanie kamienia",
+   "podstrona z cennikiem",
+   "mapa Google z lokalizacją salonu i oceną",
+   "dane kontaktowe (telefon, e-mail)",
+   "pływający przycisk połączenia telefonicznego",
+   "link do profilu na Facebooku",
+   "efekty paralaksy i dekoracyjne motywy łapek"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/studio-gracja/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — Studio Gracja – Studio psiej urody"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/studio-gracja/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Studio Gracja – Studio psiej urody — widok strony na komputerze (1)"
+   },
+   {
+    "src": "/img/realizacje/studio-gracja/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "Studio Gracja – Studio psiej urody — widok strony na komputerze (2)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/studio-gracja/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "Studio Gracja – Studio psiej urody — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-studio-gracja-studio-psiej-urody.webp",
+  "cat": "Strona www"
+ }
+]

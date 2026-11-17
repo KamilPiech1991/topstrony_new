@@ -44,14 +44,14 @@ const ld = [
         <div class="grid" data-grid>
           {projects.map((p, i) => (
             <article class="proj" data-c={p.c}>
-              <a href="/kontakt/" class="proj-img" data-cursor="Zobacz" aria-label={`Zapytaj o podobny projekt: ${p.t}`}>
+              <a href={p.slug ? `/realizacje/${p.slug}/` : "/kontakt/"} class="proj-img" data-cursor={p.slug ? "Zobacz" : "Zapytaj"} aria-label={p.slug ? `Zobacz realizację: ${p.t}` : `Zapytaj o podobny projekt: ${p.t}`}>
                 <div class="proj-mask"><div class="proj-scrub">
                   <img src={p.img} alt={`${p.t} – realizacja top.strony`} width={p.w} height={p.h} loading={i < 3 ? 'eager' : 'lazy'} decoding="async" />
                 </div></div>
               </a>
               <div class="proj-txt">
                 <div class="proj-meta"><span class="cat">{p.l}</span>{p.ind && <><span class="div" aria-hidden="true"></span><span>{p.ind}</span></>}</div>
-                <h2 class="proj-h"><span class="proj-title">{p.t}</span></h2>
+                <h2 class="proj-h">{p.slug ? <a href={`/realizacje/${p.slug}/`} class="proj-title">{p.t}</a> : <span class="proj-title">{p.t}</span>}</h2>
               </div>
             </article>
           ))}
@@ -98,7 +98,7 @@ const ld = [
   .proj-meta .cat { color: var(--acc-t); font-weight: 600; }
   .proj-meta .div { width: 26px; height: 1px; background: var(--line-2); }
   .proj-h { margin: 0; font-size: inherit !important; line-height: inherit !important; font-weight: inherit; }
-  .proj-title { display: inline-block; margin-top: 12px; color: var(--ink); font-family: Poppins, sans-serif; font-size: 26px; font-weight: 500; line-height: 1.25;
+  .proj-title { text-decoration: none; display: inline-block; margin-top: 12px; color: var(--ink); font-family: Poppins, sans-serif; font-size: 26px; font-weight: 500; line-height: 1.25;
     background-image: linear-gradient(var(--acc), var(--acc)); background-size: 0 2px; background-repeat: no-repeat; background-position: 0 100%; transition: background-size .5s cubic-bezier(.2,.7,.2,1); }
   .proj:hover .proj-title { background-size: 100% 2px; }
   :global(.js-anim) .proj .proj-txt { opacity: 0; transform: translateY(24px); transition: opacity .9s ease .35s, transform .9s ease .35s; }
