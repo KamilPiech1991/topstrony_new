@@ -50,6 +50,7 @@ h, main, f = parts('body.html')
 import re
 # usunięta sekcja kalkulatora wyceny (#wycena) ze strony głównej
 main = re.sub(r'<!-- ============ 14\. WYCENA ============ -->.*?(?=<!-- ============)', '', main, flags=re.S)
+main = re.sub(r'<!-- ============ BANER 4 ============ -->.*?(?=<!-- ============)', '', main, flags=re.S)
 h = h.replace('<a href="#wycena" onClick="{{ closeMega }}">Policz projekt w kalkulatorze</a>', '<a href="/kontakt/" onClick="{{ closeMega }}">Poproś o bezpłatną wycenę</a>')
 gen('Header', h.replace('href="#top" class="logo"', 'href="/" class="logo"').replace('href="#wycena"', 'href="/#wycena"').replace('href="#case-sahra-art"', 'href="/#case-sahra-art"'))
 gen('Footer', f.replace('href="#top" class="logo"', 'href="/" class="logo"'))

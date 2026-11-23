@@ -1,6 +1,6 @@
 /* ---------- tokens: dark (default) + light ---------- */
-.ts{--bg:#0A0E0B;--bg-2:#0F1511;--surface:#131A15;--surface-2:#1A231D;--ink:#F3F6F1;--text:#C3CCC0;--muted:#8C978A;--line:rgba(255,255,255,.09);--line-2:rgba(255,255,255,.2);--acc:#60AD26;--acc-hi:#74C238;--acc-t:#9BDB66;--acc-soft:rgba(96,173,38,.14);--inv:#F3F6F1;--inv-ink:#0A0E0B;--logo:#BFC9BC;--shadow:0 30px 70px rgba(0,0,0,.45);--shadow-s:0 12px 30px rgba(0,0,0,.3);--glow:rgba(96,173,38,.16);color-scheme:dark}
-.ts[data-theme="light"]{--bg:#FFFFFF;--bg-2:#F4F7F1;--surface:#FFFFFF;--surface-2:#EEF3EA;--ink:#141914;--text:#4A5248;--muted:#687066;--line:#E1E7DC;--line-2:#C9D3C3;--acc:#60AD26;--acc-hi:#4E9A17;--acc-t:#3F7A15;--acc-soft:rgba(96,173,38,.12);--inv:#0A0E0B;--inv-ink:#FFFFFF;--logo:#2E352E;--shadow:0 30px 70px rgba(20,25,20,.12);--shadow-s:0 12px 30px rgba(20,25,20,.08);--glow:rgba(96,173,38,.12);color-scheme:light}
+.ts{--bg:#0A0E0B;--bg-2:#0F1511;--surface:#131A15;--surface-2:#1A231D;--ink:#F3F6F1;--text:#C3CCC0;--muted:#8C978A;--line:rgba(255,255,255,.09);--line-2:rgba(255,255,255,.2);--acc:#60AD26;--acc-hi:#74C238;--acc-t:#9BDB66;--acc-soft:rgba(96,173,38,.14);--inv:#F3F6F1;--inv-ink:#0A0E0B;--logo:#BFC9BC;--shadow:0 30px 70px rgba(0,0,0,.45);--shadow-s:0 12px 30px rgba(0,0,0,.3);--glow:rgba(255,255,255,.05);color-scheme:dark}
+.ts[data-theme="light"]{--bg:#FFFFFF;--bg-2:#F4F7F1;--surface:#FFFFFF;--surface-2:#EEF3EA;--ink:#141914;--text:#4A5248;--muted:#687066;--line:#E1E7DC;--line-2:#C9D3C3;--acc:#60AD26;--acc-hi:#4E9A17;--acc-t:#3F7A15;--acc-soft:rgba(96,173,38,.12);--inv:#0A0E0B;--inv-ink:#FFFFFF;--logo:#2E352E;--shadow:0 30px 70px rgba(20,25,20,.12);--shadow-s:0 12px 30px rgba(20,25,20,.08);--glow:rgba(20,25,20,.04);color-scheme:light}
 body{margin:0;background:#0A0E0B}
 *{box-sizing:border-box}
 .ts{font-family:Inter,system-ui,sans-serif;color:var(--text);background:var(--bg);overflow-x:clip;transition:background .4s ease,color .4s ease}
@@ -18,7 +18,7 @@ body{margin:0;background:#0A0E0B}
 /* buttons: one system */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;border:1px solid transparent;font-family:Inter,sans-serif;font-weight:600;font-size:16px;text-decoration:none;cursor:pointer;transition:transform .25s ease,background .25s ease,border-color .25s ease,color .25s ease,box-shadow .25s ease}
 .btn:hover{transform:translateY(-2px)}.btn:active{transform:translateY(1px) scale(.98)}
-.ts .btn-g{background:var(--acc);color:#FFFFFF;box-shadow:0 10px 30px rgba(96,173,38,.32)}
+.ts .btn-g{background:var(--acc);color:#FFFFFF;box-shadow:none}
 .ts .btn-g:hover{background:var(--acc-hi);color:#FFFFFF}
 .ts .btn-o{border-color:var(--line-2);color:var(--ink);background:transparent}
 .ts .btn-o:hover{border-color:var(--acc);color:var(--ink)}
@@ -739,7 +739,7 @@ a.card:hover,.card.hov:hover{transform:translateY(-4px);border-color:rgba(96,173
 .sv-shot-n::before{right:-30px;top:-30px}.sv-shot-n::after{display:none}
 .sv-shot:hover img{transform:scale(1.02)}
 .sv-who{position:relative;overflow:hidden;background:#060807;color:#DCE3DA;padding:110px 0 100px;isolation:isolate}
-.sv-who::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(700px 520px at 28% 40%,rgba(96,173,38,.22),transparent 70%),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px) calc(50% - 90px) 0/180px 100%}
+.sv-who::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(700px 520px at 28% 40%,rgba(255,255,255,.05),transparent 70%),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px) calc(50% - 90px) 0/180px 100%}
 .sv-who-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px;align-items:center}
 .sv-who-art{position:relative;height:620px}
 .sv-who-t{position:absolute;left:4%;bottom:56px;height:560px;width:auto}
@@ -905,3 +905,6 @@ body{margin:0}
 [data-tilt]{transition:transform 1s cubic-bezier(.34,1.56,.64,1)}
 [data-tilt].tilted{transition:transform .5s cubic-bezier(.22,1,.36,1)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.js-anim .h-in{animation:none}}
+.cur{display:none !important}
+.has-cursor [data-cursor]{cursor:auto !important}
+.ts .hdr-tel,.ts .hdr-tel span{color:var(--ink) !important}
