@@ -67,7 +67,7 @@ function pickMega(i: number) {
 
 /* ---------- services accordion (home) ---------- */
 const srvItems = $$('.acc-item[data-srv]');
-let srv = 0, srvHov = -1, srvT = 0;
+let srv = 0;
 function setSrv(i: number) {
   if (!srvItems.length) return;
   srv = (i + srvItems.length) % srvItems.length;
@@ -343,13 +343,6 @@ function onMove(e: PointerEvent) {
     tiltEl = tl; tl.classList.add('tilted');
     const r = tl.getBoundingClientRect();
     tl.style.transform = `perspective(900px) rotateX(${(-((e.clientY - r.top) / r.height - 0.5) * 10).toFixed(2)}deg) rotateY(${(((e.clientX - r.left) / r.width - 0.5) * 12).toFixed(2)}deg)`;
-  }
-  // services accordion follows the pointer
-  const it = t.closest<HTMLElement>('[data-srv]');
-  const si = it ? parseInt(it.dataset.srv || '-1', 10) : -1;
-  if (si !== srvHov) {
-    srvHov = si; clearTimeout(srvT);
-    if (si >= 0 && si !== srv) srvT = window.setTimeout(() => { if (srvHov === si) setSrv(si); }, 90);
   }
   // mega menu: hover opens, leaving closes
   if (mega && window.innerWidth > 1180) {
