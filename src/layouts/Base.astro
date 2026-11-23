@@ -29,7 +29,15 @@ const withKb = (arr: any[] | undefined) => {
   out.splice(at < 0 ? out.length : at, 0, item);
   return out.map((l, i) => ({ ...l, i: String(i) }));
 };
-const hv = { ...v, navRest: withKb(v.navRest), navLinks: withKb(v.navLinks) };
+const withGads = (cols: any[] | undefined) => (cols ?? []).map((c) => {
+  if (!c.links || c.links.some((l: any) => l.href === '/uslugi/google-ads/')) return c;
+  const at = c.links.findIndex((l: any) => l.href === '/uslugi/kampanie-google-meta-ads/');
+  if (at < 0) return c;
+  const links = [...c.links];
+  links.splice(at, 0, { t: 'Kampanie Google Ads', href: '/uslugi/google-ads/' });
+  return { ...c, links: links.map((l: any, i: number) => ({ ...l, i: String(i) })) };
+});
+const hv = { ...v, navRest: withKb(v.navRest), navLinks: withKb(v.navLinks), footCols: withGads(v.footCols) };
 ---
 <!doctype html>
 <html lang="pl">

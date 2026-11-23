@@ -1,0 +1,432 @@
+---
+import Base from '../../layouts/Base.astro';
+import v from '../../data/pages/srv-ads.json';
+import { crumbs, faqLd, SITE } from '../../data/site';
+import '../../styles/gads.css';
+
+const path = '/uslugi/google-ads/';
+const title = 'Kampanie Google Ads dla firm: prowadzenie i optymalizacja | top.strony';
+const description = 'Prowadzimy kampanie Google Ads: Search, Performance Max, Zakupy, YouTube i remarketing. Pomiar każdego zapytania w GA4, bezpłatny audyt konta, raport co miesiąc.';
+const AUTHOR = { name: 'Kamil Piech', linkedin: 'https://www.linkedin.com/in/kamil-piech-674b7912a/' };
+
+const types = [
+  { k: 'search', t: 'Kampania w sieci wyszukiwania (Search)', stage: 'Decyzja', d: 'Reklama tekstowa nad wynikami Google, gdy ktoś wpisuje frazę typu „hydraulik Piaseczno”. Trafiasz do osób, które już szukają usługi.', who: 'Usługi lokalne, B2B, sklepy, kancelarie, gabinety', icon: 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5' },
+  { k: 'pmax', t: 'Performance Max', stage: 'Cały lejek', d: 'Jedna kampania wyświetla się w wyszukiwarce, na YouTube, w Gmailu, Discover, Mapach i sieci reklamowej. Algorytm sam rozdziela budżet tam, gdzie widzi konwersje.', who: 'Sklepy z Merchant Center, usługi z dobrym pomiarem', icon: 'M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z' },
+  { k: 'shop', t: 'Kampania produktowa (Zakupy Google)', stage: 'Decyzja', d: 'Zdjęcie produktu, cena i nazwa sklepu jeszcze przed kliknięciem. Dane pochodzą z pliku produktowego w Google Merchant Center.', who: 'Sklepy internetowe z fizycznymi produktami', icon: 'M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2' },
+  { k: 'local', t: 'Reklama w Mapach Google', stage: 'Decyzja', d: 'Wyróżnienie firmy w Mapach i wynikach lokalnych, z adresem, telefonem i przyciskiem trasy. Od 2022 roku dawne kampanie lokalne działają w ramach Performance Max z celem wizyt w lokalu.', who: 'Salony, warsztaty, restauracje, kliniki', icon: 'M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5' },
+  { k: 'remk', t: 'Remarketing', stage: 'Powrót', d: 'Reklamy dla osób, które były na Twojej stronie, ale nie zadzwoniły i nie kupiły. Działa w sieci reklamowej, na YouTube i w wyszukiwarce.', who: 'Sklepy (porzucone koszyki), usługi z dłuższą decyzją, B2B', icon: 'M3 12a9 9 0 1 0 3-6.7M3 4v5h5' },
+  { k: 'display', t: 'Sieć reklamowa (Display)', stage: 'Zainteresowanie', d: 'Banery i animacje na milionach stron i aplikacji partnerów Google. Dobre do zasięgu i przypominania się po wizycie na stronie.', who: 'Marki budujące rozpoznawalność, remarketing', icon: 'M3 4h18v12H3zM8 20h8M12 16v4' },
+  { k: 'video', t: 'Kampania wideo (YouTube)', stage: 'Świadomość', d: 'Reklamy przed filmem, w trakcie i w rekomendacjach YouTube, także w Shorts. Pokazujesz produkt albo zespół, zanim klient zacznie porównywać oferty.', who: 'Firmy z produktem, który dobrze wygląda na wideo', icon: 'M22 8s-.2-1.6-.8-2.3c-.8-.8-1.7-.8-2.1-.9C16 4.6 12 4.6 12 4.6s-4 0-7.1.2c-.4.1-1.3.1-2.1.9C2.2 6.4 2 8 2 8v3c0 1.6.2 3.2.2 3.2s.2 1.6.8 2.3c.8.8 1.9.8 2.4.9 1.7.2 6.6.2 6.6.2s4 0 7.1-.2c.4-.1 1.3-.1 2.1-.9.6-.7.8-2.3.8-2.3s.2-1.6.2-3.2zM10 15V8l6 3.5z' },
+  { k: 'dg', t: 'Demand Gen (generowanie popytu)', stage: 'Świadomość', d: 'Następca kampanii Discovery. Wizualne reklamy w YouTube, Shorts, Gmailu i Discover, kierowane do osób podobnych do Twoich klientów.', who: 'Nowe produkty, sklepy szukające nowych klientów', icon: 'M13 2L3 14h9l-1 8 10-12h-9z' },
+];
+
+const fit = [
+  ['Usługi lokalne (hydraulik, gabinet, warsztat)', 'Search na frazy z miastem', 'Mapy (PMax z celem wizyt), remarketing'],
+  ['Sklep internetowy', 'Zakupy Google i Performance Max', 'Search na marki i kategorie, remarketing dynamiczny'],
+  ['Firma B2B z formularzem', 'Search na frazy problemowe', 'Remarketing, YouTube dla decydentów'],
+  ['Nowy produkt lub nowa marka', 'Demand Gen i YouTube', 'Search na nazwę marki, gdy rośnie popyt'],
+];
+
+const scope = [
+  ['Bezpłatny audyt konta', 'Sprawdzamy strukturę kampanii, frazy, wykluczenia, budżety i to, czy konwersje w ogóle są mierzone.'],
+  ['Pomiar konwersji', 'GA4, Google Tag Manager, konwersje z telefonów, formularzy i zakupów oraz Consent Mode v2.'],
+  ['Badanie słów kluczowych', 'Frazy z intencją zakupu, szacunek kosztu kliknięcia i lista wykluczeń przed startem.'],
+  ['Teksty i zasoby reklam', 'Nagłówki, opisy, rozszerzenia z telefonem, adresem i linkami, grafiki do PMax i Demand Gen.'],
+  ['Merchant Center', 'Konfiguracja i pilnowanie pliku produktowego, żeby żaden produkt nie wypadł z Zakupów.'],
+  ['Strona docelowa', 'Uwagi do landing page albo nowa strona, bo od niej zależy Wynik Jakości i koszt kliknięcia.'],
+  ['Optymalizacja co tydzień', 'Stawki, wyszukiwane hasła, wykluczenia, testy reklam i przesuwanie budżetu.'],
+  ['Raport co miesiąc', 'Ile wydaliśmy, ile było telefonów i formularzy, ile kosztował jeden klient i co robimy dalej.'],
+];
+
+const steps = [
+  ['Dzień 1–3', 'Audyt albo analiza rynku', 'Przegląd konta lub, przy starcie od zera, analiza konkurencji i popytu na frazy.'],
+  ['Tydzień 1', 'Pomiar', 'GA4, Tag Manager i konwersje Google Ads. Bez tego nie da się optymalizować.'],
+  ['Tydzień 1–2', 'Budowa kampanii', 'Struktura konta, grupy reklam, teksty, rozszerzenia, wykluczenia i harmonogram.'],
+  ['Tydzień 2–6', 'Faza nauki', 'Algorytm zbiera dane. Co tydzień czyścimy wyszukiwane hasła i poprawiamy reklamy.'],
+  ['Od 2. miesiąca', 'Skalowanie', 'Zwiększamy budżet tam, gdzie koszt zapytania jest najniższy, i wyłączamy resztę.'],
+];
+
+const cmp = [
+  ['Kiedy pierwsze efekty', 'zwykle w kilka dni od startu', 'zwykle po 3–6 miesiącach'],
+  ['Koszt', 'płacisz za każde kliknięcie', 'płacisz za pracę, kliknięcia są bezpłatne'],
+  ['Po wyłączeniu', 'ruch z reklam znika od razu', 'pozycje utrzymują się dłużej'],
+  ['Kontrola', 'wybierasz frazy, region, godziny i budżet', 'Google decyduje o pozycji'],
+  ['Najlepsze do', 'szybkich zapytań, sezonu, promocji', 'stałego ruchu i niższego kosztu klienta'],
+];
+
+const faqs = [
+  { q: 'Ile kosztuje kampania Google Ads?', a: 'Na koszt składają się dwie rzeczy: budżet reklamowy, który płacisz bezpośrednio Google za kliknięcia, oraz nasza opłata za prowadzenie kampanii. Budżet zależy od kosztu kliknięcia w Twojej branży i regionie. Po bezpłatnym audycie podajemy rekomendowany budżet dzienny i szacunek liczby zapytań, a wycenę obsługi wysyłamy w 24 godziny.' },
+  { q: 'Jaki budżet na Google Ads wystarczy na start?', a: 'Taki, który pozwoli zebrać kilkadziesiąt kliknięć dziennie na najważniejsze frazy. Przy usługach lokalnych to często kilkadziesiąt złotych dziennie, w konkurencyjnych branżach więcej. Lepiej zacząć od mniejszego budżetu na dobrze dobranych frazach i zwiększać go, gdy widać koszt zapytania, niż od razu wydać dużo na szeroki ruch.' },
+  { q: 'Po jakim czasie widać efekty Google Ads?', a: 'Pierwsze kliknięcia i telefony pojawiają się zwykle w ciągu kilku dni od uruchomienia. Kampanie z automatycznym ustalaniem stawek potrzebują jednak 2–6 tygodni na zebranie danych o konwersjach. Dopiero po tym czasie koszt zapytania się stabilizuje i można rozsądnie zwiększać budżet.' },
+  { q: 'Który rodzaj kampanii Google Ads wybrać?', a: 'Jeśli klienci wpisują Twoją usługę w Google, zacznij od kampanii w sieci wyszukiwania. Sklep internetowy najlepiej zaczyna od Zakupów Google i Performance Max. Nowy produkt, o którym jeszcze nikt nie wie, potrzebuje YouTube albo Demand Gen. Remarketing dokładamy prawie zawsze, gdy strona ma już ruch.' },
+  { q: 'Czym jest Wynik Jakości i dlaczego obniża koszt kliknięcia?', a: 'Wynik Jakości to ocena od 1 do 10, którą Google przyznaje słowom kluczowym. Składają się na nią przewidywany CTR, trafność reklamy i jakość strony docelowej. Reklama z wyższą jakością może zająć lepszą pozycję przy niższej stawce, dlatego pracujemy też nad tekstami reklam i stroną, a nie tylko nad stawkami.' },
+  { q: 'Czy konto Google Ads będzie moje?', a: 'Tak. Konto reklamowe, GA4 i Merchant Center zakładamy na Twoją firmę albo pracujemy na Twoich kontach. Masz pełny dostęp przez cały czas, a po zakończeniu współpracy wszystko zostaje u Ciebie razem z historią kampanii.' },
+  { q: 'Skąd będę wiedzieć, że reklama działa?', a: 'Mierzymy telefony, formularze i zakupy w GA4 i w Google Ads. Co miesiąc dostajesz raport z wydatkami, liczbą zapytań i kosztem pozyskania jednego klienta. Konto możesz też sprawdzić sam w dowolnym momencie.' },
+  { q: 'Czy Google Ads ma sens dla małej firmy lokalnej?', a: 'Tak, często największy. Kampania może być ograniczona do Piaseczna, Warszawy albo promienia kilkunastu kilometrów i do godzin, w których odbierasz telefon. Płacisz tylko za kliknięcia osób z tego obszaru, które szukają Twojej usługi.' },
+  { q: 'Google Ads czy pozycjonowanie SEO?', a: 'Google Ads daje zapytania od razu, ale tylko dopóki płacisz za kliknięcia. SEO buduje ruch, który zostaje, ale na efekty czeka się miesiącami. Najlepiej działa połączenie: reklamy przynoszą klientów od pierwszego tygodnia, a SEO z czasem obniża średni koszt pozyskania klienta.' },
+  { q: 'Czy zrobicie audyt mojej obecnej kampanii?', a: 'Tak, audyt konta na start jest bezpłatny. Dostajesz listę błędów i rekomendacji, na przykład frazy, które zjadają budżet bez efektu, albo brakujący pomiar konwersji. Możesz z nich skorzystać nawet bez dalszej współpracy z nami.' },
+];
+
+const ld = [
+  { '@context': 'https://schema.org', '@type': 'Service', name: 'Kampanie Google Ads', serviceType: 'Prowadzenie kampanii Google Ads', description,
+    url: SITE + path, provider: { '@id': SITE + '/#business' }, areaServed: [{ '@type': 'City', name: 'Piaseczno' }, { '@type': 'City', name: 'Warszawa' }, { '@type': 'Country', name: 'Polska' }],
+    hasOfferCatalog: { '@type': 'OfferCatalog', name: 'Rodzaje kampanii Google Ads', itemListElement: types.map((t) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: t.t, description: t.d } })) } },
+  { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url: SITE + path, inLanguage: 'pl-PL', dateModified: '2026-11-23',
+    author: { '@type': 'Person', name: AUTHOR.name, url: SITE + '/o-nas/', sameAs: [AUTHOR.linkedin] }, primaryImageOfPage: SITE + '/img/gads/gads-specjalistka.webp' },
+  faqLd(faqs),
+  crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/'], ['Kampanie Google Ads', path]]),
+];
+---
+<Base v={v} page="srv-google-ads" path={path} jsonLd={ld} title={title} description={description} image="/img/gads/gads-specjalistka.webp">
+  <main id="main">
+  <section class="sv-hero2 ga-hero" aria-labelledby="sv-h1">
+    <span class="sv-orb o1" aria-hidden="true"></span><span class="sv-orb o2" aria-hidden="true"></span><span class="sv-orb o3" aria-hidden="true"></span>
+    <div class="wrap">
+      <nav class="sv-crumbs h-in" aria-label="Okruszki">
+        <ol>
+          <li><a href="/">Strona główna</a></li>
+          <li><a href="/uslugi/">Usługi</a></li>
+          <li><a href="/uslugi/kampanie-google-meta-ads/">Google i Meta Ads</a></li>
+          <li aria-current="page">Google Ads</li>
+        </ol>
+      </nav>
+      <h1 id="sv-h1" class="sv-disp">
+        <span class="sv-l l1"><span class="sv-lt">Kampanie Google Ads,</span></span>
+        <span class="sv-l l2"><span class="sv-lt">które dzwonią</span></span>
+        <span class="sv-l l3"><span class="sv-lt">do Twojej firmy</span><i class="sv-ic c3" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"></path></svg></i></span>
+      </h1>
+      <div class="sv-hero2-foot">
+        <div class="sv-hero2-tx">
+          <p class="sv-kicker">Google Ads · top.strony · Piaseczno i cała Polska</p>
+          <p class="sv-hero2-lead">Prowadzimy kampanie w wyszukiwarce, Zakupach Google, Mapach, Performance Max i na YouTube. Rozliczamy je z telefonów, formularzy i sprzedaży, a nie z liczby kliknięć.</p>
+        </div>
+        <div class="sv-hero2-cta">
+          <a data-magnetic href="/kontakt/" class="btn sv-btn-dark">Bezpłatny audyt konta <span aria-hidden="true">→</span></a>
+          <a href="tel:+48501784882" class="sv-hero2-tel">albo zadzwoń: 501 784 882</a>
+        </div>
+      </div>
+      <nav class="sv-toc" aria-label="Na tej stronie">
+        <span>Na tej stronie:</span>
+        <a href="#czym-jest">Czym jest</a><a href="#rodzaje">Rodzaje kampanii</a><a href="#lejek">Lejek</a><a href="#aukcja">Aukcja</a><a href="#kalkulator">Kalkulator</a><a href="#zakres">Zakres</a><a href="#proces">Proces</a><a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </section>
+
+  <section id="czym-jest" class="sec alt deco-bars deco-l" aria-labelledby="ga-def-h">
+    <div class="wrap">
+      <div class="ga-answer rv">
+        <p class="ga-answer-k">W skrócie</p>
+        <p><strong>Google Ads to system reklam Google, w którym płacisz za kliknięcie w reklamę</strong> wyświetlaną w wyszukiwarce, Mapach, YouTube, Gmailu i na stronach partnerów. W top.strony zaczynamy od bezpłatnego audytu i pomiaru konwersji w GA4, potem budujemy kampanie dopasowane do celu (telefony, formularze albo sprzedaż), optymalizujemy je co tydzień i co miesiąc raportujemy koszt pozyskania klienta. Budżet reklamowy płacisz bezpośrednio Google.</p>
+        <ul class="ga-facts">
+          <li><b>0 zł</b><span>audyt konta na start</span></li>
+          <li><b>8</b><span>typów kampanii w jednym koncie</span></li>
+          <li><b>24 h</b><span>na wycenę obsługi</span></li>
+          <li><b>100%</b><span>konto i dane należą do Ciebie</span></li>
+        </ul>
+      </div>
+      <div class="sv-def ga-def">
+        <div class="rv">
+          <p class="eyebrow scr">Czym jest Google Ads</p>
+          <h2 id="ga-def-h" class="h h2 split">Reklama, która pojawia się wtedy, gdy klient szuka</h2>
+          <p class="lead">Ktoś wpisuje w Google „naprawa pieca Piaseczno” albo „ekspres kolbowy do kawiarni”. W ułamku sekundy Google przeprowadza aukcję i decyduje, czyje reklamy pokazać nad wynikami. Ty płacisz dopiero wtedy, gdy ta osoba kliknie, zadzwoni z reklamy albo przejdzie do sklepu.</p>
+          <p class="lead">Najczęstszy problem, który widzimy w audytach, nie dotyczy stawek. Kampania wydaje pieniądze, ale nikt nie wie, ile przyniosła telefonów. Dlatego zawsze zaczynamy od pomiaru, a dopiero potem dokładamy budżet tam, gdzie widać wynik.</p>
+        </div>
+        <div class="card sv-for rv d2">
+          <h3 class="h sv-h3">Dla kogo są kampanie Google Ads?</h3>
+          <ul>
+            {['Firmy usługowe, które potrzebują telefonów od zaraz', 'Sklepy internetowe: Zakupy Google, PMax i remarketing', 'Gabinety, kliniki, salony i warsztaty z lokalnymi klientami', 'Firmy B2B, które zbierają zapytania przez formularz', 'Firmy, które wydają budżet, ale nie wiedzą, co z niego mają'].map((w) => (
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>{w}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <figure class="ga-fig rv">
+        <img decoding="async" src="/img/gads/gads-specjalistka.webp" alt="Specjalistka top.strony analizuje wyniki kampanii Google Ads na laptopie" width="1344" height="752" loading="lazy">
+        <figcaption>Wyniki kampanii sprawdzamy co tydzień: wyszukiwane hasła, koszt zapytania i reklamy, które warto wyłączyć.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="rodzaje" class="sec deco-rings" aria-labelledby="ga-types-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Rodzaje kampanii</p>
+      <h2 id="ga-types-h" class="h h2 split">8 rodzajów kampanii Google Ads i kiedy który wybrać</h2>
+      <p class="lead ga-narrow">Każdy typ kampanii pracuje na innym etapie decyzji klienta. Nie uruchamiamy wszystkich naraz: wybieramy te, które pasują do Twojego celu i budżetu.</p>
+      <div class="ga-types">
+        {types.map((t, i) => (
+          <article class={`ga-type rv ga-${t.k}`} style={`transition-delay:${(i % 4) * 0.06}s`}>
+            <div class="ga-type-top">
+              <span class="ga-type-ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={t.icon}></path></svg></span>
+              <span class="ga-stage">{t.stage}</span>
+            </div>
+            <h3 class="h">{t.t}</h3>
+            <p>{t.d}</p>
+            <p class="ga-who"><b>Dla kogo:</b> {t.who}</p>
+          </article>
+        ))}
+      </div>
+      <p class="ga-note rv">Wariant kampanii Search, który warto znać: <b>dynamiczne reklamy w wyszukiwarce (DSA)</b>. Google sam dopasowuje nagłówek do treści strony, co pomaga w dużych sklepach z setkami podstron.</p>
+    </div>
+  </section>
+
+  <section id="lejek" class="sec alt deco-wave" aria-labelledby="ga-fun-h">
+    <div class="wrap ga-split">
+      <div class="rv">
+        <p class="eyebrow scr">Diagram</p>
+        <h2 id="ga-fun-h" class="h h2 split">Gdzie w lejku sprzedaży działa każda kampania</h2>
+        <p class="lead">Klient najpierw dowiaduje się, że ma problem, potem porównuje oferty, a na końcu wybiera firmę. Kampanie na górze lejka są tańsze za kontakt, ale rzadziej kończą się telefonem. Te na dole kosztują więcej za kliknięcie, za to przynoszą zapytania.</p>
+        <p class="lead">Mała firma zwykle zaczyna od dołu lejka, czyli od wyszukiwarki i Map. Wyżej idziemy dopiero wtedy, gdy dół działa i chcesz rosnąć szybciej.</p>
+      </div>
+      <figure class="ga-funnel rv d2" aria-labelledby="ga-fun-cap">
+        <ol>
+          <li style="--w:100%"><b>Świadomość</b><span>YouTube · Demand Gen</span></li>
+          <li style="--w:86%"><b>Zainteresowanie</b><span>Sieć reklamowa · PMax</span></li>
+          <li style="--w:72%"><b>Decyzja</b><span>Search · Zakupy · Mapy</span></li>
+          <li style="--w:58%"><b>Powrót</b><span>Remarketing</span></li>
+        </ol>
+        <div class="ga-fun-axis" aria-hidden="true"><span>więcej osób, niższa intencja</span><span>mniej osób, gotowi kupić</span></div>
+        <figcaption id="ga-fun-cap">Diagram: rodzaje kampanii Google Ads na etapach lejka sprzedaży.</figcaption>
+      </figure>
+    </div>
+    <div class="wrap">
+      <h3 class="h ga-h3 rv">Która kampania dla Twojej firmy?</h3>
+      <div class="sv-cmp-wrap rv">
+        <table class="sv-cmp ga-fit">
+          <thead><tr><th scope="col">Rodzaj firmy</th><th scope="col" class="is-us">Od czego zacząć</th><th scope="col">Co dołożyć później</th></tr></thead>
+          <tbody>{fit.map((r) => (<tr><th scope="row">{r[0]}</th><td class="is-us">{r[1]}</td><td>{r[2]}</td></tr>))}</tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="aukcja" class="sec deco-bars" aria-labelledby="ga-auc-h">
+    <div class="wrap ga-split ga-split-r">
+      <figure class="ga-fig ga-fig-tall rv">
+        <img decoding="async" src="/img/gads/gads-wyniki-telefon.webp" alt="Reklama Google Ads z oznaczeniem Sponsorowane w wynikach wyszukiwania na telefonie" width="1344" height="752" loading="lazy">
+        <figcaption>Reklama w wyszukiwarce ma oznaczenie „Sponsorowane” i może mieć przycisk połączenia.</figcaption>
+      </figure>
+      <div class="rv d1">
+        <p class="eyebrow scr">Jak działa aukcja</p>
+        <h2 id="ga-auc-h" class="h h2 split">Wyżej nie zawsze stoi ten, kto płaci więcej</h2>
+        <p class="lead">Pozycję reklamy wyznacza ranking reklamy (Ad Rank). Google liczy go przy każdym wyszukiwaniu i bierze pod uwagę nie tylko stawkę, ale też jakość reklamy i strony, na którą prowadzi.</p>
+        <div class="ga-rank" role="img" aria-label="Diagram: ranking reklamy zależy od stawki, jakości reklamy i strony, progów aukcji, kontekstu wyszukiwania i rozszerzeń reklamy">
+          <div class="ga-rank-in">
+            <span>Stawka</span><span>Jakość reklamy i strony</span><span>Kontekst wyszukiwania</span><span>Rozszerzenia reklamy</span><span>Progi i konkurencja aukcji</span>
+          </div>
+          <span class="ga-rank-arrow" aria-hidden="true">→</span>
+          <div class="ga-rank-out"><b>Ad Rank</b><small>pozycja i koszt kliknięcia</small></div>
+        </div>
+        <p class="lead">Jakość widać w Wyniku Jakości od 1 do 10. Składają się na niego przewidywany CTR, trafność reklamy i jakość strony docelowej. Dlatego poprawiamy teksty reklam i stronę, a nie tylko podnosimy stawki.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kalkulator" class="sec alt deco-rings deco-l" aria-labelledby="ga-calc-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Kalkulator</p>
+      <h2 id="ga-calc-h" class="h h2 split">Ile zapytań może dać Twój budżet?</h2>
+      <p class="lead ga-narrow">Wpisz budżet i przesuń suwaki. Kalkulator liczy prosty szacunek: kliknięcia to budżet podzielony przez koszt kliknięcia, a zapytania to kliknięcia razy współczynnik konwersji strony. Prawdziwe stawki w Twojej branży podamy po audycie.</p>
+      <div class="ga-calc card rv" id="gaCalc">
+        <div class="ga-calc-in">
+          <label>Budżet miesięczny <output id="gcBo">3 000 zł</output>
+            <input type="range" id="gcB" min="500" max="30000" step="500" value="3000">
+          </label>
+          <label>Średni koszt kliknięcia (CPC) <output id="gcCo">3,00 zł</output>
+            <input type="range" id="gcC" min="0.5" max="20" step="0.25" value="3">
+          </label>
+          <label>Współczynnik konwersji strony <output id="gcRo">5%</output>
+            <input type="range" id="gcR" min="1" max="20" step="0.5" value="5">
+          </label>
+        </div>
+        <div class="ga-calc-out" aria-live="polite">
+          <div><span>Kliknięcia w miesiącu</span><b id="gcK">1 000</b></div>
+          <div class="is-acc"><span>Zapytania (telefony, formularze)</span><b id="gcL">50</b></div>
+          <div><span>Koszt jednego zapytania</span><b id="gcCpl">60 zł</b></div>
+          <div class="ga-bars" aria-hidden="true"><i id="gcBar1"></i><i id="gcBar2"></i></div>
+        </div>
+      </div>
+      <p class="ga-note rv">Szacunek pomija sezonowość i konkurencję w aukcji. Strona z lepszą konwersją (na przykład z 3% na 6%) obniża koszt zapytania o połowę przy tym samym budżecie. Dlatego często proponujemy też <a href="/uslugi/strony-internetowe/">landing page pod kampanię</a>.</p>
+    </div>
+  </section>
+
+  <section class="sec deco-wave deco-r" aria-labelledby="ga-time-h">
+    <div class="wrap ga-split">
+      <div class="rv">
+        <p class="eyebrow scr">Wykres</p>
+        <h2 id="ga-time-h" class="h h2 split">Pierwsze 90 dni kampanii</h2>
+        <p class="lead">Przez pierwsze tygodnie algorytm Google uczy się, kto u Ciebie kupuje. Koszt zapytania bywa wtedy wyższy. Po zebraniu danych o konwersjach zwykle spada, a liczba zapytań rośnie. Dlatego nie oceniamy kampanii po pierwszym tygodniu i nie zmieniamy budżetu skokowo.</p>
+      </div>
+      <figure class="ga-chart rv d2">
+        <svg viewBox="0 0 560 320" role="img" aria-labelledby="ga-ch-t ga-ch-d">
+          <title id="ga-ch-t">Poglądowy przebieg kampanii Google Ads w pierwszych 90 dniach</title>
+          <desc id="ga-ch-d">W fazie nauki koszt zapytania jest wyższy, w fazie stabilizacji spada, a w fazie skalowania liczba zapytań rośnie.</desc>
+          <rect x="50" y="20" width="150" height="250" class="ga-ph p1"></rect>
+          <rect x="200" y="20" width="160" height="250" class="ga-ph p2"></rect>
+          <rect x="360" y="20" width="180" height="250" class="ga-ph p3"></rect>
+          <text x="125" y="40" class="ga-ph-t">Faza nauki</text>
+          <text x="280" y="40" class="ga-ph-t">Stabilizacja</text>
+          <text x="450" y="40" class="ga-ph-t">Skalowanie</text>
+          <line x1="50" y1="270" x2="540" y2="270" class="ga-ax"></line>
+          <line x1="50" y1="20" x2="50" y2="270" class="ga-ax"></line>
+          <path d="M50 90 C110 70 150 110 200 150 S300 200 360 205 S470 210 540 212" class="ga-l1"></path>
+          <path d="M50 245 C110 240 150 225 200 205 S300 160 360 140 S470 90 540 70" class="ga-l2"></path>
+          <text x="125" y="292" class="ga-tick">tydz. 1–2</text>
+          <text x="280" y="292" class="ga-tick">tydz. 3–6</text>
+          <text x="450" y="292" class="ga-tick">tydz. 7–12</text>
+        </svg>
+        <div class="ga-legend"><span class="l1">koszt jednego zapytania</span><span class="l2">liczba zapytań</span></div>
+        <figcaption>Wykres poglądowy, pokazuje typowy kierunek zmian, a nie wyniki konkretnego klienta.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="sec alt" aria-labelledby="ga-split-h">
+    <div class="wrap ga-split">
+      <figure class="ga-donut rv" aria-labelledby="ga-don-cap">
+        <svg viewBox="0 0 42 42" role="img" aria-label="Przykładowy podział budżetu: 60% Search, 25% Performance Max z Mapami, 15% remarketing">
+          <circle cx="21" cy="21" r="15.9" class="ga-d0"></circle>
+          <circle cx="21" cy="21" r="15.9" class="ga-d1" stroke-dasharray="60 40" stroke-dashoffset="25"></circle>
+          <circle cx="21" cy="21" r="15.9" class="ga-d2" stroke-dasharray="25 75" stroke-dashoffset="65"></circle>
+          <circle cx="21" cy="21" r="15.9" class="ga-d3" stroke-dasharray="15 85" stroke-dashoffset="40"></circle>
+        </svg>
+        <ul class="ga-don-leg">
+          <li class="d1"><b>60%</b> Search na frazy z miastem</li>
+          <li class="d2"><b>25%</b> Performance Max z celem wizyt (Mapy)</li>
+          <li class="d3"><b>15%</b> Remarketing</li>
+        </ul>
+        <figcaption id="ga-don-cap">Przykładowy podział budżetu na start dla firmy usługowej z lokalnymi klientami.</figcaption>
+      </figure>
+      <div class="rv d1">
+        <p class="eyebrow scr">Podział budżetu</p>
+        <h2 id="ga-split-h" class="h h2 split">Budżet idzie tam, gdzie są zapytania</h2>
+        <p class="lead">Na start dzielimy budżet według intencji: najwięcej dostaje wyszukiwarka, bo tam są osoby gotowe zadzwonić. Po miesiącu patrzymy na koszt zapytania w każdej kampanii i przesuwamy pieniądze do tej, która daje klientów najtaniej.</p>
+        <p class="lead">W sklepie internetowym proporcje są inne: większość budżetu trafia do Zakupów Google i Performance Max, a decyzje podejmujemy według zwrotu z wydatków na reklamę (ROAS) i marży produktów.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="zakres" class="sec deco-rings" aria-labelledby="ga-scope-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Zakres obsługi</p>
+      <h2 id="ga-scope-h" class="h h2 split">Co obejmuje prowadzenie kampanii</h2>
+      <div class="sv-scope">
+        {scope.map((s, i) => (
+          <article class="sv-sc rv" style={`transition-delay:${(i % 4) * 0.06}s`}>
+            <span class="sv-sc-ic ga-num">{String(i + 1).padStart(2, '0')}</span>
+            <h3 class="h">{s[0]}</h3>
+            <p>{s[1]}</p>
+          </article>
+        ))}
+      </div>
+      <div class="ga-duo">
+        <figure class="ga-fig rv">
+          <img decoding="async" src="/img/gads/gads-hydraulik.webp" alt="Hydraulik przy samochodzie firmowym odbiera telefon od nowego klienta" width="1344" height="752" loading="lazy">
+          <figcaption>Usługi lokalne: liczymy połączenia z reklamy i ze strony, nie tylko kliknięcia.</figcaption>
+        </figure>
+        <figure class="ga-fig rv d1">
+          <img decoding="async" src="/img/gads/gads-sklep.webp" alt="Właścicielka sklepu internetowego pakuje zamówienia z kampanii Zakupy Google" width="1344" height="752" loading="lazy">
+          <figcaption>Sklepy: rozliczamy kampanie z przychodu i marży, a plik produktowy pilnujemy w Merchant Center.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="proces" class="sec alt deco-wave" aria-labelledby="ga-proc-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Jak pracujemy</p>
+      <h2 id="ga-proc-h" class="h h2 split">Proces krok po kroku</h2>
+      <ol class="sv-steps">
+        {steps.map((s, i) => (<li class="rv"><span class="sv-st-n">{String(i + 1).padStart(2, '0')}</span><span class="sv-st-w">{s[0]}</span><h3 class="h">{s[1]}</h3><p>{s[2]}</p></li>))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec deco-rings deco-l" aria-labelledby="ga-cmp-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Porównanie</p>
+      <h2 id="ga-cmp-h" class="h h2 split">Google Ads czy pozycjonowanie SEO?</h2>
+      <div class="sv-cmp-wrap rv">
+        <table class="sv-cmp">
+          <thead><tr><th scope="col"></th><th scope="col" class="is-us">Google Ads</th><th scope="col">Pozycjonowanie SEO</th></tr></thead>
+          <tbody>{cmp.map((r) => (<tr><th scope="row">{r[0]}</th><td class="is-us">{r[1]}</td><td>{r[2]}</td></tr>))}</tbody>
+        </table>
+      </div>
+      <p class="ga-note rv">Najlepiej działa duet. Reklamy dają zapytania od pierwszego tygodnia, a <a href="/uslugi/pozycjonowanie-seo/">pozycjonowanie SEO</a> z czasem obniża średni koszt klienta. Jeśli klienci znajdują Cię też w social mediach, sprawdź <a href="/uslugi/kampanie-google-meta-ads/">kampanie Google i Meta Ads w duecie</a>.</p>
+    </div>
+  </section>
+
+  <section id="faq" class="sec alt deco-bars deco-l" aria-labelledby="ga-faq-h">
+    <div class="wrap faq">
+      <div class="faq-aside rv">
+        <p class="eyebrow scr">FAQ</p>
+        <h2 id="ga-faq-h" class="h h2 split">Najczęstsze pytania o Google Ads</h2>
+        <p class="lead">Odpowiedzi na pytania, które słyszymy przed startem kampanii.</p>
+        <div class="card faq-help ga-author">
+          <img decoding="async" src="/img/kamil-piech-face2.webp" alt="Kamil Piech" width="72" height="72" loading="lazy">
+          <div><b class="ink" style="display:block">Kamil Piech, top.strony</b><span class="ga-author-s">Opracowanie strony · aktualizacja: listopad 2026</span><a href={AUTHOR.linkedin} class="tlink" rel="noopener" target="_blank">Profil na LinkedIn</a></div>
+        </div>
+      </div>
+      <div class="sv-faq rv d1">
+        {faqs.map((f, i) => (<details class="sv-fq" open={i === 0}><summary><h3 class="h">{f.q}</h3><span class="sv-fq-i" aria-hidden="true"></span></summary><p>{f.a}</p></details>))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec deco-rings" aria-labelledby="ga-rel-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Najlepiej działa w duecie</p>
+      <h2 id="ga-rel-h" class="h h2 split">Powiązane usługi i poradniki</h2>
+      <div class="sv-rel">
+        {[
+          ['Pozycjonowanie SEO, AEO i GEO', 'Ruch z Google i odpowiedzi AI, który zostaje po wyłączeniu reklam.', '/uslugi/pozycjonowanie-seo/', 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5'],
+          ['Google Ads i Meta Ads w duecie', 'Meta buduje popyt na Facebooku i Instagramie, Google zbiera zapytania.', '/uslugi/kampanie-google-meta-ads/', 'M3 3v18h18M7 14l4-4 3 3 6-6'],
+          ['Strony i landing page', 'Szybka strona pod kampanię, która zamienia kliknięcia w telefony.', '/uslugi/strony-internetowe/', 'M3 5h18v12H3zM8 21h8M12 17v4M3 9h18'],
+        ].map((r) => (
+          <a href={r[2]} class="sv-rl rv">
+            <span class="sv-rl-ic" style={v.svc.bg}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={r[3]}></path></svg></span>
+            <h3 class="h">{r[0]}</h3><p>{r[1]}</p><span class="sv-rl-go" aria-hidden="true">→</span>
+          </a>
+        ))}
+      </div>
+      <p class="ga-note rv">Więcej w bazie wiedzy: <a href="/baza-wiedzy/">artykuły o reklamie, SEO i stronach www</a>.</p>
+    </div>
+  </section>
+
+  <section class="cta-sec" aria-labelledby="ga-cta">
+    <div class="wrap">
+      <div class="cta cta-keep rv">
+        <div class="cta-txt">
+          <span class="cta-k">Bezpłatny audyt Google Ads</span>
+          <h2 id="ga-cta" class="cta-h">Sprawdzimy, gdzie Twoja kampania traci budżet</h2>
+          <p class="cta-p">Przejrzymy konto albo, jeśli startujesz od zera, policzymy popyt na Twoje frazy. Wycenę obsługi dostaniesz w 24 godziny, bez zobowiązań.</p>
+          <div class="cta-row">
+            <a data-magnetic href="/kontakt/" class="btn btn-w">Zamów bezpłatny audyt</a>
+            <a href="tel:+48501784882" class="cta-tel">albo zadzwoń: 501 784 882 →</a>
+          </div>
+        </div>
+        <div class="cta-img"><img decoding="async" src="/img/konsultantka-sluchawki.webp" alt="Doradczyni top.strony" width="714" height="1000" loading="lazy"><div class="cta-badge" aria-hidden="true"><i></i><span><b>Audyt w 48 h</b>konto · frazy · pomiar</span></div></div>
+      </div>
+    </div>
+  </section>
+  </main>
+</Base>
+
+<script>
+  const $ = (id: string) => document.getElementById(id) as HTMLInputElement | null;
+  const B = $('gcB'), C = $('gcC'), R = $('gcR');
+  const nf = new Intl.NumberFormat('pl-PL', { maximumFractionDigits: 0 });
+  const nf2 = new Intl.NumberFormat('pl-PL', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const set = (id: string, t: string) => { const e = document.getElementById(id); if (e) e.textContent = t; };
+  function calc() {
+    if (!B || !C || !R) return;
+    const b = +B.value, c = +C.value, r = +R.value / 100;
+    const k = Math.round(b / c), l = Math.round(k * r);
+    set('gcBo', nf.format(b) + ' zł'); set('gcCo', nf2.format(c) + ' zł'); set('gcRo', String(R.value).replace('.', ',') + '%');
+    set('gcK', nf.format(k)); set('gcL', nf.format(l)); set('gcCpl', l ? nf.format(b / l) + ' zł' : '–');
+    const b1 = document.getElementById('gcBar1'), b2 = document.getElementById('gcBar2');
+    if (b1) b1.style.width = Math.min(100, k / 60) + '%';
+    if (b2) b2.style.width = Math.min(100, l / 6) + '%';
+  }
+  [B, C, R].forEach((e) => e?.addEventListener('input', calc));
+  calc();
+</script>

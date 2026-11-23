@@ -522,19 +522,19 @@
  },
  "svcRelated": [
   {
+   "t": "Kampanie Google Ads",
+   "d": "Osobna strona o Google Ads: 8 rodzajów kampanii, kalkulator budżetu, proces i FAQ.",
+   "href": "/uslugi/google-ads/",
+   "bg": "background: linear-gradient(155deg, #2D5F78 0%, #1C3C4C 55%, #142A36 100%)",
+   "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
+   "i": "0"
+  },
+  {
    "t": "Pozycjonowanie SEO, AEO i GEO",
    "d": "Pomagamy firmom pojawiać się tam, gdzie klienci szukają: w wynikach Google, w Mapach i w odpowiedziach ChatGPT, Gemini oraz AI Overviews.",
    "href": "/uslugi/pozycjonowanie-seo/",
    "bg": "background: linear-gradient(155deg, #23705A 0%, #164536 55%, #10302A 100%)",
    "icon": "M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5",
-   "i": "0"
-  },
-  {
-   "t": "Obsługa social media",
-   "d": "Prowadzimy profile firm tak, żeby budowały zaufanie i przynosiły zapytania: według planu, w spójnym stylu marki, z rolkami i raportem co miesiąc.",
-   "href": "/uslugi/social-media/",
-   "bg": "background: linear-gradient(155deg, #6A3A6E 0%, #432447 55%, #2D1A30 100%)",
-   "icon": "M4 12a8 8 0 1 0 16 0 8 8 0 0 0-16 0M2 12h20M12 4c2.5 2.5 2.5 13.5 0 16M12 4c-2.5 2.5-2.5 13.5 0 16",
    "i": "1"
   },
   {

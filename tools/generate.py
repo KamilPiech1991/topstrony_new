@@ -50,6 +50,10 @@ def gen(name, tpl):
     for a, b in G.get(name, []):
         assert a in code, (name, a)
         code = code.replace(a, b)
+    if name == 'Header':
+        a = '<li><a href={m?.href} tabindex={m?.tab} data-act="mega-close">{s}</a></li>'
+        assert a in code
+        code = code.replace(a, "<li><a href={s === 'Google Ads' ? '/uslugi/google-ads/' : m?.href} tabindex={m?.tab} data-act=\"mega-close\">{s}</a></li>")
     if name == 'KontaktMain':
         import re as _re
         code, n = _re.subn(r'<div class="kt-map rv d2" aria-hidden="true">.*?</div>\n    </div>\n  </section>',

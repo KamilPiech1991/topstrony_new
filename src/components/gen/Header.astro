@@ -48,7 +48,7 @@ const { v } = Astro.props;
               <p class="mega-pv-d">{m?.lead}</p>
               <ul class="mega-sub">
                 {(m?.subs ?? []).map((s) => (<Fragment>
-                  <li><a href={m?.href} tabindex={m?.tab} data-act="mega-close">{s}</a></li>
+                  <li><a href={s === 'Google Ads' ? '/uslugi/google-ads/' : m?.href} tabindex={m?.tab} data-act="mega-close">{s}</a></li>
                 </Fragment>))}
               </ul>
               <div class="mega-pv-foot">
