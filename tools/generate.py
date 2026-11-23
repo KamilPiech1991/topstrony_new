@@ -43,6 +43,15 @@ os.makedirs('src/components/gen', exist_ok=True)
 used = {}
 def gen(name, tpl):
     code, u = component(fix(tpl))
+    G = {'HomeMain': [('kamil-piech-k1cut.webp" alt="Kamil Piech, założyciel top.strony" width="760" height="965"', 'konsultantka-telefon.webp" alt="Doradczyni top.strony" width="641" height="1000"'),
+                      ('kamil-piech-k4cut.webp" alt="Kamil Piech, założyciel top.strony" width="760" height="939"', 'konsultantka-zaproszenie.webp" alt="Doradczyni top.strony" width="725" height="1000"'),
+                      ('kamil-piech-k3cut.webp" alt="Kamil Piech, założyciel top.strony" width="738" height="1000"', 'konsultantka-sluchawki.webp" alt="Doradczyni top.strony" width="714" height="1000"')],
+         'ServiceMain': [('kamil-piech-k3cut.webp" alt="Kamil Piech, założyciel top.strony" width="738" height="1000"', 'konsultantka-pewna.webp" alt="Doradczyni top.strony" width="652" height="1000"')]}
+    for a, b in G.get(name, []):
+        assert a in code, (name, a)
+        code = code.replace(a, b)
+    if name == 'ServiceMain':
+        code = code.replace('<b>Odpowiadam w 24 h</b>', '<b>Odpowiadamy w 24 h</b>')
     open('src/components/gen/%s.astro' % name, 'w').write(code)
     used[name] = u
 
