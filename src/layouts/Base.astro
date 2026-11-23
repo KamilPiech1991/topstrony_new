@@ -61,7 +61,6 @@ const hv = { ...v, navRest: withKb(v.navRest), navLinks: withKb(v.navLinks) };
     <script is:inline>
       try { var t = localStorage.getItem('ts-theme'); if (t === 'light' || t === 'dark') document.getElementById('top').dataset.theme = t; } catch (e) {}
     </script>
-    <div class="cur" aria-hidden="true"><span>Zobacz</span></div>
     <div class="prog" aria-hidden="true"></div>
     <a href="#main" class="sr-only">Przejdź do treści</a>
     <Header v={hv} />
