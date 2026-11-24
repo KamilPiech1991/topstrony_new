@@ -1,5 +1,6 @@
 ---
 // Generated from the top.strony design (tools/dc2astro.py). 
+import AdsHub from '../AdsHub.astro';
 const { v } = Astro.props;
 ---
 <main id="main">
@@ -37,6 +38,8 @@ const { v } = Astro.props;
       </nav>
     </div>
   </section>
+
+  {v.svc?.slug === 'kampanie-google-meta-ads' && <AdsHub />}
 
   <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->
   <section id="sv-co" class="sec alt deco-bars deco-l" aria-labelledby="sv-def-h">

@@ -60,6 +60,9 @@ def gen(name, tpl):
             '<div class="kt-map rv d2"><iframe title="Mapa Google: top.strony, ul. Strusia 3C, Piaseczno" src="https://www.google.com/maps?q=ul.+Strusia+3C+Piaseczno&amp;hl=pl&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>\n    </div>\n  </section>', code, flags=_re.S)
         assert n == 1, n
     if name == 'ServiceMain':
+        code = code.replace("const { v } = Astro.props;", "import AdsHub from '../AdsHub.astro';\nconst { v } = Astro.props;", 1)
+        code = code.replace("  <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->", "  {v.svc?.slug === 'kampanie-google-meta-ads' && <AdsHub />}\n\n  <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->", 1)
+        assert 'AdsHub />' in code
         code = code.replace('<b>Odpowiadam w 24 h</b>', '<b>Odpowiadamy w 24 h</b>')
     open('src/components/gen/%s.astro' % name, 'w').write(code)
     used[name] = u
