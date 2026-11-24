@@ -11,3 +11,161 @@
   for = "/img/*"
   [headers.values]
     Cache-Control = "public, max-age=2592000"
+
+# ---- Przekierowania 301 ze starej strony topstrony.pl ----
+# Strona główna i stare odpowiedniki
+[[redirects]]
+  from = "/index"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/index.php"
+  to = "/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/strona-glowna"
+  to = "/"
+  status = 301
+  force = true
+
+# Usługi
+[[redirects]]
+  from = "/strony-internetowe"
+  to = "/uslugi/strony-internetowe/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/strony-internetowe.html"
+  to = "/uslugi/strony-internetowe/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/sklepy-internetowe"
+  to = "/uslugi/sklepy-internetowe/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/sklepy-internetowe.html"
+  to = "/uslugi/sklepy-internetowe/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/pozycjonowanie"
+  to = "/uslugi/pozycjonowanie-seo/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/pozycjonowanie.html"
+  to = "/uslugi/pozycjonowanie-seo/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/nasza-oferta"
+  to = "/uslugi/"
+  status = 301
+  force = true
+
+# Realizacje, wycena, kontakt
+[[redirects]]
+  from = "/realizacje.html"
+  to = "/realizacje/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/wycena"
+  to = "/kontakt/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/wycena.html"
+  to = "/kontakt/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/bezplatna-wycena"
+  to = "/kontakt/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/kontakt.html"
+  to = "/kontakt/"
+  status = 301
+  force = true
+
+# Blog → baza wiedzy
+[[redirects]]
+  from = "/blog"
+  to = "/baza-wiedzy/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/blog.html"
+  to = "/baza-wiedzy/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/artykuly/jak-powinna-wygladac-strona-internetowa-firmy.html"
+  to = "/baza-wiedzy/jak-powinna-wygladac-strona-internetowa-firmy/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/artykuly/strona-na-wordpress-czy-pisana-kodem.html"
+  to = "/baza-wiedzy/wordpress-czy-strona-pisana-kodem/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/artykuly/ogromna-wartos%CC%81c%CC%81-bloga-przy-pozycjonowaniu.html"
+  to = "/baza-wiedzy/wartosc-bloga-dla-pozycjonowania/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/artykuly/ogromna-warto%C5%9B%C4%87-bloga-przy-pozycjonowaniu.html"
+  to = "/baza-wiedzy/wartosc-bloga-dla-pozycjonowania/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/artykuly/ogromna-wartosc-bloga-przy-pozycjonowaniu.html"
+  to = "/baza-wiedzy/wartosc-bloga-dla-pozycjonowania/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/artykuly/bezpieczenstwo-stron-www.html"
+  to = "/baza-wiedzy/wordpress-czy-strona-pisana-kodem/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/artykuly/*"
+  to = "/baza-wiedzy/"
+  status = 301
+  force = true
+
+# Stare podstrony miast
+[[redirects]]
+  from = "/www/strony-internetowe-gora-kalwaria"
+  to = "/strony-internetowe-piaseczno/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/www/strony-internetowe-piaseczno"
+  to = "/strony-internetowe-piaseczno/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/www/*"
+  to = "/uslugi/strony-internetowe/"
+  status = 301
+  force = true
+
+# Pliki i strony prawne
+[[redirects]]
+  from = "/assets/RODO.pdf"
+  to = "/kontakt/"
+  status = 301
+  force = true
