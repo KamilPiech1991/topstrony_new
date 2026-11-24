@@ -5,10 +5,18 @@ import { crumbs, faqLd, SITE } from '../data/site';
 import '../styles/piaseczno.css';
 
 const path = '/strony-internetowe-piaseczno/';
-const title = 'Strony internetowe Piaseczno – tworzenie stron www od 3 000 zł | top.strony';
+const title = 'Strony internetowe Piaseczno – tworzenie stron od 3000 zł | top.strony';
 const description = 'Tworzenie stron internetowych w Piasecznie. Biuro przy ul. Strusiej 3C, spotkanie na miejscu, strona od 3 000 zł netto, SEO lokalne i Mapy Google w cenie. Wycena w 24 h.';
 const AUTHOR = { name: 'Kamil Piech', linkedin: 'https://www.linkedin.com/in/kamil-piech-674b7912a/' };
 
+import home from '../data/pages/home.json';
+const logos = (home.logosLoop as any[]).slice(0, 15);
+const gallery = [
+  { src: '/img/piaseczno/pz-kawiarnia-spotkanie.webp', alt: 'Spotkanie z klientem w kawiarni w Piasecznie: omawianie nowej strony internetowej na laptopie', cap: 'Pierwsza rozmowa przy kawie w Piasecznie. Pokazujemy przykłady i pytamy o Twoich klientów.', cls: 'g-a' },
+  { src: '/img/piaseczno/pz-szkic-makiety.webp', alt: 'Szkic makiety strony internetowej na papierze obok laptopa i telefonu', cap: 'Makieta powstaje na papierze, zanim ktokolwiek otworzy program graficzny.', cls: 'g-b' },
+  { src: '/img/piaseczno/pz-biuro-projekt.webp', alt: 'Projektowanie strony internetowej w biurze top.strony w Piasecznie', cap: 'Projekt i kodowanie w biurze przy ul. Strusiej 3C.', cls: 'g-c' },
+  { src: '/img/piaseczno/pz-klientka-kwiaciarnia.webp', alt: 'Właścicielka kwiaciarni pokazuje na telefonie swoją nową stronę internetową', cap: 'Efekt: strona, którą klient z okolicy znajdzie w telefonie i od razu zadzwoni.', cls: 'g-d' },
+];
 const why = [
   ['Spotkanie na miejscu', 'Przy kawie w biurze na Strusiej albo u Ciebie w firmie w Piasecznie, Józefosławiu czy Konstancinie. Zdalnie też się da.', 'M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5'],
   ['Znamy lokalne wyniki Google', 'Wiemy, kto wyświetla się na „Piaseczno” w Twojej branży i czego szukają klienci. Strukturę strony układamy pod te frazy.', 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5'],
@@ -71,7 +79,7 @@ const ld = [
     areaServed: areas.map((a) => ({ '@type': 'Place', name: a })),
     offers: { '@type': 'Offer', priceCurrency: 'PLN', price: '3000', priceSpecification: { '@type': 'UnitPriceSpecification', price: '3000', priceCurrency: 'PLN', valueAddedTaxIncluded: false }, description: 'Strona internetowa od 3 000 zł netto' } },
   { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url: SITE + path, inLanguage: 'pl-PL', dateModified: '2026-11-24',
-    author: { '@type': 'Person', name: AUTHOR.name, url: SITE + '/o-nas/', sameAs: [AUTHOR.linkedin] }, primaryImageOfPage: SITE + '/img/piaseczno/rynek-piaseczno-og.jpg',
+    author: { '@type': 'Person', name: AUTHOR.name, url: SITE + '/o-nas/', sameAs: [AUTHOR.linkedin] }, primaryImageOfPage: SITE + '/img/piaseczno/rynek-piaseczno-og.jpg', image: gallery.map((g) => SITE + g.src),
     about: { '@type': 'Place', name: 'Piaseczno', address: { '@type': 'PostalAddress', addressLocality: 'Piaseczno', postalCode: '05-500', addressCountry: 'PL' } } },
   faqLd(faqs),
   crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/'], ['Strony internetowe Piaseczno', path]]),
@@ -82,17 +90,18 @@ const ld = [
   <section class="pz-hero" aria-labelledby="pz-h1">
     <img class="pz-hero-bg" src="/img/piaseczno/rynek-piaseczno.webp" alt="Rynek w Piasecznie z ratuszem i fontanną na placu Piłsudskiego" width="2000" height="1333" fetchpriority="high" decoding="async">
     <div class="pz-hero-ov" aria-hidden="true"></div>
+    <canvas class="pz-3d" aria-hidden="true"></canvas>
     <div class="wrap pz-hero-in">
       <nav class="pz-crumbs" aria-label="Okruszki"><ol><li><a href="/">Strona główna</a></li><li><a href="/uslugi/">Usługi</a></li><li aria-current="page">Strony internetowe Piaseczno</li></ol></nav>
       <p class="pz-pin"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8FD35A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>Biuro w Piasecznie · ul. Strusia 3C</p>
-      <h1 id="pz-h1" class="pz-h1">Strony internetowe Piaseczno</h1>
-      <p class="pz-sub">Tworzenie stron internetowych w Piasecznie, od projektu do telefonów od klientów</p>
-      <p class="pz-lead">Projektujemy i kodujemy szybkie strony dla firm z Piaseczna i okolic. Spotkasz się z nami na miejscu, a strona od pierwszego dnia jest przygotowana pod frazy z nazwą miasta i pod Mapy Google.</p>
-      <div class="pz-cta">
+      <h1 id="pz-h1" class="pz-h1" data-gs="hero">Strony internetowe Piaseczno</h1>
+      <p class="pz-sub" data-gs="hero">Tworzenie stron internetowych w Piasecznie, od projektu do telefonów od klientów</p>
+      <p class="pz-lead" data-gs="hero">Projektujemy i kodujemy szybkie strony dla firm z Piaseczna i okolic. Spotkasz się z nami na miejscu, a strona od pierwszego dnia jest przygotowana pod frazy z nazwą miasta i pod Mapy Google.</p>
+      <div class="pz-cta" data-gs="hero">
         <a data-magnetic href="/kontakt/" class="btn btn-g">Bezpłatna wycena w 24 h <span aria-hidden="true">→</span></a>
         <a href="tel:+48501784882" class="pz-ghost">Zadzwoń: 501 784 882</a>
       </div>
-      <ul class="pz-stats">
+      <ul class="pz-stats" data-gs="hero">
         <li><b>5,0 ★</b><span>średnia z 20 opinii w Google</span></li>
         <li><b>35</b><span>stron i sklepów w portfolio</span></li>
         <li><b>od 3 000 zł</b><span>netto za stronę internetową</span></li>
@@ -118,6 +127,18 @@ const ld = [
     </div>
   </section>
 
+
+  <section class="pz-logos" aria-labelledby="pz-logos-h">
+    <div class="wrap">
+      <p id="pz-logos-h" class="pz-logos-h">Zaufali nam przedsiębiorcy z Piaseczna, Warszawy i całej Polski</p>
+    </div>
+    <div class="pz-mq">
+      <div class="marquee">
+        {[...logos, ...logos].map((l: any) => (<span class="mlogo" role="img" aria-label={l.name} style={l.mask}></span>))}
+      </div>
+    </div>
+  </section>
+
   <section class="sec" aria-labelledby="pz-why">
     <div class="wrap">
       <p class="eyebrow scr">Agencja z Piaseczna</p>
@@ -135,10 +156,27 @@ const ld = [
     </div>
   </section>
 
+
+  <section class="sec pz-gal-sec" aria-labelledby="pz-gal">
+    <div class="wrap">
+      <p class="eyebrow scr">Jak wygląda współpraca</p>
+      <h2 id="pz-gal" class="h h2 split">Od kawy w Piasecznie do strony, która dzwoni</h2>
+      <p class="lead pz-narrow">Większość projektów zaczynamy od spotkania na miejscu: w biurze, u klienta albo w kawiarni w centrum Piaseczna. Tak wygląda droga od pomysłu do gotowej strony.</p>
+      <div class="pz-gal">
+        {gallery.map((g) => (
+          <figure class={`pz-gfig ${g.cls}`} data-gs="reveal">
+            <div class="pz-gimg"><img src={g.src} alt={g.alt} width="1344" height="752" loading="lazy" decoding="async"></div>
+            <figcaption>{g.cap}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
   <section id="oferta" class="sec alt" aria-labelledby="pz-off">
     <div class="wrap">
       <p class="eyebrow scr">Co robimy</p>
-      <h2 id="pz-off" class="h h2 split">Jakie strony tworzymy dla firm z Piaseczna</h2>
+      <h2 id="pz-off" class="h h2 split">Tworzenie stron internetowych w Piasecznie: co robimy</h2>
       <div class="pz-grid3">
         {offers.map((o, i) => (
           <article class={`pz-offer rv ${o.hot ? 'is-hot' : ''}`} style={`transition-delay:${i * 0.06}s`}>
@@ -158,7 +196,7 @@ const ld = [
     <div class="wrap">
       <p class="eyebrow scr">Jak pracujemy</p>
       <h2 id="pz-proc" class="h h2 split">Od rozmowy do strony w 6 krokach</h2>
-      <ol class="pz-steps">
+      <ol class="pz-steps" data-gs="steps">
         {steps.map((s, i) => (<li class="rv"><span class="pz-n">{String(i + 1).padStart(2, '0')}</span><div><h3 class="h">{s[0]}</h3><p>{s[1]}</p></div></li>))}
       </ol>
     </div>
@@ -177,7 +215,7 @@ const ld = [
       <div class="pz-area rv d1">
         <h3 class="h">Gdzie pracujemy</h3>
         <p>Piaseczno i cały powiat piaseczyński, a także południe Warszawy.</p>
-        <ul>{areas.map((a, i) => <li class={i === 0 ? 'is-main' : ''}>{a}</li>)}</ul>
+        <ul data-gs="chips">{areas.map((a, i) => <li class={i === 0 ? 'is-main' : ''}>{a}</li>)}</ul>
       </div>
     </div>
   </section>
@@ -261,3 +299,8 @@ const ld = [
   </section>
   </main>
 </Base>
+
+<script>
+  import { initPiaseczno } from '../scripts/piaseczno-motion';
+  initPiaseczno();
+</script>

@@ -593,11 +593,11 @@
    "i": "1"
   },
   {
-   "t": "Branding i identyfikacja wizualna",
-   "d": "Projektujemy markę, którą klienci rozpoznają: logo, kolory, typografię i zasady, dzięki którym strona, social media i druk wyglądają jak jedna firma.",
-   "href": "/uslugi/branding/",
-   "bg": "background: linear-gradient(155deg, #7A5530 0%, #4C361F 55%, #332417 100%)",
-   "icon": "M12 3l2.5 5.5L20 11l-5.5 2.5L12 19l-2.5-5.5L4 11l5.5-2.5z",
+   "t": "Strony internetowe Piaseczno",
+   "d": "Robimy strony dla firm z Piaseczna i okolic. Biuro przy ul. Strusiej 3C, spotkanie na miejscu, strona od 3 000 zł netto.",
+   "href": "/strony-internetowe-piaseczno/",
+   "bg": "background: linear-gradient(155deg, #3B7A2A 0%, #23461C 55%, #17301A 100%)",
+   "icon": "M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5",
    "i": "2"
   }
  ],
