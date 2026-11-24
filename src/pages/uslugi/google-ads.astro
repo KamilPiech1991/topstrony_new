@@ -13,11 +13,79 @@ const types = [
   { k: 'search', t: 'Kampania w sieci wyszukiwania (Search)', stage: 'Decyzja', d: 'Reklama tekstowa nad wynikami Google, gdy ktoś wpisuje frazę typu „hydraulik Piaseczno”. Trafiasz do osób, które już szukają usługi.', who: 'Usługi lokalne, B2B, sklepy, kancelarie, gabinety', icon: 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5' },
   { k: 'pmax', t: 'Performance Max', stage: 'Cały lejek', d: 'Jedna kampania wyświetla się w wyszukiwarce, na YouTube, w Gmailu, Discover, Mapach i sieci reklamowej. Algorytm sam rozdziela budżet tam, gdzie widzi konwersje.', who: 'Sklepy z Merchant Center, usługi z dobrym pomiarem', icon: 'M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z' },
   { k: 'shop', t: 'Kampania produktowa (Zakupy Google)', stage: 'Decyzja', d: 'Zdjęcie produktu, cena i nazwa sklepu jeszcze przed kliknięciem. Dane pochodzą z pliku produktowego w Google Merchant Center.', who: 'Sklepy internetowe z fizycznymi produktami', icon: 'M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2' },
-  { k: 'local', t: 'Reklama w Mapach Google', stage: 'Decyzja', d: 'Wyróżnienie firmy w Mapach i wynikach lokalnych, z adresem, telefonem i przyciskiem trasy. Od 2022 roku dawne kampanie lokalne działają w ramach Performance Max z celem wizyt w lokalu.', who: 'Salony, warsztaty, restauracje, kliniki', icon: 'M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5' },
+  { k: 'local', t: 'Reklama w Mapach Google', stage: 'Decyzja', d: 'Wyróżnienie firmy w Mapach i wynikach lokalnych, z oceną, telefonem i przyciskiem trasy. Ustawiamy ją przez rozszerzenie lokalizacji i Performance Max z celem wizyt.', who: 'Salony, warsztaty, restauracje, kliniki', icon: 'M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5' },
   { k: 'remk', t: 'Remarketing', stage: 'Powrót', d: 'Reklamy dla osób, które były na Twojej stronie, ale nie zadzwoniły i nie kupiły. Działa w sieci reklamowej, na YouTube i w wyszukiwarce.', who: 'Sklepy (porzucone koszyki), usługi z dłuższą decyzją, B2B', icon: 'M3 12a9 9 0 1 0 3-6.7M3 4v5h5' },
   { k: 'display', t: 'Sieć reklamowa (Display)', stage: 'Zainteresowanie', d: 'Banery i animacje na milionach stron i aplikacji partnerów Google. Dobre do zasięgu i przypominania się po wizycie na stronie.', who: 'Marki budujące rozpoznawalność, remarketing', icon: 'M3 4h18v12H3zM8 20h8M12 16v4' },
   { k: 'video', t: 'Kampania wideo (YouTube)', stage: 'Świadomość', d: 'Reklamy przed filmem, w trakcie i w rekomendacjach YouTube, także w Shorts. Pokazujesz produkt albo zespół, zanim klient zacznie porównywać oferty.', who: 'Firmy z produktem, który dobrze wygląda na wideo', icon: 'M22 8s-.2-1.6-.8-2.3c-.8-.8-1.7-.8-2.1-.9C16 4.6 12 4.6 12 4.6s-4 0-7.1.2c-.4.1-1.3.1-2.1.9C2.2 6.4 2 8 2 8v3c0 1.6.2 3.2.2 3.2s.2 1.6.8 2.3c.8.8 1.9.8 2.4.9 1.7.2 6.6.2 6.6.2s4 0 7.1-.2c.4-.1 1.3-.1 2.1-.9.6-.7.8-2.3.8-2.3s.2-1.6.2-3.2zM10 15V8l6 3.5z' },
   { k: 'dg', t: 'Demand Gen (generowanie popytu)', stage: 'Świadomość', d: 'Następca kampanii Discovery. Wizualne reklamy w YouTube, Shorts, Gmailu i Discover, kierowane do osób podobnych do Twoich klientów.', who: 'Nowe produkty, sklepy szukające nowych klientów', icon: 'M13 2L3 14h9l-1 8 10-12h-9z' },
+];
+
+
+const ads = [
+  { id: 'reklama-search', k: 'search', t: 'Reklama w wyszukiwarce Google (Search)',
+    lead: 'Tekstowa reklama nad wynikami albo pod nimi, oznaczona słowem „Sponsorowane”. Pokazuje się, gdy ktoś wpisze frazę, na którą ją ustawiliśmy, na przykład „hydraulik Piaseczno”. To najbliższy kontakt z osobą gotową kupić, jaki daje internet.',
+    rows: [['Gdzie się wyświetla', 'Wyniki wyszukiwania Google na komputerze i telefonie, a także u partnerów wyszukiwania Google.'],
+      ['Za co płacisz', 'Za kliknięcie w reklamę (CPC). Stawki ustala aukcja przy każdym wyszukiwaniu.'],
+      ['Z czego się składa', 'Do 15 nagłówków i 4 opisów, z których Google składa reklamę elastyczną, oraz rozszerzenia: telefon, adres, linki do podstron, cena.'],
+      ['Kiedy wybrać', 'Prawie zawsze na start, gdy klienci wpisują Twoją usługę albo produkt w Google.'],
+      ['Na co uważamy', 'Wyszukiwane hasła sprawdzamy co tydzień i dopisujemy wykluczenia, żeby budżet nie szedł na frazy typu „praca”, „za darmo” czy „jak samemu”.']] },
+  { id: 'reklama-pmax', k: 'pmax', t: 'Performance Max',
+    lead: 'Jedna kampania, która korzysta ze wszystkich kanałów Google naraz. Dostarczamy teksty, zdjęcia, logo i wideo, a algorytm sam decyduje, komu i gdzie je pokazać, żeby uzyskać jak najwięcej konwersji w ramach budżetu.',
+    rows: [['Gdzie się wyświetla', 'Wyszukiwarka, Zakupy, YouTube, Gmail, Discover, Mapy i sieć reklamowa.'],
+      ['Za co płacisz', 'Formalnie za kliknięcia i wyświetlenia, ale kampania zawsze optymalizuje się pod konwersje albo ich wartość.'],
+      ['Z czego się składa', 'Grupy plików: nagłówki, opisy, grafiki w kilku formatach, logo, wideo oraz sygnały o odbiorcach.'],
+      ['Kiedy wybrać', 'Sklep z plikiem produktowym albo usługa, która ma już poprawnie mierzone konwersje.'],
+      ['Na co uważamy', 'Bez dobrego pomiaru PMax uczy się na złych danych. Pilnujemy wykluczeń marki, listy wykluczonych fraz i raportu kanałów.']] },
+  { id: 'reklama-zakupy', k: 'shop', t: 'Reklama produktowa (Zakupy Google)',
+    lead: 'Karta produktu ze zdjęciem, ceną i nazwą sklepu w wynikach Google i w zakładce Zakupy. Klient widzi, co kupuje i za ile, zanim kliknie, więc do sklepu trafiają osoby, którym cena już pasuje.',
+    rows: [['Gdzie się wyświetla', 'Wyniki wyszukiwania, zakładka Zakupy Google, Grafika Google i YouTube.'],
+      ['Za co płacisz', 'Za kliknięcie w produkt (CPC).'],
+      ['Z czego się składa', 'Z pliku produktowego w Google Merchant Center: tytuł, zdjęcie, cena, dostępność, kod GTIN.'],
+      ['Kiedy wybrać', 'Każdy sklep internetowy z fizycznymi produktami.'],
+      ['Na co uważamy', 'O wynikach decyduje jakość pliku produktowego. Poprawiamy tytuły produktów i pilnujemy odrzuceń w Merchant Center.']] },
+  { id: 'reklama-mapy', k: 'local', t: 'Reklama w Mapach Google',
+    lead: 'Twoja firma wyróżniona jako „Sponsorowane” w Mapach Google i w wynikach lokalnych, z oceną, godzinami otwarcia i przyciskami „Zadzwoń” oraz „Trasa”. Działa najlepiej, gdy klient szuka kogoś „w pobliżu”.',
+    img: { src: '/img/gads/gads-mapy-telefon.webp', alt: 'Reklama hydraulika w wynikach lokalnych i Mapach Google na telefonie, wyszukiwanie hydraulik Piaseczno' },
+    rows: [['Gdzie się wyświetla', 'Aplikacja i strona Mapy Google oraz wyniki lokalne w wyszukiwarce.'],
+      ['Za co płacisz', 'Za kliknięcia: połączenie, wyznaczenie trasy, przejście na stronę.'],
+      ['Jak to ustawiamy', 'Łączymy konto Google Ads z Profilem Firmy w Google i dodajemy rozszerzenie lokalizacji. Od 2022 roku dawne kampanie lokalne działają jako Performance Max z celem wizyt w lokalu.'],
+      ['Kiedy wybrać', 'Salony, gabinety, warsztaty, restauracje i firmy usługowe z dojazdem do klienta.'],
+      ['Na co uważamy', 'Reklama w Mapach nie zastąpi dobrej wizytówki. Uzupełniamy Profil Firmy, zdjęcia i odpowiedzi na opinie, bo ocena widoczna jest w reklamie.']] },
+  { id: 'reklama-remarketing', k: 'remk', t: 'Remarketing',
+    lead: 'Reklama pokazywana osobom, które już były na Twojej stronie, ale nie zadzwoniły, nie wysłały formularza albo zostawiły produkt w koszyku. Przypominasz się komuś, kto zna ofertę, więc koszt kontaktu jest zwykle niższy niż przy nowych odbiorcach.',
+    rows: [['Gdzie się wyświetla', 'Sieć reklamowa, YouTube, Gmail, a także wyszukiwarka, gdy ta sama osoba szuka ponownie.'],
+      ['Za co płacisz', 'Za kliknięcia albo wyświetlenia, zależnie od kampanii, do której podpinamy listę.'],
+      ['Z czego się składa', 'Z list odbiorców zbieranych przez tag Google i GA4, na przykład „oglądał produkt, nie kupił”.'],
+      ['Kiedy wybrać', 'Gdy strona ma już ruch, a decyzja klienta trwa dłużej niż jeden dzień.'],
+      ['Na co uważamy', 'Remarketing wymaga zgody użytkownika na cookies. Wdrażamy Consent Mode v2 i ograniczamy częstotliwość, żeby reklama nie męczyła.']] },
+  { id: 'reklama-display', k: 'display', t: 'Reklama w sieci reklamowej (Display)',
+    lead: 'Banery i animacje na milionach stron, w aplikacjach i w Gmailu, czyli wszędzie tam, gdzie wyświetla się reklama Google. Kosztuje mało za kontakt, ale rzadziej daje telefon od razu, dlatego używamy jej głównie do przypominania się.',
+    rows: [['Gdzie się wyświetla', 'Strony partnerów Google, aplikacje mobilne, Gmail.'],
+      ['Za co płacisz', 'Za kliknięcia (CPC) albo za tysiąc widocznych wyświetleń (vCPM).'],
+      ['Z czego się składa', 'Elastyczna reklama graficzna: kilka zdjęć, logo, nagłówki i opisy, z których Google składa banery w różnych rozmiarach.'],
+      ['Kiedy wybrać', 'Remarketing i budowanie rozpoznawalności w regionie.'],
+      ['Na co uważamy', 'Wykluczamy aplikacje mobilne dla dzieci, gry i strony niskiej jakości, gdzie kliknięcia są często przypadkowe.']] },
+  { id: 'reklama-youtube', k: 'video', t: 'Reklama wideo na YouTube',
+    lead: 'Film reklamowy przed, w trakcie albo obok filmów na YouTube, także w Shorts. Daje dużo czasu, żeby pokazać produkt, zespół albo efekt usługi, zanim klient zacznie porównywać oferty.',
+    rows: [['Gdzie się wyświetla', 'YouTube na telefonie, komputerze i telewizorze oraz partnerzy wideo Google.'],
+      ['Formaty', 'Reklama możliwa do pominięcia po 5 sekundach, reklama niemożliwa do pominięcia oraz krótka 6-sekundowa reklama bumper.'],
+      ['Za co płacisz', 'Za obejrzenie (przy reklamach do pominięcia) albo za tysiąc wyświetleń, zależnie od formatu i celu.'],
+      ['Kiedy wybrać', 'Nowy produkt, usługa, którą trzeba pokazać, budowa marki w regionie.'],
+      ['Na co uważamy', 'Pierwsze 5 sekund musi zatrzymać widza i pokazać markę. Montujemy wersje pionowe pod Shorts i poziome pod klasyczny YouTube.']] },
+  { id: 'reklama-demand-gen', k: 'dg', t: 'Demand Gen (generowanie popytu)',
+    lead: 'Wizualne reklamy w miejscach, w których ludzie przewijają treści: YouTube i Shorts, Gmail, Discover. Docierają do osób, które jeszcze nie szukają produktu, ale są podobne do Twoich klientów. Demand Gen zastąpił dawne kampanie Discovery.',
+    rows: [['Gdzie się wyświetla', 'YouTube (w tym Shorts), Discover, Gmail i sieć reklamowa.'],
+      ['Za co płacisz', 'Za kliknięcia albo konwersje, zależnie od wybranej strategii.'],
+      ['Z czego się składa', 'Zdjęcia, karuzele i krótkie wideo z nagłówkiem i przyciskiem.'],
+      ['Kiedy wybrać', 'Nowy produkt, sklep szukający nowych klientów, promocja sezonowa.'],
+      ['Na co uważamy', 'To kampania na wcześniejszy etap decyzji, więc oceniamy ją po koszcie dotarcia i późniejszych wyszukiwaniach marki, a nie tylko po sprzedaży w tym samym dniu.']] },
+  { id: 'reklama-ai-max', k: 'aimax', t: 'AI Max dla kampanii Search (dawniej DSA)',
+    lead: 'Rozszerzenie kampanii w wyszukiwarce, w którym Google sam dobiera dodatkowe zapytania, dopasowuje tekst reklamy i wybiera podstronę na podstawie treści Twojej witryny. Zastępuje dynamiczne reklamy w wyszukiwarce (DSA), które Google automatycznie przenosi do AI Max od lutego 2027 roku.',
+    rows: [['Gdzie się wyświetla', 'Tak samo jak zwykła reklama w wyszukiwarce.'],
+      ['Za co płacisz', 'Za kliknięcie (CPC).'],
+      ['Jak działa', 'Google czyta Twoją stronę, dobiera zapytania spoza listy słów kluczowych i kieruje na najlepiej pasującą podstronę.'],
+      ['Kiedy wybrać', 'Duże sklepy i serwisy z setkami podstron, gdy kampania Search ma już stabilne konwersje.'],
+      ['Na co uważamy', 'Wykluczamy adresy URL, na które ruch nie powinien trafiać (regulamin, kariera, blog), i sprawdzamy raport wyszukiwanych haseł z AI Max.']] },
 ];
 
 const fit = [
@@ -59,6 +127,8 @@ const faqs = [
   { q: 'Jaki budżet na Google Ads wystarczy na start?', a: 'Taki, który pozwoli zebrać kilkadziesiąt kliknięć dziennie na najważniejsze frazy. Przy usługach lokalnych to często kilkadziesiąt złotych dziennie, w konkurencyjnych branżach więcej. Lepiej zacząć od mniejszego budżetu na dobrze dobranych frazach i zwiększać go, gdy widać koszt zapytania, niż od razu wydać dużo na szeroki ruch.' },
   { q: 'Po jakim czasie widać efekty Google Ads?', a: 'Pierwsze kliknięcia i telefony pojawiają się zwykle w ciągu kilku dni od uruchomienia. Kampanie z automatycznym ustalaniem stawek potrzebują jednak 2–6 tygodni na zebranie danych o konwersjach. Dopiero po tym czasie koszt zapytania się stabilizuje i można rozsądnie zwiększać budżet.' },
   { q: 'Który rodzaj kampanii Google Ads wybrać?', a: 'Jeśli klienci wpisują Twoją usługę w Google, zacznij od kampanii w sieci wyszukiwania. Sklep internetowy najlepiej zaczyna od Zakupów Google i Performance Max. Nowy produkt, o którym jeszcze nikt nie wie, potrzebuje YouTube albo Demand Gen. Remarketing dokładamy prawie zawsze, gdy strona ma już ruch.' },
+  { q: 'Jak pokazać firmę w reklamie w Mapach Google?', a: 'Potrzebny jest zweryfikowany Profil Firmy w Google połączony z kontem Google Ads. Dodajemy rozszerzenie lokalizacji do kampanii w wyszukiwarce i Performance Max z celem wizyt w lokalu. Wtedy firma może pojawiać się jako „Sponsorowane” w Mapach i wynikach lokalnych, z oceną, godzinami otwarcia i przyciskiem połączenia.' },
+  { q: 'Za co płacę w reklamie na YouTube?', a: 'W reklamach, które można pominąć po 5 sekundach, płacisz zwykle dopiero wtedy, gdy ktoś obejrzy film (30 sekund albo całość, jeśli jest krótszy) lub w niego kliknie. Krótkie reklamy bumper i reklamy niemożliwe do pominięcia rozlicza się za tysiąc wyświetleń.' },
   { q: 'Czym jest Wynik Jakości i dlaczego obniża koszt kliknięcia?', a: 'Wynik Jakości to ocena od 1 do 10, którą Google przyznaje słowom kluczowym. Składają się na nią przewidywany CTR, trafność reklamy i jakość strony docelowej. Reklama z wyższą jakością może zająć lepszą pozycję przy niższej stawce, dlatego pracujemy też nad tekstami reklam i stroną, a nie tylko nad stawkami.' },
   { q: 'Czy konto Google Ads będzie moje?', a: 'Tak. Konto reklamowe, GA4 i Merchant Center zakładamy na Twoją firmę albo pracujemy na Twoich kontach. Masz pełny dostęp przez cały czas, a po zakończeniu współpracy wszystko zostaje u Ciebie razem z historią kampanii.' },
   { q: 'Skąd będę wiedzieć, że reklama działa?', a: 'Mierzymy telefony, formularze i zakupy w GA4 i w Google Ads. Co miesiąc dostajesz raport z wydatkami, liczbą zapytań i kosztem pozyskania jednego klienta. Konto możesz też sprawdzić sam w dowolnym momencie.' },
@@ -70,7 +140,7 @@ const faqs = [
 const ld = [
   { '@context': 'https://schema.org', '@type': 'Service', name: 'Kampanie Google Ads', serviceType: 'Prowadzenie kampanii Google Ads', description,
     url: SITE + path, provider: { '@id': SITE + '/#business' }, areaServed: [{ '@type': 'City', name: 'Piaseczno' }, { '@type': 'City', name: 'Warszawa' }, { '@type': 'Country', name: 'Polska' }],
-    hasOfferCatalog: { '@type': 'OfferCatalog', name: 'Rodzaje kampanii Google Ads', itemListElement: types.map((t) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: t.t, description: t.d } })) } },
+    hasOfferCatalog: { '@type': 'OfferCatalog', name: 'Rodzaje kampanii Google Ads', itemListElement: ads.map((a) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: a.t, description: a.lead, url: SITE + path + '#' + a.id } })) } },
   { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url: SITE + path, inLanguage: 'pl-PL', dateModified: '2026-11-23',
     author: { '@type': 'Person', name: AUTHOR.name, url: SITE + '/o-nas/', sameAs: [AUTHOR.linkedin] }, primaryImageOfPage: SITE + '/img/gads/gads-specjalistka.webp' },
   faqLd(faqs),
@@ -107,7 +177,7 @@ const ld = [
       </div>
       <nav class="sv-toc" aria-label="Na tej stronie">
         <span>Na tej stronie:</span>
-        <a href="#czym-jest">Czym jest</a><a href="#rodzaje">Rodzaje kampanii</a><a href="#lejek">Lejek</a><a href="#aukcja">Aukcja</a><a href="#kalkulator">Kalkulator</a><a href="#zakres">Zakres</a><a href="#proces">Proces</a><a href="#faq">FAQ</a>
+        <a href="#czym-jest">Czym jest</a><a href="#rodzaje">Rodzaje kampanii</a><a href="#reklamy">Każda reklama</a><a href="#lejek">Lejek</a><a href="#aukcja">Aukcja</a><a href="#kalkulator">Kalkulator</a><a href="#zakres">Zakres</a><a href="#proces">Proces</a><a href="#faq">FAQ</a>
       </nav>
     </div>
   </section>
@@ -165,11 +235,48 @@ const ld = [
           </article>
         ))}
       </div>
-      <p class="ga-note rv">Wariant kampanii Search, który warto znać: <b>dynamiczne reklamy w wyszukiwarce (DSA)</b>. Google sam dopasowuje nagłówek do treści strony, co pomaga w dużych sklepach z setkami podstron.</p>
+      <p class="ga-note rv">Do kampanii Search można dołączyć <b>AI Max</b>, który zastępuje dynamiczne reklamy w wyszukiwarce (DSA). Każdy rodzaj reklamy opisujemy szczegółowo <a href="#reklamy">w następnej sekcji</a>.</p>
     </div>
   </section>
 
-  <section id="lejek" class="sec alt deco-wave" aria-labelledby="ga-fun-h">
+  <section id="reklamy" class="sec alt deco-bars deco-l" aria-labelledby="ga-ads-h">
+    <div class="wrap">
+      <p class="eyebrow scr">Każda reklama z bliska</p>
+      <h2 id="ga-ads-h" class="h h2 split">Jak wygląda i jak działa każda reklama Google Ads</h2>
+      <p class="lead ga-narrow">Poniżej opisujemy każdy rodzaj reklamy osobno: gdzie się wyświetla, za co płacisz, z czego się składa i na co uważamy przy jego prowadzeniu. Szkice obok pokazują układ reklamy w uproszczeniu.</p>
+      <nav class="ga-ads-nav rv" aria-label="Rodzaje reklam">{ads.map((a) => (<a href={`#${a.id}`}>{a.t}</a>))}</nav>
+      <div class="ga-ads">
+        {ads.map((a, i) => (
+          <article id={a.id} class={`ga-ad rv ${i % 2 ? 'is-rev' : ''}`} aria-labelledby={`${a.id}-h`}>
+            <div class="ga-ad-tx">
+              <span class="ga-ad-n">{String(i + 1).padStart(2, '0')}</span>
+              <h3 id={`${a.id}-h`} class="h">{a.t}</h3>
+              <p class="ga-ad-lead">{a.lead}</p>
+              <dl class="ga-ad-dl">{a.rows.map((r) => (<div><dt>{r[0]}</dt><dd>{r[1]}</dd></div>))}</dl>
+            </div>
+            <div class="ga-ad-vis">
+              {a.img ? (
+                <figure class="ga-fig"><img decoding="async" src={a.img.src} alt={a.img.alt} width="1344" height="752" loading="lazy"><figcaption>Reklama w wynikach lokalnych: ocena, godziny i przycisk „Zadzwoń” widoczne przed kliknięciem.</figcaption></figure>
+              ) : (
+                <div class={`ga-mock gm-${a.k}`} role="img" aria-label={`Uproszczony szkic: ${a.t}`}>
+                  {a.k === 'search' && (<Fragment><div class="gm-serp"><p class="gm-q">hydraulik Piaseczno</p><p class="gm-spons">Sponsorowane</p><p class="gm-url">hydraulik-przyklad.pl</p><p class="gm-tt">Hydraulik Piaseczno · Dojazd w 60 minut</p><p class="gm-ds">Awarie, przecieki, montaż. Wycena przed rozpoczęciem pracy.</p><p class="gm-sl"><span>Cennik</span><span>Opinie</span><span>Kontakt</span></p><span class="gm-call">Zadzwoń</span></div></Fragment>)}
+                  {a.k === 'pmax' && (<Fragment><div class="gm-pmax"><b>Performance Max</b><span style="--a:0deg">Wyszukiwarka</span><span style="--a:60deg">YouTube</span><span style="--a:120deg">Gmail</span><span style="--a:180deg">Discover</span><span style="--a:240deg">Mapy</span><span style="--a:300deg">Sieć reklamowa</span></div></Fragment>)}
+                  {a.k === 'shop' && (<Fragment><div class="gm-shop">{[['Ekspres kolbowy','2 899 zł'],['Młynek do kawy','749 zł'],['Dzbanek do mleka','89 zł']].map((p, i) => (<div class={`gm-prod g${i}`}><i aria-hidden="true"></i><b>{p[0]}</b><span>{p[1]}</span><small>sklep-przyklad.pl</small></div>))}<p class="gm-spons">Sponsorowane</p></div></Fragment>)}
+                  {a.k === 'remk' && (<Fragment><ol class="gm-loop"><li>Wizyta na stronie</li><li>Brak kontaktu albo porzucony koszyk</li><li>Osoba trafia na listę odbiorców</li><li>Widzi Twoją reklamę na YouTube lub w Gmailu</li><li>Wraca i kupuje</li></ol></Fragment>)}
+                  {a.k === 'display' && (<Fragment><div class="gm-page"><i></i><i></i><i class="s"></i><div class="gm-ban"><small>Reklama</small><b>Przegląd klimatyzacji</b><span>Zapisz się w tym tygodniu</span><em>Umów termin</em></div><i></i><i class="s"></i></div></Fragment>)}
+                  {a.k === 'video' && (<Fragment><div class="gm-video"><span class="gm-play" aria-hidden="true"></span><span class="gm-skip">Pomiń reklamę ▸</span><span class="gm-ad">Reklama · 0:12</span><span class="gm-bar"><i></i></span></div></Fragment>)}
+                  {a.k === 'dg' && (<Fragment><div class="gm-feed"><div class="gm-card"><i></i><b>Nowa kolekcja dywanów</b><small>Sponsorowane · Discover</small></div><div class="gm-card"><i class="b"></i><b>Ręcznie tkane wzory</b><small>Sponsorowane · YouTube Shorts</small></div></div></Fragment>)}
+                  {a.k === 'aimax' && (<Fragment><div class="gm-ai"><span class="gm-ai-q">„ekspres do małej kawiarni z młynkiem”</span><span class="gm-ai-arr" aria-hidden="true">↓</span><span class="gm-ai-m">AI Max czyta Twoją stronę</span><span class="gm-ai-arr" aria-hidden="true">↓</span><span class="gm-ai-r">Reklama z dopasowanym nagłówkiem → /ekspresy-dla-kawiarni/</span></div></Fragment>)}
+                </div>
+              )}
+            </div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="lejek" class="sec deco-wave" aria-labelledby="ga-fun-h">
     <div class="wrap ga-split">
       <div class="rv">
         <p class="eyebrow scr">Diagram</p>
@@ -199,11 +306,11 @@ const ld = [
     </div>
   </section>
 
-  <section id="aukcja" class="sec deco-bars" aria-labelledby="ga-auc-h">
+  <section id="aukcja" class="sec alt deco-bars" aria-labelledby="ga-auc-h">
     <div class="wrap ga-split ga-split-r">
       <figure class="ga-fig ga-fig-tall rv">
-        <img decoding="async" src="/img/gads/gads-wyniki-telefon.webp" alt="Reklama Google Ads z oznaczeniem Sponsorowane w wynikach wyszukiwania na telefonie" width="1344" height="752" loading="lazy">
-        <figcaption>Reklama w wyszukiwarce ma oznaczenie „Sponsorowane” i może mieć przycisk połączenia.</figcaption>
+        <img decoding="async" src="/img/gads/gads-wyniki-laptop.webp" alt="Reklamy Google Ads z oznaczeniem Sponsorowane nad wynikami wyszukiwania na laptopie" width="1344" height="752" loading="lazy">
+        <figcaption>Reklamy stoją nad wynikami bezpłatnymi i mają oznaczenie „Sponsorowane”. Kolejność ustala aukcja.</figcaption>
       </figure>
       <div class="rv d1">
         <p class="eyebrow scr">Jak działa aukcja</p>
@@ -221,7 +328,7 @@ const ld = [
     </div>
   </section>
 
-  <section id="kalkulator" class="sec alt deco-rings deco-l" aria-labelledby="ga-calc-h">
+  <section id="kalkulator" class="sec deco-rings deco-l" aria-labelledby="ga-calc-h">
     <div class="wrap">
       <p class="eyebrow scr">Kalkulator</p>
       <h2 id="ga-calc-h" class="h h2 split">Ile zapytań może dać Twój budżet?</h2>
