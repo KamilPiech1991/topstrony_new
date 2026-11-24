@@ -54,6 +54,10 @@ def gen(name, tpl):
         a = '<li><a href={m?.href} tabindex={m?.tab} data-act="mega-close">{s}</a></li>'
         assert a in code
         code = code.replace(a, "<li><a href={s === 'Google Ads' ? '/uslugi/google-ads/' : m?.href} tabindex={m?.tab} data-act=\"mega-close\">{s}</a></li>")
+    if name == 'HomeMain':
+        a = 'FAQ, dane strukturalne i plik llms.txt.</p>'
+        assert a in code
+        code = code.replace(a, 'FAQ, dane strukturalne i plik llms.txt. Tak samo przygotowaliśmy stronę <a href="/strony-internetowe-piaseczno/" class="tlink">strony internetowe Piaseczno</a>.</p>', 1)
     if name == 'KontaktMain':
         import re as _re
         code, n = _re.subn(r'<div class="kt-map rv d2" aria-hidden="true">.*?</div>\n    </div>\n  </section>',

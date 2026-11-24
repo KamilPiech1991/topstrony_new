@@ -35,6 +35,8 @@ const withGads = (cols: any[] | undefined) => (cols ?? []).map((c) => {
   if (at < 0) return c;
   const links = [...c.links];
   links.splice(at, 0, { t: 'Kampanie Google Ads', href: '/uslugi/google-ads/' });
+  const sw = links.findIndex((l: any) => l.href === '/uslugi/strony-internetowe/');
+  if (sw >= 0) links.splice(sw + 1, 0, { t: 'Strony internetowe Piaseczno', href: '/strony-internetowe-piaseczno/' });
   return { ...c, links: links.map((l: any, i: number) => ({ ...l, i: String(i) })) };
 });
 const hv = { ...v, navRest: withKb(v.navRest), navLinks: withKb(v.navLinks), footCols: withGads(v.footCols) };
