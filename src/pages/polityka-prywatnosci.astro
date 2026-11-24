@@ -1,0 +1,135 @@
+---
+import Base from '../layouts/Base.astro';
+import v from '../data/pages/home.json';
+import { crumbs } from '../data/site';
+
+const path = '/polityka-prywatnosci/';
+const updated = '24 listopada 2026';
+---
+<Base v={v} page="polityka" path={path}
+  title="Polityka prywatności i cookies – top.strony"
+  description="Polityka prywatności serwisu topstrony.pl: kto jest administratorem danych, jakie dane zbieramy w formularzu, jakie pliki cookies stosujemy i jakie masz prawa według RODO."
+  jsonLd={[crumbs([['Strona główna', '/'], ['Polityka prywatności', path]])]}>
+  <main id="main">
+    <section class="sec lg-sec">
+      <div class="wrap lg-wrap">
+        <nav class="lg-crumbs" aria-label="Okruszki"><a href="/">Strona główna</a> / <span>Polityka prywatności</span></nav>
+        <p class="eyebrow h-in">Dokumenty</p>
+        <h1 class="h h2 h-in">Polityka prywatności i plików cookies</h1>
+        <p class="lead h-in">Z tej strony dowiesz się, kto odpowiada za Twoje dane, po co je zbieramy, jak długo je trzymamy i co możesz z nimi zrobić. Ostatnia aktualizacja: {updated}.</p>
+
+        <nav class="lg-toc" aria-label="Spis treści">
+          <a href="#administrator">1. Administrator</a><a href="#definicje">2. Definicje</a><a href="#dane">3. Jakie dane zbieramy</a>
+          <a href="#cele">4. Cele i podstawy prawne</a><a href="#odbiorcy">5. Odbiorcy danych</a><a href="#okres">6. Jak długo</a>
+          <a href="#prawa">7. Twoje prawa</a><a href="#cookies">8. Cookies</a><a href="#zewnetrzne">9. Usługi zewnętrzne</a><a href="#zmiany">10. Zmiany</a>
+        </nav>
+
+        <article class="lg-body">
+          <h2 id="administrator">1. Administrator danych</h2>
+          <p>Administratorem danych osobowych zbieranych w serwisie <a href="https://topstrony.pl/">topstrony.pl</a> jest <strong>Qamitech Kamil Piech</strong>, ul. Cicha 3, 05-500 Stara Iwiczna, NIP 1231220297, działający pod marką top.strony (dalej: „Administrator”). Biuro: ul. Strusia 3C lok. 31, 05-500 Piaseczno.</p>
+          <p>Kontakt w sprawach danych osobowych:</p>
+          <ul>
+            <li>e-mail: <a href="mailto:biuro@topstrony.pl">biuro@topstrony.pl</a></li>
+            <li>telefon: <a href="tel:+48501784882">+48 501 784 882</a> (pon.–pt. 9:00–20:00)</li>
+            <li>poczta: ul. Strusia 3C lok. 31, 05-500 Piaseczno</li>
+          </ul>
+          <p>Administrator nie powołał Inspektora Ochrony Danych, bo nie wymaga tego art. 37 RODO. We wszystkich sprawach dotyczących danych pisz lub dzwoń bezpośrednio do Administratora.</p>
+
+          <h2 id="definicje">2. Definicje</h2>
+          <ul>
+            <li><strong>Serwis</strong>: strona internetowa działająca pod adresem https://topstrony.pl/.</li>
+            <li><strong>Użytkownik</strong>: osoba, która korzysta z Serwisu.</li>
+            <li><strong>Urządzenie</strong>: komputer, telefon lub inne urządzenie z przeglądarką, przez które Użytkownik korzysta z Serwisu.</li>
+            <li><strong>Cookies</strong>: małe pliki tekstowe zapisywane na Urządzeniu przez przeglądarkę. Do tej kategorii zaliczamy też podobne mechanizmy, np. pamięć lokalną przeglądarki (localStorage).</li>
+            <li><strong>RODO</strong>: rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z 27 kwietnia 2016 r. o ochronie danych osobowych.</li>
+            <li><strong>Dane osobowe</strong>, <strong>przetwarzanie</strong>, <strong>zgoda</strong>, <strong>profilowanie</strong>: w rozumieniu art. 4 RODO.</li>
+          </ul>
+
+          <h2 id="dane">3. Jakie dane zbieramy</h2>
+          <p><strong>Formularz kontaktowy i wyceny.</strong> Gdy wysyłasz zapytanie, podajesz imię i nazwisko, adres e-mail, opcjonalnie telefon, rodzaj usługi i treść wiadomości. Podanie danych jest dobrowolne, ale bez imienia i e-maila nie możemy odpowiedzieć.</p>
+          <p><strong>E-mail i telefon.</strong> Gdy piszesz na biuro@topstrony.pl albo dzwonisz, przetwarzamy dane, które sam podasz w rozmowie lub wiadomości.</p>
+          <p><strong>Dane techniczne.</strong> Serwer hostingu automatycznie zapisuje w logach adres IP, datę i godzinę wizyty, typ przeglądarki i otwierany adres. Służą one do zapewnienia bezpieczeństwa i działania Serwisu.</p>
+          <p>Serwis nie ma kont użytkowników ani logowania i nie prowadzi newslettera.</p>
+
+          <h2 id="cele">4. Cele i podstawy prawne przetwarzania</h2>
+          <ul>
+            <li>Odpowiedź na zapytanie i przygotowanie wyceny: art. 6 ust. 1 lit. b RODO (działania przed zawarciem umowy na Twoje żądanie) oraz art. 6 ust. 1 lit. a RODO (zgoda zaznaczona w formularzu).</li>
+            <li>Kontakt w sprawie złożonego zapytania i prowadzenie korespondencji: art. 6 ust. 1 lit. f RODO (prawnie uzasadniony interes Administratora).</li>
+            <li>Zapewnienie bezpieczeństwa Serwisu, ochrona przed spamem i nadużyciami: art. 6 ust. 1 lit. f RODO.</li>
+            <li>Ustalenie, dochodzenie lub obrona roszczeń: art. 6 ust. 1 lit. f RODO.</li>
+            <li>Zapis cookies niezbędnych do działania Serwisu: art. 399 ustawy z 12 lipca 2024 r. Prawo komunikacji elektronicznej. Na pozostałe cookies, jeśli zostaną włączone, prosimy o zgodę.</li>
+          </ul>
+          <p>Nie podejmujemy wobec Ciebie decyzji w sposób zautomatyzowany i nie profilujemy Cię w rozumieniu art. 22 RODO. Nie sprzedajemy danych osobowych.</p>
+
+          <h2 id="odbiorcy">5. Komu przekazujemy dane</h2>
+          <p>Dane trafiają tylko do firm, które pomagają nam prowadzić Serwis i obsługiwać korespondencję, na podstawie umów powierzenia przetwarzania:</p>
+          <ul>
+            <li><strong>Netlify, Inc.</strong> (USA): hosting Serwisu i obsługa formularza kontaktowego. Przekazanie danych do USA odbywa się na podstawie decyzji Komisji Europejskiej (EU-U.S. Data Privacy Framework) lub standardowych klauzul umownych.</li>
+            <li><strong>dhosting.pl sp. z o.o.</strong> (Polska): obsługa domeny i poczty e-mail biuro@topstrony.pl.</li>
+            <li>Biuro rachunkowe i podmioty świadczące usługi prawne, jeśli dojdzie do zawarcia umowy.</li>
+          </ul>
+          <p>Dane mogą też trafić do organów publicznych, jeśli nakaże to przepis prawa.</p>
+
+          <h2 id="okres">6. Jak długo przechowujemy dane</h2>
+          <ul>
+            <li>Zapytania, na które nie zawarliśmy umowy: do 12 miesięcy od ostatniego kontaktu, potem je usuwamy.</li>
+            <li>Dane klientów: przez czas trwania umowy, a następnie przez okres wymagany przepisami podatkowymi (zwykle 5 lat od końca roku, w którym powstał obowiązek podatkowy).</li>
+            <li>Dane potrzebne do obrony roszczeń: do upływu terminu przedawnienia.</li>
+            <li>Logi serwera: zgodnie z ustawieniami dostawcy hostingu, zwykle do 30 dni.</li>
+          </ul>
+
+          <h2 id="prawa">7. Twoje prawa</h2>
+          <p>Masz prawo do:</p>
+          <ul>
+            <li>dostępu do swoich danych i otrzymania ich kopii (art. 15 RODO),</li>
+            <li>sprostowania danych nieprawidłowych lub niepełnych (art. 16 RODO),</li>
+            <li>usunięcia danych (art. 17 RODO),</li>
+            <li>ograniczenia przetwarzania (art. 18 RODO),</li>
+            <li>przeniesienia danych (art. 20 RODO),</li>
+            <li>sprzeciwu wobec przetwarzania opartego na prawnie uzasadnionym interesie (art. 21 RODO),</li>
+            <li>cofnięcia zgody w dowolnym momencie, bez wpływu na zgodność z prawem przetwarzania przed jej cofnięciem,</li>
+            <li>wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych (ul. Stawki 2, 00-193 Warszawa, <a href="https://uodo.gov.pl/" rel="noopener">uodo.gov.pl</a>).</li>
+          </ul>
+          <p>Żeby skorzystać z tych praw, napisz na <a href="mailto:biuro@topstrony.pl">biuro@topstrony.pl</a>. Odpowiadamy bez zbędnej zwłoki, najpóźniej w ciągu miesiąca.</p>
+
+          <h2 id="cookies">8. Pliki cookies i pamięć przeglądarki</h2>
+          <p>Serwis zapisuje w przeglądarce tylko to, co jest potrzebne do jego działania:</p>
+          <ul>
+            <li><strong>Wybór motywu</strong> (jasny lub ciemny) w pamięci lokalnej przeglądarki, żeby strona pamiętała Twój wybór przy kolejnej wizycie. Nie zawiera danych osobowych.</li>
+            <li><strong>Cookies techniczne hostingu</strong> Netlify, potrzebne do bezpiecznego wyświetlania strony i obsługi formularza.</li>
+          </ul>
+          <p>Jeśli włączymy narzędzia analityczne lub reklamowe (np. Google Analytics 4, tag Google Ads, piksel Meta), zaczną one działać dopiero po Twojej zgodzie w banerze cookies, a ich lista pojawi się w tym punkcie.</p>
+          <p>Możesz w każdej chwili usunąć cookies i dane strony albo zablokować ich zapis w ustawieniach przeglądarki: <a href="https://support.google.com/chrome/answer/95647?hl=pl" rel="noopener">Chrome</a>, <a href="https://support.mozilla.org/pl/kb/blokowanie-ciasteczek" rel="noopener">Firefox</a>, <a href="https://support.apple.com/pl-pl/guide/safari/sfri11471/mac" rel="noopener">Safari</a>, <a href="https://support.microsoft.com/pl-pl/microsoft-edge/usuwanie-plik%C3%B3w-cookie-w-przegl%C4%85darce-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" rel="noopener">Edge</a>, <a href="https://help.opera.com/pl/latest/web-preferences/" rel="noopener">Opera</a>. Zablokowanie zapisu może sprawić, że część funkcji, np. zapamiętanie motywu, nie będzie działać.</p>
+
+          <h2 id="zewnetrzne">9. Usługi zewnętrzne osadzone w Serwisie</h2>
+          <ul>
+            <li><strong>Mapy Google</strong> (Google Ireland Ltd.) na stronach kontaktowych. Po wyświetleniu mapy Google może zapisać własne cookies i otrzymać Twój adres IP. Zasady: <a href="https://policies.google.com/privacy?hl=pl" rel="noopener">polityka prywatności Google</a>.</li>
+            <li><strong>Linki do profili</strong> top.strony na Facebooku, Instagramie i LinkedIn. To zwykłe odnośniki: nic nie wysyłają do tych serwisów, dopóki ich nie klikniesz.</li>
+          </ul>
+          <p>W artykułach mogą się znajdować linki do innych stron. Nie odpowiadamy za ich zawartość ani za to, jak przetwarzają dane.</p>
+
+          <h2 id="zmiany">10. Zmiany polityki prywatności</h2>
+          <p>Politykę aktualizujemy, gdy zmieniają się przepisy albo narzędzia, z których korzysta Serwis. Nowa wersja obowiązuje od publikacji na tej stronie, a datę ostatniej zmiany podajemy na górze.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+</Base>
+
+<style is:global>
+  .lg-sec{padding:170px 0 110px}
+  .lg-wrap{max-width:860px}
+  .lg-crumbs{font-size:13px;color:var(--muted);margin-bottom:18px}
+  .lg-crumbs a{color:var(--muted);text-decoration:none}
+  .lg-crumbs a:hover{color:var(--acc)}
+  .lg-toc{display:flex;flex-wrap:wrap;gap:8px;margin:34px 0 10px}
+  .lg-toc a{font-size:13px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);color:var(--text);text-decoration:none;background:var(--surface)}
+  .lg-toc a:hover{border-color:var(--acc);color:var(--acc)}
+  .lg-body{margin-top:30px;color:var(--text);font-size:16px;line-height:1.75}
+  .lg-body h2{font-family:Poppins,Inter,sans-serif;color:var(--ink);font-size:clamp(21px,2.2vw,26px);line-height:1.25;margin:48px 0 14px;scroll-margin-top:110px}
+  .lg-body p{margin:0 0 14px}
+  .lg-body ul{margin:0 0 16px;padding-left:20px}
+  .lg-body li{margin:0 0 8px}
+  .lg-body strong{color:var(--ink)}
+  .lg-body a{color:var(--acc);text-underline-offset:3px}
+</style>

@@ -6,7 +6,8 @@
 - [Strony internetowe](https://topstrony.pl/uslugi/strony-internetowe/): strony firmowe i landing page w Astro lub WordPressie, gotowe pod Google.
 - [Sklepy internetowe](https://topstrony.pl/uslugi/sklepy-internetowe/): WooCommerce i Shopify z płatnościami, kurierami i Merchant Center.
 - [Pozycjonowanie SEO, AEO i GEO](https://topstrony.pl/uslugi/pozycjonowanie-seo/): Google, Mapy Google i odpowiedzi ChatGPT, Gemini, AI Overviews.
-- [Strony internetowe Piaseczno](https://topstrony.pl/strony-internetowe-piaseczno/): tworzenie stron internetowych w Piasecznie; biuro ul. Strusia 3C lok. 31, 05-500 Piaseczno, pon.–pt. 9–20; strona internetowa od 3 000 zł netto; wizytówka 2–3 tygodnie, serwis 4–6 tygodni; SEO lokalne i Profil Firmy w Google w cenie.
+- [Strony internetowe Piaseczno](https://topstrony.pl/strony-internetowe-piaseczno/): tworzenie stron internetowych w Piasecznie; biuro ul. Strusia 3C lok. 31, 05-500 Piaseczno, pon.–pt. 9–20; strona internetowa od 3 000 zł netto; wizytówka 2–3 tygodnie, serwis firmowy 1–2 tygodnie; SEO lokalne i Profil Firmy w Google w cenie.
+- [Strony internetowe Warszawa](https://topstrony.pl/strony-internetowe-warszawa/): tworzenie stron internetowych dla firm z Warszawy; spotkania u klienta we wszystkich dzielnicach, biuro w Piasecznie (ul. Strusia 3C lok. 31) ok. 20 min od Mokotowa i Ursynowa; strona internetowa od 3 000 zł netto; wizytówka 2–3 tygodnie, serwis firmowy 1–2 tygodnie; SEO lokalne pod frazy z dzielnicą i Profil Firmy w Google w cenie.
 - [Kampanie Google Ads](https://topstrony.pl/uslugi/google-ads/): prowadzenie kampanii Search, Performance Max, Zakupy Google, Mapy, YouTube, Demand Gen i remarketing; bezpłatny audyt konta, pomiar w GA4, raport co miesiąc.
 - [Kampanie Google Ads i Meta Ads](https://topstrony.pl/uslugi/kampanie-google-meta-ads/): Search, Performance Max, YouTube, Facebook i Instagram z pomiarem w GA4.
 - [Social media](https://topstrony.pl/uslugi/social-media/): strategia, kalendarz treści, grafiki, karuzele i rolki na FB, IG i TikToku.
@@ -22,3 +23,4 @@
 - [O nas](https://topstrony.pl/o-nas/)
 - [Realizacje](https://topstrony.pl/realizacje/)
 - [Kontakt i wycena w 24 h](https://topstrony.pl/kontakt/)
+- [Polityka prywatności](https://topstrony.pl/polityka-prywatnosci/): administrator danych Qamitech Kamil Piech, zakres danych z formularza, cookies, prawa RODO.

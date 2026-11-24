@@ -1,0 +1,306 @@
+---
+import Base from '../layouts/Base.astro';
+import v from '../data/pages/srv-strony.json';
+import { crumbs, faqLd, SITE } from '../data/site';
+import '../styles/piaseczno.css';
+
+const path = '/strony-internetowe-warszawa/';
+const title = 'Strony internetowe Warszawa – tworzenie stron od 3000 zł | top.strony';
+const description = 'Tworzenie stron internetowych dla firm z Warszawy. Spotkanie u Ciebie w biurze, strona od 3 000 zł netto, SEO lokalne pod dzielnice i Mapy Google w cenie. Wycena w 24 h.';
+const AUTHOR = { name: 'Kamil Piech', linkedin: 'https://www.linkedin.com/in/kamil-piech-674b7912a/' };
+
+import home from '../data/pages/home.json';
+const logos = (home.logosLoop as any[]).slice(0, 15);
+const gallery = [
+  { src: '/img/warszawa/wa-spotkanie-biuro.webp', alt: 'Spotkanie z klientką w biurze w Warszawie: projektant strony pokazuje projekt na laptopie, w tle wieżowce', cap: 'Przyjeżdżamy do Twojego biura w Warszawie. Pierwsza rozmowa trwa około godziny.', cls: 'g-a' },
+  { src: '/img/warszawa/wa-kawiarnia-praga.webp', alt: 'Laptop z makietą strony internetowej i szkicownik na stoliku w kawiarni na warszawskiej Pradze', cap: 'Albo w kawiarni, jeśli tak wygodniej. Makietę rysujemy jeszcze przy stoliku.', cls: 'g-b' },
+  { src: '/img/piaseczno/pz-biuro-projekt.webp', alt: 'Projektowanie strony internetowej w biurze top.strony', cap: 'Projekt i kodowanie robimy u siebie, a postęp widzisz na wersji testowej.', cls: 'g-c' },
+  { src: '/img/warszawa/wa-klient-gabinet.webp', alt: 'Właściciel gabinetu stomatologicznego w Warszawie pokazuje nową stronę internetową na telefonie', cap: 'Efekt: strona, którą pacjent z Mokotowa znajdzie w telefonie i od razu zadzwoni.', cls: 'g-d' },
+];
+const why = [
+  ['Przyjeżdżamy do Ciebie', 'Spotkanie w Twojej firmie na Mokotowie, Ursynowie, Woli czy w Śródmieściu. Biuro w Piasecznie jest 20 minut od południa Warszawy.', 'M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5'],
+  ['SEO pod dzielnice', 'Warszawa to 18 dzielnic i tysiące firm z tej samej branży. Układamy stronę pod frazy z dzielnicą, bo tam łatwiej wygrać niż na samą „Warszawę”.', 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM21 21l-5-5'],
+  ['Ceny małej agencji', 'Nie płacisz za biuro w centrum ani za handlowców. Strona od 3 000 zł netto, z SEO i pomiarem telefonów w cenie.', 'M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6'],
+  ['Jeden opiekun', 'Od wyceny po opiekę po starcie rozmawiasz z tą samą osobą. Telefon odbieramy od 9 do 20.', 'M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z'],
+];
+
+const offers = [
+  { badge: '2–3 tygodnie', h: 'Strona wizytówka', p: 'Jedna strona z ofertą, cennikiem, opiniami i kontaktem. Dla gabinetu, kancelarii, salonu albo firmy usługowej z jednej dzielnicy.', li: ['do 5 sekcji, wersja na telefon', 'formularz i pomiar w GA4', 'SEO lokalne na start'], price: 'od 3 000 zł netto', hot: false },
+  { badge: 'Najczęściej wybierana · 1–2 tygodnie', h: 'Serwis firmowy', p: 'Osobna podstrona dla każdej usługi i dzielnicy, blog i panel do edycji. Dla firm, które obsługują całą Warszawę i chcą być wysoko na kilka fraz naraz.', li: ['podstrony usług i dzielnic', 'blog i baza wiedzy', 'Astro albo WordPress'], price: 'wycena w 24 h', hot: true },
+  { badge: '3–6 tygodni', h: 'Nowa strona w miejsce starej', p: 'Przebudowa strony, która jest wolna albo przestała przynosić zapytania. Przenosimy treści i ustawiamy przekierowania, żeby nie stracić pozycji.', li: ['audyt starej strony', 'mapa przekierowań 301', 'migracja treści i zdjęć'], price: 'wycena w 24 h', hot: false },
+];
+
+const steps = [
+  ['Rozmowa w Warszawie lub przez telefon', 'Przyjeżdżamy do Ciebie albo rozmawiamy online. Pytamy o klientów, konkurencję w dzielnicy i to, skąd dziś przychodzą zapytania.'],
+  ['Wycena w 24 godziny', 'Zakres, termin i cena na piśmie. Bez ukrytych dopłat po starcie.'],
+  ['Makieta i projekt graficzny', 'Najpierw układ treści, potem wygląd w Figmie. Akceptujesz każdy etap.'],
+  ['Kodowanie', 'Astro dla szybkości albo WordPress dla częstej edycji. Wersja testowa jest ukryta przed Google.'],
+  ['SEO lokalne', 'Frazy z „Warszawa” i z nazwą dzielnicy, dane strukturalne, Profil Firmy w Google i mapa strony.'],
+  ['Start, szkolenie i opieka', 'Uruchamiamy stronę na Twojej domenie, pokazujemy panel i zostajemy pod telefonem.'],
+];
+
+const seo = [
+  'Podstrony pod frazy typu „usługa + Warszawa” i „usługa + dzielnica”, np. „dentysta Mokotów”',
+  'Ten sam adres i telefon na stronie, w Profilu Firmy w Google i w katalogach',
+  'Dane strukturalne z adresem, godzinami i obszarem działania w Warszawie',
+  'Szybkie ładowanie na telefonie, bo większość lokalnych wyszukiwań jest z komórki',
+  'Sekcja pytań i odpowiedzi, którą łatwo zacytować asystentom AI',
+];
+
+const areas = ['Warszawa', 'Mokotów', 'Ursynów', 'Wilanów', 'Śródmieście', 'Wola', 'Ochota', 'Żoliborz', 'Bielany', 'Bemowo', 'Praga-Południe', 'Praga-Północ', 'Białołęka', 'Targówek', 'Wawer', 'Wesoła', 'Ursus', 'Włochy', 'Rembertów', 'Piaseczno', 'Konstancin-Jeziorna', 'Raszyn'];
+
+const cases = [
+  { slug: 'convey-cargo', img: '/img/realizacja-convey-cargo.webp', place: 'Warszawa', h: 'Convey Cargo', p: 'Spedycja i transport międzynarodowy. Strona z ofertą dla klientów B2B.' },
+  { slug: 'kancelaria-wilczek', img: '/img/realizacja-kancelaria-radcy-prawnego-malgorzata-wilczek.webp', place: 'Warszawa i Lublin', h: 'Kancelaria Małgorzaty Wilczek', p: 'Radca prawny. Strona ze specjalizacjami i kontaktem do dwóch biur.' },
+  { slug: 'sahra-art', img: '/img/realizacja-sahra-art.webp', place: 'Warszawa', h: 'Sahra Art', p: 'Sklep z ręcznie tkanymi dywanami marokańskimi. Projekt i wdrożenie sklepu.' },
+];
+
+const reviews = [
+  ['Adrian Wojnarowski', 'Zrobili mi porządną stronę internetową, która bez znacznego marketingu generuje zapytania klientów. Polecam z nimi działać.'],
+  ['Michał Szymański', 'Świetna realizacja projektu strony dla naszej firmy. Plusy za terminowość oraz świetny kontakt na każdym etapie projektu. Polecam.'],
+  ['Damian Konieczny', 'Współpraca z tą firmą to czysta przyjemność. Doskonałe doradztwo, a strona jest elegancka i łatwa w nawigacji.'],
+];
+
+const faqs = [
+  { q: 'Ile kosztuje strona internetowa w Warszawie?', a: 'U nas strona internetowa kosztuje od 3 000 zł netto. Cena zależy od liczby podstron, technologii i tego, czy piszemy treści. Dokładną wycenę z zakresem i terminem wysyłamy w 24 godziny.' },
+  { q: 'Ile trwa zrobienie strony internetowej?', a: 'Wizytówka powstaje w 2–3 tygodnie, serwis firmowy z podstronami w 1–2 tygodnie. Najwięcej zależy od tego, jak szybko dostaniemy treści, zdjęcia i akceptacje.' },
+  { q: 'Czy macie biuro w Warszawie?', a: 'Biuro mamy w Piasecznie przy ul. Strusiej 3C lok. 31, około 20 minut od Ursynowa i Mokotowa. Na spotkania przyjeżdżamy do firm w całej Warszawie, od poniedziałku do piątku w godzinach 9–20. Możemy też porozmawiać zdalnie.' },
+  { q: 'Czy strona będzie widoczna w Google na frazy z Warszawą?', a: 'Każdą stronę oddajemy z SEO lokalnym: nagłówkami i podstronami pod frazy z miastem i dzielnicą, danymi strukturalnymi i połączeniem z Profilem Firmy w Google. W Warszawie konkurencja jest duża, więc wysokie pozycje na ogólne frazy wymagają potem stałego pozycjonowania. Frazy z dzielnicą zwykle dają pierwsze zapytania szybciej.' },
+  { q: 'Dlaczego mniejsza agencja, a nie duży software house?', a: 'Strona dla lokalnej firmy nie potrzebuje zespołu dziesięciu osób. U nas projekt prowadzi jedna osoba od wyceny do startu, więc płacisz za stronę, a nie za koszty biura w centrum i pracę handlowców.' },
+  { q: 'WordPress czy strona pisana kodem?', a: 'Strona w Astro ładuje się szybciej i jest bezpieczniejsza, a WordPress daje wygodny panel do częstych zmian. Technologię dobieramy po rozmowie o tym, jak często będziesz zmieniać treści.' },
+  { q: 'Czy zajmujecie się też wizytówką Google?', a: 'Tak. Zakładamy albo porządkujemy Profil Firmy w Google, dodajemy zdjęcia, godziny i usługi oraz łączymy go ze stroną, żeby firma pokazywała się w Mapach na hasła „w pobliżu”.' },
+  { q: 'Mam już stronę. Czy zmiana nie zepsuje pozycji?', a: 'Przed przeniesieniem robimy audyt starej strony i mapę przekierowań 301 ze starych adresów na nowe. Dzięki temu Google i klienci trafiają na właściwe podstrony.' },
+  { q: 'Czy strona i domena będą moje?', a: 'Tak. Domena, hosting, pliki strony i konta analityczne należą do Ciebie. Po starcie przekazujemy wszystkie dostępy.' },
+];
+
+const ld = [
+  { '@context': 'https://schema.org', '@type': 'Service', name: 'Strony internetowe Warszawa', serviceType: 'Tworzenie stron internetowych', description, url: SITE + path,
+    provider: { '@id': SITE + '/#business' },
+    areaServed: [{ '@type': 'City', name: 'Warszawa', sameAs: 'https://pl.wikipedia.org/wiki/Warszawa' }, ...areas.slice(1).map((a) => ({ '@type': 'Place', name: a }))],
+    offers: { '@type': 'Offer', priceCurrency: 'PLN', price: '3000', priceSpecification: { '@type': 'UnitPriceSpecification', price: '3000', priceCurrency: 'PLN', valueAddedTaxIncluded: false }, description: 'Strona internetowa od 3 000 zł netto' } },
+  { '@context': 'https://schema.org', '@type': 'WebPage', name: title, url: SITE + path, inLanguage: 'pl-PL', dateModified: '2026-11-24',
+    author: { '@type': 'Person', name: AUTHOR.name, url: SITE + '/o-nas/', sameAs: [AUTHOR.linkedin] }, primaryImageOfPage: SITE + '/img/warszawa/panorama-warszawy-og.jpg', image: gallery.map((g) => SITE + g.src),
+    about: { '@type': 'City', name: 'Warszawa', address: { '@type': 'PostalAddress', addressLocality: 'Warszawa', addressRegion: 'mazowieckie', addressCountry: 'PL' } } },
+  faqLd(faqs),
+  crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/'], ['Strony internetowe Warszawa', path]]),
+];
+---
+<Base v={v} page="local-warszawa" path={path} jsonLd={ld} title={title} description={description} image="/img/warszawa/panorama-warszawy-og.jpg">
+  <main id="main" class="pz">
+  <section class="pz-hero" aria-labelledby="pz-h1">
+    <img class="pz-hero-bg" src="/img/warszawa/panorama-warszawy.webp" alt="Panorama Warszawy wieczorem nad Wisłą, z Pałacem Kultury i wieżowcami Woli" width="2000" height="1119" fetchpriority="high" decoding="async">
+    <div class="pz-hero-ov" aria-hidden="true"></div>
+    <canvas class="pz-3d" aria-hidden="true"></canvas>
+    <div class="wrap pz-hero-in">
+      <nav class="pz-crumbs" aria-label="Okruszki"><ol><li><a href="/">Strona główna</a></li><li><a href="/uslugi/">Usługi</a></li><li aria-current="page">Strony internetowe Warszawa</li></ol></nav>
+      <p class="pz-pin"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8FD35A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>Spotkania w całej Warszawie · 20 min od Mokotowa</p>
+      <h1 id="pz-h1" class="pz-h1" data-gs="hero">Strony internetowe Warszawa</h1>
+      <p class="pz-sub" data-gs="hero">Tworzenie stron internetowych dla warszawskich firm, od projektu do telefonów od klientów</p>
+      <p class="pz-lead" data-gs="hero">Projektujemy i kodujemy szybkie strony dla firm z Warszawy. Przyjedziemy do Ciebie na rozmowę, a stronę od pierwszego dnia przygotujemy pod frazy z nazwą miasta i dzielnicy oraz pod Mapy Google.</p>
+      <div class="pz-cta" data-gs="hero">
+        <a data-magnetic href="/kontakt/" class="btn btn-g">Bezpłatna wycena w 24 h <span aria-hidden="true">→</span></a>
+        <a href="tel:+48501784882" class="pz-ghost">Zadzwoń: 501 784 882</a>
+      </div>
+      <ul class="pz-stats" data-gs="hero">
+        <li><b>5,0 ★</b><span>średnia z 20 opinii w Google</span></li>
+        <li><b>35</b><span>stron i sklepów w portfolio</span></li>
+        <li><b>od 3 000 zł</b><span>netto za stronę internetową</span></li>
+        <li><b>1–3 tyg.</b><span>od rozmowy do startu strony</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec pz-short" aria-labelledby="pz-skrot">
+    <div class="wrap">
+      <div class="pz-answer rv">
+        <div>
+          <p id="pz-skrot" class="pz-k">W skrócie</p>
+          <p><strong>top.strony projektuje i koduje strony internetowe dla firm z Warszawy. Na spotkania przyjeżdżamy do klienta, a biuro mamy w Piasecznie (ul. Strusia 3C), 20 minut od Mokotowa i Ursynowa.</strong> Strona internetowa kosztuje od 3 000 zł netto. Wizytówkę robimy w 2–3 tygodnie, serwis firmowy w 1–2 tygodnie. Każda strona ma w cenie SEO lokalne pod frazy z „Warszawa” i nazwą dzielnicy, połączenie z Profilem Firmy w Google i pomiar telefonów w GA4. Wycenę wysyłamy w 24 godziny.</p>
+        </div>
+        <dl class="pz-nap">
+          <div><dt>Obszar</dt><dd>cała Warszawa i okolice</dd></div>
+          <div><dt>Godziny</dt><dd>pon.–pt. 9:00–20:00</dd></div>
+          <div><dt>Cena</dt><dd>od 3 000 zł netto</dd></div>
+          <div><dt>Telefon</dt><dd><a href="tel:+48501784882">501 784 882</a></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="pz-logos" aria-labelledby="pz-logos-h">
+    <div class="wrap">
+      <p id="pz-logos-h" class="pz-logos-h">Zaufali nam przedsiębiorcy z Warszawy, Piaseczna i całej Polski</p>
+    </div>
+    <div class="pz-mq">
+      <div class="marquee">
+        {[...logos, ...logos].map((l: any) => (<span class="mlogo" role="img" aria-label={l.name} style={l.mask}></span>))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="pz-why">
+    <div class="wrap">
+      <p class="eyebrow scr">Strony dla warszawskich firm</p>
+      <h2 id="pz-why" class="h h2 split">Dlaczego firmy z Warszawy robią stronę u nas</h2>
+      <p class="lead pz-narrow">W Warszawie wybór agencji jest ogromny, a ceny potrafią się różnić kilkukrotnie. My jesteśmy małym zespołem: dojeżdżamy do klienta, projekt prowadzi jedna osoba, a w cenie strony jest od razu SEO lokalne.</p>
+      <div class="pz-grid4">
+        {why.map((w, i) => (
+          <article class="pz-card rv" style={`transition-delay:${i * 0.06}s`}>
+            <span class="pz-ic" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d={w[2]}></path></svg></span>
+            <h3 class="h">{w[0]}</h3>
+            <p>{w[1]}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec pz-gal-sec" aria-labelledby="pz-gal">
+    <div class="wrap">
+      <p class="eyebrow scr">Jak wygląda współpraca</p>
+      <h2 id="pz-gal" class="h h2 split">Od spotkania w Warszawie do strony, która przynosi klientów</h2>
+      <p class="lead pz-narrow">Większość projektów zaczynamy od rozmowy na miejscu: w Twoim biurze, gabinecie albo w kawiarni. Tak wygląda droga od pomysłu do gotowej strony.</p>
+      <div class="pz-gal">
+        {gallery.map((g) => (
+          <figure class={`pz-gfig ${g.cls}`} data-gs="reveal">
+            <div class="pz-gimg"><img src={g.src} alt={g.alt} width="1168" height="880" loading="lazy" decoding="async"></div>
+            <figcaption>{g.cap}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="oferta" class="sec alt" aria-labelledby="pz-off">
+    <div class="wrap">
+      <p class="eyebrow scr">Co robimy</p>
+      <h2 id="pz-off" class="h h2 split">Tworzenie stron internetowych w Warszawie: co robimy</h2>
+      <div class="pz-grid3">
+        {offers.map((o, i) => (
+          <article class={`pz-offer rv ${o.hot ? 'is-hot' : ''}`} style={`transition-delay:${i * 0.06}s`}>
+            <span class="pz-badge">{o.badge}</span>
+            <h3 class="h">{o.h}</h3>
+            <p>{o.p}</p>
+            <ul>{o.li.map((x) => <li>{x}</li>)}</ul>
+            <p class="pz-price">{o.price}</p>
+          </article>
+        ))}
+      </div>
+      <p class="pz-note rv">Sprzedajesz online? Zobacz <a href="/uslugi/sklepy-internetowe/">sklepy internetowe</a>. Strona już jest, ale nikt jej nie znajduje? Zobacz <a href="/uslugi/pozycjonowanie-seo/">pozycjonowanie SEO</a>. Chcesz telefonów od razu? Sprawdź <a href="/uslugi/google-ads/">kampanie Google Ads</a>. Pełny zakres usługi opisujemy na stronie <a href="/uslugi/strony-internetowe/">tworzenie stron internetowych</a>.</p>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="pz-proc">
+    <div class="wrap">
+      <p class="eyebrow scr">Jak pracujemy</p>
+      <h2 id="pz-proc" class="h h2 split">Od rozmowy do strony w 6 krokach</h2>
+      <ol class="pz-steps" data-gs="steps">
+        {steps.map((s, i) => (<li class="rv"><span class="pz-n">{String(i + 1).padStart(2, '0')}</span><div><h3 class="h">{s[0]}</h3><p>{s[1]}</p></div></li>))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec alt" aria-labelledby="pz-seo">
+    <div class="wrap pz-split">
+      <div class="rv">
+        <p class="eyebrow scr">SEO lokalne w cenie</p>
+        <h2 id="pz-seo" class="h h2 split">Strona, którą klienci z Twojej dzielnicy znajdą w Google</h2>
+        <p class="lead">Na samo hasło „Warszawa” konkuruje z Tobą kilka tysięcy firm. Dlatego każdą stronę oddajemy z SEO lokalnym ustawionym pod dzielnice, w których naprawdę pracujesz.</p>
+        <ul class="pz-checks">
+          {seo.map((x) => (<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>{x}</li>))}
+        </ul>
+      </div>
+      <div class="pz-area rv d1">
+        <h3 class="h">Gdzie pracujemy</h3>
+        <p>Wszystkie dzielnice Warszawy i gminy na południe od miasta.</p>
+        <ul data-gs="chips">{areas.map((a, i) => <li class={i === 0 ? 'is-main' : ''}>{a}</li>)}</ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="realizacje" class="sec" aria-labelledby="pz-real">
+    <div class="wrap">
+      <p class="eyebrow scr">Realizacje</p>
+      <h2 id="pz-real" class="h h2 split">Strony, które zrobiliśmy dla firm z Warszawy</h2>
+      <div class="pz-grid3">
+        {cases.map((c, i) => (
+          <a href={`/realizacje/${c.slug}/`} class="pz-case rv" style={`transition-delay:${i * 0.06}s`}>
+            <img src={c.img} alt={`Strona ${c.h}`} width="1200" height="750" loading="lazy" decoding="async">
+            <span class="pz-case-b"><small>{c.place}</small><b>{c.h}</b><span>{c.p}</span></span>
+          </a>
+        ))}
+      </div>
+      <p class="pz-note rv">Więcej projektów, także z okolic Warszawy, znajdziesz w <a href="/realizacje/">realizacjach</a>. Firmy z południa aglomeracji odsyłamy na stronę <a href="/strony-internetowe-piaseczno/">strony internetowe Piaseczno</a>.</p>
+    </div>
+  </section>
+
+  <section id="opinie" class="sec alt" aria-labelledby="pz-op">
+    <div class="wrap">
+      <div class="pz-op-head">
+        <div><p class="eyebrow scr">Opinie w Google</p><h2 id="pz-op" class="h h2 split">Co mówią klienci</h2></div>
+        <p class="pz-score">5,0 <span aria-hidden="true">★★★★★</span> <small>20 opinii</small></p>
+      </div>
+      <div class="pz-grid3">
+        {reviews.map((r, i) => (<figure class="pz-rev rv" style={`transition-delay:${i * 0.06}s`}><p class="pz-stars" aria-label="5 na 5">★★★★★</p><blockquote>„{r[1]}”</blockquote><figcaption>{r[0]}</figcaption></figure>))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-labelledby="pz-who">
+    <div class="wrap pz-split">
+      <div class="rv">
+        <p class="eyebrow scr">Kto prowadzi Twój projekt</p>
+        <h2 id="pz-who" class="h h2 split">Kamil Piech, założyciel top.strony</h2>
+        <p class="lead">Od 8 lat robię strony i marketing dla firm z Warszawy i okolic. Sam prowadzę projekty od pierwszej rozmowy do startu, więc wiem, co obiecałem i co zostało do zrobienia.</p>
+        <p class="lead">Ukończyłem kursy z certyfikatem u Karola Dziedzica, Daniela Bossa, WhitePress i Senuto.</p>
+        <a href={AUTHOR.linkedin} class="tlink" rel="noopener" target="_blank">Profil na LinkedIn →</a>
+      </div>
+      <div class="pz-quote rv d1">
+        <img src="/img/kamil-piech-face2.webp" alt="Kamil Piech" width="96" height="96" loading="lazy" decoding="async">
+        <div><p>„Strona ma przynosić telefony. Jeśli tego nie robi, szukamy przyczyny razem.”</p><small>Kamil Piech · top.strony · aktualizacja: listopad 2026</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="sec alt" aria-labelledby="pz-faq">
+    <div class="wrap pz-faq-wrap">
+      <p class="eyebrow scr">FAQ</p>
+      <h2 id="pz-faq" class="h h2 split">Pytania o strony internetowe w Warszawie</h2>
+      <div class="sv-faq rv">
+        {faqs.map((f, i) => (<details class="sv-fq" open={i === 0}><summary><h3 class="h">{f.q}</h3><span class="sv-fq-i" aria-hidden="true"></span></summary><p>{f.a}</p></details>))}
+      </div>
+    </div>
+  </section>
+
+  <section id="kontakt" class="sec" aria-labelledby="pz-cta">
+    <div class="wrap pz-contact">
+      <div class="pz-cta-box rv">
+        <img src="/img/konsultantka-zaproszenie.webp" alt="Doradczyni top.strony zaprasza na bezpłatną konsultację" width="725" height="1000" loading="lazy" decoding="async">
+        <div class="pz-cta-tx">
+          <p class="pz-k pz-k-w">Bezpłatna konsultacja · 20 min</p>
+          <h2 id="pz-cta" class="h">Porozmawiajmy o Twojej stronie</h2>
+          <p>Wycenę dostaniesz w 24 godziny, bez zobowiązań.</p>
+          <a href="tel:+48501784882" class="pz-wbtn">Zadzwoń: 501 784 882</a>
+        </div>
+      </div>
+      <div class="pz-nap-box rv d1">
+        <h3 class="h">top.strony · dla firm z Warszawy</h3>
+        <address>
+          <span>Biuro: ul. Strusia 3C lok. 31, 05-500 Piaseczno</span>
+          <span>Spotkania u klienta w całej Warszawie</span>
+          <span>pon.–pt. 9:00–20:00</span>
+          <a href="tel:+48501784882">501 784 882</a>
+          <a href="mailto:biuro@topstrony.pl">biuro@topstrony.pl</a>
+        </address>
+        <div class="kt-map pz-map"><iframe title="Mapa Google: top.strony, ul. Strusia 3C, Piaseczno" src="https://www.google.com/maps?q=ul.+Strusia+3C+Piaseczno&amp;hl=pl&amp;z=11&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <a href="https://www.google.com/maps/dir/?api=1&amp;destination=ul.+Strusia+3C,+05-500+Piaseczno" class="tlink" rel="noopener" target="_blank">Wyznacz trasę w Mapach Google →</a>
+      </div>
+    </div>
+  </section>
+  </main>
+</Base>
+
+<script>
+  import { initPiaseczno } from '../scripts/piaseczno-motion';
+  initPiaseczno();
+</script>

@@ -158,6 +158,12 @@
   status = 301
   force = true
 [[redirects]]
+  from = "/www/strony-internetowe-warszawa"
+  to = "/strony-internetowe-warszawa/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/www/*"
   to = "/uslugi/strony-internetowe/"
   status = 301
@@ -166,6 +172,42 @@
 # Pliki i strony prawne
 [[redirects]]
   from = "/assets/RODO.pdf"
-  to = "/kontakt/"
+  to = "/polityka-prywatnosci/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/polityka-prywatnosci.html"
+  to = "/polityka-prywatnosci/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/polityka-prywatnosci.php"
+  to = "/polityka-prywatnosci/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/regulamin"
+  to = "/polityka-prywatnosci/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/regulamin.html"
+  to = "/polityka-prywatnosci/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/cookies"
+  to = "/polityka-prywatnosci/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/polityka-cookies"
+  to = "/polityka-prywatnosci/"
   status = 301
   force = true

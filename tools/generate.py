@@ -29,6 +29,7 @@ def fix(tpl):
     tpl = tpl.replace('<input type="text" name="name" autocomplete="name">', '<input type="text" name="name" autocomplete="name" required>')
     tpl = tpl.replace('<input type="email" name="email" autocomplete="email">', '<input type="email" name="email" autocomplete="email" required>')
     tpl = tpl.replace('<input type="checkbox" name="rodo" ', '<input type="checkbox" name="rodo" required ')
+    tpl = tpl.replace('Szczegóły w polityce prywatności.', 'Szczegóły w <a href="/polityka-prywatnosci/" class="tlink">polityce prywatności</a>.')
     # images: async decode everywhere
     tpl = re.sub(r'<img (?![^>]*decoding)', '<img decoding="async" ', tpl)
     return tpl
@@ -57,7 +58,7 @@ def gen(name, tpl):
     if name == 'HomeMain':
         a = 'FAQ, dane strukturalne i plik llms.txt.</p>'
         assert a in code
-        code = code.replace(a, 'FAQ, dane strukturalne i plik llms.txt. Tak samo przygotowaliśmy stronę <a href="/strony-internetowe-piaseczno/" class="tlink">strony internetowe Piaseczno</a>.</p>', 1)
+        code = code.replace(a, 'FAQ, dane strukturalne i plik llms.txt. Tak samo przygotowaliśmy strony <a href="/strony-internetowe-piaseczno/" class="tlink">strony internetowe Piaseczno</a> i <a href="/strony-internetowe-warszawa/" class="tlink">strony internetowe Warszawa</a>.</p>', 1)
     if name == 'KontaktMain':
         import re as _re
         code, n = _re.subn(r'<div class="kt-map rv d2" aria-hidden="true">.*?</div>\n    </div>\n  </section>',
@@ -78,7 +79,7 @@ main = re.sub(r'<!-- ============ 14\. WYCENA ============ -->.*?(?=<!-- =======
 main = re.sub(r'<!-- ============ BANER 4 ============ -->.*?(?=<!-- ============)', '', main, flags=re.S)
 h = h.replace('<a href="#wycena" onClick="{{ closeMega }}">Policz projekt w kalkulatorze</a>', '<a href="/kontakt/" onClick="{{ closeMega }}">Poproś o bezpłatną wycenę</a>')
 gen('Header', h.replace('href="#top" class="logo"', 'href="/" class="logo"').replace('href="#wycena"', 'href="/#wycena"').replace('href="#case-sahra-art"', 'href="/#case-sahra-art"'))
-gen('Footer', f.replace('href="#top" class="logo"', 'href="/" class="logo"'))
+gen('Footer', f.replace('href="#top" class="logo"', 'href="/" class="logo"').replace('<a href="#polityka">Polityka prywatności</a><a href="#regulamin">Regulamin</a>', '<a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="/polityka-prywatnosci/#cookies">Cookies</a>'))
 # sekcja bloga na stronie głównej -> Baza wiedzy
 main = main.replace('href="#blog" class="btn btn-d"', 'href="/baza-wiedzy/" class="btn btn-d"').replace('Ostatnie wpisy na blogu', 'Z naszej bazy wiedzy')
 gen('HomeMain', main)
