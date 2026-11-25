@@ -31,6 +31,30 @@
 /www/strony-internetowe-gora-kalwaria /uslugi/strony-internetowe/gora-kalwaria/ 301
 /www/strony-internetowe-piaseczno /uslugi/strony-internetowe/piaseczno/ 301
 /www/strony-internetowe-warszawa /uslugi/strony-internetowe/warszawa/ 301
+# Nowe strony lokalne (stare adresy miast)
+/www/strony-internetowe-legionowo /uslugi/strony-internetowe/legionowo/ 301
+/strony-internetowe-legionowo /uslugi/strony-internetowe/legionowo/ 301
+/strony-internetowe-legionowo/ /uslugi/strony-internetowe/legionowo/ 301
+/www/strony-internetowe-konstancin-jeziorna /uslugi/strony-internetowe/konstancin-jeziorna/ 301
+/strony-internetowe-konstancin-jeziorna /uslugi/strony-internetowe/konstancin-jeziorna/ 301
+/strony-internetowe-konstancin-jeziorna/ /uslugi/strony-internetowe/konstancin-jeziorna/ 301
+/www/strony-internetowe-lesznowola /uslugi/strony-internetowe/lesznowola/ 301
+/strony-internetowe-lesznowola /uslugi/strony-internetowe/lesznowola/ 301
+/strony-internetowe-lesznowola/ /uslugi/strony-internetowe/lesznowola/ 301
+/www/strony-internetowe-grojec /uslugi/strony-internetowe/grojec/ 301
+/strony-internetowe-grojec /uslugi/strony-internetowe/grojec/ 301
+/strony-internetowe-grojec/ /uslugi/strony-internetowe/grojec/ 301
+/www/strony-internetowe-tarczyn /uslugi/strony-internetowe/tarczyn/ 301
+/strony-internetowe-tarczyn /uslugi/strony-internetowe/tarczyn/ 301
+/strony-internetowe-tarczyn/ /uslugi/strony-internetowe/tarczyn/ 301
+/www/strony-internetowe-minsk-mazowiecki /uslugi/strony-internetowe/minsk-mazowiecki/ 301
+/strony-internetowe-minsk-mazowiecki /uslugi/strony-internetowe/minsk-mazowiecki/ 301
+/strony-internetowe-minsk-mazowiecki/ /uslugi/strony-internetowe/minsk-mazowiecki/ 301
+/strony-internetowe-gora-kalwaria /uslugi/strony-internetowe/gora-kalwaria/ 301
+/strony-internetowe-gora-kalwaria/ /uslugi/strony-internetowe/gora-kalwaria/ 301
+# Stare formularze briefu i mapa witryny
+/brief/* /kontakt/ 301
+/sitemap.xml /sitemap-index.xml 301
 /www/* /uslugi/strony-internetowe/ 301
 /assets/RODO.pdf /polityka-prywatnosci/ 301
 /polityka-prywatnosci.html /polityka-prywatnosci/ 301
