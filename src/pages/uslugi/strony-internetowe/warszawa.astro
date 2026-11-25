@@ -1,7 +1,7 @@
 ---
 import Base from '../../../layouts/Base.astro';
 import v from '../../../data/pages/srv-strony.json';
-import { crumbs, faqLd, SITE } from '../../../data/site';
+import { crumbs, faqLd, SITE, MAP_PLACE, mapEmbed } from '../../../data/site';
 import '../../../styles/piaseczno.css';
 
 const path = '/uslugi/strony-internetowe/warszawa/';
@@ -198,7 +198,7 @@ const ld = [
           <li class={`pz-st ${i % 2 ? 'is-r' : 'is-l'}`} style={`--i:${i}`}>
             <span class="pz-bignum" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
             <span class="pz-node" aria-hidden="true">{i + 1}</span>
-            <div class="pz-card"><small>Krok {i + 1} z {steps.length}</small><h3 class="h">{s[0]}</h3><p>{s[1]}</p></div>
+            <div class="pz-stc"><small>Krok {i + 1} z {steps.length}</small><h3 class="h">{s[0]}</h3><p>{s[1]}</p></div>
           </li>
         ))}
       </ol>
@@ -297,8 +297,8 @@ const ld = [
           <a href="tel:+48501784882">501 784 882</a>
           <a href="mailto:biuro@topstrony.pl">biuro@topstrony.pl</a>
         </address>
-        <div class="kt-map pz-map"><iframe title="Mapa Google: top.strony, ul. Strusia 3C, Piaseczno" src="https://www.google.com/maps?q=ul.+Strusia+3C+Piaseczno&amp;hl=pl&amp;z=11&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        <a href="https://www.google.com/maps/dir/?api=1&amp;destination=ul.+Strusia+3C,+05-500+Piaseczno" class="tlink" rel="noopener" target="_blank">Wyznacz trasę w Mapach Google →</a>
+        <div class="kt-map pz-map"><iframe title="Mapa Google: Top Strony – Strony Internetowe Piaseczno i Warszawa, ul. Strusia 3C" src={mapEmbed(45000)} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <a href={MAP_PLACE} class="tlink" rel="noopener" target="_blank">Wyznacz trasę w Mapach Google →</a>
       </div>
     </div>
   </section>

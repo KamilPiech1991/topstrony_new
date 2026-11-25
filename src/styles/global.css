@@ -373,7 +373,7 @@ a.card:hover,.card.hov:hover{transform:translateY(-4px);border-color:rgba(96,173
 .city{font-size:13px;font-weight:600;color:var(--text);border:1px solid var(--line);border-radius:999px;padding:7px 12px}
 /* ---------- footer ---------- */
 .foot{background:var(--bg-2);border-top:1px solid var(--line);padding:80px 0 40px;color:var(--text)}
-.foot-grid{display:grid;grid-template-columns:1.4fr repeat(3,minmax(0,1fr));gap:40px}
+.foot-grid{display:grid;grid-template-columns:1.3fr repeat(4,minmax(0,1fr));gap:32px}
 .foot a{color:var(--text);text-decoration:none;font-size:14px;display:inline-flex;align-items:center;min-height:36px}
 .foot a:hover{color:var(--acc-t)}
 .foot-t{font-size:14px;font-weight:700;color:var(--ink);margin-bottom:10px}

@@ -169,7 +169,7 @@
   force = true
 [[redirects]]
   from = "/www/strony-internetowe-gora-kalwaria"
-  to = "/uslugi/strony-internetowe/piaseczno/"
+  to = "/uslugi/strony-internetowe/gora-kalwaria/"
   status = 301
   force = true
 [[redirects]]

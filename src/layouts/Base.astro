@@ -4,6 +4,7 @@ import '../styles/global.css';
 import Header from '../components/gen/Header.astro';
 import Footer from '../components/gen/Footer.astro';
 import { SITE, business } from '../data/site';
+import { LOCAL_LINKS } from '../data/local';
 
 interface Props {
   v: Record<string, any>;
@@ -29,16 +30,21 @@ const withKb = (arr: any[] | undefined) => {
   out.splice(at < 0 ? out.length : at, 0, item);
   return out.map((l, i) => ({ ...l, i: String(i) }));
 };
-const withGads = (cols: any[] | undefined) => (cols ?? []).map((c) => {
+const withGads = (cols: any[] | undefined) => {
+  const out = (cols ?? []).map((c) => {
   if (!c.links || c.links.some((l: any) => l.href === '/uslugi/google-ads/')) return c;
   const at = c.links.findIndex((l: any) => l.href === '/uslugi/kampanie-google-meta-ads/');
   if (at < 0) return c;
   const links = [...c.links];
   links.splice(at, 0, { t: 'Kampanie Google Ads', href: '/uslugi/google-ads/' });
-  const sw = links.findIndex((l: any) => l.href === '/uslugi/strony-internetowe/');
-  if (sw >= 0) links.splice(sw + 1, 0, { t: 'Strony internetowe Piaseczno', href: '/uslugi/strony-internetowe/piaseczno/' }, { t: 'Strony internetowe Warszawa', href: '/uslugi/strony-internetowe/warszawa/' });
   return { ...c, links: links.map((l: any, i: number) => ({ ...l, i: String(i) })) };
-});
+  });
+  if (!out.some((c: any) => c.t === 'Usługi lokalne')) {
+    const at = out.findIndex((c: any) => c.t === 'Usługi');
+    out.splice(at < 0 ? out.length : at + 1, 0, { t: 'Usługi lokalne', links: LOCAL_LINKS.map((l, i) => ({ t: l.label, href: l.href, i: String(i) })) });
+  }
+  return out.map((c: any, i: number) => ({ ...c, i: String(i) }));
+};
 const hv = { ...v, navRest: withKb(v.navRest), navLinks: withKb(v.navLinks), footCols: withGads(v.footCols) };
 ---
 <!doctype html>
