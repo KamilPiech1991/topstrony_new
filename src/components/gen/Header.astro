@@ -6,7 +6,7 @@ const { v } = Astro.props;
   <header class="hdr">
     <div class="wrap hdr-in">
       <a href="/" class="logo" aria-label="top.strony – strona główna">
-        <img decoding="async" class="logo-img logo-d" src="/img/top-strony-logo-white.webp" alt="top.strony" width="600" height="184"><img decoding="async" class="logo-img logo-l" src="/img/top-strony-logo-ink.webp" alt="top.strony" width="600" height="184">
+        <img class="logo-img logo-d" src="/img/top-strony-logo-white-300.webp" alt="top.strony" width="300" height="92" fetchpriority="high"><img decoding="async" class="logo-img logo-l" src="/img/top-strony-logo-ink-300.webp" alt="top.strony" width="300" height="92">
       </a>
       <nav class="nav" aria-label="Menu główne">
         <button type="button" class={`nav-mega-btn ${v.megaBtnCls ?? ''}`} data-mega data-act="mega-toggle" aria-expanded={v.megaExp} aria-controls="mega-uslugi">Usługi<svg class="nav-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></button>
@@ -85,7 +85,7 @@ const { v } = Astro.props;
   <div data-if="menu" hidden={!v.menuOpen}>
     <div class="mnav" role="dialog" aria-modal="true" aria-label="Menu">
       <div class="mnav-top">
-        <a href="/" class="logo" data-act="menu-close" aria-label="top.strony – strona główna"><img decoding="async" class="logo-img logo-d" src="/img/top-strony-logo-white.webp" alt="top.strony" width="600" height="184"><img decoding="async" class="logo-img logo-l" src="/img/top-strony-logo-ink.webp" alt="top.strony" width="600" height="184"></a>
+        <a href="/" class="logo" data-act="menu-close" aria-label="top.strony – strona główna"><img decoding="async" class="logo-img logo-d" src="/img/top-strony-logo-white-300.webp" alt="top.strony" width="300" height="92"><img decoding="async" class="logo-img logo-l" src="/img/top-strony-logo-ink-300.webp" alt="top.strony" width="300" height="92"></a>
         <button type="button" class="icon-btn" data-act="menu-close" aria-label="Zamknij menu"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
       </div>
       <nav class="mnav-links" aria-label="Menu mobilne">
