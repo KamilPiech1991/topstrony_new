@@ -1,15 +1,15 @@
 ---
-import Base from '../layouts/Base.astro';
-import v from '../data/pages/srv-strony.json';
-import { crumbs, faqLd, SITE } from '../data/site';
-import '../styles/piaseczno.css';
+import Base from '../../../layouts/Base.astro';
+import v from '../../../data/pages/srv-strony.json';
+import { crumbs, faqLd, SITE } from '../../../data/site';
+import '../../../styles/piaseczno.css';
 
-const path = '/strony-internetowe-piaseczno/';
+const path = '/uslugi/strony-internetowe/piaseczno/';
 const title = 'Strony internetowe Piaseczno – tworzenie stron od 3000 zł | top.strony';
 const description = 'Tworzenie stron internetowych w Piasecznie. Biuro przy ul. Strusiej 3C, spotkanie na miejscu, strona od 3 000 zł netto, SEO lokalne i Mapy Google w cenie. Wycena w 24 h.';
 const AUTHOR = { name: 'Kamil Piech', linkedin: 'https://www.linkedin.com/in/kamil-piech-674b7912a/' };
 
-import home from '../data/pages/home.json';
+import home from '../../../data/pages/home.json';
 const logos = (home.logosLoop as any[]).slice(0, 15);
 const gallery = [
   { src: '/img/piaseczno/pz-kawiarnia-spotkanie.webp', alt: 'Spotkanie z klientem w kawiarni w Piasecznie: omawianie nowej strony internetowej na laptopie', cap: 'Pierwsza rozmowa przy kawie w Piasecznie. Pokazujemy przykłady i pytamy o Twoich klientów.', cls: 'g-a' },
@@ -82,7 +82,7 @@ const ld = [
     author: { '@type': 'Person', name: AUTHOR.name, url: SITE + '/o-nas/', sameAs: [AUTHOR.linkedin] }, primaryImageOfPage: SITE + '/img/piaseczno/rynek-piaseczno-og.jpg', image: gallery.map((g) => SITE + g.src),
     about: { '@type': 'Place', name: 'Piaseczno', address: { '@type': 'PostalAddress', addressLocality: 'Piaseczno', postalCode: '05-500', addressCountry: 'PL' } } },
   faqLd(faqs),
-  crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/'], ['Strony internetowe Piaseczno', path]]),
+  crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/'], ['Strony internetowe', '/uslugi/strony-internetowe/'], ['Strony internetowe Piaseczno', path]]),
 ];
 ---
 <Base v={v} page="local-piaseczno" path={path} jsonLd={ld} title={title} description={description} image="/img/piaseczno/rynek-piaseczno-og.jpg">
@@ -91,7 +91,7 @@ const ld = [
     <img class="pz-hero-bg" src="/img/piaseczno/rynek-piaseczno.webp" alt="Rynek w Piasecznie z ratuszem i fontanną na placu Piłsudskiego" width="2000" height="1333" fetchpriority="high" decoding="async">
     <div class="pz-hero-ov" aria-hidden="true"></div>
     <div class="wrap pz-hero-in">
-      <nav class="pz-crumbs" aria-label="Okruszki"><ol><li><a href="/">Strona główna</a></li><li><a href="/uslugi/">Usługi</a></li><li aria-current="page">Strony internetowe Piaseczno</li></ol></nav>
+      <nav class="pz-crumbs" aria-label="Okruszki"><ol><li><a href="/">Strona główna</a></li><li><a href="/uslugi/">Usługi</a></li><li><a href="/uslugi/strony-internetowe/">Strony internetowe</a></li><li aria-current="page">Strony internetowe Piaseczno</li></ol></nav>
       <p class="pz-pin"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8FD35A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>Biuro w Piasecznie · ul. Strusia 3C</p>
       <h1 id="pz-h1" class="pz-h1" data-gs="hero">Strony internetowe Piaseczno</h1>
       <p class="pz-sub" data-gs="hero">Tworzenie stron internetowych w Piasecznie, od projektu do telefonów od klientów</p>
@@ -187,7 +187,7 @@ const ld = [
           </article>
         ))}
       </div>
-      <p class="pz-note rv">Sprzedajesz online? Zobacz <a href="/uslugi/sklepy-internetowe/">sklepy internetowe</a>. Strona już jest, ale nikt jej nie znajduje? Zobacz <a href="/uslugi/pozycjonowanie-seo/">pozycjonowanie SEO</a>. Pełny zakres usługi opisujemy na stronie <a href="/uslugi/strony-internetowe/">tworzenie stron internetowych</a>, a firmy ze stolicy zapraszamy na stronę <a href="/strony-internetowe-warszawa/">strony internetowe Warszawa</a>.</p>
+      <p class="pz-note rv">Sprzedajesz online? Zobacz <a href="/uslugi/sklepy-internetowe/">sklepy internetowe</a>. Strona już jest, ale nikt jej nie znajduje? Zobacz <a href="/uslugi/pozycjonowanie-seo/">pozycjonowanie SEO</a>. Pełny zakres usługi opisujemy na stronie <a href="/uslugi/strony-internetowe/">tworzenie stron internetowych</a>, a firmy ze stolicy zapraszamy na stronę <a href="/uslugi/strony-internetowe/warszawa/">strony internetowe Warszawa</a>.</p>
     </div>
   </section>
 
@@ -300,6 +300,6 @@ const ld = [
 </Base>
 
 <script>
-  import { initPiaseczno } from '../scripts/piaseczno-motion';
+  import { initPiaseczno } from '../../../scripts/piaseczno-motion';
   initPiaseczno();
 </script>

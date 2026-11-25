@@ -58,7 +58,7 @@ def gen(name, tpl):
     if name == 'HomeMain':
         a = 'FAQ, dane strukturalne i plik llms.txt.</p>'
         assert a in code
-        code = code.replace(a, 'FAQ, dane strukturalne i plik llms.txt. Tak samo przygotowaliśmy strony <a href="/strony-internetowe-piaseczno/" class="tlink">strony internetowe Piaseczno</a> i <a href="/strony-internetowe-warszawa/" class="tlink">strony internetowe Warszawa</a>.</p>', 1)
+        code = code.replace(a, 'FAQ, dane strukturalne i plik llms.txt. Tak samo przygotowaliśmy strony <a href="/uslugi/strony-internetowe/piaseczno/" class="tlink">strony internetowe Piaseczno</a> i <a href="/uslugi/strony-internetowe/warszawa/" class="tlink">strony internetowe Warszawa</a>.</p>', 1)
     if name == 'KontaktMain':
         import re as _re
         code, n = _re.subn(r'<div class="kt-map rv d2" aria-hidden="true">.*?</div>\n    </div>\n  </section>',

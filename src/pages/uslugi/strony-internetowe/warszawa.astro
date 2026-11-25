@@ -1,15 +1,15 @@
 ---
-import Base from '../layouts/Base.astro';
-import v from '../data/pages/srv-strony.json';
-import { crumbs, faqLd, SITE } from '../data/site';
-import '../styles/piaseczno.css';
+import Base from '../../../layouts/Base.astro';
+import v from '../../../data/pages/srv-strony.json';
+import { crumbs, faqLd, SITE } from '../../../data/site';
+import '../../../styles/piaseczno.css';
 
-const path = '/strony-internetowe-warszawa/';
+const path = '/uslugi/strony-internetowe/warszawa/';
 const title = 'Strony internetowe Warszawa – tworzenie stron od 3000 zł | top.strony';
 const description = 'Tworzenie stron internetowych dla firm z Warszawy. Spotkanie u Ciebie w biurze, strona od 3 000 zł netto, SEO lokalne pod dzielnice i Mapy Google w cenie. Wycena w 24 h.';
 const AUTHOR = { name: 'Kamil Piech', linkedin: 'https://www.linkedin.com/in/kamil-piech-674b7912a/' };
 
-import home from '../data/pages/home.json';
+import home from '../../../data/pages/home.json';
 const logos = (home.logosLoop as any[]).slice(0, 15);
 const gallery = [
   { src: '/img/warszawa/wa-spotkanie-biuro.webp', alt: 'Spotkanie z klientką w biurze w Warszawie: projektant strony pokazuje projekt na laptopie, w tle wieżowce', cap: 'Przyjeżdżamy do Twojego biura w Warszawie. Pierwsza rozmowa trwa około godziny.', cls: 'g-a' },
@@ -82,7 +82,7 @@ const ld = [
     author: { '@type': 'Person', name: AUTHOR.name, url: SITE + '/o-nas/', sameAs: [AUTHOR.linkedin] }, primaryImageOfPage: SITE + '/img/warszawa/panorama-warszawy-og.jpg', image: gallery.map((g) => SITE + g.src),
     about: { '@type': 'City', name: 'Warszawa', address: { '@type': 'PostalAddress', addressLocality: 'Warszawa', addressRegion: 'mazowieckie', addressCountry: 'PL' } } },
   faqLd(faqs),
-  crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/'], ['Strony internetowe Warszawa', path]]),
+  crumbs([['Strona główna', '/'], ['Usługi', '/uslugi/'], ['Strony internetowe', '/uslugi/strony-internetowe/'], ['Strony internetowe Warszawa', path]]),
 ];
 ---
 <Base v={v} page="local-warszawa" path={path} jsonLd={ld} title={title} description={description} image="/img/warszawa/panorama-warszawy-og.jpg">
@@ -91,7 +91,7 @@ const ld = [
     <img class="pz-hero-bg" src="/img/warszawa/panorama-warszawy.webp" alt="Panorama Warszawy wieczorem nad Wisłą, z Pałacem Kultury i wieżowcami Woli" width="2000" height="1119" fetchpriority="high" decoding="async">
     <div class="pz-hero-ov" aria-hidden="true"></div>
     <div class="wrap pz-hero-in">
-      <nav class="pz-crumbs" aria-label="Okruszki"><ol><li><a href="/">Strona główna</a></li><li><a href="/uslugi/">Usługi</a></li><li aria-current="page">Strony internetowe Warszawa</li></ol></nav>
+      <nav class="pz-crumbs" aria-label="Okruszki"><ol><li><a href="/">Strona główna</a></li><li><a href="/uslugi/">Usługi</a></li><li><a href="/uslugi/strony-internetowe/">Strony internetowe</a></li><li aria-current="page">Strony internetowe Warszawa</li></ol></nav>
       <p class="pz-pin"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8FD35A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>Spotkania w całej Warszawie · 20 min od Mokotowa</p>
       <h1 id="pz-h1" class="pz-h1" data-gs="hero">Strony internetowe Warszawa</h1>
       <p class="pz-sub" data-gs="hero">Tworzenie stron internetowych dla warszawskich firm, od projektu do telefonów od klientów</p>
@@ -229,7 +229,7 @@ const ld = [
           </a>
         ))}
       </div>
-      <p class="pz-note rv">Więcej projektów, także z okolic Warszawy, znajdziesz w <a href="/realizacje/">realizacjach</a>. Firmy z południa aglomeracji odsyłamy na stronę <a href="/strony-internetowe-piaseczno/">strony internetowe Piaseczno</a>.</p>
+      <p class="pz-note rv">Więcej projektów, także z okolic Warszawy, znajdziesz w <a href="/realizacje/">realizacjach</a>. Firmy z południa aglomeracji odsyłamy na stronę <a href="/uslugi/strony-internetowe/piaseczno/">strony internetowe Piaseczno</a>.</p>
     </div>
   </section>
 
@@ -300,6 +300,6 @@ const ld = [
 </Base>
 
 <script>
-  import { initPiaseczno } from '../scripts/piaseczno-motion';
+  import { initPiaseczno } from '../../../scripts/piaseczno-motion';
   initPiaseczno();
 </script>

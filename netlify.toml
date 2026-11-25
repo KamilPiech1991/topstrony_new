@@ -146,20 +146,40 @@
   status = 301
   force = true
 
-# Stare podstrony miast
+# Stare podstrony miast (także wcześniejsze adresy z korzenia witryny)
+[[redirects]]
+  from = "/strony-internetowe-piaseczno"
+  to = "/uslugi/strony-internetowe/piaseczno/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/strony-internetowe-piaseczno/"
+  to = "/uslugi/strony-internetowe/piaseczno/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/strony-internetowe-warszawa"
+  to = "/uslugi/strony-internetowe/warszawa/"
+  status = 301
+  force = true
+[[redirects]]
+  from = "/strony-internetowe-warszawa/"
+  to = "/uslugi/strony-internetowe/warszawa/"
+  status = 301
+  force = true
 [[redirects]]
   from = "/www/strony-internetowe-gora-kalwaria"
-  to = "/strony-internetowe-piaseczno/"
+  to = "/uslugi/strony-internetowe/piaseczno/"
   status = 301
   force = true
 [[redirects]]
   from = "/www/strony-internetowe-piaseczno"
-  to = "/strony-internetowe-piaseczno/"
+  to = "/uslugi/strony-internetowe/piaseczno/"
   status = 301
   force = true
 [[redirects]]
   from = "/www/strony-internetowe-warszawa"
-  to = "/strony-internetowe-warszawa/"
+  to = "/uslugi/strony-internetowe/warszawa/"
   status = 301
   force = true
 
