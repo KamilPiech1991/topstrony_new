@@ -4,7 +4,7 @@ import v from '../data/pages/home.json';
 import { crumbs } from '../data/site';
 
 const path = '/polityka-prywatnosci/';
-const updated = '24 listopada 2026';
+const updated = '25 listopada 2026';
 ---
 <Base v={v} page="polityka" path={path}
   title="Polityka prywatności i cookies – top.strony"
@@ -64,8 +64,9 @@ const updated = '24 listopada 2026';
           <h2 id="odbiorcy">5. Komu przekazujemy dane</h2>
           <p>Dane trafiają tylko do firm, które pomagają nam prowadzić Serwis i obsługiwać korespondencję, na podstawie umów powierzenia przetwarzania:</p>
           <ul>
-            <li><strong>Netlify, Inc.</strong> (USA): hosting Serwisu i obsługa formularza kontaktowego. Przekazanie danych do USA odbywa się na podstawie decyzji Komisji Europejskiej (EU-U.S. Data Privacy Framework) lub standardowych klauzul umownych.</li>
-            <li><strong>dhosting.pl sp. z o.o.</strong> (Polska): obsługa domeny i poczty e-mail biuro@topstrony.pl.</li>
+            <li><strong>Cloudflare, Inc.</strong> (USA): hosting Serwisu, sieć dostarczania treści (CDN), serwery DNS domeny i ochrona przed atakami. Przekazanie danych do USA odbywa się na podstawie decyzji Komisji Europejskiej (EU-U.S. Data Privacy Framework) lub standardowych klauzul umownych.</li>
+            <li><strong>Netlify, Inc.</strong> (USA): obsługa formularza kontaktowego, czyli odbiór i przechowywanie zgłoszeń oraz powiadomienia e-mail o nowych zapytaniach. Przekazanie danych do USA odbywa się na podstawie decyzji Komisji Europejskiej (EU-U.S. Data Privacy Framework) lub standardowych klauzul umownych.</li>
+            <li><strong>dhosting.pl sp. z o.o.</strong> (Polska): rejestracja domeny i obsługa poczty e-mail biuro@topstrony.pl.</li>
             <li>Biuro rachunkowe i podmioty świadczące usługi prawne, jeśli dojdzie do zawarcia umowy.</li>
           </ul>
           <p>Dane mogą też trafić do organów publicznych, jeśli nakaże to przepis prawa.</p>
@@ -96,7 +97,7 @@ const updated = '24 listopada 2026';
           <p>Serwis zapisuje w przeglądarce tylko to, co jest potrzebne do jego działania:</p>
           <ul>
             <li><strong>Wybór motywu</strong> (jasny lub ciemny) w pamięci lokalnej przeglądarki, żeby strona pamiętała Twój wybór przy kolejnej wizycie. Nie zawiera danych osobowych.</li>
-            <li><strong>Cookies techniczne hostingu</strong> Netlify, potrzebne do bezpiecznego wyświetlania strony i obsługi formularza.</li>
+            <li><strong>Cookies techniczne Cloudflare</strong> (np. <code>__cf_bm</code>), które dostawca hostingu może zapisać, żeby chronić stronę przed szkodliwym ruchem i botami. Nie służą do śledzenia ani do reklam.</li>
           </ul>
           <p>Jeśli włączymy narzędzia analityczne lub reklamowe (np. Google Analytics 4, tag Google Ads, piksel Meta), zaczną one działać dopiero po Twojej zgodzie w banerze cookies, a ich lista pojawi się w tym punkcie.</p>
           <p>Możesz w każdej chwili usunąć cookies i dane strony albo zablokować ich zapis w ustawieniach przeglądarki: <a href="https://support.google.com/chrome/answer/95647?hl=pl" rel="noopener">Chrome</a>, <a href="https://support.mozilla.org/pl/kb/blokowanie-ciasteczek" rel="noopener">Firefox</a>, <a href="https://support.apple.com/pl-pl/guide/safari/sfri11471/mac" rel="noopener">Safari</a>, <a href="https://support.microsoft.com/pl-pl/microsoft-edge/usuwanie-plik%C3%B3w-cookie-w-przegl%C4%85darce-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" rel="noopener">Edge</a>, <a href="https://help.opera.com/pl/latest/web-preferences/" rel="noopener">Opera</a>. Zablokowanie zapisu może sprawić, że część funkcji, np. zapamiętanie motywu, nie będzie działać.</p>
