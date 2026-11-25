@@ -18,8 +18,8 @@ body{margin:0;background:#0A0E0B}
 /* buttons: one system */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 26px;border-radius:999px;border:1px solid transparent;font-family:Inter,sans-serif;font-weight:600;font-size:16px;text-decoration:none;cursor:pointer;transition:transform .25s ease,background .25s ease,border-color .25s ease,color .25s ease,box-shadow .25s ease}
 .btn:hover{transform:translateY(-2px)}.btn:active{transform:translateY(1px) scale(.98)}
-.ts .btn-g{background:var(--acc);color:#FFFFFF;box-shadow:none}
-.ts .btn-g:hover{background:var(--acc-hi);color:#FFFFFF}
+.ts .btn-g{background:#3E8310;color:#FFFFFF;box-shadow:none}
+.ts .btn-g:hover{background:#3F7A15;color:#FFFFFF}
 .ts .btn-o{border-color:var(--line-2);color:var(--ink);background:transparent}
 .ts .btn-o:hover{border-color:var(--acc);color:var(--ink)}
 .ts .btn-d{background:var(--inv);color:var(--inv-ink)}
