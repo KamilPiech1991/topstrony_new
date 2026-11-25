@@ -1,4 +1,4 @@
-// Animacje podstrony /strony-internetowe-piaseczno/: GSAP ScrollTrigger + lekka scena three.js w hero.
+// Animacje podstron lokalnych (Piaseczno, Warszawa): GSAP ScrollTrigger.
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -10,7 +10,12 @@ export function initPiaseczno() {
 
   // Hero: wejście tekstu i paralaksa zdjęcia rynku
   gsap.from('[data-gs="hero"]', { y: 40, opacity: 0, duration: 1, ease: 'power3.out', stagger: 0.12, delay: 0.1 });
-  gsap.to('.pz-hero-bg', { yPercent: 14, ease: 'none', scrollTrigger: { trigger: '.pz-hero', start: 'top top', end: 'bottom top', scrub: true } });
+  const hero = document.querySelector<HTMLElement>('.pz-hero');
+  if (hero) {
+    // Paralaksa: zdjęcie przesuwa się wolniej niż treść, więc „zostaje w tyle” przy przewijaniu
+    gsap.fromTo('.pz-hero-bg', { y: 0, scale: 1.06 }, { y: () => hero.offsetHeight * 0.3, scale: 1, ease: 'none',
+      scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: 0.6, invalidateOnRefresh: true } });
+  }
   gsap.to('.pz-hero-in', { yPercent: -8, opacity: 0.2, ease: 'none', scrollTrigger: { trigger: '.pz-hero', start: 'center top', end: 'bottom top', scrub: true } });
 
   // Galeria: odsłanianie zdjęć maską i lekki ruch wewnątrz kadru
@@ -35,12 +40,4 @@ export function initPiaseczno() {
 
   // Miejscowości: chipy wskakują jak pinezki na mapie
   gsap.from('[data-gs="chips"] li', { scale: 0.6, opacity: 0, duration: 0.5, ease: 'back.out(2)', stagger: 0.035, scrollTrigger: { trigger: '[data-gs="chips"]', start: 'top 85%' } });
-
-  // Scena three.js: siatka „pinezek” nad Piasecznem, ładowana dopiero gdy przeglądarka ma czas
-  const canvas = document.querySelector<HTMLCanvasElement>('.pz-3d');
-  if (canvas && innerWidth > 760) {
-    const start = () => import('./piaseczno-three').then((m) => m.mountPins(canvas)).catch(() => {});
-    if ('requestIdleCallback' in window) (window as any).requestIdleCallback(start, { timeout: 1500 });
-    else setTimeout(start, 600);
-  }
 }
