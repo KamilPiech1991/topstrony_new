@@ -1,0 +1,365 @@
+---
+// Rozszerzenie podstrony /uslugi/pozycjonowanie-seo/ (wstawiane przed FAQ w ServiceMain)
+const pillars = [
+  { t: 'SEO on-page', d: 'Treść i układ podstron. Każda usługa ma swoją podstronę, nagłówki odpowiadają na to, co ludzie wpisują w Google, a pierwszy akapit od razu daje odpowiedź.', li: ['struktura podstron i nagłówków', 'tytuły i opisy, które się klika', 'linkowanie wewnętrzne'] },
+  { t: 'SEO techniczne', d: 'Jeśli Google nie może strony sprawnie przeczytać, nawet świetny tekst nie pomoże. Sprawdzamy indeksację, przekierowania, szybkość i wersję mobilną.', li: ['indeksacja i mapa witryny', 'Core Web Vitals', 'dane strukturalne schema.org'] },
+  { t: 'SEO off-page', d: 'Linki i wzmianki z innych stron to dla Google sygnał, że ktoś Cię poleca. Zdobywamy je z serwisów, które pasują do Twojej branży lub regionu.', li: ['katalogi branżowe i lokalne', 'artykuły na tematycznych portalach', 'spójne dane firmy (NAP)'] },
+  { t: 'AEO i GEO', d: 'ChatGPT, Gemini i AI Overviews odpowiadają na pytania, cytując strony. Piszemy tak, żeby łatwo było z Twojej strony wyciągnąć konkretny fakt i podać źródło.', li: ['krótkie odpowiedzi na początku sekcji', 'FAQ i plik llms.txt', 'autor, daty, liczby, adres'] },
+];
+
+const times = [
+  ['SEO lokalne (jedno miasto, mała konkurencja)', '2–3 miesiące', 'wizytówka Google, podstrony usług, opinie'],
+  ['SEO lokalne w dużym mieście', '4–6 miesięcy', 'więcej treści i linków, rozbudowane podstrony dzielnic'],
+  ['Strona firmowa, cała Polska', '4–8 miesięcy', 'treści eksperckie, link building, technika'],
+  ['Sklep internetowy', '6–12 miesięcy', 'kategorie, opisy produktów, filtry, dużo podstron do indeksacji'],
+  ['Nowa domena bez historii', 'dolicz 2–3 miesiące', 'Google potrzebuje czasu, żeby zaufać nowej stronie'],
+];
+
+const metrics = [
+  ['Widoczność fraz', 'Na ile fraz strona jest w TOP 3, TOP 10 i TOP 50. Sprawdzamy to w Senuto i Search Console, a nie w jednym ręcznym wyszukaniu, bo wyniki różnią się zależnie od miejsca i urządzenia.'],
+  ['Wyświetlenia i kliknięcia', 'Ile razy strona pokazała się w Google i ile osób kliknęło. Rosnące wyświetlenia bez kliknięć zwykle oznaczają, że trzeba poprawić tytuł albo opis.'],
+  ['CTR', 'Odsetek osób, które kliknęły, spośród tych, które zobaczyły wynik. Pokazuje, czy Twój wynik wygrywa z konkurencją obok.'],
+  ['Ruch spoza nazwy firmy', 'Oddzielamy wejścia z fraz typu „top strony” od fraz typu „strony internetowe Piaseczno”. Dopiero te drugie pokazują, że przychodzą nowi klienci.'],
+  ['Telefony i formularze', 'W GA4 liczymy kliknięcia w numer, wysłane formularze i zakupy. To jedyna liczba, która na końcu naprawdę Cię obchodzi.'],
+  ['Cytowania w AI', 'Co miesiąc zadajemy ChatGPT, Gemini i Perplexity pytania, które zadają Twoi klienci, i zapisujemy, czy i jak wymieniają Twoją firmę.'],
+];
+
+const vitals = [
+  ['LCP', 'poniżej 2,5 s', 'Jak szybko pojawia się największy element strony, zwykle zdjęcie w hero albo nagłówek. Pomaga lżejsza grafika, dobry hosting i mniej skryptów na starcie.'],
+  ['INP', 'poniżej 200 ms', 'Jak szybko strona reaguje na kliknięcie. Od 2024 roku zastąpił FID. Psują go ciężkie wtyczki, czaty i skrypty reklamowe.'],
+  ['CLS', 'poniżej 0,1', 'Czy elementy skaczą podczas ładowania. Klasyczny przykład to baner cookies albo zdjęcie bez wymiarów, które przesuwa tekst pod palcem.'],
+];
+
+const agencyQs = [
+  'Kto konkretnie będzie pracował nad moją stroną i ile innych firm prowadzi równolegle?',
+  'Na jakie frazy będziecie pozycjonować i dlaczego akurat te, a nie inne?',
+  'Skąd będą linki? Czy mogę zobaczyć przykłady stron, na których się pojawią?',
+  'Co będzie w raporcie? Czy zobaczę telefony i formularze, czy tylko pozycje?',
+  'Czy mogę zrezygnować po kilku miesiącach i co wtedy zostaje po mojej stronie?',
+  'Czy pytacie o moją sprzedaż i marżę, zanim wybierzecie frazy?',
+];
+
+const clientTasks = [
+  ['Szybkie akceptacje', 'Plan fraz i zmiany na stronie czekają na Twoją zgodę. Tydzień zwłoki przy każdej zmianie potrafi przesunąć efekty o kwartał.'],
+  ['Zdjęcia i wiedza', 'Nikt nie opisze Twojej usługi lepiej niż Ty. Wystarczy 15 minut rozmowy albo notatka głosowa, a my zrobimy z tego tekst.'],
+  ['Prośby o opinie', 'Po każdej udanej realizacji poproś klienta o opinię w Google. Dajemy gotowy link i krótki szablon wiadomości.'],
+  ['Szybki kontakt z klientem', 'SEO przyprowadzi ludzi, ale to odebrany telefon zamienia ich w zlecenie. Warto sprawdzić, ile połączeń ucieka po godzinach.'],
+];
+---
+<!-- ============ SEO: JAK DZIAŁA POZYCJONOWANIE ============ -->
+<section id="seo-jak" class="sec seo-x" aria-labelledby="seo-jak-h">
+  <div class="wrap">
+    <div class="seo-split">
+      <div class="rv">
+        <p class="eyebrow scr">Jak to działa w 2026</p>
+        <h2 id="seo-jak-h" class="h h2">Pozycjonowanie to dziś Google, Mapy i odpowiedzi AI naraz</h2>
+        <p class="lead">Pozycjonowanie strony to praca nad tym, żeby Google uznał ją za najlepszą odpowiedź na pytanie klienta. Kilka lat temu wystarczały słowa kluczowe i linki. Dziś liczy się też szybkość na telefonie, opinie w Mapach i to, czy z tekstu da się wyciągnąć konkretną odpowiedź dla AI.</p>
+        <p>W praktyce pracujemy na czterech frontach jednocześnie. Gdy jeden kuleje, pozostałe nie dają pełnego efektu: świetne treści na wolnej stronie spadają, a szybka strona bez treści nie ma czym rankować.</p>
+      </div>
+      <figure class="seo-fig rv d1"><img src="/img/seo/seo-analityka.webp" alt="Specjalista SEO analizuje wzrost widoczności strony w panelu analitycznym" width="1024" height="688" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="seo-grid4">
+      {pillars.map((p, i) => (
+        <article class="card seo-card rv" style={`transition-delay:${i * 0.06}s`}>
+          <h3 class="h">{p.t}</h3>
+          <p>{p.d}</p>
+          <ul>{p.li.map((x) => <li>{x}</li>)}</ul>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO: WYKRESY ============ -->
+<section id="seo-wyniki" class="sec alt seo-x" aria-labelledby="seo-wyn-h">
+  <div class="wrap">
+    <p class="eyebrow scr">Wyniki i dane</p>
+    <h2 id="seo-wyn-h" class="h h2">Jak wygląda wzrost w liczbach</h2>
+    <p class="lead seo-narrow">Pierwszy wykres to prawdziwe wyniki naszych klientów. Drugi pokazuje, jak zwykle rozkłada się wzrost w pierwszym roku, i dlaczego pierwsze miesiące wyglądają skromnie.</p>
+    <div class="seo-charts">
+      <figure class="card seo-chart rv">
+        <figcaption><b>Wzrost ruchu z Google u naszych klientów</b><span>dane z GA4 i Search Console</span></figcaption>
+        <svg viewBox="0 0 420 250" role="img" aria-labelledby="ch1t ch1d">
+          <title id="ch1t">Wzrost liczby wizyt z Google</title>
+          <desc id="ch1d">Pure Rehab: plus 63 procent wizyt w dwa miesiące. Sahra Art: plus 290 procent wizyt w trzy miesiące.</desc>
+          <g class="ch-grid"><line x1="40" y1="200" x2="410" y2="200"/><line x1="40" y1="150" x2="410" y2="150"/><line x1="40" y1="100" x2="410" y2="100"/><line x1="40" y1="50" x2="410" y2="50"/></g>
+          <g class="ch-ax"><text x="34" y="204">0%</text><text x="34" y="154">100%</text><text x="34" y="104">200%</text><text x="34" y="54">300%</text></g>
+          <rect class="ch-bar" x="90" y={200 - 63 * 0.5} width="90" height={63 * 0.5} rx="8"/>
+          <rect class="ch-bar ch-bar2" x="260" y={200 - 290 * 0.5} width="90" height={290 * 0.5} rx="8"/>
+          <text class="ch-val" x="135" y={190 - 63 * 0.5}>+63%</text>
+          <text class="ch-val" x="305" y={190 - 290 * 0.5}>+290%</text>
+          <text class="ch-lab" x="135" y="222">Pure Rehab</text><text class="ch-sub" x="135" y="240">w 2 miesiące</text>
+          <text class="ch-lab" x="305" y="222">Sahra Art</text><text class="ch-sub" x="305" y="240">w 3 miesiące</text>
+        </svg>
+        <p class="seo-note">Do tego Marmostyl: <b>+27 zapytań</b> od klientów już po 2. miesiącu pozycjonowania.</p>
+      </figure>
+      <figure class="card seo-chart rv d1">
+        <figcaption><b>Typowy przebieg widoczności w pierwszym roku</b><span>przykład poglądowy, nie wynik konkretnej strony</span></figcaption>
+        <svg viewBox="0 0 420 250" role="img" aria-labelledby="ch2t ch2d">
+          <title id="ch2t">Poglądowa krzywa wzrostu widoczności przez 12 miesięcy</title>
+          <desc id="ch2d">Przez pierwsze trzy miesiące wzrost jest powolny, bo trwają poprawki techniczne. Między czwartym a ósmym miesiącem widoczność rośnie najszybciej. Potem tempo spada, a wyniki się utrwalają.</desc>
+          <rect class="ch-phase" x="40" y="20" width="92" height="180"/>
+          <rect class="ch-phase ch-phase2" x="132" y="20" width="154" height="180"/>
+          <text class="ch-ph" x="86" y="36">fundamenty</text><text class="ch-ph" x="209" y="36">treści i linki</text><text class="ch-ph" x="348" y="36">utrwalanie</text>
+          <g class="ch-grid"><line x1="40" y1="200" x2="410" y2="200"/></g>
+          <path class="ch-area" d="M40 196 C70 194 100 190 132 182 C170 170 210 120 250 92 C290 66 330 56 410 50 L410 200 L40 200 Z"/>
+          <path class="ch-line" d="M40 196 C70 194 100 190 132 182 C170 170 210 120 250 92 C290 66 330 56 410 50"/>
+          <g class="ch-ax ch-axx">{[1, 3, 6, 9, 12].map((m) => <text x={58 + (m - 1) * (332 / 11)} y="222">{m} mies.</text>)}</g>
+          <text class="ch-sub" x="225" y="244">widoczność fraz w TOP 10</text>
+        </svg>
+        <p class="seo-note">Dlatego oceniamy SEO po kwartale, a nie po pierwszym miesiącu.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO: KALKULATOR ============ -->
+<section id="kalkulator-seo" class="sec seo-x" aria-labelledby="seo-calc-h">
+  <div class="wrap">
+    <p class="eyebrow scr">Kalkulator</p>
+    <h2 id="seo-calc-h" class="h h2">Ile możesz zyskać? Orientacyjny kalkulator SEO</h2>
+    <p class="lead seo-narrow">Ustaw budżet, konkurencję w branży i czas. Kalkulator pokaże przybliżoną liczbę fraz w TOP 10 i wzrost ruchu z Google. To uproszczony model zbudowany na podstawie naszych projektów, a nie obietnica. Dokładny plan przygotujemy po bezpłatnej analizie Twojej strony.</p>
+    <div class="seo-calc card rv" data-seo-calc>
+      <div class="seo-calc-in">
+        <label class="seo-f">
+          <span>Miesięczny budżet na SEO <output data-o="budget">3 000 zł</output></span>
+          <input type="range" name="budget" min="1000" max="15000" step="500" value="3000">
+        </label>
+        <fieldset class="seo-f">
+          <legend>Zasięg</legend>
+          <div class="seo-seg">
+            <label><input type="radio" name="scope" value="local" checked><span>lokalnie</span></label>
+            <label><input type="radio" name="scope" value="pl"><span>cała Polska</span></label>
+            <label><input type="radio" name="scope" value="shop"><span>sklep</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="seo-f">
+          <legend>Konkurencja w branży</legend>
+          <div class="seo-seg">
+            <label><input type="radio" name="comp" value="low"><span>niska</span></label>
+            <label><input type="radio" name="comp" value="mid" checked><span>średnia</span></label>
+            <label><input type="radio" name="comp" value="high"><span>wysoka</span></label>
+          </div>
+        </fieldset>
+        <fieldset class="seo-f">
+          <legend>Stan strony dziś</legend>
+          <div class="seo-seg">
+            <label><input type="radio" name="start" value="new" checked><span>nowa / bez ruchu</span></label>
+            <label><input type="radio" name="start" value="old"><span>ma już ruch z Google</span></label>
+          </div>
+        </fieldset>
+        <label class="seo-f">
+          <span>Okres współpracy <output data-o="months">6 miesięcy</output></span>
+          <input type="range" name="months" min="3" max="12" step="1" value="6">
+        </label>
+      </div>
+      <div class="seo-calc-out" aria-live="polite">
+        <div class="seo-kpi"><small>Frazy w TOP 10</small><b data-r="kw">20–40</b></div>
+        <div class="seo-kpi"><small>Wzrost ruchu z Google</small><b data-r="tr">+40–90%</b></div>
+        <div class="seo-mini" aria-hidden="true" data-r="bars"></div>
+        <p class="seo-mini-l" aria-hidden="true"><span>1. mies.</span><span data-r="last">6. mies.</span></p>
+        <p class="seo-warn" data-r="warn" hidden></p>
+        <p class="seo-disc">Wynik orientacyjny. Na efekt wpływają m.in. historia domeny, jakość strony i tempo wdrażania zmian.</p>
+        <a href="/kontakt/" class="btn btn-g">Zamów bezpłatną analizę SEO</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO: ILE TRWA ============ -->
+<section id="seo-czas" class="sec alt seo-x" aria-labelledby="seo-czas-h">
+  <div class="wrap">
+    <div class="seo-split seo-split-r">
+      <div class="rv">
+        <p class="eyebrow scr">Czas</p>
+        <h2 id="seo-czas-h" class="h h2">Ile trwa pozycjonowanie, zanim zobaczysz efekty?</h2>
+        <p class="lead">Pierwsze ruchy w pozycjach widać zwykle po 4–8 tygodniach, a efekty w telefonach i formularzach po 2–6 miesiącach. Zależy to głównie od konkurencji, wieku domeny i tego, jak szybko wdrażamy zmiany na stronie.</p>
+      </div>
+      <figure class="seo-fig rv d1"><img src="/img/seo/seo-mapa-fraz.webp" alt="Planowanie mapy fraz i struktury podstron na szklanej ścianie z karteczkami" width="1024" height="688" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="seo-table rv" role="table" aria-label="Orientacyjny czas pozycjonowania">
+      <div class="seo-tr seo-th" role="row"><span role="columnheader">Rodzaj projektu</span><span role="columnheader">Pierwsze efekty</span><span role="columnheader">Od czego zależy</span></div>
+      {times.map((r) => (<div class="seo-tr" role="row"><span role="cell">{r[0]}</span><span role="cell"><b>{r[1]}</b></span><span role="cell">{r[2]}</span></div>))}
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO: MIERZENIE ============ -->
+<section id="seo-pomiar" class="sec seo-x" aria-labelledby="seo-pom-h">
+  <div class="wrap">
+    <p class="eyebrow scr">Raport</p>
+    <h2 id="seo-pom-h" class="h h2">Skąd wiesz, że SEO działa? Te liczby sprawdzamy co miesiąc</h2>
+    <p class="lead seo-narrow">Pozycja na jedną frazę mówi niewiele. W raporcie łączymy dane z Search Console, Senuto i GA4, żeby było widać całą drogę: od wyświetlenia w Google do telefonu od klienta.</p>
+    <ol class="seo-metrics">
+      {metrics.map((m, i) => (<li class="card rv" style={`transition-delay:${i * 0.05}s`}><span class="seo-n">{String(i + 1).padStart(2, '0')}</span><h3 class="h">{m[0]}</h3><p>{m[1]}</p></li>))}
+    </ol>
+  </div>
+</section>
+
+<!-- ============ SEO: AEO / GEO ============ -->
+<section id="seo-ai" class="sec alt seo-x" aria-labelledby="seo-ai-h">
+  <div class="wrap seo-split">
+    <figure class="seo-fig rv"><img src="/img/seo/seo-odpowiedz-ai.webp" alt="Klientka czyta na telefonie odpowiedź asystenta AI z polecaną lokalną firmą" width="1024" height="688" loading="lazy" decoding="async"></figure>
+    <div class="rv d1">
+      <p class="eyebrow scr">AEO i GEO</p>
+      <h2 id="seo-ai-h" class="h h2">Czy pozycjonowanie ma sens, skoro Google odpowiada za pomocą AI?</h2>
+      <p class="lead">Ma, tylko trochę się zmienia. AI Overviews i ChatGPT nie wymyślają odpowiedzi z niczego. Biorą je ze stron, które Google i tak uznaje za wiarygodne, więc dobre SEO to warunek, żeby AI w ogóle Cię zauważyło.</p>
+      <p>Różnica jest taka, że część osób dostaje odpowiedź bez klikania. Dlatego zależy nam, żeby w tej odpowiedzi padła nazwa Twojej firmy. Pomagają w tym konkretne fakty na stronie (adres, ceny, terminy, autor), sekcje pytań i odpowiedzi, dane strukturalne i spójne informacje o firmie w innych miejscach w sieci. Tak samo przygotowaliśmy naszą stronę i nasze <a href="/uslugi/strony-internetowe/piaseczno/" class="tlink">podstrony lokalne</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO: CORE WEB VITALS ============ -->
+<section id="seo-cwv" class="sec seo-x" aria-labelledby="seo-cwv-h">
+  <div class="wrap">
+    <div class="seo-split seo-split-r">
+      <div class="rv">
+        <p class="eyebrow scr">Szybkość strony</p>
+        <h2 id="seo-cwv-h" class="h h2">Core Web Vitals: trzy liczby, które Google mierzy u Twoich klientów</h2>
+        <p class="lead">Google zbiera dane o szybkości z prawdziwych wizyt w Chrome, a nie z testu w laboratorium. Jeśli strona jest wolna na telefonie, przegrywa z równie dobrą, ale szybszą stroną konkurencji.</p>
+      </div>
+      <figure class="seo-fig rv d1"><img src="/img/seo/seo-szybkosc-strony.webp" alt="Laptop z raportem wydajności strony i telefon z wersją mobilną tej samej strony" width="1024" height="688" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="seo-grid3">
+      {vitals.map((x, i) => (<article class="card seo-card rv" style={`transition-delay:${i * 0.06}s`}><p class="seo-vk">{x[0]}</p><p class="seo-vt">{x[1]}</p><p>{x[2]}</p></article>))}
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO: WSPÓŁPRACA ============ -->
+<section id="seo-agencja" class="sec alt seo-x" aria-labelledby="seo-ag-h">
+  <div class="wrap seo-two">
+    <div class="rv">
+      <p class="eyebrow scr">Zanim podpiszesz umowę</p>
+      <h2 id="seo-ag-h" class="h h2">6 pytań, które warto zadać każdej agencji SEO</h2>
+      <p class="lead">Także nam. Jeśli ktoś nie umie na nie odpowiedzieć konkretnie, to też jest odpowiedź.</p>
+      <ul class="seo-checks">{agencyQs.map((q) => (<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg>{q}</li>))}</ul>
+    </div>
+    <div class="rv d1">
+      <p class="eyebrow scr">Twoja rola</p>
+      <h3 class="h h2 seo-h3">Co możesz zrobić, żeby efekty przyszły szybciej</h3>
+      <div class="seo-tasks">{clientTasks.map((t) => (<div class="card"><b class="ink">{t[0]}</b><p>{t[1]}</p></div>))}</div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const fmt = (n: number) => n.toLocaleString('pl-PL');
+  document.querySelectorAll<HTMLElement>('[data-seo-calc]').forEach((root) => {
+    const val = (n: string) => (root.querySelector<HTMLInputElement>(`[name="${n}"]:checked`) || root.querySelector<HTMLInputElement>(`[name="${n}"]`))!.value;
+    const out = (k: string) => root.querySelector<HTMLElement>(`[data-r="${k}"]`)!;
+    const calc = () => {
+      const budget = +val('budget'), months = +val('months');
+      const comp = ({ low: 1.45, mid: 1, high: 0.58 } as Record<string, number>)[val('comp')];
+      const scope = ({ local: 1.15, pl: 1, shop: 1.1 } as Record<string, number>)[val('scope')];
+      const isNew = val('start') === 'new';
+      const power = Math.pow(budget / 1000, 0.72) * comp * scope;
+      const prog = (m: number) => (1 - Math.exp(-m / 4.5)) * (isNew ? Math.min(1, 0.55 + m * 0.05) : 1);
+      const kw = power * 11 * prog(months);
+      const tr = power * (isNew ? 34 : 15) * prog(months);
+      const r = (x: number, lo: number, hi: number) => [Math.max(1, Math.round(x * lo)), Math.max(2, Math.round(x * hi))];
+      const [k1, k2] = r(kw, 0.7, 1.35), [t1, t2] = r(tr, 0.65, 1.4);
+      out('kw').textContent = `${fmt(k1)}–${fmt(k2)}`;
+      out('tr').textContent = `+${fmt(t1)}–${fmt(t2)}%`;
+      root.querySelector<HTMLOutputElement>('[data-o="budget"]')!.textContent = `${fmt(budget)} zł`;
+      root.querySelector<HTMLOutputElement>('[data-o="months"]')!.textContent = `${months} ${months < 5 ? 'miesiące' : 'miesięcy'}`;
+      out('last').textContent = `${months}. mies.`;
+      const max = prog(months) || 1;
+      out('bars').innerHTML = Array.from({ length: months }, (_, i) => `<i style="height:${Math.max(6, (prog(i + 1) / max) * 100)}%"></i>`).join('');
+      const warn = out('warn');
+      const low = (val('comp') === 'high' && budget < 3000) || (val('scope') === 'shop' && budget < 2500);
+      warn.hidden = !low;
+      warn.textContent = low ? 'Przy tej konkurencji ten budżet może nie wystarczyć na regularne treści i linki. Warto zacząć od węższej grupy fraz.' : '';
+    };
+    root.addEventListener('input', calc);
+    calc();
+  });
+</script>
+
+<style>
+  .seo-x .lead + p{color:var(--text);line-height:1.7;margin-top:14px}
+  .seo-narrow{max-width:760px}
+  .seo-split{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:48px;align-items:center}
+  .seo-split-r > :first-child{order:0}
+  .seo-fig{margin:0;border-radius:24px;overflow:hidden;border:1px solid var(--line);aspect-ratio:3/2}
+  .seo-fig img{width:100%;height:100%;object-fit:cover;display:block}
+  .seo-grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin-top:48px}
+  .seo-grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:40px}
+  .seo-card{padding:26px}
+  .seo-card h3{font-size:19px;margin:0 0 10px;color:var(--ink)}
+  .seo-card p{margin:0;font-size:15px;line-height:1.6;color:var(--text)}
+  .seo-card ul{margin:14px 0 0;padding:0;list-style:none;display:grid;gap:6px}
+  .seo-card li{font-size:14px;color:var(--text);padding-left:18px;position:relative}
+  .seo-card li::before{content:"";position:absolute;left:0;top:.55em;width:8px;height:8px;border-radius:50%;background:var(--acc)}
+  .seo-charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:40px}
+  .seo-chart{margin:0;padding:24px}
+  .seo-chart figcaption{display:flex;flex-direction:column;gap:2px;margin-bottom:12px}
+  .seo-chart figcaption b{color:var(--ink);font-size:17px}
+  .seo-chart figcaption span{font-size:13px;color:var(--muted)}
+  .seo-chart svg{width:100%;height:auto;display:block}
+  .ch-grid line{stroke:var(--line);stroke-width:1}
+  .ch-ax text{fill:var(--muted);font-size:11px;text-anchor:end}
+  .ch-axx text{text-anchor:middle}
+  .ch-bar{fill:var(--acc);opacity:.75}
+  .ch-bar2{opacity:1}
+  .ch-val{fill:var(--ink);font-size:18px;font-weight:700;text-anchor:middle;font-family:Poppins,sans-serif}
+  .ch-lab{fill:var(--ink);font-size:13px;font-weight:600;text-anchor:middle}
+  .ch-sub{fill:var(--muted);font-size:11px;text-anchor:middle}
+  .ch-phase{fill:var(--acc-soft);opacity:.35}
+  .ch-phase2{opacity:.6}
+  .ch-ph{fill:var(--muted);font-size:11px;text-anchor:middle}
+  .ch-area{fill:var(--acc);opacity:.14}
+  .ch-line{fill:none;stroke:var(--acc);stroke-width:3;stroke-linecap:round}
+  .seo-note{margin:12px 0 0;font-size:14px;color:var(--text)}
+  .seo-note b{color:var(--ink)}
+  .seo-calc{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:0;margin-top:40px;padding:0;overflow:hidden}
+  .seo-calc-in{padding:32px;display:grid;gap:24px}
+  .seo-calc-out{padding:32px;background:#0A0E0B;color:#fff;display:flex;flex-direction:column;gap:14px}
+  .seo-f{border:0;padding:0;margin:0;display:grid;gap:10px}
+  .seo-f > span,.seo-f legend{font-weight:600;color:var(--ink);font-size:15px;display:flex;justify-content:space-between;padding:0;width:100%}
+  .seo-f output{color:var(--acc-t);font-weight:700}
+  .seo-f input[type=range]{width:100%;accent-color:var(--acc)}
+  .seo-seg{display:flex;flex-wrap:wrap;gap:8px}
+  .seo-seg label{position:relative}
+  .seo-seg input{position:absolute;opacity:0;inset:0;cursor:pointer}
+  .seo-seg span{display:block;padding:9px 16px;border:1px solid var(--line-2);border-radius:999px;font-size:14px;color:var(--text);transition:all .2s}
+  .seo-seg input:checked + span{background:var(--acc);border-color:var(--acc);color:#fff}
+  .seo-seg input:focus-visible + span{outline:2px solid var(--ink);outline-offset:2px}
+  .seo-kpi small{display:block;color:#C9D2C6;font-size:13px}
+  .seo-kpi b{font-family:Poppins,sans-serif;font-size:40px;line-height:1.1;letter-spacing:-.02em}
+  .seo-mini{display:flex;align-items:flex-end;gap:4px;height:90px;margin-top:6px}
+  .seo-mini :global(i){flex:1;background:linear-gradient(180deg,#8FD35A,#60AD26);border-radius:4px 4px 0 0;transition:height .35s ease}
+  .seo-mini-l{display:flex;justify-content:space-between;font-size:12px;color:#C9D2C6;margin:0}
+  .seo-warn{margin:0;font-size:13px;color:#F5C26B}
+  .seo-disc{margin:0;font-size:12px;color:#9AA597;line-height:1.5}
+  .seo-calc-out .btn{margin-top:auto;align-self:flex-start}
+  .seo-table{margin-top:40px;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--surface)}
+  .seo-tr{display:grid;grid-template-columns:1.3fr .7fr 1.4fr;gap:16px;padding:16px 22px;border-top:1px solid var(--line);font-size:15px;color:var(--text)}
+  .seo-tr b{color:var(--ink)}
+  .seo-th{border-top:0;font-weight:600;color:var(--ink);background:var(--acc-soft)}
+  .seo-metrics{list-style:none;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  .seo-metrics li{padding:24px}
+  .seo-metrics h3{font-size:18px;margin:8px 0;color:var(--ink)}
+  .seo-metrics p{margin:0;font-size:15px;line-height:1.6;color:var(--text)}
+  .seo-n{font-family:Poppins,sans-serif;font-weight:700;color:var(--acc-t);font-size:14px}
+  .seo-vk{font-family:Poppins,sans-serif;font-weight:700;font-size:30px;color:var(--ink) !important;margin:0}
+  .seo-vt{font-weight:600;color:var(--acc-t) !important;margin:2px 0 10px !important}
+  .seo-two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px}
+  .seo-h3{font-size:clamp(24px,2.4vw,34px)}
+  .seo-checks{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}
+  .seo-checks li{display:flex;gap:12px;align-items:flex-start;color:var(--text);line-height:1.55}
+  .seo-checks svg{flex:none;color:var(--acc);margin-top:2px}
+  .seo-tasks{display:grid;gap:12px;margin-top:24px}
+  .seo-tasks .card{padding:18px 20px}
+  .seo-tasks p{margin:6px 0 0;font-size:14.5px;line-height:1.55;color:var(--text)}
+  @media (max-width:1000px){.seo-grid4{grid-template-columns:repeat(2,minmax(0,1fr))}.seo-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media (max-width:860px){
+    .seo-split,.seo-two,.seo-charts,.seo-calc,.seo-grid3{grid-template-columns:1fr;gap:28px}
+    .seo-calc{gap:0}
+    .seo-calc-in,.seo-calc-out{padding:24px}
+    .seo-tr{grid-template-columns:1fr;gap:4px}
+    .seo-th{display:none}
+  }
+  @media (max-width:560px){.seo-grid4,.seo-metrics{grid-template-columns:1fr}.seo-kpi b{font-size:32px}}
+  @media (prefers-reduced-motion:reduce){.seo-mini :global(i){transition:none}}
+</style>

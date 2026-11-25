@@ -1,6 +1,7 @@
 ---
 // Generated from the top.strony design (tools/dc2astro.py). 
 import AdsHub from '../AdsHub.astro';
+import SeoHub from '../SeoHub.astro';
 const { v } = Astro.props;
 ---
 <main id="main">
@@ -217,6 +218,8 @@ const { v } = Astro.props;
     </div>
   </section>
   </Fragment>)}
+
+  {v.svc?.slug === 'pozycjonowanie-seo' && <SeoHub />}
 
   <!-- ============ USŁUGA: FAQ ============ -->
   <section id="sv-faq" class="sec alt deco-bars deco-l" aria-labelledby="sv-faq-h">

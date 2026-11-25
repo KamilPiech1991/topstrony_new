@@ -9,7 +9,7 @@
   "short": "SEO · AEO · GEO",
   "h1": "Pozycjonowanie stron SEO, AEO i GEO",
   "metaTitle": "Pozycjonowanie SEO, AEO i GEO | top.strony",
-  "metaDesc": "Pozycjonowanie stron w Google, Mapach i odpowiedziach AI. Audyt, SEO lokalne, wizytówka Google, treści i linki. Raport co miesiąc. Bezpłatna analiza.",
+  "metaDesc": "Pozycjonowanie stron w Google, Mapach i odpowiedziach AI. Audyt, SEO lokalne, treści, linki i Core Web Vitals. Kalkulator efektów SEO, raport co miesiąc, bezpłatna analiza.",
   "lead": "Pomagamy firmom pojawiać się tam, gdzie klienci szukają: w wynikach Google, w Mapach i w odpowiedziach ChatGPT, Gemini oraz AI Overviews.",
   "answer": "Pozycjonowanie w top.strony to systematyczna praca nad trzema obszarami: SEO (pozycje w wynikach Google), SEO lokalne (wizytówka i Mapy Google) oraz AEO i GEO (cytowania w odpowiedziach AI). Zaczynamy od bezpłatnej analizy widoczności, a co miesiąc dostajesz raport z pozycji, ruchu i zapytań.",
   "facts": [
@@ -174,6 +174,34 @@
    [
     "Ile kosztuje pozycjonowanie strony?",
     "Zależy od konkurencji w branży, liczby fraz i lokalizacji. Po bezpłatnej analizie widoczności przygotujemy plan i wycenę miesięczną."
+   ],
+   [
+    "Czy pozycjonowanie ma sens, skoro Google pokazuje odpowiedzi AI?",
+    "Tak. AI Overviews i ChatGPT biorą informacje ze stron, które wyszukiwarka uznaje za wiarygodne, więc bez dobrego SEO trudno trafić do takiej odpowiedzi. Dodatkowo przygotowujemy treści pod AEO i GEO: krótkie odpowiedzi, FAQ, dane strukturalne i konkretne fakty o firmie."
+   ],
+   [
+    "Czy mogę pozycjonować stronę samodzielnie?",
+    "Podstawy tak: uzupełniona wizytówka Google, opisane usługi i prośby o opinie robią dużą różnicę. Trudniej samemu ogarnąć technikę, analizę fraz, linki i regularny pomiar efektów, dlatego większość firm zleca to na zewnątrz, gdy SEO ma przynosić stałe zapytania."
+   ],
+   [
+    "SEO czy Google Ads, co wybrać?",
+    "Google Ads daje klientów od pierwszego dnia, ale tylko tak długo, jak płacisz za kliknięcia. SEO rozkręca się kilka miesięcy, za to ruch zostaje i z czasem kosztuje mniej. Często zaczynamy od obu: reklamy dają zapytania na start, a pozycjonowanie z czasem przejmuje coraz większą część ruchu."
+   ],
+   [
+    "Ile mojego czasu zajmuje pozycjonowanie?",
+    "Na starcie około godziny na rozmowę o firmie, klientach i usługach. Potem kilkanaście minut w miesiącu na akceptacje zmian i omówienie raportu. Resztą zajmujemy się my."
+   ],
+   [
+    "Czy pozycjonowanie wymaga zmian na stronie?",
+    "Prawie zawsze tak. Zwykle chodzi o tytuły, nagłówki, nowe podstrony usług, szybkość i dane strukturalne. Jeśli stronę zrobiliśmy my, wdrażamy zmiany sami. Przy obcej stronie potrzebujemy dostępu do panelu albo kontaktu z jej wykonawcą."
+   ],
+   [
+    "Czy mogę zrezygnować z pozycjonowania?",
+    "Tak, z zachowaniem okresu wypowiedzenia z umowy. Wszystko, co powstało w trakcie współpracy, czyli treści, podstrony, poprawki techniczne i konta analityczne, zostaje u Ciebie."
+   ],
+   [
+    "Jak działa kalkulator SEO na tej stronie?",
+    "To uproszczony model oparty na naszych projektach. Bierze pod uwagę budżet, zasięg, konkurencję, stan strony i czas współpracy, a pokazuje przybliżoną liczbę fraz w TOP 10 i wzrost ruchu. Traktuj wynik jako punkt wyjścia do rozmowy, a nie gwarancję."
    ]
   ],
   "case": "pure",
@@ -498,6 +526,55 @@
    "open": false,
    "closed": true,
    "i": "6"
+  },
+  {
+   "q": "Czy pozycjonowanie ma sens, skoro Google pokazuje odpowiedzi AI?",
+   "a": "Tak. AI Overviews i ChatGPT biorą informacje ze stron, które wyszukiwarka uznaje za wiarygodne, więc bez dobrego SEO trudno trafić do takiej odpowiedzi. Dodatkowo przygotowujemy treści pod AEO i GEO: krótkie odpowiedzi, FAQ, dane strukturalne i konkretne fakty o firmie.",
+   "open": false,
+   "closed": true,
+   "i": "7"
+  },
+  {
+   "q": "Czy mogę pozycjonować stronę samodzielnie?",
+   "a": "Podstawy tak: uzupełniona wizytówka Google, opisane usługi i prośby o opinie robią dużą różnicę. Trudniej samemu ogarnąć technikę, analizę fraz, linki i regularny pomiar efektów, dlatego większość firm zleca to na zewnątrz, gdy SEO ma przynosić stałe zapytania.",
+   "open": false,
+   "closed": true,
+   "i": "8"
+  },
+  {
+   "q": "SEO czy Google Ads, co wybrać?",
+   "a": "Google Ads daje klientów od pierwszego dnia, ale tylko tak długo, jak płacisz za kliknięcia. SEO rozkręca się kilka miesięcy, za to ruch zostaje i z czasem kosztuje mniej. Często zaczynamy od obu: reklamy dają zapytania na start, a pozycjonowanie z czasem przejmuje coraz większą część ruchu.",
+   "open": false,
+   "closed": true,
+   "i": "9"
+  },
+  {
+   "q": "Ile mojego czasu zajmuje pozycjonowanie?",
+   "a": "Na starcie około godziny na rozmowę o firmie, klientach i usługach. Potem kilkanaście minut w miesiącu na akceptacje zmian i omówienie raportu. Resztą zajmujemy się my.",
+   "open": false,
+   "closed": true,
+   "i": "10"
+  },
+  {
+   "q": "Czy pozycjonowanie wymaga zmian na stronie?",
+   "a": "Prawie zawsze tak. Zwykle chodzi o tytuły, nagłówki, nowe podstrony usług, szybkość i dane strukturalne. Jeśli stronę zrobiliśmy my, wdrażamy zmiany sami. Przy obcej stronie potrzebujemy dostępu do panelu albo kontaktu z jej wykonawcą.",
+   "open": false,
+   "closed": true,
+   "i": "11"
+  },
+  {
+   "q": "Czy mogę zrezygnować z pozycjonowania?",
+   "a": "Tak, z zachowaniem okresu wypowiedzenia z umowy. Wszystko, co powstało w trakcie współpracy, czyli treści, podstrony, poprawki techniczne i konta analityczne, zostaje u Ciebie.",
+   "open": false,
+   "closed": true,
+   "i": "12"
+  },
+  {
+   "q": "Jak działa kalkulator SEO na tej stronie?",
+   "a": "To uproszczony model oparty na naszych projektach. Bierze pod uwagę budżet, zasięg, konkurencję, stan strony i czas współpracy, a pokazuje przybliżoną liczbę fraz w TOP 10 i wzrost ruchu. Traktuj wynik jako punkt wyjścia do rozmowy, a nie gwarancję.",
+   "open": false,
+   "closed": true,
+   "i": "13"
   }
  ],
  "svcSteps": [
