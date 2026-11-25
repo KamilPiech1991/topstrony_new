@@ -7,7 +7,7 @@ const files = import.meta.glob('../../data/pages/srv-*.json', { eager: true }) a
 const order = ['strony-internetowe', 'sklepy-internetowe', 'pozycjonowanie-seo', 'kampanie-google-meta-ads', 'social-media', 'branding'];
 const list = Object.values(files).map((m) => m.default)
   .sort((a, b) => order.indexOf(a.svc.slug) - order.indexOf(b.svc.slug))
-  .map((d) => ({ t: d.svc.title, d: d.svc.lead, href: '/uslugi/' + d.svc.slug + '/', bg: d.svc.bg, icon: d.svc.icon }));
+  .map((d) => ({ t: d.svc.title, d: d.svc.lead, slug: d.svc.slug, href: '/uslugi/' + d.svc.slug + '/', bg: d.svc.bg, icon: d.svc.icon }));
 const v = {
   ...home,
   navRest: home.navRest,
@@ -31,8 +31,9 @@ const ld = [
         <p class="lead h-in">Strona, sklep, widoczność w Google i w odpowiedziach AI, kampanie, social media i branding. Zaczynasz od jednej usługi, a resztę dokładasz wtedy, kiedy ma to sens dla wyniku.</p>
         <div class="sv-rel" style="margin-top: 64px">
           {list.map((rl) => (
-            <a href={rl.href} class="sv-rl rv">
-              <span class="sv-rl-ic" style={rl.bg}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={rl.icon}></path></svg></span>
+            <a href={rl.href} class="sv-rl us-tile rv">
+              <span class="us-img"><img src={`/img/uslugi/${rl.slug}-640.webp`} srcset={`/img/uslugi/${rl.slug}-640.webp 640w, /img/uslugi/${rl.slug}-960.webp 960w`} sizes="(max-width:900px) 100vw, 380px" alt={`${rl.t}: ilustracja usługi`} width="640" height="480" loading="lazy" decoding="async"></span>
+              <span class="sv-rl-ic us-ic" style={rl.bg}><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={rl.icon}></path></svg></span>
               <h2 class="h">{rl.t}</h2>
               <p>{rl.d}</p>
               <span class="sv-rl-go" aria-hidden="true">→</span>
@@ -50,5 +51,12 @@ const ld = [
 </Base>
 
 <style>
-  .sv-rl h2 { font-size: 19px; margin: 18px 0 8px; color: var(--ink); }
+  .us-tile{padding:0;overflow:hidden}
+  .us-img{display:block;aspect-ratio:4/3;overflow:hidden;background:var(--surface)}
+  .us-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+  .us-tile:hover .us-img img{transform:scale(1.04)}
+  .us-tile .us-ic{position:absolute;top:16px;left:18px;box-shadow:0 6px 18px rgba(0,0,0,.35)}
+  .us-tile h2{font-size:20px;margin:22px 26px 8px}
+  .us-tile p{margin:0 26px 28px;padding-right:28px}
+  .us-tile .sv-rl-go{top:auto;bottom:26px;right:24px}
 </style>
