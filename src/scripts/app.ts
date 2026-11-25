@@ -193,9 +193,12 @@ form?.addEventListener('submit', async (e) => {
 
 /* split headings: stagger by rendered line */
 function revealSplit(el: HTMLElement) {
+  // najpierw wszystkie odczyty układu, potem zapisy (bez wymuszonego przeliczania układu)
+  const words = $$('.wm', el);
+  const tops = words.map((w) => w.offsetTop);
   let line = -1, top: number | null = null;
-  $$('.wm', el).forEach((w) => {
-    const t = w.offsetTop;
+  words.forEach((w, i) => {
+    const t = tops[i];
     if (top === null || Math.abs(t - top) > 4) { line++; top = t; }
     const wi = w.firstElementChild as HTMLElement | null;
     if (wi) wi.style.transitionDelay = (line * 0.09).toFixed(2) + 's';
@@ -290,32 +293,38 @@ function onScroll() {
     if (dy !== 0) { dir = dy > 0 ? 1 : -1; boost = Math.max(boost, Math.min(6, 1 + (Math.abs(dy / dt) * 1000) / 400)); }
     lastY = sy; lastT = now;
     if (reduce) return;
-    if (drift) {
-      const r = (drift.parentNode as HTMLElement).getBoundingClientRect();
+    // odczyty układu zbieramy przed zapisami stylów
+    const rDrift = drift ? (drift.parentNode as HTMLElement).getBoundingClientRect() : null;
+    const rLead = lead ? lead.getBoundingClientRect() : null;
+    const rMan = man && manWords.length ? man.getBoundingClientRect() : null;
+    const rStack = stackCards.map((c) => c.getBoundingClientRect());
+    const rScrub = scrubs.map((m) => (m.parentNode as HTMLElement).getBoundingClientRect());
+    if (drift && rDrift) {
+      const r = rDrift;
       if (r.bottom > -50 && r.top < vh + 50) {
         const p = clamp((vh - r.top) / (vh + r.height));
         drift.style.transform = `translate3d(${(2 - p * 32).toFixed(2)}%,0,0)`;
         $$('.drift-s', drift).forEach((s) => { s.style.transform = `rotate(${(p * 360).toFixed(1)}deg)`; });
       }
     }
-    if (lead) {
-      const r = lead.getBoundingClientRect(), k = 1 - clamp((vh * 0.95 - r.top) / (vh * 0.5));
+    if (lead && rLead) {
+      const r = rLead, k = 1 - clamp((vh * 0.95 - r.top) / (vh * 0.5));
       lead.style.clipPath = `inset(${(k * 8).toFixed(2)}% ${(k * 6).toFixed(2)}% ${(k * 8).toFixed(2)}% ${(k * 6).toFixed(2)}% round ${(k * 48).toFixed(1)}px)`;
     }
-    if (man && manWords.length) {
-      const r = man.getBoundingClientRect(), lit = clamp((vh * 0.82 - r.top) / (r.height + vh * 0.25)) * manWords.length * 1.15;
+    if (man && rMan) {
+      const r = rMan, lit = clamp((vh * 0.82 - r.top) / (r.height + vh * 0.25)) * manWords.length * 1.15;
       manWords.forEach((w, i) => { w.style.opacity = (0.16 + clamp(lit - i) * 0.84).toFixed(3); });
     }
     stackCards.forEach((c, i) => {
       const next = stackCards[i + 1];
       if (!next) { c.style.transform = ''; return; }
-      const a = c.getBoundingClientRect(), b = next.getBoundingClientRect();
+      const a = rStack[i], b = rStack[i + 1];
       const p = clamp(1 - (b.top - a.top) / Math.max(a.height, 1));
       c.style.transform = `scale(${(1 - p * 0.06).toFixed(4)})`;
       c.style.filter = `brightness(${(1 - p * 0.08).toFixed(3)})`;
     });
-    scrubs.forEach((m) => {
-      const r = (m.parentNode as HTMLElement).getBoundingClientRect();
+    scrubs.forEach((m, i) => {
+      const r = rScrub[i];
       if (r.bottom < -100 || r.top > vh + 100) return;
       m.style.transform = `translate3d(0,${((((r.top + r.height / 2) - vh / 2) / vh) * -8).toFixed(2)}%,0)`;
     });
