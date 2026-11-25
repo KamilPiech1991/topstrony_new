@@ -193,8 +193,14 @@ const ld = [
     <div class="wrap">
       <p class="eyebrow scr">Jak pracujemy</p>
       <h2 id="pz-proc" class="h h2 split">Od rozmowy do strony w 6 krokach</h2>
-      <ol class="pz-steps" data-gs="steps">
-        {steps.map((s, i) => (<li class="rv"><span class="pz-n">{String(i + 1).padStart(2, '0')}</span><div><h3 class="h">{s[0]}</h3><p>{s[1]}</p></div></li>))}
+      <ol class="pz-flow" data-gs="steps">
+        {steps.map((s, i) => (
+          <li class={`pz-st ${i % 2 ? 'is-r' : 'is-l'}`} style={`--i:${i}`}>
+            <span class="pz-bignum" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+            <span class="pz-node" aria-hidden="true">{i + 1}</span>
+            <div class="pz-card"><small>Krok {i + 1} z {steps.length}</small><h3 class="h">{s[0]}</h3><p>{s[1]}</p></div>
+          </li>
+        ))}
       </ol>
     </div>
   </section>

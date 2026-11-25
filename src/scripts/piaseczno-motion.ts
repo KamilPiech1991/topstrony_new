@@ -30,13 +30,14 @@ export function initPiaseczno() {
     gsap.from(fig.querySelector('figcaption'), { y: 16, opacity: 0, duration: 0.8, ease: 'power2.out', scrollTrigger: { trigger: fig, start: 'top 75%' } });
   });
 
-  // Proces: kroki wjeżdżają po kolei, linia postępu rośnie z przewijaniem
-  const steps = document.querySelector<HTMLElement>('[data-gs="steps"]');
-  if (steps) {
-    steps.style.setProperty('--prog', '0');
-    gsap.to(steps, { '--prog': 1, ease: 'none', scrollTrigger: { trigger: steps, start: 'top 75%', end: 'bottom 55%', scrub: true } });
-    gsap.from(steps.children, { y: 30, opacity: 0, duration: 0.7, ease: 'power2.out', stagger: 0.08, scrollTrigger: { trigger: steps, start: 'top 80%' } });
-  }
+  // Proces: kafelki odsłaniają się po kolei, kreski i węzły zapalają się na zielono
+  document.querySelectorAll<HTMLElement>('[data-gs="steps"] .pz-st').forEach((li) => {
+    ScrollTrigger.create({
+      trigger: li, start: 'top 80%',
+      onEnter: () => li.classList.add('is-on'),
+      onEnterBack: () => li.classList.add('is-on'),
+    });
+  });
 
   // Miejscowości: chipy wskakują jak pinezki na mapie
   gsap.from('[data-gs="chips"] li', { scale: 0.6, opacity: 0, duration: 0.5, ease: 'back.out(2)', stagger: 0.035, scrollTrigger: { trigger: '[data-gs="chips"]', start: 'top 85%' } });
