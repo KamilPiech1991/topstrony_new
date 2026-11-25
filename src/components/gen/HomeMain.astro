@@ -1,5 +1,6 @@
 ---
 // Generated from the top.strony design (tools/dc2astro.py). 
+import PartnerBadges from '../PartnerBadges.astro';
 const { v } = Astro.props;
 ---
 <main id="main">
@@ -225,6 +226,14 @@ const { v } = Astro.props;
           </Fragment>))}
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- ============ PARTNERZY ============ -->
+  <section id="partnerzy" class="sec-partners" aria-labelledby="partnerzy-h">
+    <div class="wrap">
+      <p id="partnerzy-h" class="eyebrow scr" style="text-align:center">Certyfikowany partner Google i Meta</p>
+      <div class="rv"><PartnerBadges variant="home" /></div>
     </div>
   </section>
 

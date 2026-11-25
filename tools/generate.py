@@ -59,6 +59,12 @@ def gen(name, tpl):
         a = 'FAQ, dane strukturalne i plik llms.txt.</p>'
         assert a in code
         code = code.replace(a, 'FAQ, dane strukturalne i plik llms.txt. Tak samo przygotowaliśmy strony <a href="/uslugi/strony-internetowe/piaseczno/" class="tlink">strony internetowe Piaseczno</a> i <a href="/uslugi/strony-internetowe/warszawa/" class="tlink">strony internetowe Warszawa</a>.</p>', 1)
+    if name == 'Footer':
+        code = code.replace("const { v } = Astro.props;", "import PartnerBadges from '../PartnerBadges.astro';\nconst { v } = Astro.props;", 1)
+        code = code.replace('      <div class="foot-bot">', '      <div class="foot-partners"><span class="foot-t" style="margin:0">Jesteśmy partnerem</span><PartnerBadges variant="foot" /></div>\n      <div class="foot-bot">', 1)
+    if name == 'HomeMain':
+        code = code.replace("const { v } = Astro.props;", "import PartnerBadges from '../PartnerBadges.astro';\nconst { v } = Astro.props;", 1)
+        code = code.replace("  <!-- ============ BANER 2 ============ -->", '  <!-- ============ PARTNERZY ============ -->\n  <section id="partnerzy" class="sec-partners" aria-labelledby="partnerzy-h">\n    <div class="wrap">\n      <p id="partnerzy-h" class="eyebrow scr" style="text-align:center">Certyfikowany partner Google i Meta</p>\n      <div class="rv"><PartnerBadges variant="home" /></div>\n    </div>\n  </section>\n\n  <!-- ============ BANER 2 ============ -->', 1)
     if name == 'KontaktMain':
         import re as _re
         code, n = _re.subn(r'<div class="kt-map rv d2" aria-hidden="true">.*?</div>\n    </div>\n  </section>',

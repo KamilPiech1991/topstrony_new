@@ -1,0 +1,24 @@
+---
+// Odznaki partnerskie (Google Partner, Meta Business Partner) w kolorystyce strony (maska + kolor motywu)
+interface Props { variant?: 'foot' | 'home' }
+const { variant = 'foot' } = Astro.props;
+const badges = [
+  { n: 'Google Partner', src: '/img/partnerzy/google-partner.png', w: 540, h: 240 },
+  { n: 'Meta Business Partner', src: '/img/partnerzy/meta-business-partner.png', w: 540, h: 309 },
+];
+---
+<ul class={`pb pb-${variant}`} aria-label="Statusy partnerskie top.strony">
+  {badges.map((b) => (
+    <li><span class="pb-logo" role="img" aria-label={b.n} style={`--u:url(${b.src});aspect-ratio:${b.w}/${b.h}`}></span></li>
+  ))}
+</ul>
+<style>
+  .pb{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;align-items:center;gap:28px}
+  .pb li{display:flex;align-items:center}
+  .pb-logo{display:block;background:var(--ink);opacity:.72;-webkit-mask:var(--u) center / contain no-repeat;mask:var(--u) center / contain no-repeat;transition:opacity .3s ease,background .3s ease}
+  .pb li:hover .pb-logo{opacity:1;background:var(--acc-t)}
+  .pb-foot .pb-logo{height:44px}
+  .pb-home{justify-content:center;gap:56px}
+  .pb-home .pb-logo{height:72px}
+  @media (max-width:640px){.pb-home{gap:32px}.pb-home .pb-logo{height:56px}}
+</style>

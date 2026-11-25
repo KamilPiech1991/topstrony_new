@@ -1,5 +1,6 @@
 ---
 // Generated from the top.strony design (tools/dc2astro.py). 
+import PartnerBadges from '../PartnerBadges.astro';
 const { v } = Astro.props;
 ---
 <!-- ============ 18. STOPKA ============ -->
@@ -24,6 +25,7 @@ const { v } = Astro.props;
           </nav>
         </Fragment>))}
       </div>
+      <div class="foot-partners"><span class="foot-t" style="margin:0">Jesteśmy partnerem</span><PartnerBadges variant="foot" /></div>
       <div class="foot-bot">
         <span>© 2026 top.strony · Qamitech Kamil Piech</span>
         <span style="display: flex; gap: 20px"><a href="/polityka-prywatnosci/">Polityka prywatności</a><a href="/polityka-prywatnosci/#cookies">Cookies</a><button type="button" class="tlink" style="all: unset; cursor: pointer; color: var(--acc-t); font-weight: 600" data-act="theme">{v.themeLabel}</button></span>
