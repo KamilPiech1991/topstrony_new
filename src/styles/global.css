@@ -396,7 +396,7 @@ a.card:hover,.card.hov:hover{transform:translateY(-4px);border-color:rgba(96,173
 .qc-av img{width:56px;height:56px;border-radius:50%;object-fit:cover;display:block}
 .qc-av i{position:absolute;right:1px;bottom:1px;width:14px;height:14px;border-radius:50%;background:#60AD26;border:3px solid var(--bg);animation:dotPl 2s ease-out infinite}
 @keyframes dotPl{0%{box-shadow:0 0 0 0 rgba(96,173,38,.7)}100%{box-shadow:0 0 0 8px rgba(96,173,38,0)}}
-.qc-av.off i{background:#E5484D;animation:none}
+.qc-av.off i{background:#60AD26;animation:dotPl 2s ease-out infinite}
 .qc-st{font-weight:700;color:var(--acc-t)}
 .qc-st.off{color:#E5484D}
 .qc-head h2{margin:0;font-size:24px;font-weight:700}
@@ -553,7 +553,7 @@ a.card:hover,.card.hov:hover{transform:translateY(-4px);border-color:rgba(96,173
 .mega-help-top{position:relative;width:56px;height:56px;margin-bottom:14px}
 .mega-help-top img{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:50% 20%;background:var(--surface-2);border:2px solid var(--acc)}
 .mega-dot{position:absolute;right:0;bottom:2px;width:13px;height:13px;border-radius:50%;background:#3DD16B;border:2px solid var(--surface)}
-.mega-dot.off{background:#E5484D}
+.mega-dot,.mega-dot.off{background:#60AD26;animation:dotPl 2s ease-out infinite}
 .mega-help-t{font-family:Poppins,Inter,sans-serif;font-weight:600;font-size:17px;color:var(--ink);margin:0 0 6px}
 .mega-help-d{font-size:14px;line-height:1.5;color:var(--muted);margin:0 0 16px}
 .mega-help-btn{align-self:flex-start}

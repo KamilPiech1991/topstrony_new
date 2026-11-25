@@ -129,10 +129,11 @@ function status() {
     const wd = p.find((x) => x.type === 'weekday')?.value || '', hr = parseInt(p.find((x) => x.type === 'hour')?.value || '12', 10);
     online = !['Sat', 'Sun'].includes(wd) && hr >= 9 && hr < 20;
   } catch (e) { /* keep default */ }
+  $$('.mega-dot, .qc-av').forEach((el) => el.setAttribute('title', 'Online'));
   if (online) return;
   const label = 'Teraz offline', note = 'oddzwonimy po 9:00';
-  $$('.mega-dot, .qc-av, .qc-st, .kt-dot').forEach((el) => el.classList.add('off'));
-  $$('.mega-dot, .qc-av').forEach((el) => el.setAttribute('title', label));
+  $$('.qc-st, .kt-dot').forEach((el) => el.classList.add('off'));
+  // kropka przy zdjęciu profilowym zawsze zielona i pulsująca (bez klasy off)
   $$('.qc-st').forEach((el) => { el.textContent = label; if (el.nextSibling) el.nextSibling.textContent = ' · ' + note; });
   $$('.kt-st').forEach((el) => { if (el.lastChild) el.lastChild.textContent = note; });
 }
