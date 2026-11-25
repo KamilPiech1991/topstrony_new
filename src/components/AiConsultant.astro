@@ -1,0 +1,30 @@
+---
+// Konsultant AI do wyceny (widget z paczki topstrony-wycena-ai, backend: functions/api/[action].js)
+interface Props { alt?: boolean }
+const { alt = false } = Astro.props;
+---
+<section id="asystent-ai" class={`sec ${alt ? 'alt' : ''} ai-kons`} aria-labelledby="ai-kons-h">
+  <div class="wrap ai-kons-grid">
+    <div class="rv">
+      <p class="eyebrow scr">Konsultant AI · 24/7</p>
+      <h2 id="ai-kons-h" class="h h2">Sprawdź w 2 minuty, od czego zacząć i ile to kosztuje</h2>
+      <p class="lead">Odpowiedz na trzy krótkie pytania. Konsultant AI podsumuje, co ma dla Ciebie sens, poda orientacyjną cenę „od” z naszego cennika i przekaże zgłoszenie Kamilowi, który oddzwoni w ciągu 24 godzin.</p>
+      <ul class="ai-kons-pts">
+        <li>Ceny tylko z cennika, zawsze „od” i netto</li>
+        <li>Działa o każdej porze, także w weekend</li>
+        <li>Bez zobowiązań, dokładną cenę ustalamy w rozmowie</li>
+      </ul>
+    </div>
+    <div class="rv d1"><div id="ts-wycena"></div></div>
+  </div>
+</section>
+<script is:inline charset="utf-8" src="/wycena-widget.js" data-endpoint="/" defer></script>
+<style>
+  .ai-kons-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px;align-items:start}
+  .ai-kons-grid > :first-child{position:sticky;top:120px}
+  .ai-kons-pts{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:10px}
+  .ai-kons-pts li{padding-left:28px;position:relative;color:var(--text)}
+  .ai-kons-pts li::before{content:"";position:absolute;left:0;top:.35em;width:16px;height:16px;border-radius:50%;background:var(--acc-soft);box-shadow:inset 0 0 0 5px var(--acc)}
+  #ts-wycena{min-height:420px}
+  @media (max-width:900px){.ai-kons-grid{grid-template-columns:1fr;gap:28px}.ai-kons-grid > :first-child{position:static}}
+</style>

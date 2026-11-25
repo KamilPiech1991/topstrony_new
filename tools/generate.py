@@ -60,12 +60,16 @@ def gen(name, tpl):
         assert a in code
         code = code.replace(a, 'FAQ, dane strukturalne i plik llms.txt. Tak samo przygotowaliśmy strony <a href="/uslugi/strony-internetowe/piaseczno/" class="tlink">strony internetowe Piaseczno</a> i <a href="/uslugi/strony-internetowe/warszawa/" class="tlink">strony internetowe Warszawa</a>.</p>', 1)
     if name == 'Footer':
+        code = code.replace('<a href="#asystent-ai" class="qc-tile t-ai">', '<a href="/kontakt/#asystent-ai" class="qc-tile t-ai">')
         code = code.replace("const { v } = Astro.props;", "import PartnerBadges from '../PartnerBadges.astro';\nconst { v } = Astro.props;", 1)
         code = code.replace('      <div class="foot-bot">', '      <div class="foot-partners"><span class="foot-t" style="margin:0">Jesteśmy partnerem</span><PartnerBadges variant="foot" /></div>\n      <div class="foot-bot">', 1)
     if name == 'HomeMain':
-        code = code.replace("const { v } = Astro.props;", "import PartnerBadges from '../PartnerBadges.astro';\nconst { v } = Astro.props;", 1)
+        code = code.replace("const { v } = Astro.props;", "import PartnerBadges from '../PartnerBadges.astro';\nimport AiConsultant from '../AiConsultant.astro';\nconst { v } = Astro.props;", 1)
+        code = code.replace("  <!-- ============ BANER 3 ============ -->", "  <AiConsultant />\n\n  <!-- ============ BANER 3 ============ -->", 1)
         code = code.replace("  <!-- ============ BANER 2 ============ -->", '  <!-- ============ PARTNERZY ============ -->\n  <section id="partnerzy" class="sec-partners" aria-labelledby="partnerzy-h">\n    <div class="wrap">\n      <p id="partnerzy-h" class="eyebrow scr" style="text-align:center">Certyfikowany partner Google i Meta</p>\n      <div class="rv"><PartnerBadges variant="home" /></div>\n    </div>\n  </section>\n\n  <!-- ============ BANER 2 ============ -->', 1)
     if name == 'KontaktMain':
+        code = code.replace("const { v } = Astro.props;", "import AiConsultant from '../AiConsultant.astro';\nconst { v } = Astro.props;", 1)
+        code = code.replace("  <!-- ============ KONTAKT: SPOSOBY ============ -->", "  <AiConsultant />\n\n  <!-- ============ KONTAKT: SPOSOBY ============ -->", 1)
         import re as _re
         code, n = _re.subn(r'<div class="kt-map rv d2" aria-hidden="true">.*?</div>\n    </div>\n  </section>',
             '<div class="kt-map rv d2"><iframe title="Mapa Google: Top Strony – Strony Internetowe Piaseczno i Warszawa, ul. Strusia 3C" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1223!2d21.0129119!3d52.0775981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192fe20fe2da93%3A0xf50fcb17f005e31a!2sTop%20Strony%20%E2%80%93%20Strony%20Internetowe%20Piaseczno%20i%20Warszawa!5e0!3m2!1spl!2spl!4v1732500000000!5m2!1spl!2spl" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>\n    </div>\n  </section>', code, flags=_re.S)
