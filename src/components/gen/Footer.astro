@@ -7,7 +7,7 @@ const { v } = Astro.props;
     <div class="wrap">
       <div class="foot-grid">
         <div style="display: flex; flex-direction: column; gap: 18px">
-          <a href="/" class="logo" aria-label="top.strony – strona główna"><img decoding="async" class="logo-img logo-d" src="/img/top-strony-logo-white.webp" alt="top.strony" width="600" height="184"><img decoding="async" class="logo-img logo-l" src="/img/top-strony-logo-ink.webp" alt="top.strony" width="600" height="184"></a>
+          <a href="/" class="logo" aria-label="top.strony – strona główna"><img decoding="async" loading="lazy" class="logo-img logo-d" src="/img/top-strony-logo-white-300.webp" alt="top.strony" width="300" height="92"><img decoding="async" loading="lazy" class="logo-img logo-l" src="/img/top-strony-logo-ink-300.webp" alt="top.strony" width="300" height="92"></a>
           <p style="margin: 0; font-size: 14px; line-height: 1.7; max-width: 320px">Strony i sklepy, SEO, AEO i GEO, Google Ads, Meta Ads, social media i branding dla firm z Piaseczna, Warszawy i całej Polski.</p>
           <div class="soc">
             {(v.socials ?? []).map((so) => (<Fragment>
