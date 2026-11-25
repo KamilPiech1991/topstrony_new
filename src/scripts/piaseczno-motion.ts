@@ -8,15 +8,8 @@ export function initPiaseczno() {
   gsap.registerPlugin(ScrollTrigger);
   document.documentElement.classList.add('pz-gs');
 
-  // Hero: wejście tekstu i paralaksa zdjęcia rynku
+  // Hero: wejście tekstu (bez paralaksy)
   gsap.from('[data-gs="hero"]', { y: 40, opacity: 0, duration: 1, ease: 'power3.out', stagger: 0.12, delay: 0.1 });
-  const hero = document.querySelector<HTMLElement>('.pz-hero');
-  if (hero) {
-    // Paralaksa: zdjęcie przesuwa się wolniej niż treść, więc „zostaje w tyle” przy przewijaniu
-    gsap.fromTo('.pz-hero-bg', { y: 0, scale: 1.06 }, { y: () => hero.offsetHeight * 0.3, scale: 1, ease: 'none',
-      scrollTrigger: { trigger: hero, start: 'top top', end: 'bottom top', scrub: 0.6, invalidateOnRefresh: true } });
-  }
-  gsap.to('.pz-hero-in', { yPercent: -8, opacity: 0.2, ease: 'none', scrollTrigger: { trigger: '.pz-hero', start: 'center top', end: 'bottom top', scrub: true } });
 
   // Galeria: odsłanianie zdjęć maską i lekki ruch wewnątrz kadru
   gsap.utils.toArray<HTMLElement>('[data-gs="reveal"]').forEach((fig, i) => {
