@@ -1,5 +1,15 @@
 [
  {
+  "t": "Przedsiębiorstwo Specjalistyczne TEATR",
+  "c": "site",
+  "l": "Strona www",
+  "ind": "Technologia sceniczna / dystrybucja sprzętu oświetleniowego",
+  "img": "/img/realizacja-teatr.webp",
+  "w": 860,
+  "h": 600,
+  "slug": "teatr"
+ },
+ {
   "t": "Eurodomy.pl",
   "c": "site",
   "l": "Strona www",

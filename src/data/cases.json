@@ -1,5 +1,121 @@
 [
  {
+  "slug": "teatr",
+  "src": "teatr",
+  "label": "Strona www · Technologia sceniczna / dystrybucja sprzętu oświetleniowego",
+  "title": "Przedsiębiorstwo Specjalistyczne TEATR",
+  "lead": "Przedsiębiorstwo Specjalistyczne TEATR od 1971 roku wyposaża teatry, filharmonie, sale widowiskowe i domy kultury w technologię sceniczną. Firma jest też dystrybutorem ponad 20 marek oświetlenia i sprzętu scenicznego, m.in. Ayrton, ETC, JB-Lighting i Vari-Lite. Zaprojektowaliśmy i wdrożyliśmy jej nową stronę z katalogiem produktów, realizacjami i wersją angielską.",
+  "live": "https://www.teatr.com.pl/",
+  "facts": [
+   [
+    "Klient",
+    "Przedsiębiorstwo Specjalistyczne TEATR"
+   ],
+   [
+    "Branża",
+    "Technologia sceniczna / dystrybucja sprzętu oświetleniowego"
+   ],
+   [
+    "Lokalizacja",
+    "Sękocin Nowy (gmina Raszyn, Mazowsze)"
+   ],
+   [
+    "Zakres",
+    "Strona internetowa z katalogiem produktów — projekt, wdrożenie i stała opieka"
+   ],
+   [
+    "Technologia",
+    "WordPress, Kadence, WooCommerce (katalog), TranslatePress"
+   ]
+  ],
+  "domain": "teatr.com.pl",
+  "story": [
+   {
+    "n": "01",
+    "h": "O kliencie",
+    "p": [
+     "TEATR działa od 1971 roku i ma za sobą ponad 700 realizacji dla obiektów kultury w Polsce i za granicą: od teatrów i filharmonii po akademie muzyczne i instalacje architektoniczne. Oprócz projektowania i montażu technologii scenicznej firma prowadzi serwis, szkolenia i dystrybucję sprzętu kilkudziesięciu światowych producentów."
+    ],
+    "pts": []
+   },
+   {
+    "n": "02",
+    "h": "Wyzwanie",
+    "p": [
+     "Firma ma kilka grup odbiorców: instytucje kultury planujące modernizację sceny, realizatorów i techników szukających konkretnego urządzenia oraz architektów. Strona musiała pomieścić duży katalog produktów i marek, portfolio realizacji, serwis i szkolenia, a jednocześnie zostać czytelna i pokazać technologiczny charakter firmy. Potrzebna była też wersja angielska."
+    ],
+    "pts": []
+   },
+   {
+    "n": "03",
+    "h": "Rozwiązanie",
+    "p": [
+     "Postawiliśmy na ciemny, sceniczny projekt z dużymi zdjęciami sal i urządzeń oraz wyrazistym akcentem kolorystycznym. Katalog produktów oparliśmy na WooCommerce bez koszyka, z podziałem na dziesięć kategorii, a w menu dodaliśmy mega menu z miniaturami kategorii. Sekcja dystrybucji prezentuje kafelki wszystkich marek z opisami producentów, a realizacje pokazujemy w siatce zdjęć z nazwą obiektu i rokiem. Strona ma wersję angielską, newsletter i zgody na pliki cookie."
+    ],
+    "pts": [
+     "hero „Scena zaczyna się od technologii” z historią firmy od 1971 roku",
+     "mega menu z miniaturami kategorii produktów",
+     "katalog produktów w 10 kategoriach (WooCommerce bez koszyka)",
+     "kafelki ponad 20 dystrybuowanych marek z opisami",
+     "portfolio realizacji w siatce zdjęć",
+     "wersja angielska, newsletter i zgody cookie"
+    ]
+   }
+  ],
+  "techH": "Z czego zbudowaliśmy stronę",
+  "tech": [
+   "WordPress",
+   "Kadence",
+   "Kadence Blocks",
+   "WooCommerce",
+   "TranslatePress",
+   "Pressidium Cookie Consent"
+  ],
+  "featH": "Co znajdziesz na stronie",
+  "feat": [
+   "katalog produktów z kategoriami",
+   "mega menu z miniaturami",
+   "prezentacja dystrybuowanych marek",
+   "portfolio ponad 700 realizacji",
+   "aktualności i nowości produktowe",
+   "podstrony serwisu, szkoleń, projektów i architektury",
+   "wersja angielska",
+   "responsywna wersja mobilna"
+  ],
+  "galleryH": "Jak wygląda strona",
+  "caption": "Wersja mobilna — układ zaprojektowany z myślą o telefonach.",
+  "cta": "Chcesz podobną stronę dla swojej firmy?",
+  "ctaP": "Opowiedz nam o swoim biznesie — przygotujemy propozycję strony dopasowaną do Twoich klientów i celów.",
+  "cover": {
+   "src": "/img/realizacje/teatr/hero.webp",
+   "w": 1200,
+   "h": 750,
+   "alt": "Strona główna — teatr.com.pl"
+  },
+  "shots": [
+   {
+    "src": "/img/realizacje/teatr/shot-1.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "teatr.com.pl — katalog produktów (widok na komputerze)"
+   },
+   {
+    "src": "/img/realizacje/teatr/shot-2.webp",
+    "w": 1200,
+    "h": 750,
+    "alt": "teatr.com.pl — sekcja realizacji (widok na komputerze)"
+   }
+  ],
+  "mobile": {
+   "src": "/img/realizacje/teatr/mobile.webp",
+   "w": 390,
+   "h": 844,
+   "alt": "teatr.com.pl — widok strony na telefonie"
+  },
+  "thumb": "/img/realizacja-teatr.webp",
+  "cat": "Strona www"
+ },
+ {
   "slug": "eurodomy",
   "src": "eurodomy",
   "label": "Strona www · Generalny wykonawca / budowa domów jednorodzinnych",
