@@ -62,8 +62,9 @@ def gen(name, tpl):
     if name == 'KontaktMain':
         import re as _re
         code, n = _re.subn(r'<div class="kt-map rv d2" aria-hidden="true">.*?</div>\n    </div>\n  </section>',
-            '<div class="kt-map rv d2"><iframe title="Mapa Google: top.strony, ul. Strusia 3C, Piaseczno" src="https://www.google.com/maps?q=ul.+Strusia+3C+Piaseczno&amp;hl=pl&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>\n    </div>\n  </section>', code, flags=_re.S)
+            '<div class="kt-map rv d2"><iframe title="Mapa Google: Top Strony – Strony Internetowe Piaseczno i Warszawa, ul. Strusia 3C" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1223!2d21.0129119!3d52.0775981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47192fe20fe2da93%3A0xf50fcb17f005e31a!2sTop%20Strony%20%E2%80%93%20Strony%20Internetowe%20Piaseczno%20i%20Warszawa!5e0!3m2!1spl!2spl!4v1732500000000!5m2!1spl!2spl" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>\n    </div>\n  </section>', code, flags=_re.S)
         assert n == 1, n
+        code = code.replace('https://www.google.com/maps/search/?api=1&amp;query=ul.+Strusia+3C+Piaseczno', 'https://www.google.com/maps/place/Top+Strony+%E2%80%93+Strony+Internetowe+Piaseczno+i+Warszawa/@52.0776014,21.010337,17z/data=!3m1!4b1!4m6!3m5!1s0x47192fe20fe2da93:0xf50fcb17f005e31a!8m2!3d52.0775981!4d21.0129119!16s%2Fg%2F11jmxz18x3?hl=pl')
     if name == 'ServiceMain':
         code = code.replace("const { v } = Astro.props;", "import AdsHub from '../AdsHub.astro';\nconst { v } = Astro.props;", 1)
         code = code.replace("  <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->", "  {v.svc?.slug === 'kampanie-google-meta-ads' && <AdsHub />}\n\n  <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->", 1)
