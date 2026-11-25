@@ -240,14 +240,42 @@ const ld = [
     </div>
   </section>
 
-  <section id="opinie" class="sec alt" aria-labelledby="pz-op">
+  <section id="opinie" class="sec alt deco-wave deco-alt2" aria-labelledby="opinie-h">
     <div class="wrap">
-      <div class="pz-op-head">
-        <div><p class="eyebrow scr">Opinie w Google</p><h2 id="pz-op" class="h h2 split">Co mówią klienci</h2></div>
-        <p class="pz-score">5,0 <span aria-hidden="true">★★★★★</span> <small>20 opinii</small></p>
+      <div class="head rv">
+        <div>
+          <p class="eyebrow scr">Opinie z Google</p>
+          <h2 id="opinie-h" class="h h2 split"><span class="wm"><span class="wi">Klienci</span></span> <span class="wm"><span class="wi">wystawiają</span></span> <span class="wm"><span class="wi">nam</span></span> <span class="wm"><span class="wi">5,0.</span></span> <span class="wm"><span class="wi">Każdy</span></span> <span class="wm"><span class="wi">z</span></span> <span class="wm"><span class="wi">nich.</span></span></h2>
+        </div>
+        <a href="https://www.google.com/maps?cid=17658555967614608154" target="_blank" rel="noopener" class="tlink">Wszystkie opinie w Google →</a>
       </div>
-      <div class="pz-grid3">
-        {reviews.map((r, i) => (<figure class="pz-rev rv" style={`transition-delay:${i * 0.06}s`}><p class="pz-stars" aria-label="5 na 5">★★★★★</p><blockquote>„{r[1]}”</blockquote><figcaption>{r[0]}</figcaption></figure>))}
+      <div class="rev-wrap">
+        <div class="rev-sum rv" data-tilt>
+          <div style="display: flex; align-items: center; gap: 10px; font-size: 14px; color: #C9D2C6"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M22.6 12.2c0-.7-.1-1.4-.2-2H12v3.9h5.9a5 5 0 0 1-2.2 3.3v2.7h3.6c2.1-1.9 3.3-4.8 3.3-7.9z"></path><path fill="#34A853" d="M12 23c3 0 5.5-1 7.3-2.7l-3.6-2.7c-1 .7-2.2 1.1-3.7 1.1-2.9 0-5.3-1.9-6.2-4.5H2.2v2.8A11 11 0 0 0 12 23z"></path><path fill="#FBBC05" d="M5.8 14.2a6.6 6.6 0 0 1 0-4.3V7.1H2.2a11 11 0 0 0 0 9.9z"></path><path fill="#EA4335" d="M12 5.4c1.6 0 3.1.6 4.2 1.7l3.2-3.2A11 11 0 0 0 2.2 7.1l3.6 2.8C6.7 7.3 9.1 5.4 12 5.4z"></path></svg>Profil firmy w Google</div>
+          <div class="big">5,0</div>
+          <div class="stars" aria-label="5 na 5 gwiazdek">{(home.five ?? []).map((f) => (<Fragment><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4-5.7-5 7.5-.7z"></path></svg></Fragment>))}</div>
+          <div style="font-size: 15px; color: #C9D2C6">na podstawie 20 opinii</div>
+          <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 6px">
+            {(home.dist ?? []).map((d) => (<Fragment>
+              <div style="display: grid; grid-template-columns: 14px 1fr 22px; gap: 10px; align-items: center; font-size: 13px; color: #C9D2C6"><span>{d?.s}</span><div style="height: 8px; border-radius: 999px; background: rgba(255,255,255,.1)"><div class="bar" style={d?.style}></div></div><span>{d?.c}</span></div>
+            </Fragment>))}
+          </div>
+          <a href="https://www.google.com/maps?cid=17658555967614608154" target="_blank" rel="noopener" class="btn btn-g" style="margin-top: auto">Wystaw nam opinię</a>
+        </div>
+        <div class="rev-rows rv d1">
+          {(home.reviewRows ?? []).map((row) => (<Fragment>
+            <div class={`rev-track ${row?.cls ?? ''}`}>
+              {(row?.items ?? []).map((rv) => (<Fragment>
+                <figure class="card rev-card">
+                  <div class="rev-who"><span class="rev-av" style={`background: ${rv?.color ?? ''}`}>{rv?.ini}</span><div><b>{rv?.name}</b><span>{rv?.meta} · {rv?.when}</span></div></div>
+                  <div class="stars" style="margin-top: 10px" aria-label="5 gwiazdek"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4-5.7-5 7.5-.7z"></path></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4-5.7-5 7.5-.7z"></path></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4-5.7-5 7.5-.7z"></path></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4-5.7-5 7.5-.7z"></path></svg><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 6.9 7.5.7-5.7 5 1.7 7.4L12 18.3 5.5 22l1.7-7.4-5.7-5 7.5-.7z"></path></svg></div>
+                  <p>{rv?.text}</p>
+                  {rv?.hasReply && (<Fragment><div class="rev-reply"><strong class="ink">Odpowiedź właściciela:</strong> {rv?.reply}</div></Fragment>)}
+                </figure>
+              </Fragment>))}
+            </div>
+          </Fragment>))}
+        </div>
       </div>
     </div>
   </section>
