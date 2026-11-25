@@ -118,12 +118,13 @@ const clientTasks = [
   <div class="wrap">
     <p class="eyebrow scr">Kalkulator</p>
     <h2 id="seo-calc-h" class="h h2">Ile możesz zyskać? Orientacyjny kalkulator SEO</h2>
-    <p class="lead seo-narrow">Ustaw budżet, konkurencję w branży i czas. Kalkulator pokaże przybliżoną liczbę fraz w TOP 10 i wzrost ruchu z Google. To uproszczony model zbudowany na podstawie naszych projektów, a nie obietnica. Dokładny plan przygotujemy po bezpłatnej analizie Twojej strony.</p>
+    <p class="lead seo-narrow">Ustaw budżet, konkurencję w branży i czas. Suwak zaczyna się od naszej najniższej stawki dla wybranego zasięgu. Kalkulator pokaże przybliżoną liczbę fraz w TOP 10 i wzrost ruchu z Google. To uproszczony model zbudowany na podstawie naszych projektów, a nie obietnica. Dokładny plan przygotujemy po bezpłatnej analizie Twojej strony.</p>
     <div class="seo-calc card rv" data-seo-calc>
       <div class="seo-calc-in">
         <label class="seo-f">
           <span>Miesięczny budżet na SEO <output data-o="budget">3 000 zł</output></span>
-          <input type="range" name="budget" min="1000" max="15000" step="500" value="3000">
+          <input type="range" name="budget" min="1200" max="15000" step="100" value="3000">
+          <small class="seo-min" data-r="min">Pozycjonowanie lokalne od 1 200 zł netto miesięcznie</small>
         </label>
         <fieldset class="seo-f">
           <legend>Zasięg</legend>
@@ -248,7 +249,13 @@ const clientTasks = [
   document.querySelectorAll<HTMLElement>('[data-seo-calc]').forEach((root) => {
     const val = (n: string) => (root.querySelector<HTMLInputElement>(`[name="${n}"]:checked`) || root.querySelector<HTMLInputElement>(`[name="${n}"]`))!.value;
     const out = (k: string) => root.querySelector<HTMLElement>(`[data-r="${k}"]`)!;
+    const MIN: Record<string, [number, string]> = { local: [1200, 'Pozycjonowanie lokalne'], pl: [1600, 'Pozycjonowanie ogólnopolskie'], shop: [2000, 'Pozycjonowanie sklepu'] };
     const calc = () => {
+      const range = root.querySelector<HTMLInputElement>('[name="budget"]')!;
+      const [minB, minL] = MIN[val('scope')];
+      range.min = String(minB);
+      if (+range.value < minB) range.value = String(minB);
+      out('min').textContent = `${minL} od ${fmt(minB)} zł netto miesięcznie`;
       const budget = +val('budget'), months = +val('months');
       const comp = ({ low: 1.45, mid: 1, high: 0.58 } as Record<string, number>)[val('comp')];
       const scope = ({ local: 1.15, pl: 1, shop: 1.1 } as Record<string, number>)[val('scope')];
@@ -267,7 +274,7 @@ const clientTasks = [
       const max = prog(months) || 1;
       out('bars').innerHTML = Array.from({ length: months }, (_, i) => `<i style="height:${Math.max(6, (prog(i + 1) / max) * 100)}%"></i>`).join('');
       const warn = out('warn');
-      const low = (val('comp') === 'high' && budget < 3000) || (val('scope') === 'shop' && budget < 2500);
+      const low = (val('comp') === 'high' && budget < 3000) || (val('scope') === 'shop' && budget < 2800);
       warn.hidden = !low;
       warn.textContent = low ? 'Przy tej konkurencji ten budżet może nie wystarczyć na regularne treści i linki. Warto zacząć od węższej grupy fraz.' : '';
     };
@@ -318,6 +325,7 @@ const clientTasks = [
   .seo-f{border:0;padding:0;margin:0;display:grid;gap:10px}
   .seo-f > span,.seo-f legend{font-weight:600;color:var(--ink);font-size:15px;display:flex;justify-content:space-between;padding:0;width:100%}
   .seo-f output{color:var(--acc-t);font-weight:700}
+  .seo-min{font-size:13px;color:var(--muted)}
   .seo-f input[type=range]{width:100%;accent-color:var(--acc)}
   .seo-seg{display:flex;flex-wrap:wrap;gap:8px}
   .seo-seg label{position:relative}
