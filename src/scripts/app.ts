@@ -121,21 +121,11 @@ function setFab(on: boolean) {
   if (on) $<HTMLElement>('.qc-x')?.focus(); else fabReturn?.focus?.();
 }
 
-/* ---------- availability (pn–pt 9–20, Europe/Warsaw) ---------- */
+/* ---------- status przy zdjęciu: zawsze „Online” (zielony) ---------- */
 function status() {
-  let online = true;
-  try {
-    const p = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Warsaw', weekday: 'short', hour: '2-digit', hour12: false }).formatToParts(new Date());
-    const wd = p.find((x) => x.type === 'weekday')?.value || '', hr = parseInt(p.find((x) => x.type === 'hour')?.value || '12', 10);
-    online = !['Sat', 'Sun'].includes(wd) && hr >= 9 && hr < 20;
-  } catch (e) { /* keep default */ }
   $$('.mega-dot, .qc-av').forEach((el) => el.setAttribute('title', 'Online'));
-  if (online) return;
-  const label = 'Teraz offline', note = 'oddzwonimy po 9:00';
-  $$('.qc-st, .kt-dot').forEach((el) => el.classList.add('off'));
-  // kropka przy zdjęciu profilowym zawsze zielona i pulsująca (bez klasy off)
-  $$('.qc-st').forEach((el) => { el.textContent = label; if (el.nextSibling) el.nextSibling.textContent = ' · ' + note; });
-  $$('.kt-st').forEach((el) => { if (el.lastChild) el.lastChild.textContent = note; });
+  $$('.qc-st').forEach((el) => { el.classList.remove('off'); el.textContent = 'Online'; });
+  $$('.kt-dot').forEach((el) => el.classList.remove('off'));
 }
 
 /* ---------- clicks (event delegation) ---------- */

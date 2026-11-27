@@ -743,9 +743,9 @@
  "megaVars": "--mi: 0",
  "menuOpen": false,
  "menuExp": "false",
- "statusCls": "off",
- "statusLabel": "Teraz offline",
- "statusNote": "oddzwonimy po 9:00",
+ "statusCls": "",
+ "statusLabel": "Online",
+ "statusNote": "odpowiedź w 24 h",
  "fabOpen": false,
  "fabClosed": true,
  "navLinks": [
