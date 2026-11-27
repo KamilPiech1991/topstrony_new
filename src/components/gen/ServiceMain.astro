@@ -36,7 +36,7 @@ const { v } = Astro.props;
       </div>
       <nav class="sv-toc" aria-label="Na tej stronie">
         <span>Na tej stronie:</span>
-        <a href="#sv-co">Czym jest</a><a href="#sv-zakres">Zakres</a><a href="#sv-proces">Proces</a><a href="#sv-warianty">Warianty</a><a href="#sv-porownanie">Porównanie</a><a href="#sv-faq">FAQ</a>
+        <a href="#sv-co">Czym jest</a><a href="#sv-zakres">Zakres</a><a href="#sv-proces">Proces</a><a href="#sv-warianty">Warianty</a>{v.svc?.slug !== 'strony-internetowe' && <a href="#sv-porownanie">Porównanie</a>}<a href="#sv-faq">FAQ</a>
       </nav>
     </div>
   </section>
@@ -173,6 +173,7 @@ const { v } = Astro.props;
   </Fragment>)}
 
   <!-- ============ USŁUGA: PORÓWNANIE ============ -->
+  {v.svc?.slug !== 'strony-internetowe' && (
   <section id="sv-porownanie" class="sec alt deco-rings deco-l" aria-labelledby="sv-cmp-h">
     <div class="wrap">
       <p class="eyebrow scr">Porównanie</p>
@@ -189,6 +190,7 @@ const { v } = Astro.props;
       </div>
     </div>
   </section>
+  )}
 
   <!-- ============ USŁUGA: CASE ============ -->
   <section class="sec deco-wave deco-r" aria-labelledby="sv-case-h">

@@ -76,6 +76,11 @@ def gen(name, tpl):
         assert n == 1, n
         code = code.replace('https://www.google.com/maps/search/?api=1&amp;query=ul.+Strusia+3C+Piaseczno', 'https://www.google.com/maps/place/Top+Strony+%E2%80%93+Strony+Internetowe+Piaseczno+i+Warszawa/@52.0776014,21.010337,17z/data=!3m1!4b1!4m6!3m5!1s0x47192fe20fe2da93:0xf50fcb17f005e31a!8m2!3d52.0775981!4d21.0129119!16s%2Fg%2F11jmxz18x3?hl=pl')
     if name == 'ServiceMain':
+        _s = code.index('  <!-- ============ USŁUGA: PORÓWNANIE ============ -->\n  <section id="sv-porownanie"')
+        _h = '  <!-- ============ USŁUGA: PORÓWNANIE ============ -->\n'
+        _e = code.index('  </section>\n', _s) + len('  </section>\n')
+        code = code[:_s] + _h + "  {v.svc?.slug !== 'strony-internetowe' && (\n" + code[_s + len(_h):_e] + "  )}\n" + code[_e:]
+        code = code.replace('<a href="#sv-porownanie">Porównanie</a>', "{v.svc?.slug !== 'strony-internetowe' && <a href=\"#sv-porownanie\">Porównanie</a>}", 1)
         code = code.replace("const { v } = Astro.props;", "import AdsHub from '../AdsHub.astro';\nimport SeoHub from '../SeoHub.astro';\nimport WorkMarquee from '../WorkMarquee.astro';\nconst { v } = Astro.props;", 1)
         code = code.replace("  <!-- ============ USŁUGA: FAQ ============ -->", "  {v.svc?.slug === 'pozycjonowanie-seo' && <SeoHub />}\n\n  <!-- ============ USŁUGA: FAQ ============ -->", 1)
         code = code.replace("  <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->", "  {v.svc?.slug === 'strony-internetowe' && <WorkMarquee />}\n\n  <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->", 1)
