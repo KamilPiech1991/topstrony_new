@@ -1,4 +1,5 @@
 ---
+import WorkMarquee from '../../../components/WorkMarquee.astro';
 import Base from '../../../layouts/Base.astro';
 import v from '../../../data/pages/srv-strony.json';
 import { crumbs, faqLd, SITE, MAP_PLACE, mapEmbed } from '../../../data/site';
@@ -108,6 +109,8 @@ const ld = [
       </ul>
     </div>
   </section>
+
+  <WorkMarquee />
 
   <section class="sec pz-short" aria-labelledby="pz-skrot">
     <div class="wrap">

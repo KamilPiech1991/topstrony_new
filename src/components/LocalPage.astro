@@ -1,4 +1,5 @@
 ---
+import WorkMarquee from '../components/WorkMarquee.astro';
 // Wspólny szablon podstrony lokalnej (wzorzec: Piaseczno / Warszawa). Dane: src/data/local-cities.ts
 import Base from '../layouts/Base.astro';
 import v from '../data/pages/srv-strony.json';
@@ -88,6 +89,8 @@ const ld = [
       </ul>
     </div>
   </section>
+
+  <WorkMarquee />
 
   <section class="sec pz-short" aria-labelledby="pz-skrot">
     <div class="wrap">

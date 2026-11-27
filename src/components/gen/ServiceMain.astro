@@ -2,6 +2,7 @@
 // Generated from the top.strony design (tools/dc2astro.py). 
 import AdsHub from '../AdsHub.astro';
 import SeoHub from '../SeoHub.astro';
+import WorkMarquee from '../WorkMarquee.astro';
 const { v } = Astro.props;
 ---
 <main id="main">
@@ -41,6 +42,8 @@ const { v } = Astro.props;
   </section>
 
   {v.svc?.slug === 'kampanie-google-meta-ads' && <AdsHub />}
+
+  {v.svc?.slug === 'strony-internetowe' && <WorkMarquee />}
 
   <!-- ============ USŁUGA: CZYM JEST + DLA KOGO ============ -->
   <section id="sv-co" class="sec alt deco-bars deco-l" aria-labelledby="sv-def-h">
